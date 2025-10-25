@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Put your description here.">
+  <title>Kleem Productions</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Your compiled SCSS -->
+  <link rel="stylesheet" href="src/css/swiper-bundle.min.css" />
+  <link href="dist/style.min.css" rel="stylesheet" />
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+  <div id="preloader">
+    <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
+  </div>
+  
+  <!-- Header -->
+   <header class="flex aic jcc blackbg" id="header">
+    <h1 class="mr-auto">
+      <a href="index.html" class="logo">
+        <img loading="lazy" src="assets/images/logo.png" alt="Logo" width="72" height="85" />
+      </a>
+    </h1>
+    <nav class="page-navigation">
+      <div class="nav-container flex aic jcsb">
+        <!-- Hamburger Button -->
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-bar flex aic jcc" id="navBar">
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <div type="button" class="ml-auto">
+      <a href="merchandise.html" class="btn-merchant fill-secondary ">
+        <svg class="fill-white" width="17" height="17">
+          <use xlink:href="./assets/icons/icons.svg#store"></use>
+        </svg>
+        <span>Shop Now</span>
+      </a>
+    </div> -->
+    <div class="right-nav ml-auto">
+      <ul class="flex">
+        <li>
+          <a href="javascript:void(0)" class="">
+            <svg class="fill-white">
+              <use xlink:href="./assets/icons/icons.svg#user"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="">
+            <svg class="fill-white">
+              <use xlink:href="./assets/icons/icons.svg#wishlist"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="">
+            <svg class="fill-white">
+              <use xlink:href="./assets/icons/icons.svg#store"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio">🔊</button>
+
+
+  <!--merchandise banner-->
+  <section class="merchant-banner w-full">
+    <div class="banner-area w-full flex gp-2">
+      <div class="swiper merchant-banner-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box relative">
+              <div class="imgarea w-full h-full">
+                <img loading="lazy" src="assets/images/merchandise/banner-merchant1.jpg" class="object-cover object-tc w-full h-full" alt="merchandise" />
+              </div>
+              <div class="info absolute w-full flex flex-col">
+                <div class="title font-bold leading1">
+                  Divine Prints, Everyday Vibe
+                </div>
+                <p class="text-18 font-normal">Choose outerwear that reflects your unique narrative.</p>
+                <a href="javascript:void()" class="fill-secondary btn-explore">
+                  Explore Now
+                  <svg class="fill-black">
+                    <use xlink:href="./assets/icons/icons.svg#explore"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box relative">
+              <div class="imgarea w-full h-full">
+                <img loading="lazy" src="assets/images/merchandise/banner-merchant2.jpg" class="object-cover object-tc w-full h-full" alt="merchandise" />
+              </div>
+              <div class="info absolute w-full flex flex-col gp-3">
+                <div class="title font-bold leading1">
+                  Carry Blessings into Your Home
+                </div>
+                <p class="text-18 font-normal">Choose outerwear that reflects your unique narrative.</p>
+                <a href="javascript:void()" class="fill-secondary btn-explore">
+                  Explore Now
+                  <svg class="fill-black">
+                    <use xlink:href="./assets/icons/icons.svg#explore"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--feature category-->
+  <section class="feature-category container-fluid bg-white">
+    <div class="category w-full flex flex-col aic gp-10">
+      <div class="heading text-black text-center">
+        <h2 class="text-gray-13 font-medium">Featured Categories</h2>
+        <p class="text-gray-40 text-16">Carry the devotion of Lord Narasimha in every step – from apparel to collectibles</p>
+      </div>
+      <div class="cat-list flex jcc">
+        <ul class="flex scrollbar-hidden">
+          <li class="flex aic gp-2">
+            <a href="javascript:void()" class="cat-img rounded-full overflow-hidden">
+              <img loading="lazy" src="assets/images/merchandise/category-all.png" class="object-cover w-full h-full" alt="all" />
+            </a>
+            <span class="text-black text-center">All</span>
+          </li>
+          <li class="flex aic gp-2">
+            <a href="javascript:void()" class="cat-img rounded-full overflow-hidden">
+              <img loading="lazy" src="assets/images/merchandise/category-clothing.jpg" class="object-cover w-full h-full" alt="all" />
+            </a>
+            <span class="text-black text-center">Clothing & Apparel</span>
+          </li>
+          <li class="flex aic gp-2">
+            <a href="javascript:void()" class="cat-img rounded-full overflow-hidden">
+              <img loading="lazy" src="assets/images/merchandise/category-accessories.png" class="object-cover w-full h-full" alt="all" />
+            </a>
+            <span class="text-black text-center">Accessories</span>
+          </li>
+          <li class="flex aic gp-2">
+            <a href="javascript:void()" class="cat-img rounded-full overflow-hidden">
+              <img loading="lazy" src="assets/images/merchandise/category-stationary.jpg" class="object-cover w-full h-full" alt="all" />
+            </a>
+            <span class="text-black text-center">Stationery & Arts</span>
+          </li>
+          <li class="flex aic gp-2">
+            <a href="javascript:void()" class="cat-img rounded-full overflow-hidden">
+              <img loading="lazy" src="assets/images/merchandise/category-idols.jpg" class="object-cover w-full h-full" alt="all" />
+            </a>
+            <span class="text-black text-center">Collectibles & Idols</span>
+          </li>
+          <li class="flex aic gp-2">
+            <a href="javascript:void()" class="cat-img rounded-full overflow-hidden">
+              <img loading="lazy" src="assets/images/merchandise/category-gift-sets.jpg" class="object-cover w-full h-full" alt="all" />
+            </a>
+            <span class="text-black text-center">Seasonal / Gift Sets</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!--tabs-->
+  <section class="category-tabs-wrapper container-fluid">
+    <div class="tabs flex flex-col">
+      <!-- Tab Buttons -->
+      <div class="tab-buttons flex aic jcs">
+        <button class="tab-button active" data-tab="new">New Arrivals</button>
+        <button class="tab-button" data-tab="best">Best Sellers</button>
+        <button class="tab-button" data-tab="sale">On Sale</button>
+      </div>
+
+      <!-- Tab: New Arrivals -->
+      <div class="tab-content active" id="tab-new">
+        <div class="swiper category-slider common-cat-slider new-swiper">
+          <div class="flex jcc aic gp-2 arrows">
+            <div class="swiper-button-prev common-cat-prev">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next common-cat-next">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-1.png" class="object-cover w-full h-full" alt="product">
+                <div class="tag-new absolute">New</div>
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Stylish Shoes</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price text-16">&#8377;499.00</span>
+                  <span class="product-old-price text-gray-40">&#8377;799.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img prod-merch-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-2.png" class="object-cover w-full h-full" alt="product">
+                <div class="tag-new absolute">New</div>
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Plated Chakra Narasimha</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price text-16">&#8377;99999.50</span>
+                  <span class="product-old-price text-gray-40">&#8377;100400.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-3.png" class="object-cover w-full h-full" alt="product">
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Yoga Narasimha Tee</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price regular text-16">&#8377;2499.00</span>
+                  <!-- <span class="product-old-price text-gray-40">&#8377;79</span> -->
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-3.png" class="object-cover w-full h-full" alt="product">
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Yoga Narasimha Tee</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price regular text-16">&#8377;2499.00</span>
+                  <!-- <span class="product-old-price text-gray-40">&#8377;79</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: Best Sellers -->
+      <div class="tab-content" id="tab-best">
+        <div class="swiper category-slider common-cat-slider best-swiper">
+          <div class="flex jcc aic gp-2 arrows">
+            <div class="swiper-button-prev common-cat-prev">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next common-cat-next">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-1.png" class="object-cover w-full h-full" alt="product">
+                <div class="tag-new absolute">New</div>
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Stylish Shoes</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price text-16">&#8377;499.00</span>
+                  <span class="product-old-price text-gray-40">&#8377;799.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img prod-merch-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-2.png" class="object-cover w-full h-full" alt="product">
+                <div class="tag-new absolute">New</div>
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Plated Chakra Narasimha</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price text-16">&#8377;99999.50</span>
+                  <span class="product-old-price text-gray-40">&#8377;100400.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-3.png" class="object-cover w-full h-full" alt="product">
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Yoga Narasimha Tee</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price regular text-16">&#8377;2499.00</span>
+                  <!-- <span class="product-old-price text-gray-40">&#8377;79</span> -->
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-3.png" class="object-cover w-full h-full" alt="product">
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Yoga Narasimha Tee</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price regular text-16">&#8377;2499.00</span>
+                  <!-- <span class="product-old-price text-gray-40">&#8377;79</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: On Sale -->
+      <div class="tab-content" id="tab-sale">
+        <div class="swiper category-slider common-cat-slider sale-swiper">
+          <div class="flex jcc aic gp-2 arrows">
+            <div class="swiper-button-prev common-cat-prev">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next common-cat-next">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-1.png" class="object-cover w-full h-full" alt="product">
+                <div class="tag-new absolute">New</div>
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Stylish Shoes</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price text-16">&#8377;499.00</span>
+                  <span class="product-old-price text-gray-40">&#8377;799.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img prod-merch-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-2.png" class="object-cover w-full h-full" alt="product">
+                <div class="tag-new absolute">New</div>
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Plated Chakra Narasimha</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price text-16">&#8377;99999.50</span>
+                  <span class="product-old-price text-gray-40">&#8377;100400.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-3.png" class="object-cover w-full h-full" alt="product">
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Yoga Narasimha Tee</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price regular text-16">&#8377;2499.00</span>
+                  <!-- <span class="product-old-price text-gray-40">&#8377;79</span> -->
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="w-full relative prod-img bg-white">
+                <img loading="lazy" src="assets/images/merchandise/product-3.png" class="object-cover w-full h-full" alt="product">
+              </div>
+              
+              <div class="product-info flex flex-col">
+                <div class="product-title text-16 text-gray-13 font-medium">Yoga Narasimha Tee</div>
+                <div class="flex gp-2 aic">
+                  <span class="product-price regular text-16">&#8377;2499.00</span>
+                  <!-- <span class="product-old-price text-gray-40">&#8377;79</span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--explore section-->
+  <section class="explore-area w-full">
+    <div class="swiper explore-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="box relative">
+            <div class="imgarea w-full h-full">
+              <img loading="lazy" src="assets/images/merchandise/explore-slide1.png" class="object-cover w-full h-full" alt="merchandise" />
+            </div>
+            <div class="info container-fluid absolute flex flex-col">
+              <div class="flex flex-col gp-1">
+                <div class="title leading1">
+                  Explore Our Collections 
+                </div>
+                <p class="font-normal">Up to 50% Off Selected Styles. Don't Miss Out.</p>
+              </div>
+              <a href="javascript:void()" class="fill-secondary btn-explore">
+                Explore Now
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="box relative">
+            <div class="imgarea w-full h-full">
+              <img loading="lazy" src="assets/images/merchandise/explore-slide1.png" class="object-cover w-full h-full" alt="merchandise" />
+            </div>
+            <div class="info container-fluid absolute flex flex-col">
+              <div class="flex flex-col gp-1">
+                <div class="title leading1">
+                  Explore Our Collections 
+                </div>
+                <p class="font-normal">Up to 50% Off Selected Styles. Don't Miss Out.</p>
+              </div>
+              <a href="javascript:void()" class="fill-secondary btn-explore">
+                Explore Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
+  <!--trending product-->
+  <section class="trending-product container-fluid bg-white">
+    <div class="trending w-full flex flex-col">
+      <div class="heading text-black text-left">
+        <h2 class="text-gray-13 font-medium">Top Trending</h2>
+        <p class="text-gray-40 text-16">Browse our Top Trending: the hottest picks loved by all.</p>
+      </div>
+      <div class="swiper trending-slider common-cat-slider">
+        <div class="flex jcc aic gp-2 arrows">
+          <div class="swiper-button-prev trending-prev">
+            <svg class="fill-none">
+              <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-next trending-next">
+            <svg class="fill-none">
+              <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="w-full relative prod-img bg-product1">
+              <img loading="lazy" src="assets/images/merchandise/product-1.png" class="object-cover w-full h-full" alt="product">
+            </div>
+            
+            <div class="product-info flex flex-col">
+              <div class="product-title text-16 text-gray-13 font-medium">Stylish Shoes</div>
+              <div class="flex gp-2 aic">
+                <span class="product-price text-16">&#8377;499.00</span>
+                <span class="product-old-price text-gray-40">&#8377;799.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="w-full relative prod-img prod-merch-img bg-product2">
+              <img loading="lazy" src="assets/images/merchandise/product-2.png" class="object-cover w-full h-full" alt="product">
+              <div class="tag-new absolute">New</div>
+            </div>
+            
+            <div class="product-info flex flex-col">
+              <div class="product-title text-16 text-gray-13 font-medium">Plated Chakra Narasimha</div>
+              <div class="flex gp-2 aic">
+                <span class="product-price text-16">&#8377;99999.50</span>
+                <span class="product-old-price text-gray-40">&#8377;100400.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="w-full relative prod-img bg-product3">
+              <img loading="lazy" src="assets/images/merchandise/product-3.png" class="object-cover w-full h-full" alt="product">
+            </div>
+            
+            <div class="product-info flex flex-col">
+              <div class="product-title text-16 text-gray-13 font-medium">Yoga Narasimha Tee</div>
+              <div class="flex gp-2 aic">
+                <span class="product-price regular text-16">&#8377;2499.00</span>
+                <!-- <span class="product-old-price text-gray-40">&#8377;79</span> -->
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="w-full relative prod-img bg-product3">
+              <img loading="lazy" src="assets/images/merchandise/product-1.png" class="object-cover w-full h-full" alt="product">
+            </div>
+            
+            <div class="product-info flex flex-col">
+              <div class="product-title text-16 text-gray-13 font-medium">Yoga Narasimha Tee</div>
+              <div class="flex gp-2 aic">
+                <span class="product-price regular text-16">&#8377;2499.00</span>
+                <!-- <span class="product-old-price text-gray-40">&#8377;79</span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer with Globe -->
+  <footer class="relative text-center">
+    <div class="footer-content flex flex-col">
+      <div class="flex gp-4 aic heading">
+        <h3 class="leading1">Let’s Build Something Epic Together</h3>
+        <a href="contactus.html" class="fill-secondary btn-touch ml-auto">Get in touch!</a>
+      </div>
+
+      <div class="devider"></div>
+      
+      <div class="quick-sections w-full flex jcsb gp-4">
+        <div class="footer-logo">
+          <a href="index.html"><img loading="lazy" src="assets/images/logo-white.svg" width="100" height="118" alt="footer-logo" /></a>
+        </div>
+        <div class="flex gp-3 flex-col quick">
+          <h6 class="w-full text-left">Quick Links</h6>
+          <ul class="flex quick-links flex-col gp-3 text-left">
+            <li>
+              <a href="movies.html" class="text-16">Movies</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="text-16">About</a>
+            </li>
+            <li>
+              <a href="contactus.html" class="text-16">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex gp-6 flex-col social-lnks">
+          <h6 class="w-full text-left">Follow us</h6>
+          <div class="flex gp-4 items-center social">
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#fb"></use>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#insta"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col gp-3 comm-text">
+          <h6 class="w-full text-left">Stay tuned!</h6>
+          <p class="text-18">The Community Page is launching soon.</p>
+        </div>
+      </div>
+      
+      <div class="copyright flex jcsb gp-4 text-16 text-white-80">
+        <div class="copy">&copy; 2025 | Alrights reserved by Kleem Productions</div>
+        <ul class="footer-nav flex gp-6">
+          <li>
+            <a href="javascript:void();">Terms of Service</a>
+          </li>
+          <li>
+            <a href="javascript:void();">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="src/js/swiper-bundle.min.js"></script>  
+  <script src="src/js/sliders.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Put your description here.">
+  <title>Kleem Productions</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Your compiled SCSS -->
+  <link rel="stylesheet" href="src/css/swiper-bundle.min.css" />
+  <link href="dist/style.min.css" rel="stylesheet" />
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+  <div id="preloader">
+    <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
+  </div>
+
+  <!-- Header -->
+  <header class="flex aic jcc" id="header">
+    <h1 class="mr-auto">
+      <a href="index.html" class="logo">
+        <img loading="lazy" src="assets/images/logo.png" alt="Logo" width="72" height="85" />
+      </a>
+    </h1>
+    <nav class="page-navigation">
+      <div class="nav-container flex aic jcsb">
+        <!-- Hamburger Button -->
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-bar flex aic jcc" id="navBar">
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div type="button" class="ml-auto">
+      <a href="merchandise.html" class="btn-merchant fill-secondary ">
+        <svg class="fill-white" width="17" height="17">
+          <use xlink:href="./assets/icons/icons.svg#store"></use>
+        </svg>
+        <span>Shop Now</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio">🔊</button>
+
+
+  <!--movies banner-->
+  <section class="contact-banner w-full">
+    <img src="assets/images/background/bg-contact-us.jpg" class="w-full h-full object-cover" alt="banner" />
+  </section>
+
+
+  <!--contact info-->
+  <div class="contact-info w-full">
+    <div class="flex w-full full-area container-fluid container-max mx-auto">
+      <div class="flex flex-col info-list">
+        <h4 class="font-medium heading-gradient">Connect with Kleem Productions</h4>
+        <div class="flex jcs aic info">
+          <div class="img flex aic jcc">
+            <svg class="fill-white" width="19" height="32">
+              <use xlink:href="./assets/icons/icons.svg#phone"></use>
+            </svg>
+          </div>
+          <div class="flex flex-col w-full">
+            <div class="title">Phone</div>
+            <p><a href="tel:+919876999999">+91 9876 999 999</a></p>
+          </div>
+        </div>
+        <div class="flex jcs aic info">
+          <div class="img flex aic jcc">
+            <img src="assets/images/icons/icon_location.svg" width="23" height="28" alt="icon" />
+          </div>
+          <div class="flex flex-col w-full">
+            <div class="title">Address</div>
+            <address>New Delhi , Delhi 121008, IN</address>
+          </div>
+        </div>
+        <div class="flex jcs aic info">
+          <div class="img flex aic jcc">
+            <svg class="fill-white" width="28" height="20">
+              <use xlink:href="./assets/icons/icons.svg#email"></use>
+            </svg>
+          </div>
+          <div class="flex flex-col w-full">
+            <div class="title">Email</div>
+            <p><span class="font-bold">General Enquiries</span> : <a href="mailto:info@kleemproductions.com">info@kleemproductions.com</a></p>
+            <p><span class="font-bold">Careers</span> : <a href="mailto:kleem.hr@gmail.com">kleem.hr@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-box flex flex-col">
+        <div class="heading">
+          <div class="title">Send Us a Message</div>
+          <p>If you got any questions. Please do not hesitate to send us a message</p>
+        </div>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="firstName" name="firstName" placeholder="First Name" required />
+              <small class="error"></small>
+            </div>
+            <div class="form-group">
+              <input type="text" id="lastName" name="lastName" placeholder="Last Name" required />
+              <small class="error"></small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email" required />
+            <small class="error"></small>
+          </div>
+
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required />
+            <small class="error"></small>
+          </div>
+
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+            <small class="error"></small>
+          </div>
+
+          <button type="submit" class="fill-secondary btn-submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer with Globe -->
+  <footer class="relative text-center">
+    <div class="footer-content flex flex-col">
+      <div class="flex gp-4 aic heading">
+        <h3 class="leading1">Let’s Build Something Epic Together</h3>
+        <a href="contactus.html" class="fill-secondary btn-touch ml-auto">Get in touch!</a>
+      </div>
+
+      <div class="devider"></div>
+      
+      <div class="quick-sections w-full flex jcsb gp-4">
+        <div class="footer-logo">
+          <a href="index.html"><img loading="lazy" src="assets/images/logo-white.svg" width="100" height="118" alt="footer-logo" /></a>
+        </div>
+        <div class="flex gp-3 flex-col quick">
+          <h6 class="w-full text-left">Quick Links</h6>
+          <ul class="flex quick-links flex-col gp-3 text-left">
+            <li>
+              <a href="movies.html" class="text-16">Movies</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="text-16">About</a>
+            </li>
+            <li>
+              <a href="contactus.html" class="text-16">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex gp-6 flex-col social-lnks">
+          <h6 class="w-full text-left">Follow us</h6>
+          <div class="flex gp-4 items-center social">
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#fb"></use>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#insta"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col gp-3 comm-text">
+          <h6 class="w-full text-left">Stay tuned!</h6>
+          <p class="text-18">The Community Page is launching soon.</p>
+        </div>
+      </div>
+      
+      <div class="copyright flex jcsb gp-4 text-16 text-white-80">
+        <div class="copy">&copy; 2025 | Alrights reserved by Kleem Productions</div>
+        <ul class="footer-nav flex gp-6">
+          <li>
+            <a href="javascript:void();">Terms of Service</a>
+          </li>
+          <li>
+            <a href="javascript:void();">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="src/js/swiper-bundle.min.js"></script>  
+  <script src="src/js/sliders.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("QO0agwI-HWgNl_cQd");
+    })();
+  </script>
+  <script src="src/js/contact-form.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+</html>

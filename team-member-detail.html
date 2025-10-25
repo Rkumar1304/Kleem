@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Put your description here.">
+  <title>Kleem Productions</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Your compiled SCSS -->
+  <link rel="stylesheet" href="src/css/swiper-bundle.min.css" />
+  <link href="dist/style.min.css" rel="stylesheet" />
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+  <div id="preloader">
+    <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
+  </div>
+  
+  <!-- Header -->
+  <header class="flex aic jcc blackbg" id="header">
+    <h1 class="mr-auto">
+      <a href="index.html" class="logo">
+        <img loading="lazy" src="assets/images/logo.png" alt="Logo" width="72" height="85" />
+      </a>
+    </h1>
+    <nav class="page-navigation">
+      <div class="nav-container flex aic jcsb">
+        <!-- Hamburger Button -->
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-bar flex aic jcc" id="navBar">
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div type="button" class="ml-auto">
+      <a href="merchandise.html" class="btn-merchant fill-secondary ">
+        <svg class="fill-white" width="17" height="17">
+          <use xlink:href="./assets/icons/icons.svg#store"></use>
+        </svg>
+        <span>Shop Now</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio">🔊</button>
+
+  <div class="main-wrapper bg-lightblack">
+    <!--banner-->
+    <section class="member-banner">
+      <div class="banner-area container-fluid container-max mx-auto flex">
+        <div class="director-image">
+          <div class="frame absolute">
+            <img loading="lazy" src="assets/images/team/circle-frame.png" width="463" height="468" class="max-w-full" alt="frame" />
+          </div>
+          <div class="circle circle-gradient absolute rounded-full">
+            <img loading="lazy" src="assets/images/team/circle-pattern.png" alt="pattern" />
+          </div>
+          <div class="main-img flex jcc relative">
+            <img loading="lazy" src="assets/images/team/director-1.png" alt="director" />
+          </div>
+          <div class="sign">
+            <img loading="lazy" src="assets/images/team/sign-director1.png" alt="sign" />
+          </div>
+        </div>
+        <div class="director-info flex flex-col gp-8">
+          <div class="heading flex flex-col gp-3">
+            <p class="text-20 font-medium text-white">Director . Producer</p>
+            <h2 class="h2 text-uppercase heading-gradient">Ashwin Kumar</h2>
+          </div>
+          <div class="desc flex flex-col gp-8 text-white">
+            <p>Ashwin Kumar is the director of the recently successful animated mythological film, Mahavatar Narsimha, a groundbreaking project that aimed to elevate Indian animation. A dedicated filmmaker with a background in entrepreneurship, advertising, and VFX, Kumar founded Kleem VFX Studio and has contributed to various Bollywood films and advertising campaigns.</p>
+
+            <p>His vision for Mahavatar Narsimha was to create a realistic, culturally significant animated film, a goal he achieved with the movie becoming a box-office hit and a significant moment for Sanatan Sanskriti on the big screen</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--work boxes-->
+    <section class="work-boxes w-full">
+      <div class="container-fluid">
+        <div class="card-list grid gp-6">
+          <div class="card flex flex-col gp-8">
+            <div class="icon flex aic jcc">
+              <img loading="lazy" src="assets/images/icons/icon_film_production.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Film Production</div>
+              <p class="text-18 text-white">We craft powerful mythological and cinematic stories with creativity and devotion.</p>
+            </div>
+          </div>
+          <div class="card flex flex-col gp-8">
+            <div class="icon">
+              <img loading="lazy" src="assets/images/icons/icon_new_technology.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">New Technologies</div>
+              <p class="text-18 text-white">Blending art with cutting-edge VFX and animation for next-gen storytelling.</p>
+            </div>
+          </div>
+          <div class="card flex flex-col gp-8">
+            <div class="icon">
+              <img loading="lazy" src="assets/images/icons/icon_top_directions.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Top Directions</div>
+              <p class="text-18 text-white">Driven by visionaries who bring depth, emotion, and excellence to every frame.</p>
+            </div>
+          </div>
+          <div class="card flex flex-col gp-8">
+            <div class="icon">
+              <img loading="lazy" src="assets/images/icons/icon_distrubution.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Distribution</div>
+              <p class="text-18 text-white">Delivering our films to audiences worldwide through trusted platforms.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--feature work-->
+    <section class="feature-work container-fluid">
+      <h2 class="h2 text-center heading-gradient">Featured Work</h2>
+      <div class="feature w-full flex flex-col gp-8">
+        <div class="swiper feature-work-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-video="assets/video/feature/video1.mp4">
+              <div class="swiper-image">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/slider/feature-slider/feature-slide1.png" alt="feature slider" />
+                </div>
+                <div class="icon">
+                  <img loading="lazy" src="assets/images/icons/icon_play_video.png" alt="play video" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-video="assets/video/feature/video2.mp4">
+              <div class="swiper-image">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/slider/feature-slider/feature-slide2.png" alt="feature slider" />
+                </div>
+                <div class="icon">
+                  <img loading="lazy" src="assets/images/icons/icon_play_video.png" alt="play video" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-video="assets/video/feature/video3.mp4">
+              <div class="swiper-image">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/slider/feature-slider/feature-slide3.png" alt="feature slider" />
+                </div>
+                <div class="icon">
+                  <img loading="lazy" src="assets/images/icons/icon_play_video.png" alt="play video" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-video="assets/video/feature/video4.mp4">
+              <div class="swiper-image">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/slider/feature-slider/feature-slide4.png" alt="feature slider" />
+                </div>
+                <div class="icon">
+                  <img loading="lazy" src="assets/images/icons/icon_play_video.png" alt="play video" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-video="assets/video/feature/video5.mp4">
+              <div class="swiper-image">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/slider/feature-slider/feature-slide5.png" alt="feature slider" />
+                </div>
+                <div class="icon">
+                  <img loading="lazy" src="assets/images/icons/icon_play_video.png" alt="play video" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fixed-frame"></div>
+        </div>
+        <div class="flex gp-4 mx-auto">
+          <div class="swiper-btn outline flex aic jcc swiper-button-prev feature-prev"><img src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+          <div class="swiper-btn outline flex aic jcc swiper-button-next feature-next"><img src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!--upcoming project-->
+    <section class="upcoming-projects container-fluid">
+      <div class="container-max w-full mx-auto flex flex-col aic gp-10">
+        <h2 class="h2 text-center heading-gradient">Ongoing Projects</h2>
+        <div class="project-list w-full grid">
+          <div class="project flex gp-4 w-full jcsb aic">
+            <div class="flex flex-col gp-2">
+              <h4>Mahavatar Narshimha</h4>
+              <p class="text-20 heading1-60">2025 <span class="release text2 text-16 font-medium">Release</span></p>
+            </div>
+            <a class="icon flex jcc aic" href="movies.html">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </a>
+            <div class="project-line absolute"></div>
+          </div>
+          <div class="project flex gp-4 w-full jcsb aic">
+            <div class="flex flex-col gp-2">
+              <h4>Mahavatar Parshuram</h4>
+              <p class="text-20 heading1-60">2027 <span class="release text2 text-16 font-medium">Upcoming</span></p>
+            </div>
+            <a class="icon flex jcc aic" href="javascript:void()">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </a>
+            <div class="project-line absolute"></div>
+          </div>
+          <div class="project flex gp-4 w-full jcsb aic">
+            <div class="flex flex-col gp-2">
+              <h4>Mahavatar Raghunandan</h4>
+              <p class="text-20 heading1-60">2029 <span class="release text2 text-16 font-medium">Upcoming</span></p>
+            </div>
+            <a class="icon flex jcc aic" href="javascript:void()">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </a>
+            <div class="project-line absolute"></div>
+          </div>
+          <div class="project flex gp-4 w-full jcsb aic">
+            <div class="flex flex-col gp-2">
+              <h4>Mahavatar Dwarkadhesh</h4>
+              <p class="text-20 heading1-60">2029 <span class="release text2 text-16 font-medium">Upcoming</span></p>
+            </div>
+            <a class="icon flex jcc aic" href="javascript:void()">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </a>
+            <div class="project-line absolute"></div>
+          </div>
+          <div class="project flex gp-4 w-full jcsb aic">
+            <div class="flex flex-col gp-2">
+              <h4>Mahavatar Gokulananda</h4>
+              <p class="text-20 heading1-60">2033 <span class="release text2 text-16 font-medium">Upcoming</span></p>
+            </div>
+            <a class="icon flex jcc aic" href="javascript:void()">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </a>
+            <div class="project-line absolute"></div>
+          </div>
+          <div class="project flex gp-4 w-full jcsb aic">
+            <div class="flex flex-col gp-2">
+              <h4>Mahavatar Kalki Part I</h4>
+              <p class="text-20 heading1-60">2035 <span class="release text2 text-16 font-medium">Upcoming</span></p>
+            </div>
+            <a class="icon flex jcc aic" href="javascript:void()">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </a>
+            <div class="project-line absolute"></div>
+          </div>
+          <div class="project flex gp-4 w-full jcsb aic">
+            <div class="flex flex-col gp-2">
+              <h4>Mahavatar Kalki Part II</h4>
+              <p class="text-20 heading1-60">2037 <span class="release text2 text-16 font-medium">Upcoming</span></p>
+            </div>
+            <a class="icon flex jcc aic"  href="javascript:void()">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </a>
+            <div class="project-line absolute"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <!-- Footer with Globe -->
+  <footer class="relative text-center">
+    <div class="footer-content flex flex-col">
+      <div class="flex gp-4 aic heading">
+        <h3 class="leading1">Let’s Build Something Epic Together</h3>
+        <a href="contactus.html" class="fill-secondary btn-touch ml-auto">Get in touch!</a>
+      </div>
+
+      <div class="devider"></div>
+      
+      <div class="quick-sections w-full flex jcsb gp-4">
+        <div class="footer-logo">
+          <a href="index.html"><img loading="lazy" src="assets/images/logo-white.svg" width="100" height="118" alt="footer-logo" /></a>
+        </div>
+        <div class="flex gp-3 flex-col quick">
+          <h6 class="w-full text-left">Quick Links</h6>
+          <ul class="flex quick-links flex-col gp-3 text-left">
+            <li>
+              <a href="movies.html" class="text-16">Movies</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="text-16">About</a>
+            </li>
+            <li>
+              <a href="contactus.html" class="text-16">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex gp-6 flex-col social-lnks">
+          <h6 class="w-full text-left">Follow us</h6>
+          <div class="flex gp-4 items-center social">
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#fb"></use>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#insta"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col gp-3 comm-text">
+          <h6 class="w-full text-left">Stay tuned!</h6>
+          <p class="text-18">The Community Page is launching soon.</p>
+        </div>
+      </div>
+      
+      <div class="copyright flex jcsb gp-4 text-16 text-white-80">
+        <div class="copy">&copy; 2025 | Alrights reserved by Kleem Productions</div>
+        <ul class="footer-nav flex gp-6">
+          <li>
+            <a href="javascript:void();">Terms of Service</a>
+          </li>
+          <li>
+            <a href="javascript:void();">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="src/js/swiper-bundle.min.js"></script>
+  <script src="src/js/sliders.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Put your description here.">
+  <title>Kleem Productions</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Your compiled SCSS -->
+  <link rel="stylesheet" href="src/css/swiper-bundle.min.css" />
+  <link href="dist/style.min.css" rel="stylesheet" />
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+  <div id="preloader">
+    <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
+  </div>
+  
+  <!-- Header -->
+  <header class="flex aic jcc blackbg" id="header">
+    <h1 class="mr-auto">
+      <a href="index.html" class="logo">
+        <img loading="lazy" src="assets/images/logo.png" alt="Logo" width="72" height="85" />
+      </a>
+    </h1>
+    <nav class="page-navigation">
+      <div class="nav-container flex aic jcsb">
+        <!-- Hamburger Button -->
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-bar flex aic jcc" id="navBar">
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div type="button" class="ml-auto">
+      <a href="merchandise.html" class="btn-merchant fill-secondary ">
+        <svg class="fill-white" width="17" height="17">
+          <use xlink:href="./assets/icons/icons.svg#store"></use>
+        </svg>
+        <span>Shop Now</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio">🔊</button>
+
+
+  <!--about banner-->
+  <section class="about-banner">
+    <div class="banner-area flex flex-col">
+      <div class="heading">
+        <p>About Us</p>
+        <h2 class="h2 heading-gradient">Crafting stories that <br>inspire and endure</h2>
+      </div>
+      <div class="full-banner-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img w-full h-full">
+              <img loading="lazy" src="assets/images/about-banner/about-banner-slide1.jpg" class="object-cover w-full h-full" alt="banner" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img w-full h-full">
+              <img loading="lazy" src="assets/images/about-banner/about-banner-slide1.jpg" class="object-cover w-full h-full" alt="banner" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--information-->
+  <section class="short_info">
+    <div class="flex aic container-fluid">
+      <div class="production-image">
+        <img loading="lazy" src="assets/images/logo-big.png" width="369" height="394" class="h-auto" alt="production image" />
+      </div>
+      <div class="info-text">
+        At Kleem Productions, technology becomes a medium of devotion — transforming eternal spiritual tales into breathtaking visual journeys that touch hearts across the world.
+      </div>
+    </div>
+  </section>
+
+  <!--timeline byyear-->
+  <section class="w-full journey">
+    <div class="container-fluid container-max mx-auto">
+      <div class="heading flex gp-4">
+        <h2 class="h2 heading-gradient">Our Journey</h2>
+        <div class="flex gp-4 desk-timeline-arrow">
+          <div class="swiper-btn outline flex aic jcc swiper-button-prev timeline-prev"><img src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+          <div class="swiper-btn outline flex aic jcc swiper-button-next timeline-next"><img src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+        </div>
+      </div>
+      <div class="swiper-container-wrapper timeline-swiper-wrapper swiper-container-wrapper--timeline">
+        <!-- Timeline -->
+        <ul class="swiper-pagination-custom">
+          <li class='swiper-pagination-switch first active'><span class='switch-title'>2018</span></li>
+          <li class='swiper-pagination-switch'><span class='switch-title'>2019</span></li>
+          <li class='swiper-pagination-switch'><span class='switch-title'>2020</span></li>
+          <li class='swiper-pagination-switch'><span class='switch-title'>2021</span></li>
+          <li class='swiper-pagination-switch'><span class='switch-title'>2022</span></li>
+          <li class='swiper-pagination-switch'><span class='switch-title'>2023</span></li>
+          <li class='swiper-pagination-switch last'><span class='switch-title'>Today</span></li>
+        </ul>
+        <!-- Progressbar -->
+        <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div>
+        <!-- Swiper -->
+        <div class="swiper swiper-container timeline-swiper swiper-container--timeline">
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="playback"></div>
+                <div class="desc">
+                  <h3 class="text-black h3">The Beginning</h3>
+                  <p class="text-black">Kleem Productions was born from a simple yet profound vision — to unite authentic storytelling with the artistry of world-class filmmaking.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="playback"></div>
+                <div class="desc">
+                  <h3 class="text-black h3">First Big Step</h3>
+                  <p class="text-black">Our debut short film premiered at a regional film festival, receiving acclaim for its originality and striking visuals.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="playback"></div>
+                <div class="desc">
+                  <h3 class="text-black h3">Building the Team</h3>
+                  <p class="text-black">We grew into a full-scale production house, welcoming skilled directors, animators, and VFX artists to bring our vision to life.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="playback"></div>
+                <div class="desc">
+                  <h3 class="text-black h3">Recognition Arrives</h3>
+                  <p class="text-black">Partnered with international collaborators on acclaimed projects that solidified our place as rising voices in contemporary cinema.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="playback"></div>
+                <div class="desc">
+                  <h3 class="text-black h3">Expanding Horizons</h3>
+                  <p class="text-black">Stepped into large-scale productions, seamlessly integrating live-action with cutting-edge VFX and animation.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="playback"></div>
+                <div class="desc">
+                  <h3 class="text-black h3">Reaching Global Audiences</h3>
+                  <p class="text-black">Our films started captivating international festivals, streaming platforms, and viewers worldwide, marking our debut on the global stage.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-box">
+                <div class="playback"></div>
+                <div class="desc">
+                  <h3 class="text-black h3">The Journey Continues</h3>
+                  <p class="text-black">With every project, we strive to push creative and technological boundaries, crafting stories that inspire and endure across generations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev timeline-prev">
+          <svg class="fill-none">
+            <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+          </svg>
+        </div>
+        <div class="swiper-button-next timeline-next">
+          <svg class="fill-none">
+            <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="flex gp-4 hidden mob-timeline-arrow">
+        <div class="swiper-btn outline flex aic jcc swiper-button-prev timeline-prev"><img src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+        <div class="swiper-btn outline flex aic jcc swiper-button-next timeline-next"><img src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!--vision and mission-->
+  <section class="about-vision-mission w-full">
+    <div class="container-fluid container-max mx-auto flex flex-col aic">
+      <div class="vm-header">
+        <img loading="lazy" src="./assets/images/vm-header.png" width="994" height="95" class="w-auto h-auto" alt="vision mission" />
+      </div>
+      <div class="company-vision-mission">
+        <div class="panel bg-white vision">
+          <div class="content flex flex-col jcc gp-6">
+            <h3 class="heading1 h3">Our Vision</h3>
+            <p>To create a global cinematic universe inspired by the timeless wisdom of Sanatana Dharma, delivering visually stunning and emotionally resonant films that evoke awe, reflection, and a deeper connection to our heritage.</p>
+          </div>
+          <div class="picture rounded-xxl overflow-hidden">
+            <video autoplay muted loop playsinline class="bg-video">
+              <source src="assets/video/our-vision.mp4" type="video/mp4" />
+            </video>
+
+          </div>
+        </div>
+        <div class="panel mission">
+          <div class="content flex flex-col jcc gp-6">
+            <h3 class="heading2 h3">Our Mission</h3>
+            <p>To combine masterful storytelling with cutting-edge animation and VFX, producing authentic, high-quality epics that captivate audiences worldwide and stand as a cultural beacon for generations.</p>
+          </div>
+          <div class="picture rounded-xxl overflow-hidden">
+            <video autoplay muted loop playsinline class="bg-video">
+              <source src="assets/video/our-mission.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="vm-footer">
+        <img loading="lazy" src="./assets/images/vm-footer.png" width="994" height="95" class="w-auto h-auto" alt="vision mission" />
+      </div>
+    </div>
+  </section>
+
+  <!--leadership team-->
+  <section class="leadership-team">
+    <div class="container-fluid container-max mx-auto">
+      <div class="heading flex gp-4">
+        <h2 class="h2 heading-gradient">Meet Our Leaders</h2>
+        <div class="flex gp-4 desk-team-arrow">
+          <div class="swiper-btn outline flex aic jcc swiper-button-prev team-prev"><img src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+          <div class="swiper-btn outline flex aic jcc swiper-button-next team-next"><img src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+        </div>
+      </div>
+      
+      <div class="swiper team-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="flex flex-col slide-area">
+              <a href="team-member-detail.html" class="picture">
+                <img loading="lazy" src="assets/images/team-member/team_member1.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
+              </a>
+              <div class="info w-full flex flex-col gp-2">
+                <h4 class="h4">Ashwin kumar</h4>
+                <p>Producer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col slide-area">
+              <a href="team-member-detail.html" class="picture">
+                <img loading="lazy" src="assets/images/team-member/team_member2.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
+              </a>
+              <div class="info w-full flex flex-col gp-2">
+                <h4 class="h4">Shilpa</h4>
+                <p>Writer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex flex-col slide-area">
+              <a href="team-member-detail.html" class="picture">
+                <img loading="lazy" src="assets/images/team-member/team_member3.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
+              </a>
+              <div class="info">
+                <h4 class="h4">Jayapurna Das</h4>
+                <p>Producer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gp-4 hidden mob-team-arrow">
+        <div class="swiper-btn outline flex aic jcc swiper-button-prev team-prev"><img src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+        <div class="swiper-btn outline flex aic jcc swiper-button-next team-next"><img src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer with Globe -->
+  <footer class="relative text-center">
+    <div class="footer-content flex flex-col">
+      <div class="flex gp-4 aic heading">
+        <h3 class="leading1">Let’s Build Something Epic Together</h3>
+        <a href="contactus.html" class="fill-secondary btn-touch ml-auto">Get in touch!</a>
+      </div>
+
+      <div class="devider"></div>
+      
+      <div class="quick-sections w-full flex jcsb gp-4">
+        <div class="footer-logo">
+          <a href="index.html"><img loading="lazy" src="assets/images/logo-white.svg" width="100" height="118" alt="footer-logo" /></a>
+        </div>
+        <div class="flex gp-3 flex-col quick">
+          <h6 class="w-full text-left">Quick Links</h6>
+          <ul class="flex quick-links flex-col gp-3 text-left">
+            <li>
+              <a href="movies.html" class="text-16">Movies</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="text-16">About</a>
+            </li>
+            <li>
+              <a href="contactus.html" class="text-16">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex gp-6 flex-col social-lnks">
+          <h6 class="w-full text-left">Follow us</h6>
+          <div class="flex gp-4 items-center social">
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#fb"></use>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a href="javascript:void(0)" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#insta"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col gp-3 comm-text">
+          <h6 class="w-full text-left">Stay tuned!</h6>
+          <p class="text-18">The Community Page is launching soon.</p>
+        </div>
+      </div>
+      
+      <div class="copyright flex jcsb gp-4 text-16 text-white-80">
+        <div class="copy">&copy; 2025 | Alrights reserved by Kleem Productions</div>
+        <ul class="footer-nav flex gp-6">
+          <li>
+            <a href="javascript:void();">Terms of Service</a>
+          </li>
+          <li>
+            <a href="javascript:void();">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="src/js/swiper-bundle.min.js"></script>  
+  <script src="src/js/sliders.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+</html>
