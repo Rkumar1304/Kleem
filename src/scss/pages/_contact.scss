@@ -1,0 +1,136 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.contact-banner {
+  height: 350px;
+  @include device(md) {
+    height: 400px;
+  }
+  @include device(lg) {
+    height: 461px;
+  }
+}
+.contact-info {
+  padding: 0px 0px;
+  background: var(--lightblack);
+  @include device(lg) {
+    padding: 60px 0px;
+  }
+  .full-area {
+    flex-direction: column;
+    @include device(lg) {
+      flex-direction: row;
+    }
+  }
+  .info-list {
+    flex: 1;
+    padding: 32px 20px;
+    gap: 24px;
+    @include device(md) {
+      gap: 40px;
+      padding: 60px 60px 60px 0px;
+    }
+    h4 {
+      font-weight: 700;
+      font-size: 22px;
+      @include device(md) {
+        font-weight: 500;
+        font-size: 30px;
+      }
+    }
+    .info {
+      gap: 24px;
+      padding: 0px 24px;
+      @include device(md) {
+        gap: 32px;
+        padding: 0px;
+      }
+      .img {
+        width: 28px;
+      }
+      .title {
+        font-size: 18px;
+        font-weight: 500;
+        color: var(--text2);
+        text-transform: uppercase;
+        @include device(md) {
+          font-size: 20px;
+        }
+      }
+      p, address {
+        font-size: 18px;
+        @include device(md) {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .contact-form-box {
+    width: 100%;
+    padding: 32px 20px;
+    background: var(--bgcontactform);
+    gap: 32px;
+    @include device(md) {
+      padding: 60px 60px;
+      gap: 40px;
+    }
+    @include device(lg) {
+      width: 550px;
+      min-width: 550px;
+    }
+    @include device(xl) {
+      width: 776px;
+      min-width: 776px;
+    }
+    @include device(mobile-only) {
+      margin: 0px -20px;
+      width: auto;
+    }
+    .heading {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      .title {
+        font-weight: 700;
+        font-size: 24px;
+        font-family: var(--cinzel);
+        @include device(md) {
+          font-size: 30px;
+          font-weight: 500;
+        }
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .form-row {
+        display: grid;
+        gap: 14px;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .form-group {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        &.invalid .error {
+          display: block;
+        }
+      }
+      input[type="text"], input[type="email"], input[type="tel"] {
+        height: 42px;
+        width: 100%;
+      }
+      textarea {
+        height: 110px;
+      }
+      .btn-submit {
+        width: 100%;
+      }
+    }
+  }
+}

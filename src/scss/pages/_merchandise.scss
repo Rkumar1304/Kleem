@@ -1,0 +1,312 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.merchant-banner {
+  padding-top: 110px;
+  @include device(mobile-only) {
+    padding-top: 72px;
+  }
+  .banner-area {
+    height: 360px;
+    padding: 8px;
+    background: var(--white);
+    flex-direction: column;
+    @include device(md) {
+      height: auto;
+      flex-direction: row;
+    }
+    @include device(lg) {
+      height: 500px;
+    }
+    @include device(xl) {
+      height: auto;
+    }
+    .box {
+      width: 100%;
+      height: 100%;
+      .info {
+        padding: 32px 24px;
+        bottom: 0px;
+        left: 0px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.021) 0%, rgba(0, 0, 0, 0.7) 71.63%);
+        gap: 12px;
+        @include device(mobile-only) {
+          gap: 0px;
+          .btn-explore {
+            margin-top: 12px;
+          }
+        }
+        .title {
+          font-size: 24px;
+          font-family: var(--cinzel);
+          @include device(lg) {
+            font-size: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+.feature-category {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @include device(lg) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  h2 {
+    font-size: 42px;
+    @include device(mobile-only) {
+      font-size: 24px;
+    }
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    @include device(mobile-only) {
+      gap: 12px;
+    }
+    p {
+      text-align: center;
+      @include device(md) {
+        text-align: left;
+      }
+    }
+  }
+  .cat-list {
+    max-width: 100%;
+    & > ul {
+      overflow-x: auto;      
+      width: 100%;
+      gap: 16px;
+      @include device(lg) {
+        gap: 30px;
+      }
+      @include device(xl) {
+        gap: 56px;
+      }
+      li {
+        flex-direction: column;
+        @include device(md) {
+          flex-direction: column;
+        }
+        span {
+          font-size: 16px;
+          @include device(lg) {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .cat-img {
+      width: 80px;
+      height: 80px;
+      @include device(md) {
+        width: 66px;
+        height: 66px;
+      }
+      @include device(lg) {
+        width: 126px;
+        height: 126px;
+      }
+    }
+  }
+}
+
+.category-tabs-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--skin);
+  @include device(lg) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tabs {
+    max-width: 1244px;
+    margin: 0 auto;
+    gap: 40px;
+    @include device(lg) {
+      gap: 56px;
+    }
+    .tab-buttons {
+      gap: 20px;
+      position: relative;
+      z-index: 2;
+      width: max-content;
+      margin: 0 auto;
+      @include device(md) {
+        gap: 40px;
+        margin: 0px 0px;
+      }
+      @include device(lg) {
+        gap: 80px;
+      }
+      .tab-button {
+        color: var(--text5);
+        font-size: 16px;
+        position: relative;
+        @include device(md) {
+          font-size: 20px;
+        }
+        @include device(lg) {
+          font-size: 24px;
+        }
+        &::after {
+          content: "";
+          bottom: 0px;
+          display: flex;
+          height: 4px;
+          width: 100%;
+          opacity: 0;
+          background-color: var(--border1);
+        }
+        &.active, &:hover {
+          color: var(--black);
+          &::after {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .tab-content {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+}
+
+.explore-area {
+  .explore-slider {
+    .swiper-slide {
+      align-items: center;
+      .box {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.021) 0%, rgba(0, 0, 0, 0.7) 71.63%);
+        @include device(md) {
+          height: 400px;
+          align-items: center;
+        }
+        @include device(lg) {
+          height: 485px;
+        }
+        .info {
+          padding-top: 16px;
+          padding-bottom: 16px;
+          left: 0px;
+          gap: 12px;
+          width: 60%;
+          @include device(md) {
+            gap: 24px;
+            width: 100%;
+            padding-top: 32px;
+            padding-bottom: 32px;
+          }
+          @include device(lg) {
+            padding-top: 32px;
+            padding-bottom: 32px;
+          }
+          .title {
+            font-size: 24px;
+            font-weight: 500;
+            font-family: var(--cinzel);
+            @include device(md) {
+              font-size: 50px;
+            }
+          }
+          p {
+            font-size: 16px;
+            color: var(--white-40);
+            @include device(md) {
+              font-size: 24px;
+            }
+          }
+          .btn-explore {
+            height: 27px;
+            font-size: 16px;
+            @include device(md) {
+              min-width: 148px;
+              height: 32px;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .swiper-pagination {
+      position: absolute;
+      bottom: 20px;
+      left: 16px;
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+      display: flex;
+      gap: 8px;
+      transform: none;
+      @include device(md) {
+        bottom: 40px;
+        left: 40px;
+      }
+      @include device(lg) {
+        left: 60px;
+      }
+      .swiper-pagination-bullet {
+        width: 50px;
+        height: 5px;
+        border-radius: 0px;
+        background: var(--white); 
+        opacity: 1;
+        transform: none;
+        margin:0px;
+        left: 0px !important;
+      }
+      .swiper-pagination-bullet-active {
+        background: var(--primary);
+      }
+    }
+  }
+}
+
+.trending-product {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @include device(lg) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @include device(xl) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .trending {
+    max-width: 1244px;
+    margin: 0 auto;
+    gap: 30px;
+    @include device(md) {
+      gap: 40px;
+    }
+  }
+  h2 {
+    font-size: 42px;
+    @include device(mobile-only) {
+      font-size: 24px;
+    }
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    @include device(mobile-only) {
+      gap: 12px;
+    }
+    h2, p {
+      text-align: center;
+      @include device(md) {
+        text-align: left;
+      }
+    }
+  }
+}

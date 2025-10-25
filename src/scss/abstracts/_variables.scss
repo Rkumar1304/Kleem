@@ -1,0 +1,138 @@
+:root {
+  --navbar:#2E2B3780;
+
+  //font-family
+  --bona: 'Bona Nova', serif;
+  --neue: 'PP Neue Montreal', sans-serif;
+  --cinzel: 'Cinzel';
+
+  //color
+  --white: #ffffff;
+  --black: #000000;
+  --primary: #FFCD04;
+  --skyblue: #E3FAFF;
+  --base: #ffffff;
+  --title: #ffffff;
+  --timelineshadow: #FF9F04;
+  --timelinetitle: #F8E84C;
+  --gradient1: #B96415;
+  --gradient2: #FFF475;
+  --gradient3: #F5F0EC;
+  --gradient4: #DED6CB;
+  --gradient5: #E0D9CF;
+  --gradient6: #D9CEBE;
+  --gradient7: #1D2948;
+  --gradient8: #141D33;
+  --gradient9: #0F1628;
+  --gradient10: #050A16;
+  --lightblack: #121210;
+  --gray1: #252520;
+  --text2: #FFEC9F;
+  --text3: #FAF2E8;
+  --text4: #DFD6C9;
+  --text5: #848484;
+  --heading1: #F3EDDF;
+  --heading2: #BF8E21;
+  --activeline: #E9C156;
+  --line: #898988;
+  --activeborder: #AE0000;
+  --iconbg: #66665C;
+  --iconhoverbg: #D9D7C3;
+  --icon1: #FBF299;
+  --skin: #FBF4EA;
+
+  --bgreel: #272725;
+  --bgcrew: #1B1B19;
+  --bgevents: #1F1F1D;
+  --bgcontactform: #1A1A1A;
+  --bgblack2: #20201D;
+
+
+  --gray-40: #666666;
+  --gray-13: #222222;
+
+  --red-61: #E84E4E;
+  --cyan-47: #49A594;
+
+  --border1: #E1AB39;
+
+  --productbg1: #F6F4F2;
+  --productbg2: #EFF0EC;
+  --productbg3: #E4EEF1;
+
+  --white-80: rgba(255, 255, 255, 0.8);
+  --heading1-60: rgba(243, 237, 223, 0.6);
+  --black-70: rgba(7, 3, 2, 0.7);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --white-5: rgba(255, 255, 255, 0.05);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --white-60: rgba(255, 255, 255, 0.6);
+  --white-40: rgba(255, 255, 255, 0.4);
+
+  --btngradient: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 53.6%, #EDD060 70.69%, #B96415 109.52%);
+  --btnhovergradient: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 53.6%, #EDD060 70.69%, #B96415 109.52%);
+  --arrowgradient: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);
+}
+
+$primary: #FFCD04;
+$base: #ffffff;
+$title: #ffffff;
+$black: #000000;
+$white: #ffffff;
+$skyblue: #E3FAFF;
+$timelineshadow: #FF9F04;
+$timelinetitle: #F8E84C;
+$gradient1: #B96415;
+$gradient2: #FFF475;
+$gradient3: #F5F0EC;
+$gradient4: #DED6CB;
+$gradient5: #E0D9CF;
+$gradient6: #D9CEBE;
+$gradient7: #1D2948;
+$gradient8: #141D33;
+$gradient9: #0F1628;
+$gradient10: #050A16;
+$lightblack: #121210;
+$gray1: #252520;
+$text2: #FFEC9F;
+$text3: #FAF2E8;
+$text4: #DFD6C9;
+$text5: #848484;
+$heading1: #F3EDDF;
+$heading2: #BF8E21;
+$activeline: #E9C156;
+$line: #898988;
+$activeborder: #AE0000;
+$iconbg: #66665C;
+$iconhoverbg: #D9D7C3;
+$icon1: #FBF299;
+$skin: #FBF4EA;
+
+$bgreel: #272725;
+$bgcrew: #1B1B19;
+$bgevents: #1F1F1D;
+$bgcontactform: #1A1A1A;
+
+
+$gray-40: #666666;
+$gray-13: #222222;
+
+$red-61: #E84E4E;
+$cyan-47: #49A594;
+
+$border1: #E1AB39;
+
+$productbg1: #F6F4F2;
+$productbg2: #EFF0EC;
+$productbg3: #E4EEF1;
+
+$white-80: rgba(255, 255, 255, 0.8);
+$heading1-60: rgba(243, 237, 223, 0.6);
+$black-70: rgba(7, 3, 2, 0.7);
+$white-5: rgba(255, 255, 255, 0.05);
+$white-20: rgba(255, 255, 255, 0.2);
+$white-60: rgba(255, 255, 255, 0.6);
+
+$btngradient: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 53.6%, #EDD060 70.69%, #B96415 109.52%);
+$btnhovergradient: linear-gradient(270deg, #ffffff -14.76%, #ffffff 32.33%, #ffffff 53.6%, #ffffff 70.69%, #ffffff 109.52%);
+$arrowgradient: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);

@@ -1,0 +1,238 @@
+//For color,font-size,font-weight,line-height
+@mixin font_size_color(
+  $color: null,
+  $font-size: null,
+  $font_weight: null,
+  $line_height: null
+) {
+  @if $color != null {
+    color: $color;
+  }
+  @if $font-size != null {
+    font-size: $font;
+  }
+  @if $font_weight != null {
+    font-weight: $font_weight;
+  }
+  @if $line_height != null {
+    line-height: $line_height;
+  }
+}
+//For Flexbox
+@mixin flex(
+  $flex: null,
+  $justify: null,
+  $align_item: null,
+  $wrap: null,
+  $gap: null,
+  $direction: null
+) {
+  @if $flex !=null {
+    display: $flex;
+  }
+  @if $justify != null {
+    justify-content: $justify;
+  }
+  @if $align_item != null {
+    align-items: $align_item;
+  }
+  @if $wrap != null {
+    flex-wrap: $wrap;
+  }
+  @if $gap != null {
+    gap: $gap;
+  }
+  @if $direction != null {
+    flex-direction: $direction;
+  }
+}
+//For Grid
+@mixin grid(
+  $grid: null,
+  $justify: null,
+  $align_item: null,
+  $column: null,
+  $rows: null,
+  $gap: null
+) {
+  @if $grid !=null {
+    display: $grid;
+  }
+  @if $justify != null {
+    justify-content: $justify;
+  }
+  @if $align_item != null {
+    align-items: $align_item;
+  }
+  @if $column != null {
+    grid-template-columns: $column;
+  }
+  @if $rows != null {
+    grid-template-rows: $rows;
+  }
+  @if $gap != null {
+    grid-gap: $gap;
+  }
+}
+//For grid item column
+@mixin grid-column($col-start, $col-end) {
+  grid-column: #{$col-start} / #{$col-end};
+}
+//For grid item rows
+@mixin grid-row($row-start, $row-end) {
+  grid-row: #{$row-start} / #{$row-end};
+}
+//For height,width and bg-color
+@mixin width_height_bg($width: null, $height: null, $bg: null) {
+  @if $width != null {
+    height: $width;
+  }
+  @if $height != null {
+    width: $height;
+  }
+  @if $bg != null {
+    background-color: $bg;
+  }
+}
+//For horizontal and vertical space
+@mixin space-y($value) {
+  &:not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc($value - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+}
+
+@mixin space-x($value) {
+  &:not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc($value - var(--tw-space-x-reverse)));
+  }
+}
+
+//For button
+@mixin btn_style(
+  $bg_color: null,
+  $border: null,
+  $box_shadow: null,
+  $border_radius: null,
+  $color: null
+) {
+  @if $bg_color != null {
+    background: $bg_color;
+  }
+  @if $border != null {
+    border: $border;
+  }
+  @if $box_shadow != null {
+    box-shadow: $box_shadow;
+  }
+  @if $border_radius != null {
+    border-radius: $border_radius;
+  }
+  @if $color != null {
+    color: $color;
+  }
+}
+//For  keyframe animation
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{
+      $animationName
+  } {
+    @content;
+  }
+  @-moz-keyframes #{
+      $animationName
+  } {
+    @content;
+  }
+  @-ms-keyframes #{
+      $animationName
+  } {
+    @content;
+  }
+  @-o-keyframes #{
+      $animationName
+  } {
+    @content;
+  }
+  @keyframes #{
+      $animationName
+  } {
+    @content;
+  }
+}
+//For breakpoints
+$mobile-only: 767px;
+$sm: 480px;
+$md: 768px;
+$lg: 1024px;
+$lgxl: 1181px;
+$xl: 1280px;
+$xxl: 1440px;
+$xxxl: 1500px;
+$xxxxl: 1920px;
+$xxxxxl: 2500px;
+$hover: hover;
+
+@mixin device($media) {
+  @if $media == sm {
+    @media only screen and (min-width: #{$sm}) {
+      @content;
+    }
+  }
+  @if $media == md {
+    @media only screen and (min-width: #{$md}) {
+      @content;
+    }
+  }
+  @if $media == lg {
+    @media only screen and (min-width: #{$lg}) {
+      @content;
+    }
+  }
+  @if $media == lgxl {
+    @media only screen and (min-width: #{$lgxl}) {
+      @content;
+    }
+  }
+  @if $media == xl {
+    @media only screen and (min-width: #{$xl}) {
+      @content;
+    }
+  }
+  @if $media == xxl {
+    @media only screen and (min-width: #{$xxl}) {
+      @content;
+    }
+  }
+  @if $media == xxxl {
+    @media only screen and (min-width: #{$xxxl}) {
+      @content;
+    }
+  }
+  @if $media == xxxxl {
+    @media only screen and (min-width: #{$xxxxl}) {
+      @content;
+    }
+  }
+  @if $media == xxxxxl {
+    @media only screen and (min-width: #{$xxxxxl}) {
+      @content;
+    }
+  }
+  @if $media == mobile-only {
+    @media only screen and (max-width: #{$mobile-only}) {
+      @content;
+    }
+  }
+
+  @if $media == hover {
+    @media (hover:#{$hover}) {
+      &:hover {
+        @content;
+      }
+    }
+  }
+}

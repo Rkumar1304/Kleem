@@ -1,0 +1,288 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.about-banner {
+  padding-top: 110px;
+  background-color: var(--lightblack);
+  display: flex;
+  @include device(mobile-only) {
+    padding-top: 72px;
+  }
+  .banner-area {
+    padding-top: 40px;
+    background: url("../../../assets/images/background/about-banner-pattern.png") right -40px no-repeat;
+    width: 100%;
+    gap: 64px;
+    @include device(md) {
+      padding-top: 60px;
+    }
+    @include device(lg) {
+      padding-top: 100px;
+    }
+    @include device(mobile-only) {
+      padding-top: 30px;
+      gap: 100px;
+      background-image: url("../../../assets/images/mandala.png");
+      background-position: center 200px;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+    }
+    .heading {
+      padding: 0px 16px;
+      @include device(md) {
+        padding: 0px 40px;
+      }
+      p {
+        color: var(--white);
+        font-size: 30px;
+      }
+      h2 {
+        color: var(--heading1);
+        line-height: 40px;
+        @include device(md) {
+          line-height: 60px;
+        }
+        @include device(lg) {
+          line-height: 74px;
+        }
+      }
+      @include device(mobile-only) {
+        text-align: center;
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.short_info {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @include device(md) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @include device(lg) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .container-fluid {
+    flex-direction: column;
+    gap: 24px;
+    @include device(lg) {
+      flex-direction: row;
+      gap: 48px;
+    }
+  }
+  .production-image {
+    min-width: 369px;
+    @include device(lg) {
+      padding-left: 60px;
+    }
+    @include device(mobile-only) {
+      min-width: 0px;
+      width: 172px;
+    }
+  }
+  .info-text {
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--text3);
+    text-align: center;
+    @include device(lg) {
+      padding-right: 60px;
+      text-align: left;
+      font-size: 32px;
+      line-height: 48px;
+    }
+  }
+}
+
+.journey {
+  padding-bottom: 60px;
+  @include device(mobile-only) {
+    padding-bottom: 40px;
+  } 
+  .heading {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto 20px;
+    max-width: 1200px;
+    @include device(md) {      
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 64px;
+    }
+    @include device(mobile-only) {
+      .desk-timeline-arrow {
+        display: none;
+      }
+    }
+  }
+  @include device(mobile-only) {
+    .mob-timeline-arrow {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 24px;
+    }
+  }
+}
+
+.about-vision-mission {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include device(mobile-only) {
+    padding-top: 0px;
+  }
+  .container-fluid {
+    gap: 32px;
+  }
+  .company-vision-mission {
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    width: 100%;
+    max-width: 1200px;
+    .panel {
+      padding: 26px 32px;
+      border-radius: 16px;
+      width: 100%;
+      min-height: 500px;
+      position:sticky;
+      top: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      flex-direction: column;
+      gap: 32px;
+      background: var(--white);
+      @include device(md) {
+        flex-direction: row;
+        gap: 0px;
+      }
+      @include device(mobile-only) {
+        padding: 16px;
+        gap: 12px;
+        flex-direction: column-reverse;
+        min-height: 0px;
+        top: 100px;
+      }
+      .content {
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        h3 {
+          font-family: var(--cinzel);
+        }
+        @include device(md) {
+          text-align: left;
+          padding: 0px 30px 0px 0px;
+        }
+        @include device(xl) {
+          padding: 56px 59px;
+        }
+        p {
+          font-size: 20px;
+          line-height: 28px;
+          color: var(--lightblack);
+          text-align: center;
+          @include device(md) {
+            text-align: left;
+          }
+        }
+        @include device(mobile-only) {
+          gap: 12px;
+          text-align: left;
+          h3 {
+            font-family: var(--cinzel);
+            font-size: 28px;
+          }
+          p {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+          }
+        }
+      }
+      .picture {
+        min-width: 300px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 16px;
+        display: inline-flex;
+        video {
+          width: 100%;
+          height: 100%;
+          aspect-ratio: 16 / 9;
+          object-fit: cover;
+          pointer-events: none;
+        }
+        @include device(xl) {
+          min-width: 568px;
+        }
+        @include device(mobile-only) {
+          width: 100%;
+          height: 164px;
+          video {
+            height: 100%;
+            aspect-ratio: auto;
+          }
+        }
+      }
+      &.vision {
+        background-color: var(--heading1);
+      }
+    }
+    & .panel {
+      &::nth-child(1) { 
+        z-index: 1; 
+      }
+      &::nth-child(2) { 
+        z-index: 2; 
+      }
+      &::nth-child(3) { 
+        z-index: 3; 
+      }
+    }
+  } 
+}
+
+.leadership-team {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include device(mobile-only) {
+    padding-top: 0px;
+    .mob-team-arrow {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 24px;
+    }
+  }
+  .heading {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    @include device(md) {      
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 64px;
+    }
+    @include device(mobile-only) {
+      text-align: center;
+      .desk-team-arrow {
+        display: none;
+      }
+    }
+  }
+}
+
+

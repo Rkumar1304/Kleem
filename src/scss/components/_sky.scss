@@ -1,0 +1,263 @@
+@use "sass:math";
+
+$pi: 3.14159265359;
+$_precision: 10;
+
+// ---------------- POWER FUNCTION ----------------
+@function pow($base, $exp) {
+  $value: $base;
+  @if $exp > 1 {
+    @for $i from 2 through $exp {
+      $value: $value * $base;
+    }
+  }
+  @if $exp < 1 {
+    @for $i from 0 through -$exp {
+      $value: math.div($value, $base);
+    }
+  }
+  @return $value;
+}
+
+// ---------------- FACTORIAL FUNCTION ----------------
+@function fact($num) {
+  $fact: 1;
+  @if $num > 0 {
+    @for $i from 1 through $num {
+      $fact: $fact * $i;
+    }
+  }
+  @return $fact;
+}
+
+// ---------------- ANGLE CONVERSION ----------------
+@function _to_unitless_rad($angle) {
+  @if math.unit($angle) == 'deg' {
+    $angle: math.div($angle, 180deg) * $pi;
+  }
+  @if math.unit($angle) == 'rad' {
+    $angle: math.div($angle, 1rad);
+  }
+  @return $angle;
+}
+
+// ---------------- TRIGONOMETRIC FUNCTIONS ----------------
+@function sin($angle) {
+  $a: _to_unitless_rad($angle);
+  $sin: $a;
+  @for $n from 1 through $_precision {
+    $sin: $sin + math.div(pow(-1, $n), fact(2 * $n + 1)) * pow($a, (2 * $n + 1));
+  }
+  @return $sin;
+}
+
+@function cos($angle) {
+  $a: _to_unitless_rad($angle);
+  $cos: 1;
+  @for $n from 1 through $_precision {
+    $cos: $cos + math.div(pow(-1, $n), fact(2 * $n)) * pow($a, 2 * $n);
+  }
+  @return $cos;
+}
+
+@function tan($angle) {
+  @return math.div(sin($angle), cos($angle));
+}
+
+// ---------------- REMAINDER FUNCTION ----------------
+@function reminder($origin, $mod) {
+  $q: if(
+    (math.div($origin, $mod)) > 0,
+    math.floor(math.div($origin, $mod)),
+    math.ceil(math.div($origin, $mod))
+  );
+  @return $origin - ($mod * $q);
+}
+
+// ---------------- BASE STYLES ----------------
+#banner-stars {
+  width: 100%;
+  height: 100%;
+  .star {
+    opacity: 0;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 0px rgb(255, 255, 255);
+    border-radius: 100%;
+    transform-origin: 0, 0;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: infinite, infinite;
+    animation-delay: -30s, -30s;
+    &.size-1 {
+      width: 5px;
+      height: 5px;
+    }
+    &.size-2 {
+      width: 2px;
+      height: 2px;
+    }
+  }
+  @for $i from 1 to 361 {
+    // Faster animation timing
+    $t: math.random(120000) + 8000;
+    $angle: $i - reminder($i, 4);
+
+    .axis-#{$i} {
+      animation: anim#{$angle} #{$t}ms linear infinite, fade#{math.random(10)} #{$t}ms linear infinite;
+    }
+  }
+
+  @for $i from 1 to 11 {
+    $start: math.random(10000);
+    $end: $start + 10;
+    @keyframes fade#{$i} {
+      #{$start + '%'} { opacity: 0; }
+      #{$end + '%'} { opacity: 1; }
+      100% { opacity: 1; }
+    }
+  }
+
+  @for $i from 1 to 91 {
+    $a: $i * 4;
+    @keyframes anim#{$a} {
+      $angle: $pi * 2 * math.div($a, 360);
+      $y: 80 * sin($angle);
+      $x: 80 * cos($angle);
+      100% {
+        transform: translate(#{$x}vw, #{$y}vh);
+      }
+    }
+  }
+}
+
+#landing-timelinestars {
+  width: 100%;
+  height: 100%;
+  .star {
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 16px 4px rgb(43, 13, 152);
+    opacity: 0;
+    position: absolute;
+    border-radius: 100%;
+    transform-origin: 0, 0;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: infinite, infinite;
+    animation-delay: -30s, -30s;
+    &.size-1 {
+      width: 6px;
+      height: 6px;
+    }
+    &.size-2 {
+      width: 2px;
+      height: 2px;
+      box-shadow: 0px 0px 8px 4px rgb(13, 96, 152);
+    }
+  }
+  @for $i from 1 to 361 {
+    // Faster animation timing
+    $t: math.random(70000) + 6000;
+    $angle: $i - reminder($i, 4);
+
+    .axis-#{$i} {
+      animation: anim#{$angle} #{$t}ms linear infinite, fade#{math.random(10)} #{$t}ms linear infinite;
+    }
+  }
+
+  @for $i from 1 to 11 {
+    $start: math.random(5000);
+    $end: $start + 10;
+    @keyframes fade#{$i} {
+      #{$start + '%'} { opacity: 0; }
+      #{$end + '%'} { opacity: 1; }
+      100% { opacity: 1; }
+    }
+  }
+
+  @for $i from 1 to 91 {
+    $a: $i * 4;
+    @keyframes anim#{$a} {
+      $angle: $pi * 2 * math.div($a, 360);
+      $y: 120 * sin($angle);
+      $x: 90 * cos($angle);
+      100% {
+        transform: translate(#{$x}vw, #{$y}vh);
+      }
+    }
+  }
+}
+
+#char-sparkles {
+  opacity: 0;
+  // position: relative;
+  // width: 100%;
+  // height: 100%;
+  // overflow: visible;
+
+  .star {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform-origin: center;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    filter: blur(1px);
+
+    &.size-1 {
+      width: 6px;
+      height: 6px;
+      background: radial-gradient(circle, rgba(255, 230, 160, 1) 0%, rgba(255, 150, 0, 0.2) 70%, transparent 100%);
+      box-shadow: 0 0 12px rgba(255, 220, 120, 0.8);
+    }
+
+    &.size-2 {
+      width: 3px;
+      height: 3px;
+      background: radial-gradient(circle, rgba(255, 255, 200, 1) 0%, rgba(255, 200, 120, 0.3) 70%, transparent 100%);
+      box-shadow: 0 0 8px rgba(255, 240, 160, 0.7);
+    }
+
+    &.size-3 {
+      width: 4px;
+      height: 4px;
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.9) 0%, rgba(255, 200, 150, 0.3) 80%, transparent 100%);
+      box-shadow: 0 0 10px rgba(255, 255, 200, 0.8);
+    }
+  }
+
+  // Dynamic animations for each star
+  @for $i from 1 through 60 {
+    $duration: math.random(7000) + 3000; 
+    $xSpread: math.random(400) - 200; 
+    $curve: math.random(180) - 90; 
+    $height: math.random(350) + 100; 
+    $offset: math.random(120); 
+
+    .star:nth-child(#{$i}) {
+      animation: sparkleRise#{$i} #{$duration}ms linear infinite;
+      animation-delay: math.random(5000) * 1ms;
+    }
+
+    @keyframes sparkleRise#{$i} {
+      0% {
+        opacity: 0;
+        transform: translate(0, #{$offset}px) scale(0.5);
+      }
+      10% {
+        opacity: 1;
+      }
+      70% {
+        transform: translate(#{$xSpread}px, -#{$height * 0.7}px) rotate(#{$curve}deg) scale(1.2);
+        opacity: 0.8;
+      }
+      100% {
+        transform: translate(#{$xSpread}px, -#{$height}px) rotate(#{$curve * 1.5}deg) scale(0.8);
+        opacity: 0;
+      }
+    }
+  }
+}
+
+
+

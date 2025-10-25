@@ -1,0 +1,40 @@
+html {
+  font-size: 18px;
+}
+body {
+  font: 400 1.125rem/1.5 var(--neue);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin:0px;
+  line-height: 1.2;
+  font-family: var(--cinzel);
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 50px;
+  font-weight: 400;
+}
+h4 {
+  font-weight: 400;
+  font-size: 30px;
+}
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+h6 {
+  font-size: 20px;
+}

@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.btn-audio {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  background: transparent;
+  color: var(--white);
+  z-index: 50;
+  border-radius: 8px;
+  @include device(mobile-only) {
+    left: auto;
+    right: 24px;
+  }
+}

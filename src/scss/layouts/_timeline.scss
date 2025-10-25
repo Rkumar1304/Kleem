@@ -1,0 +1,362 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.landing-timeline {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 20px;
+  overflow:hidden;
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,      
+    #06122b 15%,    
+    #040814 60%,  
+    #02050c 85%,   
+    #000000 100%   
+  );
+  .big-ellipse {
+    position: absolute;
+    top: 100px;
+    min-width: 1440px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .small-ellipse {
+    position: absolute;
+    top: 350px;
+    min-width: 1440px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .timeline-slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 100px;
+    overflow: visible;
+    padding-top: 36px;
+    @include device(mobile-only) {
+      padding-bottom: 0px;
+    }
+  }
+  .timeline-slider-actions {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 250px;
+    display: flex;
+    z-index: 9;
+    @include device(xxxl) {
+      top: 240px;
+    }
+    @include device(xxxxl) {
+      top: 230px;
+    }
+    @include device(xxxxxl) {
+      top: 215px;
+    }
+    @include device(mobile-only) {
+      // position: relative;
+      // transform: none;
+      // left: 0px;
+      top: 185px;
+      // display: flex;
+      // justify-content: center;
+      // margin-top: 20px;
+      // gap: 20px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      background: var(--arrowgradient);
+      cursor: pointer;
+      left: -350px;
+      position: absolute;
+      z-index: 9;
+      @include device(lg) {
+        left: -350px;
+      }
+      @include device(mobile-only) {
+        // position: relative;
+        left:-160px;
+        // right: auto;
+      }
+      svg {
+        width: 10px;
+        height: 18px;
+      }
+      &.timeline-next {
+        right: -350px;
+        left: auto;
+        @include device(lg) {
+          right: -350px;
+        }
+        @include device(mobile-only) {
+          right: -160px;
+        }
+      }
+    }
+  }
+  .swiper-slide {
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    overflow: inherit;
+    position: relative;
+    .swiper-card {
+      width: 250px;
+      height: auto;
+      .comic-list {
+        width: 100vw;
+        left: -100%;
+        top: -180px;
+        display: flex;
+        z-index: 9;
+        justify-content: space-between;
+        @include device(mobile-only) {
+          left: 0px;
+          top: -140px;
+        }
+        .comic {
+          position: relative;
+          width: 100%;
+          transition: opacity 1s ease-in-out;
+          @include device(mobile-only) {
+            display: none;
+          }
+          &:nth-child(1) {
+            bottom: -115px;
+            transform: rotate(-33deg);
+            opacity: 0;
+            @include device(md) {
+              bottom: -50px;
+            }
+            @include device(lg) {
+              bottom: -50px;
+            }
+            @include device(xl) {
+              bottom: -115px;
+            }
+            @include device(xxxxl) {
+              bottom: -160px;
+            }
+            @include device(mobile-only) {
+              display:none;
+            }
+          }
+          &:nth-child(3) {
+            bottom: -115px;
+            transform: rotate(33deg);
+            opacity: 0;
+            @include device(md) {
+              bottom: -50px;
+            }
+            @include device(lg) {
+              bottom: -50px;
+            }
+            @include device(xl) {
+              bottom: -115px;
+            }
+            @include device(xxxxl) {
+              bottom: -160px;
+            }
+            @include device(mobile-only) {
+              display:none;
+            }
+          }
+          .img {
+            width: 130px;
+            height: 175px;
+          }
+          span {
+            margin-right: 23px;
+            font-size: 21px;
+            font-weight: 400;
+          }
+        }
+      }
+      .movie-image {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          filter: blur(5px);
+          -webkit-filter: blur(5px);
+        }
+      }
+      .movie-info {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+          color: var(--timelinetitle);
+          font-family: var(--neue);
+          @include device(mobile-only) {
+            font-size: 32px;
+          }
+        }
+        .title {
+          font-size: 26px;
+          font-weight: 700;
+          text-align: center;
+          text-transform: uppercase;
+          font-family: var(--cinzel);
+          @include device(mobile-only) {
+            font-size: 16px;
+          }
+        }
+      }
+    } 
+    &.swiper-slide-active {
+      .swiper-card {
+        width: 340px;
+        height: auto;
+        .movie-image {
+          width: 100%;
+          height: 400px;
+          @include device(mobile-only) {
+            width: 60%;
+            margin: 0 auto;
+            height: 295px;
+          }
+          img {
+            max-width: 100%;
+            height: auto;
+            max-height: 100%;
+            z-index: 1;
+            filter:none;
+          }
+          &::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            box-shadow: 0px 0px 137px 115px var(--timelineshadow);
+          }
+        }
+        .movie-info {
+          display: flex;
+          margin: 0px -20px;
+          @include device(lg) {
+            margin: 0px -30px;
+          }
+        }
+        .comic-list {
+          .comic {
+            @include device(mobile-only) {
+              display: flex;
+              span {
+                margin-right: 10px;
+              }
+            }
+            &:nth-child(1) {
+              opacity: 1;
+              @include device(mobile-only) {
+                display: none;
+              }
+            }
+            &:nth-child(3) {
+              opacity: 1;
+              @include device(mobile-only) {
+                display: none;
+              }
+            }
+            .img {
+              img {
+                max-width: none;
+                position: absolute;
+              }
+              @include device(mobile-only) {
+                width: 75px;
+                height: 110px;
+                img {
+                  max-width: 100%;
+                  position: relative;
+                }
+              }
+            }
+            
+            &.other-comic {
+              img {
+                transition: all 1s ease-in-out;
+                scale: 1;
+                &:hover {
+                  scale: 1.3;
+                  transform-origin: top center;
+                  transition: all 1s ease-in-out;
+                }
+              }
+            }
+          }
+        }
+      }
+    } 
+    &.swiper-slide-prev {
+      .swiper-card {
+        .comic {
+          right: -100%;
+          top: -70px;
+        }
+      }
+    }
+    &.swiper-slide-next {
+      .swiper-card {
+        .comic {
+          left: -100%;
+          top: -70px;
+        }
+      }
+    }
+  }
+  .timeline-video-bg {
+    inset: 0px;
+    width: 100dvw;
+    height: 100%; 
+    object-fit: cover;
+    position: absolute;
+  }
+  .planet {
+    position: relative;
+    bottom: 60px;
+    // width: 449px;
+    // height: 449px;
+    // border-radius: 50%;
+    // overflow: hidden;
+    // background: url('../../../assets/images/planet.png') center/cover no-repeat;
+    z-index: 1;
+    margin: 0 auto;
+    img {
+      width: 70%;
+      max-width: 1000px; 
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      @include device(mobile-only) {
+        width:95%;
+      }
+    }
+    @include device(mobile-only) {
+      bottom: 0px;
+    }
+    
+    // .planet-texture {
+    //   width: 100%;
+    //   height: 100%;
+    //   background: url("../../../assets/images/planet-texture.png"); 
+    //   background-size: 2000px;
+    // }
+  }
+}
+
+
+

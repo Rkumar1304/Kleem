@@ -1,0 +1,87 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+%primary-btn {
+  width: fit-content;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px 24px;
+  font-family: var(--neue);
+  gap: 10px;
+  transition: all 0.4s ease-in-out;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@mixin btn($bg_color) {
+  @if $bg_color == fill {
+    .fill {
+      background: $primary;
+      color: $black;
+      @include flex(flex, null, center);
+      svg {
+        fill: $black;
+        width: 20px;
+        height: 20px;
+      }
+      @extend %primary-btn;
+      &:hover {
+        background: $white;
+        color: $black;
+        svg {
+          fill: $white;
+        }
+      }
+    }
+  }
+  @if $bg_color == fill-secondary {
+    .fill-secondary {
+      background: $btngradient;
+      color: $black;
+
+      @include flex(flex, center, center);
+      @include btn_style(null, null, null, 8px);
+      @extend %primary-btn;
+
+      &:hover {
+        background: $btnhovergradient;
+        color: $black;
+      }
+    }
+  }
+
+  @if $bg_color == outline {
+    .btn-outline {
+      border: 2px solid $white;
+      background: transparent;
+      color: $white;
+      font-family: var(--neue);
+      @include flex(flex, null, center);
+      @include btn_style(null, null, null, 8px);
+      svg {
+        fill: $white;
+        width: 20px;
+        height: 20px;
+      }
+      @extend %primary-btn;
+      
+
+      &:hover {
+        background: $white;
+        color: $black;
+        border-color: $black;
+        svg {
+          fill: $black;
+        }
+      }
+    }
+  }
+}
+
+@include btn(fill);
+@include btn(outline);
+@include btn(fill-secondary);

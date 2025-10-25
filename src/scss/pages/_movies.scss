@@ -1,0 +1,296 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.movie-banner {
+  position: relative;
+  .banner-info {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.021) 0%, rgba(0, 0, 0, 0.7) 71.63%);
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    padding: 40px 16px 50px;
+    @include device(lg) {
+      position: absolute;
+      padding: 40px 16px;
+    }
+    @include device(mobile-only) {
+      gap: 8px;
+      padding-bottom: 30px;
+    }
+    .title {
+      font-family: var(--bona);
+      font-size: 40px;
+      font-weight: normal;
+      text-align: center;
+      @include device(mobile-only) {
+        font-size: 20px;
+      }
+    }
+    .btn-outline {
+      border-color: var(--primary);
+      color: var(--primary);
+      @include device(mobile-only) {
+        padding: 4px 12px;
+      }
+    }
+    .btn-watch {      
+      @include device(mobile-only) {
+        padding: 4px 12px;
+      }
+    }
+  }
+}
+.movie-origin {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  // background: var(--bgcrew);
+  @include device(md) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @include device(xl) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .container {
+    max-width: 950px;
+    p {
+      text-align: center;
+    }
+    .content {
+      @include device(mobile-only) {
+        gap: 24px;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+.film-reel {
+  padding: 13px 16px;
+  gap: 20px;
+  background: var(--bgreel);
+}
+.movie-updates {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 30px;
+  background-color: var(--bgblack2);
+  overflow: hidden;
+  @include device(lg) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 40px;
+  }
+  @include device(xl) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 80px;
+  }
+}
+.cast-crew {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  gap:30px;
+  background-color: var(--lightblack);
+  @include device(md) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap:56px;
+  }
+  @include device(lg) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .container-max {
+    @include device(mobile-only) {
+      gap: 24px;
+    }
+  }
+  .crew-list {
+    padding: 0px 0px;
+    @include device(lg) {
+      padding: 0px 0px;
+    }
+    .crew {
+      flex-direction: column;
+      gap: 2px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--white-20);
+      @include device(md) {
+        flex-direction: row;
+        gap: 16px;
+      }
+      .image {
+        display: flex;
+        align-items: center;
+        width: 130px;
+        @include device(lg) {
+          width: 36%;
+        }
+        img {
+          width: 130px;
+        }
+      }
+      .name {
+        flex: 1;
+        font-size: 24px;
+        @include device(xl) {
+          font-size: 36px;
+        }
+      }
+      .post {
+        min-width: 273px;
+        width: 273px;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        @include device(md) {
+          text-align: left;
+        }
+      }
+    }
+    .crew-box {
+      &:last-child {
+        .crew {
+          padding-bottom: 0px;
+          border-bottom: 0px;
+        }
+      }
+      @include device(mobile-only) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: flex-start;
+        position: relative;
+        width: 100%;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .crew {
+          padding-bottom: 0px;
+          border-bottom: 0px;
+          .container-max {
+            flex-direction: column;
+            gap: 8px;
+            padding: 0px;
+          }
+        }
+        &:after {
+          content: "";
+          display: flex;
+          height: 1px; 
+          margin: 0px 0px;
+          bottom: 0px;
+          background: var(--white-20);
+          width: 100%;
+          position: absolute;
+        }
+        &:last-child {
+          padding-bottom: 0px;
+          &:after {
+            display: none;
+          }
+        }
+        .crew {
+          display: grid;
+          gap: 8px;
+          grid-template-columns: repeat(1, 1fr);
+          width: 100%;
+          .image {
+            width: 100%;
+            margin-bottom: 16px;
+            height: 147px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              object-position: top center;
+            }
+          }
+          .name  {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+          }
+          .post {
+            width: 100%;
+            min-width: 0px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+.news-events {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 30px;
+  @include device(lg) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 40px;
+  }
+  @include device(xl) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 80px;
+  }
+  h2 {
+    text-align: left;
+  }
+}
+
+.accolades {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 30px;
+  background: var(--lightblack);
+  overflow: hidden;
+  .container-max {
+    gap: 56px;
+  }
+  @include device(lg) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 40px;
+  }
+  @include device(xl) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 80px;
+  }
+  .accolades-list {
+    gap: 16px;
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    @include device(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include device(lg) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .award {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 24px;
+      gap: 24px;
+      border: 2px solid;
+      border-image: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+      border-image-slice: 1;
+      .image {
+        display: flex;
+        height: 76px;
+        align-items: center;
+        justify-content: center;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+  }
+}

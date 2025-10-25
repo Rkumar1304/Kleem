@@ -1,0 +1,1235 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.swiper {
+  width: 100%;
+  padding: 0px;
+}
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.swiper-btn {
+  position: static;
+  width: 45px;
+  height: 45px;
+  color: var(--white);
+  background: transparent;
+  border-radius: 100%;
+  top: auto;
+  margin: 0px;
+  border: 1px solid var(--white);
+  &:after {
+    font-size: 18px;
+  }
+  &:hover {
+    border: 1px solid var(--primary);
+    &:after {
+      color: var(--primary);
+    }
+  }
+}
+.swiper-btn.outline {
+  position: static;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: var(--white);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Create gradient border */
+  background: 
+    linear-gradient(#000, #000) padding-box, /* inner area color */
+    linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; /* border gradient */
+  border: 1px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  &:after {
+    font-size: 18px;
+    display: none;
+  }
+  &:hover {
+    border: 1px solid var(--primary);
+    &:after {
+      color: var(--primary);
+    }
+  }
+}
+.swiper-pagination {
+  position: absolute;
+  right: 32px;
+  bottom: 24px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  display: flex;
+  gap: 8px;
+  .swiper-pagination-bullet {
+    width: 50px;
+    height: 5px;
+    border-radius: 0px;
+    background: var(--white); 
+    opacity: 1;
+    transform: none;
+    margin:0px;
+  }
+  .swiper-pagination-bullet-active {
+    background: var(--primary);
+  }
+}
+
+
+//panorama slider
+.mySwiper {
+  .swiper-wrapper{
+    transition-timing-function: linear !important;
+    .swiper-slide {
+      height: auto;
+      // height: 320px;
+      // @include device(md) {
+      //   height: 400px;
+      // }
+      // @include device(lg) {
+      //   height: 350px;
+      // }
+      // @include device(xl) {
+      //   height: 520px;
+      // }
+      // @include device(xxxl) {
+      //   height: 600px;
+      // }
+      // @include device(xxxxl) {
+      //   height: 700px;
+      // }
+      .book {
+        height: 100%;
+        position: relative;
+        display: flex;
+        .btn-download {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          top: 24px;
+          right: 16px;
+          background: var(--black-70);
+          svg {
+            width: 20px;
+            height: 17px;
+            @include device(mobile-only) {
+              width: 11px;
+              height: 8px;
+            }
+          }
+          &:hover {
+            background: var(--black);
+          }
+          @include device(md) {
+            width: 45px;
+            height: 45px;
+            top: 45px;
+          }
+          @include device(lg) {
+            top: 40px;
+          }
+          @include device(xl) {
+            top: 80px;
+          }
+          @include device(xxxl) {
+            top: 98px;
+          }
+        }
+        & > img {
+          transition: 0.7s ease-in-out;
+          height: auto;
+        }
+      } 
+      &:hover {
+        .book > img {
+          scale: 1.25;
+          transform-origin: top center;
+          transition: 0.7s ease-in-out;
+        }
+      }
+    }
+  }
+  .curve1 {
+    position: relative;
+    top:0px;
+    z-index: 2;
+    width: 100%;
+    height: 20px;
+    margin-bottom: -18px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    @include device(md) {
+      height: 30px;
+      margin-bottom: -28px;
+    }
+    @include device(xl) {
+      height: 72px;
+      margin-bottom: -70px;
+    }
+  }
+  .curve2 {
+    position: relative;
+    bottom:0px;
+    z-index: 2;
+    width: 100%;
+    height: 20px;
+    margin-top: -18px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    @include device(md) {
+      height: 30px;
+      margin-top: -28px;
+    }
+    @include device(xl) {
+      height: 72px;
+      margin-top: -70px;
+    }
+  }
+}
+
+
+//merchant slider
+.merchant-slider  {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include device(md) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  @include device(lg) {
+    padding-top: 150px;
+    padding-bottom: 80px;
+  }
+  .container-fluid {
+    @include device(mobile-only) {
+      gap: 32px;
+      .mob-btns {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  h2 {
+    text-align: center;
+    @include device(md) {
+      text-align: left;
+    }
+  }
+  .heading {
+    flex-direction: column;
+    .view-all-section {
+      width: 100%;
+      justify-content: space-between;
+      @include device(mobile-only) {
+        display:none;
+      }
+    }
+    @include device(md) {
+      flex-direction: column;
+    }
+    @include device(lg) {
+      flex-direction: row;
+      .view-all-section {
+        width: auto;
+        justify-content: flex-end;
+      }
+    }
+  }
+  .swiper-slide {
+    height: auto;
+    justify-content: flex-start;
+  }
+  .swiper-btn {
+    position: static;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: var(--white);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Create gradient border */
+    background: 
+      linear-gradient(#000, #000) padding-box, /* inner area color */
+      linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; /* border gradient */
+    border: 1px solid transparent;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    &:after {
+      font-size: 18px;
+      display: none;
+    }
+    &:hover {
+      border: 1px solid var(--primary);
+      &:after {
+        color: var(--primary);
+      }
+    }
+  }
+  .product  {
+    background: var(--skyblue);
+    padding: 16px;
+    height: 340px;
+    img {
+      max-height: 100%;
+    }
+    @include device(mobile-only) {
+      height: 166px;
+      padding: 8px;
+    }
+  }
+  .info {
+    padding: 16px;
+    flex: 1;
+    .price {
+      font-weight: 500;
+      color: var(--black);
+      font-size: 18px;
+    }
+    @include device(mobile-only) {
+      p {
+        font-size: 14px;
+      }
+      .prices {
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+        .price {
+          font-size: 16px;
+        }
+        
+      }
+    }
+    a.fill-secondary {
+      border: 1px solid var(--white);
+      &:hover {
+        border: 1px solid var(--black);
+      }
+    }
+  }
+  .btns {
+    gap: 10px;
+  }
+  .btn-view-all {
+    height: 34px;
+  }
+}
+
+//full banner slider
+.full-banner-slider {
+  width: 100%;
+  overflow: hidden;
+  height: 186px;
+  @include device(md) {
+    height: 400px;
+  }
+  @include device(lg) {
+    height: 638px;
+  }
+  @include device(xl) {
+    height: 638px;
+  }
+  @include device(xxl) {
+    height: 638px;
+  }
+  @include device(xxl) {
+    height: 638px;
+  }
+  @include device(xxxxl) {
+    height: 800px;
+  }
+  .swiper-slide {
+    height: 100%;
+    .img {
+      transition: 3s all;
+      transform: scale(1);
+      img {
+        object-position: top center;
+      }
+    }
+    &-active {
+      .img {
+        animation: scale 5s ease forwards;
+      }
+    }
+  }
+}
+
+//teams slider
+.team-slider {
+  .swiper-slide {
+    .slide-area {
+      gap: 30px;
+      width: 100%;
+      @include device(lg) {
+        gap: 64px;
+      }
+      @include device(mobile-only) {
+        gap: 24px;
+      }
+      .picture {
+        height: 395px;
+        width: 100%;
+        align-items: flex-end;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 7% 7% 7% 7% / 30% 30% 30% 30%; 
+        background-image: url("../../../assets/images/team-member/team_pattern.png"), linear-gradient(90deg, #F5F0EC 0%, #DED6CB 100%);
+        display: flex;
+        justify-content: center;
+        padding: 16px 16px 0px 16px;
+        position: relative;
+        &::before, &::after {
+          content: "";
+          position: absolute;
+          top: -1px;
+          left: 0;
+          width: 100%;
+          height: 25px;
+          background: var(--black);
+          z-index: 1;
+
+          /* the magic curve */
+          clip-path: polygon(0 0,100% 0,100% 90%,95% 74%,85% 54%,75% 42%,65% 30%,50% 30%,35% 30%,25% 42%,15% 54%,5% 74%,0 90%);
+        }
+        &::after {
+          top: auto;
+          bottom: -1px;
+          transform: rotate(180deg);
+        }
+        @include device(mobile-only) {
+          height: 156px;
+          padding: 8px 8px 0px 8px;
+        }
+        img {
+          max-height: 100%;
+        }
+      }
+      .info {
+        text-align: left;
+        @include device(mobile-only) {
+          gap: 0px;
+        }
+        h4 {
+          font-family: var(--neue);
+          @include device(mobile-only) {
+            font-size: 20px;
+          }
+        }
+        p {
+          font-weight: 400;
+          font-size: 20px;
+          text-align: left;
+          color: var(--text2);
+          @include device(mobile-only) {
+            font-size: 16px;
+          }
+        }
+        @include device(md) {
+          text-align: left;
+          p {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+
+//feature work slider
+.feature-work-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+  @include device(md) {
+    height: 400px;
+  }
+  @include device(lg) {
+    height: 526px;
+  }
+  @include device(xl) {
+    height: 526px;
+  }
+  @include device(xxl) {
+    height: 560px;
+  }
+  @include device(xxxxl) {
+    height: 620px;
+  }
+  @include device(xxxxxl) {
+    height: 840px;
+  }
+  @include device(mobile-only) {
+    width: auto;
+    margin: 0px -20px;
+  }
+  .swiper-slide {
+    position: relative;
+    opacity: .5;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+    border-radius: 0.4285rem;
+    width: 90%;
+    transform: scale(.95);
+    @include device(md) {
+      width: 65%;
+      transform: scale(.7);
+    }
+    @include device(xxxl) {
+      width: 50%;
+      transform: scale(.7);
+    }
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: none; 
+    }
+    &-prev {
+      transform-origin: right center;
+      padding-right: 30px;
+    }
+    &-next {
+      transform-origin: left center;
+      padding-left: 30px;
+    }
+    &.swiper-slide-active {  
+      transform: scale(1);
+      padding: 20px;
+      opacity: 1;
+      .swiper-image {
+        .image {
+          @include device(md) {
+            padding: 20px 15px;
+          }
+          @include device(xl) {
+            padding: 25px 25px;
+          }
+          @include device(xxl) {
+            padding: 25px 22px;
+          }
+          @include device(xxxxl) {
+            padding: 25px 22px;
+          }
+          @include device(xxxxxl) {
+            padding: 40px 35px;
+          }
+        }
+        .icon {
+          display: flex;
+        }
+      }
+    }
+    .swiper-image {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .image {
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        display: none;
+      }
+    }
+  }
+  .fixed-frame {
+    position: absolute;
+    pointer-events: none;
+    padding: 20px;
+    z-index: 10;
+    background: url("../../../assets/images/team/border-pattern.png") center center no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+
+//timeline-swiper
+.timeline-swiper-wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow:hidden;
+  .swiper-slide {
+    height: 100%;
+    .slide-box {
+      display: flex;
+      background: var(--white);
+      min-height: 410px;
+      padding: 20px;
+      border-radius: 16px;
+      max-width: 100%;
+      gap: 30px;
+      height: 100%;
+      flex-direction: column;
+      @include device(lg) {
+        flex-direction: row;
+        padding: 40px;
+        gap: 64px;
+      }
+      @include device(mobile-only) {
+        padding: 16px;
+        gap: 12px;
+        min-height: 0px;
+      }
+      .playback {
+        background: var(--heading1);
+        border-radius: 16px;
+        min-width: 100%;
+        display: flex;
+        height: 250px;
+        @include device(md) {
+          height: 400px;
+        }
+        @include device(lg) {
+          min-width: 400px;
+          height: auto;
+        }
+        @include device(xxl) {
+          min-width: 608px;
+        }
+        @include device(mobile-only) {
+          height: 164px;
+        }
+      }
+      .desc {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+        @include device(mobile-only) {
+          gap: 4px;
+        }
+        h3 {
+          font-family: var(--cinzel);
+        }
+        p {
+          font-size: 16px;
+          line-height: 22px;
+          font-weight: 400;
+          font-family: var(--neue);
+          @include device(md) {
+            font-size: 18px;
+            line-height: 28px;
+          }
+          @include device(lg) {
+            font-size: 24px;
+            line-height: 34px;
+          }
+        }
+        @include device(mobile-only) {
+          h3 {
+            font-family: var(--cinzel);
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+  .swiper-button-prev, .swiper-button-next {
+    stroke: var(--iconbg);
+    width: 6px;
+    height: 12px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    &:hover {
+      stroke: var(--icon1);
+    }
+    &::after {
+      display:none;
+    }
+  }
+  .swiper-button-next {
+    transform: rotate(0);
+    left: auto;
+    right: 0px;
+  }
+  .swiper-pagination-progressbar {
+    position: relative;
+    background-color: transparent;
+    height: 4px;
+    border-bottom: 1px solid var(--line);
+    width: calc(100% - 20px);
+    margin: 0 auto 70px;
+    &-fill {
+      background-color: var(--activeline);
+      height: 3px;
+      top: 2px;
+      transform-origin: left;
+      transition: transform 0.5s ease;
+    }
+    &:before {
+      position: relative;
+      top: 2px;
+      left: -100%;
+      width: 100%;
+      height: 3px;
+      background-color: var(--white);
+      content: "";
+    }
+    &:after {
+      position: relative;
+      top: 3px;
+      right: -100%;
+      width: 100%;
+      height: 1px;
+      background-color: var(--line);
+      content: "";
+    }
+    @include device(mobile-only) {
+      margin-bottom: 40px;
+    }
+  }
+  .swiper-pagination-custom {
+    position: relative;
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0px 10px;
+    display: flex;
+    line-height: 1.66;
+    bottom: 0;
+    z-index: 11;
+    width: 100%;
+    .swiper-pagination-switch {
+      position: relative;
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      display: block;
+      .switch-title {
+        position: absolute;
+        font-weight: 500;
+        font-size: 12px;
+        right: 50%;
+        top: 2px;
+        transform: translateX(50%);
+        transition: 0.2s all ease-in-out;
+        transition-delay: 0s;
+        cursor: pointer;
+        z-index: 1;
+        @include device(md) {
+          font-size: 16px;
+        }
+        @include device(lg) {
+          font-size: 20px;
+        }
+        &:after {
+          position: absolute;
+          top: calc(100% + 19px);
+          right: 50%;
+          transform: translateX(50%) translateY(-50%);
+          width: 21px;
+          height: 21px;
+          background: var(--white);
+          border-radius: 2rem;
+          content: "";
+          transition: 0.2s all ease-in-out;
+          transition-delay: 0s;
+          z-index: 1;
+          border: 2px solid var(--black);
+        }
+        &:before {
+          position: absolute;
+          top: calc(100% + 19px);
+          right: 50%;
+          transform: translateX(50%) translateY(-50%);
+          width: 9px;
+          height: 9px;
+          background: var(--black);
+          border-radius: 2rem;
+          content: "";
+          transition: 0.2s all ease-in-out;
+          transition-delay: 0s;
+          z-index: 2;
+          bottom: -2px;
+        }
+      }
+      &.active {
+        .switch-title {
+          transition-delay: 0.4s;
+          &:after {
+            background: var(--white);
+            border: 2px solid var(--activeborder);
+            width: 21px;
+            height: 21px;
+            transition-delay: 0.4s;
+          }
+          &:before {
+            background: var(--black);
+            width: 9px;
+            height: 9px;
+            transition-delay: 0.4s;
+            bottom: -2px;
+            z-index: 2;
+
+          }
+        }
+        ~ .swiper-pagination-switch {
+          .switch-title {
+            color: var(--line);
+            font-weight: 16px;
+            &:after {
+              background: var(--white);
+            }
+          }
+        }
+      }
+    }
+  }
+  .timeline-swiper {
+    padding: 0px;
+    .swiper-wrapper {
+      z-index: 2;
+    }
+  }
+}
+
+
+//category slider
+.common-cat-slider {
+  width: 100%;
+  padding: 0px 0;
+  position: relative;
+  @include device(md) {
+    margin-top: -76px;
+  }
+  @include device(lg) {
+    margin-top: -96px;
+  }
+  @include device(mobile-only) {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+  }
+  .swiper-slide {
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    .prod-img {
+      width: 100%;
+      height: 354px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 16px 16px 0px 16px;
+      @include device(mobile-only) {
+        height: 165px;
+        padding: 8px 8px 0px 8px;
+      }
+      img {
+        object-position: top center;
+        max-height: 100%;
+      }
+      &.prod-merch-img {
+        padding: 16px 16px;
+        align-items: center;
+        @include device(mobile-only) {
+          padding: 8px 8px;
+        }
+      }
+      .tag-new {
+        top: 20px;
+        left: 20px;
+        @include device(mobile-only) {
+          font-size: 10px;
+          height: 20px;
+          top: 10px;
+          left: 10px;
+        }
+      }
+    }
+    .product-info {
+      gap: 5px;
+      .product-price {
+        line-height: 24px;
+        color: var(--red-61);
+        &.regular {
+          color: var(--black);
+        }
+      }
+      .product-old-price {
+        text-decoration: line-through;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+  .swiper-button-prev, .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: var(--arrowgradient);
+    left: auto;
+    top: auto;
+    right: auto;
+    margin-top: 0px;
+    z-index: 1;
+    position: relative;
+    &::after {
+      display: none;
+    }
+    svg {
+      width: 12px;
+      height: 24px;
+      stroke: var(--black);
+    }
+    &:hover {
+      background: var(--iconbg);
+      svg {
+        stroke: var(--icon1);
+      }
+    }
+  }
+  .swiper-button-prev {
+    transform:rotate(180deg);
+  }
+  .arrows {
+    padding-bottom: 0px;
+    @include device(md) {
+      width: max-content;
+      justify-self: flex-end;
+      padding-bottom: 56px;
+    }
+  }
+}
+
+
+//movie banner slider
+.movie-banner-slider {
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  @include device(md) {
+    height: 50dvh;
+  }
+  @include device(lg) {
+    height: 100dvh;
+  }
+  .swiper-slide {
+    height: 100%;
+  }
+  .banner-nav {
+    padding: 0px 40px;
+    width: auto;
+    bottom: 16px;
+    left: 50%;
+    z-index: 2;
+    transform: translateX(-50%);
+    @include device(lg) {
+      width: 100%;
+      bottom: auto;
+      left: auto;
+      transform: none;
+    }
+    @include device(mobile-only) {
+      display: none;
+    }
+  }
+  .swiper-button-prev, .swiper-button-next {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    // border: 1px solid var(--white);
+    background: var(--arrowgradient);
+    left: auto;
+    top: auto;
+    margin-top: 0px;
+    z-index: 1;
+    position: relative;
+    transform:rotate(180deg);
+    &::after {
+      display: none;
+    }
+    svg {
+      width: 12px;
+      height: 24px;
+      stroke: var(--black);
+    }
+    &:hover {
+      background: var(--iconbg);
+      svg {
+        stroke: var(--icon1);
+      }
+    }
+  }  
+  .swiper-button-next {
+    right: 0px;
+    transform:rotate(0deg);
+  }
+  .swiper-pagination {
+    display:none;
+    justify-content: center;
+    gap: 4px;
+    .swiper-pagination-bullet {
+      margin: 0px;
+      cursor: pointer;
+    }
+    @include device(mobile-only) {
+      display: flex;
+    }
+  }
+}
+
+
+//panorama slider
+.filmreel-slider {
+  .swiper-wrapper{
+    transition-timing-function: linear !important;
+    .swiper-slide {
+      height: 264px;
+      .book {
+        position: relative;
+        & > img {
+          transition: 0.7s ease-in-out;
+        }
+      } 
+      &:hover {
+        .book > img {
+          scale: 1.25;
+          transition: 0.7s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+
+//movie updates slider
+.movie-updates-slider {
+  position: relative;
+  width: 100%;
+  .swiper-wrapper {
+    overflow: visible;
+    padding: 40px 0px;
+
+  }
+  .swiper-slide {
+    position: relative;
+    height: 100%;
+    transition: transform 0.3s ease;
+    overflow: visible;
+    .swiper-image {
+      position: relative;
+      border-radius: 16px;
+      width: 100%;
+      height: 100%;
+      background-color: var(--gray1);
+      .img-area {
+        border-radius: 16px;
+        height: 319px;
+        @include device(mobile-only) {
+          height: 250px;
+        }
+      }
+      .info {
+        padding: 16px 24px;
+        p {
+          font-size: 16px;
+        }
+      }
+      // box-shadow: 0px 0px 30px 0px #413B2F;
+      .image {
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        overflow: hidden;
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        display: flex;
+      }
+    }
+  }
+}
+
+
+//news event slider
+.news-events  {
+  .heading {
+    flex-direction: column;
+    @include device(md) {
+      flex-direction: row;
+    }
+    h2 {
+      text-align: center;
+      @include device(md) {
+        text-align: left;
+      }
+    }
+  }
+  .swiper-btn {
+    top: auto;
+    margin: 0px;    
+  }
+  .btns {
+    gap: 10px;
+  }
+  .events {
+    height: auto;
+    .event-card {
+      height: 100%;
+      background: var(--bgevents);
+      border-radius: 16px;
+      padding: 16px;
+      width: 100%;
+      @include device(mobile-only) {
+        gap: 24px;
+      }
+      .img {
+        width: 100%;
+        height: 350px;
+        border-radius: 16px;
+        overflow: hidden;
+        img {
+          object-fit: cover;
+          object-position: top center;
+        }
+      }
+      .info  {
+        p {
+          font-size: 18px;
+          line-height: 24px;
+          font-weight: 700;
+          @include device(mobile-only) {
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+        .btn-readmore {
+          padding: 4px 12px;          
+          @include device(mobile-only) {
+            margin: 0px 0px;
+          }
+        }
+        @include device(md) {
+          p {
+            text-align: left;
+          }
+          .btn-readmore {
+            margin: 0px 0px;
+          }
+        }
+      }
+    }
+  }
+  @include device(mobile-only) {
+    .desk-merch-arrow {
+      display: none;
+    }
+    .mob-merch-arrow {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
+
+//merchant banner slider
+.merchant-banner-slider {
+  height: 100%;
+  .swiper-slide {
+    align-items: center;
+  }
+  .swiper-pagination {
+    position: absolute;
+    right: 32px;
+    bottom: 24px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    display: flex;
+    gap: 8px;
+    transform: none !important;
+    left: auto !important;
+    width: auto !important;
+    .swiper-pagination-bullet {
+      width: 50px;
+      height: 5px;
+      border-radius: 0px;
+      background: var(--white); 
+      opacity: 1;
+      transform: none;
+      margin:0px;
+      left: 0px !important;
+    }
+    .swiper-pagination-bullet-active {
+      background: var(--primary);
+    }
+  }
+}
+
+
+//keyframes
+@keyframes bounce {
+  0%   { transform: translateY(200%); }
+  40%  { transform: translateY(-20px); }
+  60%  { transform: translateY(0px); }
+  80%  { transform: translateY(0px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes scale {
+  0% {
+      transform: scale(1.2);
+  }
+
+  100% {
+        transform: scale(1);
+  }
+}

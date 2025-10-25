@@ -1,0 +1,202 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.hero-banner {
+  background: linear-gradient(208.26deg, var(--gradient7) -13.64%, var(--gradient8) 10.45%, var(--gradient9) 54.3%, var(--gradient10) 83.41%);
+  position: relative;
+  overflow: hidden;
+  @include device(mobile-only) {
+    height: 370px;
+  }
+  .typewrite-text {
+    top: -24px;
+    font-size: 30px;
+    line-height: 120px;
+    letter-spacing: 0.025em;
+    z-index: 3;
+    font-family: var(--cinzel);
+    font-weight: 800;
+    @include device(md) {
+      font-size: 50px;
+    }
+    @include device(lg) {
+      font-size: 70px;
+      top: -24px;
+    }
+    @include device(xl) {
+      font-size: 60px;
+      top: -35px;
+    }
+    @include device(xxl) {
+      font-size: 100px;
+      top: 0px;
+    }
+  }
+  .outline-image {
+    bottom: 0px;
+    width: 1000px;
+    height: 566px
+  }
+  .character-image {
+    width: 300px;
+    height: auto;
+    bottom: auto;
+    top: 80px;
+    z-index: 4;
+    @include device(md) {
+      width: 600px;
+      height: auto;
+      bottom: auto;
+      top: 300px;
+    }
+    @include device(lg) {
+      width: 800px;
+      height: auto;
+      bottom: 0px;
+      top: auto;
+    }
+    @include device(xl) {
+      width: 50%;
+      height: auto;
+      bottom: 40px;
+    }
+    @include device(xxl) {
+      width: 1000px;
+      height: 566px;
+      bottom: 40px;
+    }
+    @include device(xxxl) {
+      width: 60%;
+      height: auto;
+      bottom: 40px;
+    }
+  }
+  .char-pattern  {
+    bottom:auto;
+    top: 120px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    z-index: 2;
+    opacity: 0;
+    img {
+      width: 100%;
+    }
+     @include device(md) {
+      width: 600px;
+      margin-left: -300px;
+      bottom: auto;
+      top: 300px;
+    }
+    @include device(lg) {
+      width: 800px;
+      margin-left: -400px;
+      bottom:100px;
+      top: auto;
+    }
+    @include device(xl) {
+      width: 40%;
+      margin-left: -20%;
+      bottom: 200px;
+    }
+    @include device(xxl) {
+      width: 1000px;
+      margin-left: -500px;
+      bottom: 160px;
+    }
+    @include device(xxxl) {
+      width: 50%;
+      margin-left: -25%;
+      bottom: 240px;
+    }
+  }
+  #char-sparkles {
+    width: 400px;
+    height: 400px;
+    bottom: 150px;
+     @include device(md) {
+      bottom: 300px;
+    }
+    @include device(lg) {
+      bottom: 300px;
+    }
+    @include device(xl) {
+      bottom: 300px;
+    }
+  }
+  .petals-container {
+    inset: auto;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 100px;
+    pointer-events: none;
+    overflow:hidden;
+    z-index: 2;
+    top: 0px;
+    img {
+      width: 48px;
+    }
+  }
+  .sparkles {
+    position: absolute;
+    width: 722px;
+    height: 326px;
+    z-index: 1;
+    bottom: 240px;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .banner-bg-video {
+    inset: 0px;
+    width: 100dvw;
+    height: 100%; 
+    object-fit: cover;
+  }
+  .panel {
+    padding-top: 116px;
+  }
+  .break-star {
+    z-index: 9;
+    top: 0px;
+    right: 0px;
+    opacity: 0;
+    display:none;
+  }
+  .vasudev {
+    z-index: 8;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    display:none;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top left;
+    }
+  }
+  .leg-motion {
+    opacity: 0;
+    display: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      bottom: -10%;
+      left: -5%;
+    }
+  }
+  #character {
+    width: 100%;
+    height: auto;
+  }
+}
