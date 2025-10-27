@@ -64,15 +64,25 @@
   --heading1-60: rgba(243, 237, 223, 0.6);
   --black-70: rgba(7, 3, 2, 0.7);
   --black-60: rgba(0, 0, 0, 0.6);
+  --black-50: rgba(0, 0, 0, 0.5);
   --white-5: rgba(255, 255, 255, 0.05);
   --white-20: rgba(255, 255, 255, 0.2);
   --white-60: rgba(255, 255, 255, 0.6);
   --white-40: rgba(255, 255, 255, 0.4);
 
   --btngradient: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 53.6%, #EDD060 70.69%, #B96415 109.52%);
-  --btnhovergradient: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 53.6%, #EDD060 70.69%, #B96415 109.52%);
+  --btnhovergradient: linear-gradient(270deg, #ffffff -14.76%, #ffffff 32.33%, #ffffff 53.6%, #ffffff 70.69%, #ffffff 109.52%);
   --arrowgradient: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);
+  --textgradient: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
 }
+
+//with dolar prefix
+$navbar:#2E2B3780;
+
+//font-family
+$bona: 'Bona Nova', serif;
+$neue: 'PP Neue Montreal', sans-serif;
+$cinzel: 'Cinzel';
 
 $primary: #FFCD04;
 $base: #ffffff;
@@ -112,6 +122,7 @@ $bgreel: #272725;
 $bgcrew: #1B1B19;
 $bgevents: #1F1F1D;
 $bgcontactform: #1A1A1A;
+$bgblack2: #20201D;
 
 
 $gray-40: #666666;
@@ -129,10 +140,14 @@ $productbg3: #E4EEF1;
 $white-80: rgba(255, 255, 255, 0.8);
 $heading1-60: rgba(243, 237, 223, 0.6);
 $black-70: rgba(7, 3, 2, 0.7);
+$black-60: rgba(0, 0, 0, 0.6);
+$black-50: rgba(0, 0, 0, 0.5);
 $white-5: rgba(255, 255, 255, 0.05);
 $white-20: rgba(255, 255, 255, 0.2);
 $white-60: rgba(255, 255, 255, 0.6);
+$white-40: rgba(255, 255, 255, 0.4);
 
 $btngradient: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 53.6%, #EDD060 70.69%, #B96415 109.52%);
 $btnhovergradient: linear-gradient(270deg, #ffffff -14.76%, #ffffff 32.33%, #ffffff 53.6%, #ffffff 70.69%, #ffffff 109.52%);
 $arrowgradient: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);
+$textgradient: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);

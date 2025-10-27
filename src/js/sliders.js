@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const timelineSwiper = new Swiper(".timeline-swiper", {
     autoHeight: true,
     autoplay: {
-      delay: 5000,
+      delay: 500,
       disableOnInteraction: false
     },
     mousewheel: {
@@ -343,6 +343,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
+
+  // Pause autoplay on hover — only if container exists
+  const swiperContainer = document.querySelector(".timeline-swiper");
+  if (swiperContainer) {
+    swiperContainer.addEventListener("mouseenter", () => timelineSwiper.autoplay.stop());
+    swiperContainer.addEventListener("mouseleave", () => timelineSwiper.autoplay.start());
+  }
+
   // Add click event for custom pagination
   const customSwitches = document.querySelectorAll(".swiper-pagination-custom .swiper-pagination-switch");
   customSwitches.forEach((switchEl, index) => {

@@ -46,8 +46,8 @@
 
   /* Create gradient border */
   background: 
-    linear-gradient(#000, #000) padding-box, /* inner area color */
-    linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; /* border gradient */
+    linear-gradient(#000, #000) padding-box, 
+    linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; 
   border: 1px solid transparent;
   background-origin: border-box;
   background-clip: padding-box, border-box;
@@ -92,22 +92,6 @@
     transition-timing-function: linear !important;
     .swiper-slide {
       height: auto;
-      // height: 320px;
-      // @include device(md) {
-      //   height: 400px;
-      // }
-      // @include device(lg) {
-      //   height: 350px;
-      // }
-      // @include device(xl) {
-      //   height: 520px;
-      // }
-      // @include device(xxxl) {
-      //   height: 600px;
-      // }
-      // @include device(xxxxl) {
-      //   height: 700px;
-      // }
       .book {
         height: 100%;
         position: relative;
@@ -270,8 +254,8 @@
 
     /* Create gradient border */
     background: 
-      linear-gradient(#000, #000) padding-box, /* inner area color */
-      linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; /* border gradient */
+      linear-gradient(#000, #000) padding-box, 
+      linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; 
     border: 1px solid transparent;
     background-origin: border-box;
     background-clip: padding-box, border-box;
@@ -972,7 +956,6 @@
     width: 64px;
     height: 64px;
     border-radius: 100%;
-    // border: 1px solid var(--white);
     background: var(--arrowgradient);
     left: auto;
     top: auto;
@@ -1070,7 +1053,7 @@
           font-size: 16px;
         }
       }
-      // box-shadow: 0px 0px 30px 0px #413B2F;
+      
       .image {
         position: relative;
         top: 0;
@@ -1132,9 +1115,12 @@
       }
       .img {
         width: 100%;
-        height: 350px;
+        height: 240px;
         border-radius: 16px;
         overflow: hidden;
+        @include device(lg) {
+          height: 350px;
+        }
         img {
           object-fit: cover;
           object-position: top center;

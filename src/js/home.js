@@ -3,7 +3,6 @@ window.addEventListener("load", () => {
   const character = document.getElementById("character");
   const textRef = document.getElementById("typewriter");
   const petalsContainer = document.getElementById("petals-container");
-  const vasudev = document.getElementById("vasudev");
   const characterPattern = document.getElementById("character-pattern");
   const charSparkles = document.querySelector('#char-sparkles');
   const bannerStars = document.querySelector("#banner-stars");
@@ -22,7 +21,6 @@ window.addEventListener("load", () => {
       webkitMaskPosition: "center",
       maskPosition: "center",
     });
-    // gsap.set([vasudev], { opacity: 0, display: "block" });
 
     // ================= Panel 1 Timeline =================
     const panel1TL = gsap.timeline();
@@ -38,23 +36,6 @@ window.addEventListener("load", () => {
       maskSize: "300% 300%",
       ease: "power1.in",
     });
-    // panel1TL.to(
-    //   vasudev,
-    //   {
-    //     x: "0%",
-    //     opacity: 1,
-    //     scale: 1.5,
-    //     duration: 12,
-    //     ease: "power1.in",
-    //     onComplete: () => {
-    //       gsap.to(vasudev, {
-    //         opacity: 0,
-    //         duration: 1,
-    //         ease: "power1.out",
-    //       });
-    //     }
-    //   }
-    // );
 
     return panel1TL;
   }
@@ -298,33 +279,15 @@ window.addEventListener("load", () => {
     repeat: -1
   });
   // ============ end star adn pattern rotation ======== //
-
-
-  // ================= Timeline planet movement ================= //
-  // gsap.registerPlugin(ScrollTrigger);
-  // gsap.to(".planet-texture", {
-  //   backgroundPosition: "-2000px 0",
-  //   duration: 60,
-  //   ease: "none",
-  //   repeat: -1,
-  //   scrollTrigger: {
-  //     trigger: "#landing-timeline",
-  //     start: "top center",
-  //     toggleActions: "play pause resume pause"
-  //   }
-  // });
-  // ================= end Timeline planet movement ================= //
 });
 
 
-
+// ============= home comic hover effect =========== //
 document.addEventListener("DOMContentLoaded", () => {
   const centerComic = document.querySelector(".swiper-slide-active .center-comic .img img");
   const movieImage = document.querySelector(".swiper-slide-active .movie-image");
 
-  if (!centerComic || !movieImage) return; // safety check
-
-  const imageHeight = movieImage.offsetHeight;
+  if (!centerComic || !movieImage) return;
 
   centerComic.addEventListener("mouseenter", () => {
     const tl = gsap.timeline();
@@ -334,16 +297,14 @@ document.addEventListener("DOMContentLoaded", () => {
       duration: 1,
       ease: "power1.inOut",
       transformOrigin: "center center"
-    }, 0) // start at time 0
+    }, 0) 
 
     .to(centerComic, {
       scale: 1.7,
       duration: 1,
       ease: "power1.inOut",
-      // left: "-50%",
-      // top: "15%",
       transformOrigin: "top center"
-    }, 0); // start at the same time (0 or "<")
+    }, 0); 
   });
 
   centerComic.addEventListener("mouseleave", () => {
@@ -359,10 +320,8 @@ document.addEventListener("DOMContentLoaded", () => {
       scale: 1,
       duration: 1,
       ease: "power1.inOut",
-      // left: "0",
-      // top: "0",
       transformOrigin: "top center"
     }, 0);
   });
 });
-
+// ========== end home comic hover effect ========= //

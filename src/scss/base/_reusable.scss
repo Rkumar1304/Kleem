@@ -94,17 +94,6 @@
 
 
 //other headings
-.h2 {
-  font-size: 40px;
-  font-family: var(--cinzel);
-  font-weight: 700;
-  @include device(md) {
-    font-size: 50px;
-  }
-  @include device(lg) {
-    font-size: 60px;
-  }
-}
 .h3 {
   font-weight: 700;
   font-size: 24px;
@@ -299,7 +288,7 @@
   background: var(--white);
 }
 .bg-black-50 {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--black-50);
 }
 .bg-sky-blue {
   background: var(--skyblue);
@@ -500,14 +489,14 @@
 
 //gradients
 .text-gradient {
-  background: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+  background: var(--textgradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; 
   color: transparent;
 }
 .heading-gradient {
-  background: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 53.6%, #EDD060 70.69%, #B96415 109.52%);
+  background: var(--btngradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; 
@@ -519,7 +508,7 @@
 
 //common
 .common-arrow-bg {
-  background: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);
+  background: var(--arrowgradient);
 }
 .tag-new {
   background: var(--cyan-47);
@@ -549,7 +538,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: black;
+  background: var(--black);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -560,7 +549,7 @@
 
 /* Preloader logo animation */
 .preloader-logo {
-  width: 100px; /* adjust size */
+  width: 100px; 
   height: auto;
   opacity: 0;
   animation: fadeInOut 1.5s infinite;

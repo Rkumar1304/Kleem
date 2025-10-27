@@ -59,14 +59,7 @@
       top: 215px;
     }
     @include device(mobile-only) {
-      // position: relative;
-      // transform: none;
-      // left: 0px;
       top: 185px;
-      // display: flex;
-      // justify-content: center;
-      // margin-top: 20px;
-      // gap: 20px;
     }
     .btn {
       display: flex;
@@ -83,9 +76,7 @@
         left: -350px;
       }
       @include device(mobile-only) {
-        // position: relative;
         left:-160px;
-        // right: auto;
       }
       svg {
         width: 10px;
@@ -328,11 +319,6 @@
   .planet {
     position: relative;
     bottom: 60px;
-    // width: 449px;
-    // height: 449px;
-    // border-radius: 50%;
-    // overflow: hidden;
-    // background: url('../../../assets/images/planet.png') center/cover no-repeat;
     z-index: 1;
     margin: 0 auto;
     img {
@@ -348,13 +334,6 @@
     @include device(mobile-only) {
       bottom: 0px;
     }
-    
-    // .planet-texture {
-    //   width: 100%;
-    //   height: 100%;
-    //   background: url("../../../assets/images/planet-texture.png"); 
-    //   background-size: 2000px;
-    // }
   }
 }
 

@@ -266,8 +266,8 @@
   align-items: center;
   .swiper-btn.outline {
     background: 
-    linear-gradient(#121210, #121210) padding-box, /* inner area color */
-    linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; /* border gradient */
+    linear-gradient(#121210, #121210) padding-box, 
+    linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box;
   }
   @include device(lg) {
     padding-top: 80px;

@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("contactForm");
 
-  form.addEventListener("submit", (e) => {
+  // 🟢 Submit Handler
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
     let isValid = true;
 
+    // Validate all required fields
     const fields = form.querySelectorAll("input[required], textarea[required]");
     fields.forEach((field) => {
       if (!validateField(field)) {
@@ -12,28 +14,27 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    if (isValid) {
-      const formData = {
-        firstName: form.firstName.value,
-        lastName: form.lastName.value,
-        email: form.email.value,
-        phone: form.phone.value,
-        message: form.message.value,
-      };
+    // If validation fails, stop submission
+    if (!isValid) return;
 
-      emailjs
-        .send("service_mffxg4z", "template_i51ll6n", formData, "QO0agwI-HWgNl_cQd")
-        .then(() => {
-          alert("Message sent successfully!");
-          form.reset();
-          form.querySelectorAll(".form-group").forEach((fg) => fg.classList.remove("invalid"));
-        })
-        .catch((error) => {
-          alert("Failed to send message. Please try again later.");
-          console.error("EmailJS Error:", error);
-        });
+    // Prepare form data
+    const formData = new FormData(form);
+
+    try {
+      // 📨 Send data to Google Apps Script Web App
+      await fetch("https://script.google.com/macros/s/AKfycbwUoKrX_gPfEob8nOub2A0hwzVuHxUDRLvwvLWaltity_QQ00931vhkVBKLABShZJeb/exec", {
+        method: "POST",
+        mode: "no-cors", // ✅ required for Apps Script
+        body: formData,
+      });
+
+      alert("✅ Message sent successfully!");
+      form.reset();
+      form.querySelectorAll(".form-group").forEach((fg) => fg.classList.remove("invalid"));
+    } catch (err) {
+      console.error("Fetch error:", err);
+      alert("⚠️ Network error. Please try again.");
     }
-
   });
 
   // 🔥 Real-time validation
@@ -47,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.target.value = e.target.value.replace(/\D/g, ""); 
   });
 
+  // 🧠 Validation Functions
   function validateField(field) {
     const formGroup = field.parentElement;
     const error = formGroup.querySelector(".error");
