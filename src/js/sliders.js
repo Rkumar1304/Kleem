@@ -1,25 +1,3 @@
-//merchant slider//
-const merchSwiper = new Swiper(".merch-swiper", {
-  slidesPerView: 3,
-  spaceBetween: 48,
-  loop: false,
-  navigation: {
-    nextEl: ".merchant-next",
-    prevEl: ".merchant-prev",
-  },
-  mousewheel: {
-    forceToAxis: true,
-    sensitivity: 3
-  },
-  breakpoints: {
-    1024: { slidesPerView: 3, spaceBetween: 48, },
-    768: { slidesPerView: 2, spaceBetween: 30, },
-    0: { slidesPerView: 2, spaceBetween: 8, },
-  },
-});
-//end merchant slider//
-
-
 //about swiper home//
 document.addEventListener("DOMContentLoaded", function() {
   const aboutSwiperHome = new Swiper(".mySwiper", {
@@ -587,27 +565,109 @@ document.addEventListener("DOMContentLoaded", function() {
 //end feature work slider//
 
 
-// news events //
-const newsEventSwiper = new Swiper(".event-swiper", {
-  slidesPerView: 2,
-  spaceBetween: 24,
-  grabCursor: true,
-  loop: false,
-  navigation: {
-    nextEl: ".merchant-next",
-    prevEl: ".merchant-prev",
-  },
-  mousewheel: {
-    forceToAxis: true,
-    sensitivity: 3
-  },
-  breakpoints: {
-    1024: { slidesPerView: 2 },
-    768: { slidesPerView: 2 },
-    0: { slidesPerView: 1 },
-  },
+// sliders //
+document.addEventListener("DOMContentLoaded", () => {
+  //event slider
+  const eventSwiperWrapper = document.querySelector(".event-swiper .swiper-wrapper");
+  if (eventSwiperWrapper) {
+    fetch("assets/json/news.json")
+      .then((res) => res.json())
+      .then((newsData) => {
+        eventSwiperWrapper.innerHTML = "";
+
+        newsData.forEach((item) => {
+          const slide = document.createElement("div");
+          slide.className = "swiper-slide events";
+          slide.innerHTML = `
+            <div class="flex flex-col gp-10 event-card">
+              <div class="img flex aic jcc">
+                <img loading="lazy" src="${item.img}" class="w-full h-full" alt="event" />
+              </div>
+              <div class="info flex flex-col gp-4">
+                <p>${item.title}</p>
+                <a href="${item.link}" target="_blank" class="fill-secondary btn-readmore">Read more</a>
+              </div>
+            </div>
+          `;
+          eventSwiperWrapper.appendChild(slide);
+        });
+
+        new Swiper(".event-swiper", {
+          slidesPerView: 2,
+          spaceBetween: 24,
+          grabCursor: true,
+          loop: false,
+          navigation: {
+            nextEl: ".merchant-next",
+            prevEl: ".merchant-prev",
+          },
+          mousewheel: {
+            forceToAxis: true,
+            sensitivity: 3,
+          },
+          breakpoints: {
+            1024: { slidesPerView: 2 },
+            768: { slidesPerView: 2 },
+            0: { slidesPerView: 1 },
+          },
+        });
+
+        console.log("✅ Event slider loaded");
+      })
+      .catch((err) => console.error("❌ Error loading news:", err));
+  }
+
+  //merchant slider
+  const productWrapper = document.getElementById("productWrapper");
+  if (productWrapper) {
+    fetch("assets/json/products.json")
+      .then((res) => res.json())
+      .then((products) => {
+        productWrapper.innerHTML = "";
+
+        products.forEach((product) => {
+          const slide = document.createElement("div");
+          slide.className = "swiper-slide flex flex-col bg-sky-blue";
+          slide.innerHTML = `
+            <div class="product flex jcc aic w-full">
+              <img loading="lazy" src="${product.img}" class="mx-auto" alt="${product.name}" />
+            </div>
+            <div class="info flex flex-col gp-3 p-4 w-full bg-white">
+              <p class="text-black text-left h5">${product.name}</p>
+              <div class="flex gp-2 jcsb aic prices">
+                <p class="text-black price">${product.price}</p>
+                <a href="${product.link}" target="_blank" class="fill-secondary">Buy Now</a>
+              </div>
+            </div>
+          `;
+          productWrapper.appendChild(slide);
+        });
+
+        new Swiper(".merch-swiper", {
+          slidesPerView: 3,
+          spaceBetween: 48,
+          loop: false,
+          navigation: {
+            nextEl: ".merchant-next",
+            prevEl: ".merchant-prev",
+          },
+          mousewheel: {
+            forceToAxis: true,
+            sensitivity: 3,
+          },
+          breakpoints: {
+            1024: { slidesPerView: 3, spaceBetween: 48 },
+            768: { slidesPerView: 2, spaceBetween: 30 },
+            0: { slidesPerView: 2, spaceBetween: 8 },
+          },
+        });
+
+        console.log("✅ Merchant slider loaded");
+      })
+      .catch((err) => console.error("❌ Error loading products:", err));
+  }
 });
-// end news events //
+
 
 
 
