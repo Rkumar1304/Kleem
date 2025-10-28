@@ -4,7 +4,7 @@
 footer {
   background: url("../../../assets/images/background/footer-bg.jpg") center center no-repeat;
   background-size: cover;
-  padding:32px 0px 0px 0px;
+  padding:20px 0px 0px 0px;
   color: var(--white);
   @include device(md) {
     padding: 100px 40px 0px 40px;
@@ -13,7 +13,7 @@ footer {
     padding: 160px 60px 0px 60px;
   }
   .footer-content {
-    gap: 32px;
+    gap: 20px;
     @include device(md) {
       gap: 40px;
     }
@@ -25,7 +25,7 @@ footer {
         padding: 0px 20px;
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 16px;
         align-items: flex-start;
         .btn-touch {
           margin-left: 0px;
@@ -45,6 +45,7 @@ footer {
         @include device(mobile-only) {
           text-align: left;
           line-height: 40px;
+          font-size: 22px;
         }
       }
     }
@@ -72,6 +73,9 @@ footer {
       }
     }
     .quick-links {
+      @include device(mobile-only) {
+        gap: 8px;
+      }
       li {
         &:hover {
           a {
@@ -119,7 +123,11 @@ footer {
       @include device(mobile-only) {
         display: grid;
         padding: 0px 20px;
+        row-gap: 20px;
         grid-template-columns: repeat(2, 1fr);
+        h6 {
+          font-size: 16px;
+        }
         .footer-logo {
           a {
             display: flex;
