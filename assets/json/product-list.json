@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Spiritual Hoodie",
+    "category": "Clothing",
+    "image": "assets/images/merchandise/category-clothing.jpg",
+    "newPrice": 899,
+    "oldPrice": 1299,
+    "colors": ["Beige", "Black"],
+    "isNew": true,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Divine T-Shirt",
+    "category": "Clothing",
+    "image": "assets/images/merchandise/category-clothing.jpg",
+    "newPrice": 699,
+    "oldPrice": 999,
+    "colors": ["Beige", "Blue"],
+    "isNew": false,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Meditation Candle",
+    "category": "Accessories",
+    "image": "assets/images/merchandise/category-accessories.png",
+    "newPrice": 499,
+    "oldPrice": 799,
+    "colors": [],
+    "isNew": false,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Prayer Beads",
+    "category": "Accessories",
+    "image": "assets/images/merchandise/category-accessories.png",
+    "newPrice": 599,
+    "oldPrice": 899,
+    "colors": [],
+    "isNew": true,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Divine Bracelet",
+    "category": "Jewelry",
+    "image": "assets/images/merchandise/category-gift-sets.jpg",
+    "newPrice": 999,
+    "oldPrice": 1299,
+    "colors": [],
+    "isNew": true,
+    "inStock": false
+  },
+  {
+    "id": 6,
+    "name": "Om Pendant",
+    "category": "Jewelry",
+    "image": "assets/images/merchandise/category-gift-sets.jpg",
+    "newPrice": 799,
+    "oldPrice": 999,
+    "colors": [],
+    "isNew": true,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Meditation Mat",
+    "category": "Home",
+    "image": "assets/images/merchandise/category-idols.jpg",
+    "newPrice": 1199,
+    "oldPrice": 1499,
+    "colors": [],
+    "isNew": false,
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Incense Pack",
+    "category": "Home",
+    "image": "assets/images/merchandise/category-idols.jpg",
+    "newPrice": 299,
+    "oldPrice": 499,
+    "colors": [],
+    "isNew": false,
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Art Sketchbook",
+    "category": "Stationery",
+    "image": "assets/images/merchandise/category-stationary.jpg",
+    "newPrice": 249,
+    "oldPrice": 399,
+    "colors": [],
+    "isNew": true,
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Mandala Art Kit",
+    "category": "Stationery",
+    "image": "assets/images/merchandise/category-stationary.jpg",
+    "newPrice": 599,
+    "oldPrice": 799,
+    "colors": [],
+    "isNew": false,
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Mandala Art Kit",
+    "category": "Stationery",
+    "image": "assets/images/merchandise/category-stationary.jpg",
+    "newPrice": 599,
+    "oldPrice": 799,
+    "colors": [],
+    "isNew": false,
+    "inStock": true
+  }
+]

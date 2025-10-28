@@ -29,6 +29,9 @@
 .jcsa {
   justify-content: space-around;
 }
+.jse {
+  justify-self: end;
+}
 .aic {
   align-items: center;
 }
@@ -90,6 +93,29 @@
 }
 .container-max {
   max-width: 1440px;
+}
+
+//product colors
+.product-color1 {
+  background-color: var(--product-color1);
+}
+.product-color2 {
+  background-color: var(--product-color2);
+}
+.product-color3 {
+  background-color: var(--product-color3);
+}
+.product-color4 {
+  background-color: var(--product-color4);
+}
+.product-color5 {
+  background-color: var(--product-color5);
+}
+.product-color6 {
+  background-color: var(--product-color6);
+}
+.product-color7 {
+  background-color: var(--product-color7);
 }
 
 

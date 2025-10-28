@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official Website of Kleem Productions. A boutique studio specializing in Movies, Comics, Pre-Visualization and many more creative arts.">
+  <title>Kleem Productions</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Your compiled SCSS -->
+  <link href="dist/style.min.css" rel="stylesheet" />
+</head>
+<body class="bg-white overflow-x-hidden">
+
+  <div id="preloader">
+    <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
+  </div>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio">🔊</button>
+
+  <!-- Header -->
+  <header class="flex aic jcc blackbg" id="header">
+    <h1 class="mr-auto">
+      <a href="index.html" class="logo">
+        <img loading="lazy" src="assets/images/logo.png" alt="Logo" width="72" height="85" />
+      </a>
+    </h1>
+    <nav class="page-navigation">
+      <div class="nav-container flex aic jcsb">
+        <!-- Hamburger Button -->
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-bar flex aic jcc" id="navBar">
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <div type="button" class="ml-auto">
+      <a href="merchandise.html" class="btn-merchant fill-secondary ">
+        <svg class="fill-white" width="17" height="17">
+          <use xlink:href="./assets/icons/icons.svg#store"></use>
+        </svg>
+        <span>Shop Now</span>
+      </a>
+    </div> -->
+    <div class="right-nav ml-auto">
+      <ul class="flex">
+        <li>
+          <a href="javascript:void(0)" class="">
+            <svg class="fill-white">
+              <use xlink:href="./assets/icons/icons.svg#user"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="">
+            <svg class="fill-white">
+              <use xlink:href="./assets/icons/icons.svg#wishlist"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="">
+            <svg class="fill-white">
+              <use xlink:href="./assets/icons/icons.svg#store"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="product-list-wrapper">
+    <section class="feature-category container-fluid bg-white">
+      <div class="category w-full flex flex-col aic gp-10">
+        <div class="heading text-black text-center">
+          <h2 class="text-gray-13 font-medium">Divine Merchandise – Bring the Blessings Home</h2>
+          <p class="text-gray-40 text-16">Carry the devotion of Lord Narasimha in every step – from apparel to collectibles</p>
+        </div>
+        <div class="cat-list flex jcc">
+          <ul class="flex scrollbar-hidden">
+            <!-- All -->
+            <li class="flex aic gp-2 active" data-category="All">
+              <a href="javascript:void(0)" class="cat-img rounded-full overflow-hidden">
+                <img
+                  loading="lazy"
+                  src="assets/images/merchandise/category-all.png"
+                  class="object-cover w-full h-full"
+                  alt="All"
+                />
+              </a>
+              <span class="text-black text-center">All</span>
+            </li>
+
+            <!-- Clothing -->
+            <li class="flex aic gp-2" data-category="Clothing">
+              <a href="javascript:void(0)" class="cat-img rounded-full overflow-hidden">
+                <img
+                  loading="lazy"
+                  src="assets/images/merchandise/category-clothing.jpg"
+                  class="object-cover w-full h-full"
+                  alt="Clothing"
+                />
+              </a>
+              <span class="text-black text-center">Clothing & Apparel</span>
+            </li>
+
+            <!-- Accessories -->
+            <li class="flex aic gp-2" data-category="Accessories">
+              <a href="javascript:void(0)" class="cat-img rounded-full overflow-hidden">
+                <img
+                  loading="lazy"
+                  src="assets/images/merchandise/category-accessories.png"
+                  class="object-cover w-full h-full"
+                  alt="Accessories"
+                />
+              </a>
+              <span class="text-black text-center">Accessories</span>
+            </li>
+
+            <!-- Stationery -->
+            <li class="flex aic gp-2" data-category="Stationery">
+              <a href="javascript:void(0)" class="cat-img rounded-full overflow-hidden">
+                <img
+                  loading="lazy"
+                  src="assets/images/merchandise/category-stationary.jpg"
+                  class="object-cover w-full h-full"
+                  alt="Stationery"
+                />
+              </a>
+              <span class="text-black text-center">Stationery & Arts</span>
+            </li>
+
+            <!-- Idols -->
+            <li class="flex aic gp-2" data-category="Home">
+              <a href="javascript:void(0)" class="cat-img rounded-full overflow-hidden">
+                <img
+                  loading="lazy"
+                  src="assets/images/merchandise/category-idols.jpg"
+                  class="object-cover w-full h-full"
+                  alt="Home"
+                />
+              </a>
+              <span class="text-black text-center">Collectibles & Idols</span>
+            </li>
+
+            <!-- Gift Sets -->
+            <li class="flex aic gp-2" data-category="Jewelry">
+              <a href="javascript:void(0)" class="cat-img rounded-full overflow-hidden">
+                <img
+                  loading="lazy"
+                  src="assets/images/merchandise/category-gift-sets.jpg"
+                  class="object-cover w-full h-full"
+                  alt="Jewelry"
+                />
+              </a>
+              <span class="text-black text-center">Seasonal / Gift Sets</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <div class="prodcut-area">
+        <div class="flex flex-col gp-8 filter-area">
+          <h3 id="filterToggle">
+            Filters
+            <svg width="12" height="7" class="hidden">
+              <use xlink:href="./assets/icons/icons.svg#angleup"></use>
+            </svg>
+          </h3>
+          <div class="filters">
+            <!-- Category -->
+            <div class="filter-group">
+              <h3 class="accordion-header">
+                <span>Category</span>
+                <svg width="12" height="7">
+                  <use xlink:href="./assets/icons/icons.svg#angleup"></use>
+                </svg>
+              </h3>
+              <div class="accordion-content">
+                <label><input type="checkbox" value="All" class="categoryFilter" checked /> All</label>
+                <label><input type="checkbox" value="Clothing" class="categoryFilter" /> Clothing & Apparel</label>
+                <label><input type="checkbox" value="Accessories" class="categoryFilter" /> Accessories</label>
+                <label><input type="checkbox" value="Stationery" class="categoryFilter" /> Stationery & Arts</label>
+                <label><input type="checkbox" value="Home" class="categoryFilter" /> Collectibles & Idols</label>
+                <label><input type="checkbox" value="Jewelry" class="categoryFilter" /> Seasonal / Gift Sets</label>
+              </div>
+            </div>
+
+            <!-- Availability -->
+            <div class="filter-group">
+              <h3 class="accordion-header">
+                <span>Availability</span>
+                <svg width="12" height="7">
+                  <use xlink:href="./assets/icons/icons.svg#angleup"></use>
+                </svg>
+              </h3>
+              
+              <div class="accordion-content">
+                <label><input type="checkbox" id="inStock" /> In Stock Only</label>
+              </div>
+            </div>
+
+            <!-- Price Range -->
+            <div class="filter-group">
+              <h3 class="accordion-header">
+                <span>Price Range</span>
+                <svg width="12" height="7">
+                  <use xlink:href="./assets/icons/icons.svg#angleup"></use>
+                </svg>
+              </h3>
+              <div class="accordion-content">
+                <div class="price-range-container">
+                  <div class="slider-track"></div>
+                  <input type="range" id="minPrice" min="0" max="35000" step="500" value="0" />
+                  <input type="range" id="maxPrice" min="0" max="35000" step="500" value="35000" />
+                </div>
+
+                <div class="price-values flex jcc aic gp-2 mt-2">
+                  <div class="price-box">₹ <span id="minPriceValue">0</span></div>
+                  <span>To</span>
+                  <div class="price-box">₹ <span id="maxPriceValue">35000</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Color -->
+            <div class="filter-group colors">
+              <h3 class="accordion-header">
+                <span>Color</span>
+                <svg width="12" height="7">
+                  <use xlink:href="./assets/icons/icons.svg#angleup"></use>
+                </svg>
+              </h3>
+              <div class="accordion-content">
+                <label><input type="checkbox" value="Beige" class="colorFilter product-color1" /> Beige</label>
+                <label><input type="checkbox" value="Black" class="colorFilter product-color2" /> Black</label>
+                <label><input type="checkbox" value="Blue" class="colorFilter product-color3" /> Blue</label>
+                <label><input type="checkbox" value="Brown" class="colorFilter product-color4" /> Brown</label>
+                <label><input type="checkbox" value="Coca" class="colorFilter product-color5" /> Coca</label>
+                <label><input type="checkbox" value="Cream" class="colorFilter product-color6" /> Cream</label>
+                <label><input type="checkbox" value="Dark Blue" class="colorFilter product-color7" /> Dark Blue</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gp-8">
+          <div class="flex gp-4 aic">
+            <span id="productCount">0 items</span>
+            <div id="sortBox" class="sort-box">
+              <div class="sort-label">
+                <i class="icon">☰</i> Sort by: 
+                <span id="sortValue">
+                  Best selling
+                  <svg width="12" height="7" class="hidden">
+                    <use xlink:href="./assets/icons/icons.svg#angleup"></use>
+                  </svg>
+                </span>
+              </div>
+              <div id="sortDropdown" class="dropdown-list">
+                <label for="popularity"><input type="radio" id="popularity" name="sort" value="popularity" /> Popularity</label>
+                <label for="new"><input type="radio" id="new" name="sort" value="new" /> New Arrival</label>
+                <label for="priceHigh"><input type="radio" id="priceHigh" name="sort" value="priceHigh" /> Price: High to Low</label>
+                <label for="priceLow"><input type="radio" id="priceLow" name="sort" value="priceLow" /> Price: Low to High</label>
+              </div>
+            </div>
+          </div>
+          <div class="products" id="productGrid"></div>
+          <div class="pagination" id="pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer with Globe -->
+  <footer class="relative text-center">
+    <div class="footer-content flex flex-col">
+      <div class="flex gp-4 aic heading">
+        <h3 class="leading1">Let’s Build Something Epic Together</h3>
+        <a href="contactus.html" class="fill-secondary btn-touch ml-auto">Get in touch!</a>
+      </div>
+
+      <div class="devider"></div>
+      
+      <div class="quick-sections w-full flex jcsb gp-4">
+        <div class="footer-logo">
+          <a href="index.html"><img loading="lazy" src="assets/images/logo-white.svg" width="100" height="118" alt="footer-logo" /></a>
+        </div>
+        <div class="flex gp-3 flex-col quick">
+          <h6 class="w-full text-left">Quick Links</h6>
+          <ul class="flex quick-links flex-col gp-3 text-left">
+            <li>
+              <a href="movies.html" class="text-16">Movies</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="text-16">About</a>
+            </li>
+            <li>
+              <a href="contactus.html" class="text-16">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex gp-6 flex-col social-lnks">
+          <h6 class="w-full text-left">Follow us</h6>
+          <div class="flex gp-4 items-center social">
+            <a href="https://www.facebook.com/kleemproductions" target="_blank" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#fb"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/company/kleemproductions" target="_blank" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a href="https://instagram.com/kleemproductions" target="_blank" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#insta"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col gp-3 comm-text">
+          <h6 class="w-full text-left">Stay tuned!</h6>
+          <p class="text-18">The Community Page is launching soon.</p>
+        </div>
+      </div>
+      
+      <div class="copyright flex jcsb gp-4 text-16 text-white-80">
+        <div class="copy">&copy; 2025 | Alrights reserved by Kleem Productions</div>
+        <ul class="footer-nav flex gp-6">
+          <li>
+            <a href="javascript:void();">Terms of Service</a>
+          </li>
+          <li>
+            <a href="javascript:void();">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="src/js/product-list.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+</html>

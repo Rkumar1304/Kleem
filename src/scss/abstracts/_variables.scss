@@ -35,6 +35,7 @@
   --heading2: #BF8E21;
   --activeline: #E9C156;
   --line: #898988;
+  --line2: #E1E1E1;
   --activeborder: #AE0000;
   --iconbg: #66665C;
   --iconhoverbg: #D9D7C3;
@@ -74,6 +75,14 @@
   --btnhovergradient: linear-gradient(270deg, #ffffff -14.76%, #ffffff 32.33%, #ffffff 53.6%, #ffffff 70.69%, #ffffff 109.52%);
   --arrowgradient: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);
   --textgradient: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+
+  --product-color1: #EBE6DB;
+  --product-color2: #000000;
+  --product-color3: #8DB4D2;
+  --product-color4: #836953;
+  --product-color5: #C7BABD;
+  --product-color6: #DFF8EF;
+  --product-color7: #063E66;
 }
 
 //with dolar prefix
@@ -112,6 +121,7 @@ $heading1: #F3EDDF;
 $heading2: #BF8E21;
 $activeline: #E9C156;
 $line: #898988;
+$line2: #E1E1E1;
 $activeborder: #AE0000;
 $iconbg: #66665C;
 $iconhoverbg: #D9D7C3;
@@ -151,3 +161,11 @@ $btngradient: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 5
 $btnhovergradient: linear-gradient(270deg, #ffffff -14.76%, #ffffff 32.33%, #ffffff 53.6%, #ffffff 70.69%, #ffffff 109.52%);
 $arrowgradient: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);
 $textgradient: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+
+$product-color1: #EBE6DB;
+$product-color2: #000000;
+$product-color3: #8DB4D2;
+$product-color4: #836953;
+$product-color5: #C7BABD;
+$product-color6: #DFF8EF;
+$product-color7: #063E66;
