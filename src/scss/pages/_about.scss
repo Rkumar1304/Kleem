@@ -222,7 +222,7 @@
           height: 100%;
           aspect-ratio: 16 / 9;
           object-fit: cover;
-          pointer-events: none;
+          // pointer-events: none;
         }
         @include device(xl) {
           min-width: 568px;

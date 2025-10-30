@@ -283,17 +283,40 @@ if (featureWorkSliderEl) {
 
 //timelineslider aboutus//
 document.addEventListener("DOMContentLoaded", () => {
+  const switches = document.querySelectorAll(".swiper-pagination-custom .swiper-pagination-switch");
+  const customProgress = document.querySelector(".timeline-progressbar-fill");
+
+  function updateTimelineProgress(index) {
+    const total = switches.length;
+    if (!total || !customProgress) return;
+
+    const switchWidth = switches[0].offsetWidth; // e.g. 168px
+    let fillWidth;
+
+    // --- Your desired logic ---
+    if (index === 0) {
+      fillWidth = switchWidth / 2;
+    } else if (index < total - 1) {
+      fillWidth = (switchWidth / 2) + index * switchWidth;
+    } else {
+      fillWidth = total * switchWidth;
+    }
+
+    // apply width to the custom progress bar
+    customProgress.style.width = `${fillWidth}px`;
+  }
+
   const timelineSwiper = new Swiper(".timeline-swiper", {
     autoHeight: true,
     autoplay: {
-      delay: 500,
+      delay: 5000,
       disableOnInteraction: false
     },
     mousewheel: {
       forceToAxis: true,
       sensitivity: 3
     },
-    speed: 1000,
+    speed: 2000,
     direction: "horizontal",
     navigation: {
       nextEl: ".timeline-next",
@@ -301,44 +324,47 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     pagination: {
       el: ".swiper-pagination",
-      type: "progressbar"
+      type: "progressbar" // still required but hidden
     },
-    loop: true,
+    loop: false,
     effect: "slide",
     spaceBetween: 100,
     on: {
       init: function () {
-        const switches = document.querySelectorAll(".swiper-pagination-custom .swiper-pagination-switch");
-        switches.forEach((el, index) => {
-          el.classList.toggle("active", index === 0);
-        });
+        switches.forEach((el, i) => el.classList.toggle("active", i === 0));
+        updateTimelineProgress(this.activeIndex);
       },
       slideChangeTransitionStart: function () {
-        const switches = document.querySelectorAll(".swiper-pagination-custom .swiper-pagination-switch");
-        switches.forEach((el, index) => {
-          el.classList.toggle("active", index === timelineSwiper.realIndex);
-        });
+        switches.forEach((el, i) => el.classList.toggle("active", i === this.activeIndex));
+        updateTimelineProgress(this.activeIndex);
       }
     }
   });
 
-  // Pause autoplay on hover — only if container exists
+  // Pause autoplay on hover
   const swiperContainer = document.querySelector(".timeline-swiper");
   if (swiperContainer) {
     swiperContainer.addEventListener("mouseenter", () => timelineSwiper.autoplay.stop());
     swiperContainer.addEventListener("mouseleave", () => timelineSwiper.autoplay.start());
   }
 
-  // Add click event for custom pagination
-  const customSwitches = document.querySelectorAll(".swiper-pagination-custom .swiper-pagination-switch");
-  customSwitches.forEach((switchEl, index) => {
+  // Click to jump to specific slide
+  switches.forEach((switchEl, index) => {
     switchEl.addEventListener("click", () => {
       timelineSwiper.slideTo(index);
-      customSwitches.forEach(el => el.classList.remove("active"));
+      switches.forEach(el => el.classList.remove("active"));
       switchEl.classList.add("active");
+      updateTimelineProgress(index);
     });
   });
+
+  // Update progress bar on resize
+  window.addEventListener("resize", () => {
+    updateTimelineProgress(timelineSwiper.activeIndex);
+  });
 });
+
+
 //end timelineslider aboutus//
 
 

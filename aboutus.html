@@ -56,7 +56,7 @@
   <audio id="bg-audio" autoplay loop muted>
     <source src="assets/audio/song.mp3" type="audio/mpeg">
   </audio>
-  <button id="audio-toggle" class="btn-audio">🔊</button>
+  <button id="audio-toggle" class="btn-audio"><img src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
 
 
   <!--about banner-->
@@ -117,7 +117,10 @@
           <li class='swiper-pagination-switch last'><span class='switch-title'>Today</span></li>
         </ul>
         <!-- Progressbar -->
-        <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div>
+        <!-- <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div> -->
+        <div class="timeline-progressbar">
+          <div class="timeline-progressbar-fill"></div>
+        </div>
         <!-- Swiper -->
         <div class="swiper swiper-container timeline-swiper swiper-container--timeline">
           <div class="swiper-wrapper">
@@ -218,7 +221,7 @@
             <p>To create a global cinematic universe inspired by the timeless wisdom of Sanatana Dharma, delivering visually stunning and emotionally resonant films that evoke awe, reflection, and a deeper connection to our heritage.</p>
           </div>
           <div class="picture rounded-xxl overflow-hidden">
-            <video autoplay muted loop playsinline class="bg-video">
+            <video autoplay controls muted loop playsinline class="bg-video">
               <source src="assets/video/our-vision.mp4" type="video/mp4" />
             </video>
 
@@ -230,7 +233,7 @@
             <p>To combine masterful storytelling with cutting-edge animation and VFX, producing authentic, high-quality epics that captivate audiences worldwide and stand as a cultural beacon for generations.</p>
           </div>
           <div class="picture rounded-xxl overflow-hidden">
-            <video autoplay muted loop playsinline class="bg-video">
+            <video controls autoplay muted loop playsinline class="bg-video">
               <source src="assets/video/our-mission.mp4" type="video/mp4" />
             </video>
           </div>

@@ -9,12 +9,9 @@ header {
   padding: 12px 40px;
   background: transparent;
   z-index: 50;
-  position: fixed;
   transition: background 0.3s ease-in-out;
   @media (max-width: 768px) {
     padding: 8px 20px;
-    // width: calc(100% - 40px);
-    // background: rgba(0, 0, 0, 0);
     left: 0px;
     top: 0px;
     border-radius: 0px;
