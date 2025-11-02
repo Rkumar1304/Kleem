@@ -42,9 +42,14 @@
         .title {
           font-size: 24px;
           font-family: var(--cinzel);
+          margin: 0px;
+          color: var(--white);
           @include device(lg) {
             font-size: 32px;
           }
+        }
+        p {
+          color: var(--white);
         }
       }
     }
@@ -196,6 +201,18 @@
         }
         @include device(lg) {
           height: 485px;
+        }
+        @include device(xl) {
+          height: 550px;
+        }
+        @include device(xxxl) {
+          height: 650px;
+        }
+        @include device(xxxxl) {
+          height: 790px;
+        }
+        @include device(xxxxxl) {
+          height: 1050px;
         }
         .info {
           padding-top: 16px;

@@ -92,17 +92,17 @@
           line-height: 86px;
         }
       }
-      .desc {
-        font-size: 16px;
-        gap: 12px;
-        @include device(md) {
-          font-size: 20px;
-          gap: 32px;
-        }
-        @include device(xl) {
-          font-size: 24px;
-        }
-      }
+    }
+  }
+  .desc {
+    font-size: 16px;
+    gap: 12px;
+    @include device(md) {
+      font-size: 20px;
+      gap: 32px;
+    }
+    @include device(xl) {
+      font-size: 24px;
     }
   }
 }

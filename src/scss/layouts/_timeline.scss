@@ -180,6 +180,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @include device(xxxxl) {
+          height: 500px;
+        }
         img {
           filter: blur(5px);
           -webkit-filter: blur(5px);

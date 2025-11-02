@@ -153,6 +153,9 @@
 }
 
 //padding
+.p-0 {
+  padding: 0px !important;
+}
 .pb-10 {
   padding-bottom: 40px;
 }
@@ -261,7 +264,7 @@
   margin-block-end: 20px;
 }
 .m-0 {
-  margin: 0;
+  margin: 0 !important;
 }
 .ml-auto {
   margin-left: auto;
