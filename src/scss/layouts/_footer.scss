@@ -117,8 +117,10 @@ footer {
     .quick-sections {
       flex-direction: row;
       row-gap: 40px;
-      h6 {
+      .h6 {
         font-family: var(--neue);
+        font-weight: 700;
+        font-size: 20px;
       }
       @include device(mobile-only) {
         display: grid;

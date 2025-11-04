@@ -21,6 +21,32 @@ function initialize() {
   const productCount = document.getElementById("productCount");
   const categoryFilters = document.querySelectorAll(".categoryFilter");
 
+  // 🟢 Apply category from URL on initial load
+  const urlParams = new URLSearchParams(window.location.search);
+  const categoryFromURL = urlParams.get("category");
+  let selectedCategories = ["All"];
+
+  if (categoryFromURL) {
+    selectedCategories = [categoryFromURL];
+
+    // 1️⃣ Check the right sidebar checkbox
+    categoryFilters.forEach((c) => {
+      if (categoryFromURL === "All" ? c.value === "All" : c.value === categoryFromURL) {
+        c.checked = true;
+      } else {
+        c.checked = false;
+      }
+    });
+
+    // 2️⃣ Highlight matching top category
+    const topCategories = document.querySelectorAll(".cat-list li");
+    topCategories.forEach((li) => {
+      if (li.dataset.category === categoryFromURL) li.classList.add("active");
+      else li.classList.remove("active");
+    });
+  }
+
+
   // 🟢 Price range elements
   const minRange = document.getElementById("minPrice");
   const maxRange = document.getElementById("maxPrice");
@@ -29,10 +55,10 @@ function initialize() {
   const sliderTrack = document.querySelector(".slider-track");
 
   // 🟢 Detect category from URL if present
-  const urlParams = new URLSearchParams(window.location.search);
-  const categoryFromURL = urlParams.get("category");
+  // const urlParams = new URLSearchParams(window.location.search);
+  // const categoryFromURL = urlParams.get("category");
 
-  let selectedCategories = ["All"];
+  // let selectedCategories = ["All"];
   if (categoryFromURL) {
     selectedCategories = [categoryFromURL];
   }

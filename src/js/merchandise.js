@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div class="info absolute w-full flex flex-col">
           <div class="title font-bold leading1">${b.title}</div>
           <p class="text-18 font-normal">${b.description}</p>
-          <a href="javascript:void(0)" class="fill-secondary btn-explore">Explore Now</a>
+          <a href="product-list.html" class="fill-secondary btn-explore">Explore Now</a>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             <div class="title leading1">${e.title}</div>
             <p>${e.description}</p>
           </div>
-          <a href="javascript:void(0)" class="fill-secondary btn-explore">Explore Now</a>
+          <a href="product-list.html" class="fill-secondary btn-explore">Explore Now</a>
         </div>
       </div>
     </div>
