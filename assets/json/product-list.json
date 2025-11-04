@@ -8,7 +8,8 @@
     "oldPrice": 1299,
     "colors": ["Beige", "Black"],
     "isNew": true,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "oldPrice": 999,
     "colors": ["Beige", "Blue"],
     "isNew": false,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "oldPrice": 799,
     "colors": [],
     "isNew": false,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "oldPrice": 899,
     "colors": [],
     "isNew": true,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "oldPrice": 1299,
     "colors": [],
     "isNew": true,
-    "inStock": false
+    "inStock": false,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "oldPrice": 999,
     "colors": [],
     "isNew": true,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "oldPrice": 1499,
     "colors": [],
     "isNew": false,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "oldPrice": 499,
     "colors": [],
     "isNew": false,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "oldPrice": 399,
     "colors": [],
     "isNew": true,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "oldPrice": 799,
     "colors": [],
     "isNew": false,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   },
   {
     "id": 11,
@@ -118,6 +128,7 @@
     "oldPrice": 799,
     "colors": [],
     "isNew": false,
-    "inStock": true
+    "inStock": true,
+    "buyNowLink": "https://example.com/buy/spiritual-hoodie"
   }
 ]

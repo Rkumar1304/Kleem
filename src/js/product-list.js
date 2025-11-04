@@ -191,9 +191,16 @@ function initialize() {
             <span class="new-price">₹${p.newPrice}</span>
             <span class="old-price">₹${p.oldPrice}</span>
           </div>
-          <div class="color-dots">
-            ${p.colors.map(c => `<div class="dot" style="background:${c}"></div>`).join("")}
-          </div>
+          ${p.colors.length > 0
+            ? `<div class="color-dots">
+                ${p.colors.map(c => `<div class="dot" style="background:${c}"></div>`).join("")}
+              </div>`
+            : ""
+          }
+          ${p.buyNowLink
+            ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
+            : ""
+          }
         </div>
       `;
       productGrid.appendChild(div);

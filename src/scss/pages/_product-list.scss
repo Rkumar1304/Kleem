@@ -6,7 +6,7 @@
   @include device(mobile-only) {
     padding-top: 72px;
   }
-  .prodcut-area {
+  .product-area {
     display: grid;
     gap: 60px;
     grid-template-columns: 237px 1fr;
@@ -167,7 +167,7 @@
     }
     .sort-box {
       position: relative;
-      display: inline-block;
+      display: inline-flex;
       padding: 8px 12px;
       border: 1px solid #ccc;
       cursor: pointer;
@@ -354,6 +354,12 @@
         color: #999;
         font-size: 14px;
         padding: 0 4px;
+      }
+    }
+    a.fill-secondary {
+      border: 1px solid var(--white);
+      &:hover {
+        border: 1px solid var(--black);
       }
     }
   }
