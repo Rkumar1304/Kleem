@@ -8,14 +8,7 @@
   padding-top: 150px;
   padding-bottom: 20px;
   overflow:hidden;
-  background: linear-gradient(
-    to bottom,
-    #000000 0%,      
-    #06122b 15%,    
-    #040814 60%,  
-    #02050c 85%,   
-    #000000 100%   
-  );
+  background: var(--timelinegradient);
   .big-ellipse {
     position: absolute;
     top: 100px;

@@ -302,6 +302,9 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .common-cat-slider {
+    margin: 0px !important;
+  }
   .trending {
     max-width: 1244px;
     margin: 0 auto;
@@ -326,6 +329,52 @@
       text-align: center;
       @include device(md) {
         text-align: left;
+      }
+    }
+  }
+  .swiper-button-prev, .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: var(--arrowgradient);
+    left: auto;
+    top: auto;
+    right: auto;
+    margin-top: 0px;
+    z-index: 1;
+    position: relative;
+    &::after {
+      display: none;
+    }
+    svg {
+      width: 12px;
+      height: 24px;
+      stroke: var(--black);
+    }
+    &:hover {
+      background: var(--iconbg);
+      svg {
+        stroke: var(--icon1);
+      }
+    }
+  }
+  .swiper-button-prev {
+    transform:rotate(180deg);
+  }
+  .arrows {
+    padding-bottom: 0px;
+    @include device(md) {
+      width: max-content;
+      justify-self: flex-end;
+      margin-bottom: 0px;
+      height: 40px;
+    }
+    @include device(mobile-only) {
+      &.mob {
+        display: flex;
+      }
+      &.desk {
+        display: none;
       }
     }
   }

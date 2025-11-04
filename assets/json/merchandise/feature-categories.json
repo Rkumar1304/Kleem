@@ -1,0 +1,26 @@
+[
+  {
+    "name": "All",
+    "image": "assets/images/merchandise/category-all.png"
+  },
+  {
+    "name": "Clothing & Apparel",
+    "image": "assets/images/merchandise/category-clothing.jpg"
+  },
+  {
+    "name": "Accessories",
+    "image": "assets/images/merchandise/category-accessories.png"
+  },
+  {
+    "name": "Stationery & Arts",
+    "image": "assets/images/merchandise/category-stationary.jpg"
+  },
+  {
+    "name": "Collectibles & Idols",
+    "image": "assets/images/merchandise/category-idols.jpg"
+  },
+  {
+    "name": "Seasonal / Gift Sets",
+    "image": "assets/images/merchandise/category-gift-sets.jpg"
+  }
+]

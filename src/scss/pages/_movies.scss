@@ -4,7 +4,7 @@
 .movie-banner {
   position: relative;
   .banner-info {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.021) 0%, rgba(0, 0, 0, 0.7) 71.63%);
+    background: var(--bannerinfogradient);
     position: absolute;
     bottom: 0px;
     z-index: 2;
@@ -277,7 +277,7 @@
       padding: 24px;
       gap: 24px;
       border: 2px solid;
-      border-image: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+      border-image: var(--bordergradient);
       border-image-slice: 1;
       .image {
         display: flex;

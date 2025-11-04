@@ -1,0 +1,84 @@
+{
+  "new": [
+    {
+      "name": "Stylish Shoes",
+      "price": 499,
+      "oldPrice": 799,
+      "image": "assets/images/merchandise/product-1.png",
+      "isNew": true,
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    },
+    {
+      "name": "Plated Chakra Narasimha",
+      "price": 99999.5,
+      "oldPrice": 100400,
+      "image": "assets/images/merchandise/product-2.png",
+      "isNew": true,
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    },
+    {
+      "name": "Yoga Narasimha Tee",
+      "price": 2499,
+      "image": "assets/images/merchandise/product-3.png",
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    },
+    {
+      "name": "Stylish Shoes",
+      "price": 499,
+      "oldPrice": 799,
+      "image": "assets/images/merchandise/product-1.png",
+      "isNew": true,
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    }
+  ],
+  "best": [
+    {
+      "name": "Stylish Shoes",
+      "price": 499,
+      "oldPrice": 799,
+      "image": "assets/images/merchandise/product-1.png",
+      "isNew": true,
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    },
+    {
+      "name": "Plated Chakra Narasimha",
+      "price": 99999.5,
+      "oldPrice": 100400,
+      "image": "assets/images/merchandise/product-2.png",
+      "isNew": true,
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    }
+  ],
+  "sale": [
+    {
+      "name": "Stylish Shoes",
+      "price": 499,
+      "oldPrice": 799,
+      "image": "assets/images/merchandise/product-1.png",
+      "isNew": true,
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    },
+    {
+      "name": "Plated Chakra Narasimha",
+      "price": 99999.5,
+      "oldPrice": 100400,
+      "image": "assets/images/merchandise/product-2.png",
+      "isNew": true,
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    },
+    {
+      "name": "Yoga Narasimha Tee",
+      "price": 2499,
+      "image": "assets/images/merchandise/product-3.png",
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    },
+    {
+      "name": "Stylish Shoes",
+      "price": 499,
+      "oldPrice": 799,
+      "image": "assets/images/merchandise/product-1.png",
+      "isNew": true,
+      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+    }
+  ]
+}

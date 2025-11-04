@@ -28,7 +28,15 @@ function initialize() {
   const maxPriceValue = document.getElementById("maxPriceValue");
   const sliderTrack = document.querySelector(".slider-track");
 
+  // 🟢 Detect category from URL if present
+  const urlParams = new URLSearchParams(window.location.search);
+  const categoryFromURL = urlParams.get("category");
+
   let selectedCategories = ["All"];
+  if (categoryFromURL) {
+    selectedCategories = [categoryFromURL];
+  }
+
   let currentPage = 1;
   const itemsPerPage = 8;
 
@@ -58,8 +66,18 @@ function initialize() {
 
       currentPage = 1;
       renderProducts();
+
+      // 🟢 Update URL on sidebar category change
+      const newUrl = new URL(window.location);
+      if (selectedCategories.length === 1 && selectedCategories[0] !== "All") {
+        newUrl.searchParams.set("category", selectedCategories[0]);
+      } else {
+        newUrl.searchParams.delete("category");
+      }
+      window.history.replaceState({}, "", newUrl);
     });
   });
+
 
   // 🟢 Top Category List (Above the Page)
   const topCategories = document.querySelectorAll(".cat-list li");
@@ -90,8 +108,25 @@ function initialize() {
 
       currentPage = 1;
       renderProducts();
+
+      const newUrl = new URL(window.location);
+      newUrl.searchParams.set("category", selectedCat);
+      window.history.replaceState({}, "", newUrl);
     });
   });
+
+  // 🟢 Highlight top category if URL param exists
+  if (categoryFromURL) {
+    const topCategories = document.querySelectorAll(".cat-list li");
+    topCategories.forEach((li) => {
+      if (li.dataset.category === categoryFromURL) {
+        li.classList.add("active");
+      } else {
+        li.classList.remove("active");
+      }
+    });
+  }
+
 
   // 🟢 Dual Price Range
   const minGap = 500;
@@ -138,9 +173,10 @@ function initialize() {
   });
   colorFilters.forEach(chk => chk.addEventListener("change", renderProducts));
 
-  // 🟢 Update Category Counts
-  function updateCategoryCounts(filteredData = productsData) {
-    const allCount = filteredData.length;
+
+  // 🟢 Update Category Counts (Always use full dataset)
+  function updateCategoryCounts(baseData = productsData) {
+    const allCount = baseData.length;
 
     categoryFilters.forEach(cb => {
       const label = cb.closest("label");
@@ -157,7 +193,8 @@ function initialize() {
       if (cb.value === "All") {
         count = allCount;
       } else {
-        count = filteredData.filter(p =>
+        // Always count from full productsData (not filtered list)
+        count = productsData.filter(p =>
           p.category.toLowerCase().includes(cb.value.toLowerCase())
         ).length;
       }
@@ -165,6 +202,7 @@ function initialize() {
       countSpan.textContent = ` (${count})`;
     });
   }
+
 
   // 🟢 Update Availability Counts
   function updateAvailabilityCounts(filteredData = productsData) {
@@ -194,6 +232,48 @@ function initialize() {
       span.textContent = ` (${totalOutOfStock})`;
     }
   }
+
+
+  // 🟢 Sort Dropdown UI Logic (inside initialize)
+  const sortBox = document.getElementById("sortBox");
+  const sortDropdown = document.getElementById("sortDropdown");
+  const sortValue = document.getElementById("sortValue");
+
+  if (sortBox && sortDropdown && sortValue) {
+    sortBox.addEventListener("click", (e) => {
+      e.stopPropagation();
+      sortBox.classList.toggle("open");
+      const dropdown = sortBox.querySelector(".dropdown-list");
+      if (dropdown) {
+        dropdown.style.maxHeight = sortBox.classList.contains("open")
+          ? dropdown.scrollHeight + "px"
+          : "0";
+      }
+    });
+
+    sortDropdown.querySelectorAll('input[name="sort"]').forEach((radio) => {
+      radio.addEventListener("change", () => {
+        const label = radio.parentElement.textContent.trim();
+        sortValue.textContent = label;
+        currentSort = radio.value;
+        sortBox.classList.remove("open");
+        const dropdown = sortBox.querySelector(".dropdown-list");
+        if (dropdown) dropdown.style.maxHeight = "0";
+
+        // ✅ Sorting now works because it's inside initialize()
+        renderProducts();
+      });
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!sortBox.contains(e.target)) {
+        sortBox.classList.remove("open");
+        const dropdown = sortBox.querySelector(".dropdown-list");
+        if (dropdown) dropdown.style.maxHeight = "0";
+      }
+    });
+  }
+
 
   // 🟢 Render products
   function renderProducts() {
@@ -245,22 +325,26 @@ function initialize() {
         <img src="${p.image}" alt="${p.name}" />
         <div class="product-info">
           <div class="product-name">${p.name}</div>
-          <div class="product-prices">
-            <span class="new-price">₹${p.newPrice}</span>
-            <span class="old-price">₹${p.oldPrice}</span>
+          <div class="flex gp-2 flex-wrap aie jcsb">
+            <div class="flex flex-col gp-2">
+              <div class="product-prices">
+                <span class="new-price">₹${p.newPrice}</span>
+                <span class="old-price">₹${p.oldPrice}</span>
+              </div>
+              ${
+                p.colors.length > 0
+                  ? `<div class="color-dots">
+                      ${p.colors.map(c => `<div class="dot" style="background:${c}"></div>`).join("")}
+                    </div>`
+                  : ""
+              }
+            </div>
+            ${
+              p.buyNowLink
+                ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
+                : ""
+            }
           </div>
-          ${
-            p.colors.length > 0
-              ? `<div class="color-dots">
-                  ${p.colors.map(c => `<div class="dot" style="background:${c}"></div>`).join("")}
-                </div>`
-              : ""
-          }
-          ${
-            p.buyNowLink
-              ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
-              : ""
-          }
         </div>
       `;
       productGrid.appendChild(div);
@@ -269,8 +353,8 @@ function initialize() {
     if (productCount) productCount.textContent = `${filtered.length} items`;
 
     // Update counts based on filtered list
-    updateCategoryCounts(filtered);
-    updateAvailabilityCounts(filtered);
+    updateCategoryCounts(productsData);
+    updateAvailabilityCounts(productsData);
 
     // Pagination rendering
     paginationEl.innerHTML = "";
@@ -355,46 +439,47 @@ document.querySelectorAll(".accordion-header").forEach(header => {
 });
 
 // 🟢 Sort Dropdown UI Logic
-document.addEventListener("DOMContentLoaded", () => {
-  const sortBox = document.getElementById("sortBox");
-  const sortDropdown = document.getElementById("sortDropdown");
-  const sortValue = document.getElementById("sortValue");
+// document.addEventListener("DOMContentLoaded", () => {
+//   const sortBox = document.getElementById("sortBox");
+//   const sortDropdown = document.getElementById("sortDropdown");
+//   const sortValue = document.getElementById("sortValue");
 
-  if (!sortBox || !sortDropdown || !sortValue) return;
+//   if (!sortBox || !sortDropdown || !sortValue) return;
 
-  sortBox.addEventListener("click", e => {
-    e.stopPropagation();
-    sortBox.classList.toggle("open");
-    const dropdown = sortBox.querySelector(".dropdown-list");
-    if (dropdown) {
-      dropdown.style.maxHeight = sortBox.classList.contains("open")
-        ? dropdown.scrollHeight + "px"
-        : "0";
-    }
-  });
+//   sortBox.addEventListener("click", e => {
+//     e.stopPropagation();
+//     sortBox.classList.toggle("open");
+//     const dropdown = sortBox.querySelector(".dropdown-list");
+//     if (dropdown) {
+//       dropdown.style.maxHeight = sortBox.classList.contains("open")
+//         ? dropdown.scrollHeight + "px"
+//         : "0";
+//     }
+//   });
 
-  sortDropdown.querySelectorAll('input[name="sort"]').forEach(radio => {
-    radio.addEventListener("change", () => {
-      const label = radio.parentElement.textContent.trim();
-      sortValue.textContent = label;
-      currentSort = radio.value; 
-      sortBox.classList.remove("open");
-      const dropdown = sortBox.querySelector(".dropdown-list");
-      if (dropdown) dropdown.style.maxHeight = "0";
+//   sortDropdown.querySelectorAll('input[name="sort"]').forEach(radio => {
+//     radio.addEventListener("change", () => {
+//       const label = radio.parentElement.textContent.trim();
+//       sortValue.textContent = label;
+//       currentSort = radio.value;
+//       sortBox.classList.remove("open");
+//       const dropdown = sortBox.querySelector(".dropdown-list");
+//       if (dropdown) dropdown.style.maxHeight = "0";
 
-      
-      initialize(); 
-    });
-  });
+//       // ✅ Reapply sorting to the filtered list
+//       if (typeof renderProducts === "function") renderProducts();
+//     });
 
-  document.addEventListener("click", e => {
-    if (!sortBox.contains(e.target)) {
-      sortBox.classList.remove("open");
-      const dropdown = sortBox.querySelector(".dropdown-list");
-      if (dropdown) dropdown.style.maxHeight = "0";
-    }
-  });
-});
+//   });
+
+//   document.addEventListener("click", e => {
+//     if (!sortBox.contains(e.target)) {
+//       sortBox.classList.remove("open");
+//       const dropdown = sortBox.querySelector(".dropdown-list");
+//       if (dropdown) dropdown.style.maxHeight = "0";
+//     }
+//   });
+// });
 
 
 // 🟢 Mobile Filter Dropdown Toggle

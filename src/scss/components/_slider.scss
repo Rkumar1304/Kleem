@@ -45,9 +45,7 @@
   justify-content: center;
 
   /* Create gradient border */
-  background: 
-    linear-gradient(#000, #000) padding-box, 
-    linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; 
+  background: var(--swiperbtngradient);
   border: 1px solid transparent;
   background-origin: border-box;
   background-clip: padding-box, border-box;
@@ -253,9 +251,7 @@
     justify-content: center;
 
     /* Create gradient border */
-    background: 
-      linear-gradient(#000, #000) padding-box, 
-      linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; 
+    background: var(--swiperbtngradient);
     border: 1px solid transparent;
     background-origin: border-box;
     background-clip: padding-box, border-box;
@@ -895,7 +891,8 @@
     @include device(md) {
       width: max-content;
       justify-self: flex-end;
-      padding-bottom: 56px;
+      margin-bottom: 56px;
+      height: 40px;
     }
   }
 }

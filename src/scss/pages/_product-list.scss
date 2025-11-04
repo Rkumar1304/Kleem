@@ -157,7 +157,7 @@
                   width: 18px;
                   height: 18px;
                   border-radius: 50%;
-                  background: #222;
+                  background: var(--gray-13);
                   cursor: pointer;
                   appearance: none;
                 }
@@ -166,7 +166,7 @@
                 position: absolute;
                 height: 5px;
                 border-radius: 5px;
-                background: #ccc;
+                background: var(--gray-93);
                 top: 0;
                 left: 0;
                 right: 0;
@@ -184,10 +184,10 @@
               .price-box {
                 min-width: 60px;
                 padding: 4px 10px;
-                border: 1px solid #ddd;
+                border: 1px solid var(--gray-93);
                 border-radius: 4px;
                 text-align: center;
-                background: #fff;
+                background: var(--white);
                 font-size: 14px;
                 display: flex;
                 align-items: center;
@@ -226,7 +226,7 @@
       display: inline-flex;
       padding: 6px 12px;
       height: 40px;
-      border: 1px solid #ccc;
+      border: 1px solid var(--gray-93);
       cursor: pointer;
       z-index: 2;
       margin-left: auto;
@@ -255,8 +255,8 @@
         position: absolute;
         top: 105%;
         right: 0;
-        background: #fff;
-        border: 1px solid #ddd;
+        background: var(--white);
+        border: 1px solid var(--gray-93);
         overflow: hidden;
         max-height: 0;
         display: none;
@@ -271,7 +271,7 @@
           font-weight: 500;
           cursor: pointer;
           &:hover {
-            background: #f6f6f6;
+            background: var(--gray-93);
           }
           input[type="radio"] {
             width: 15px;
@@ -384,7 +384,7 @@
       .page-btn {
         border: none;
         background: none;
-        color: #222;
+        color: var(--gray-13);
         font-size: 15px;
         cursor: pointer;
         width: 32px;
@@ -395,11 +395,11 @@
         align-items: center;
         transition: all 0.25s ease;
         &:hover {
-          background: #f0f0f0;
+          background: var(--gray-93);
         }
         &.active {
-          background: #222;
-          color: #fff;
+          background: var(--gray-13);
+          color: var(--white);
           font-weight: 500;
         }
         &:disabled {
@@ -408,7 +408,7 @@
         }
       }
       .dots {
-        color: #999;
+        color: var(--gray-13);
         font-size: 14px;
         padding: 0 4px;
       }
@@ -416,6 +416,7 @@
     a.fill-secondary {
       border: 1px solid var(--white);
       margin-top: 8px;
+      height: 32px;
       &:hover {
         border: 1px solid var(--black);
       }
@@ -439,8 +440,8 @@
         font-size: 16px;
         cursor: pointer;
         padding: 7px 12px;
-        border: 1px solid #ddd;
-        background: #fff;
+        border: 1px solid var(--gray-93);
+        background: var(--white);
         position: relative;
         height: 42px;
         margin-right: auto;

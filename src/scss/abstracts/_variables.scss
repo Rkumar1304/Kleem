@@ -51,6 +51,7 @@
 
   --gray-40: #666666;
   --gray-13: #222222;
+  --gray-93: #EEEEEE;
 
   --red-61: #E84E4E;
   --cyan-47: #49A594;
@@ -76,6 +77,10 @@
   --btnhovergradient: linear-gradient(270deg, #ffffff -14.76%, #ffffff 32.33%, #ffffff 53.6%, #ffffff 70.69%, #ffffff 109.52%);
   --arrowgradient: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);
   --textgradient: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+  --swiperbtngradient: linear-gradient(#000, #000) padding-box, linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; 
+  --timelinegradient: linear-gradient( to bottom, #000000 0%, #06122b 15%, #040814 60%, #02050c 85%, #000000 100% );
+  --bordergradient: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+  --bannerinfogradient: linear-gradient(180deg, rgba(0, 0, 0, 0.021) 0%, rgba(0, 0, 0, 0.7) 71.63%);
 
   --product-color1: #EBE6DB;
   --product-color2: #000000;
@@ -138,6 +143,7 @@ $bgblack2: #20201D;
 
 $gray-40: #666666;
 $gray-13: #222222;
+$gray-93: #EEEEEE;
 
 $red-61: #E84E4E;
 $cyan-47: #49A594;
@@ -163,6 +169,10 @@ $btngradient: linear-gradient(270deg, #B96415 -14.76%, #EDD060 32.33%, #FFF583 5
 $btnhovergradient: linear-gradient(270deg, #ffffff -14.76%, #ffffff 32.33%, #ffffff 53.6%, #ffffff 70.69%, #ffffff 109.52%);
 $arrowgradient: linear-gradient(0deg, #B96415 -12.14%, #EDD060 34.95%, #FFF583 56.21%, #EDD060 73.31%, #B96415 112.14%);
 $textgradient: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+$swiperbtngradient: linear-gradient(#000, #000) padding-box, linear-gradient(90deg, #CC8A35, #FFF475, #CA8A36) border-box; 
+$timelinegradient: linear-gradient( to bottom, #000000 0%, #06122b 15%, #040814 60%, #02050c 85%, #000000 100% );
+$bordergradient: linear-gradient(270deg, #B96415 0%, #FFF475 57.69%, #B96415 100%);
+$bannerinfogradient: linear-gradient(180deg, rgba(0, 0, 0, 0.021) 0%, rgba(0, 0, 0, 0.7) 71.63%);
 
 $product-color1: #EBE6DB;
 $product-color2: #000000;
