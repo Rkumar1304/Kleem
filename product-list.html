@@ -182,8 +182,10 @@
               <use xlink:href="./assets/icons/icons.svg#angleup"></use>
             </svg>
           </h3>
-          <div class="filters">
-            <!-- Category -->
+          <div class="filter-overlay hidden"></div>
+          <div class="filters overflow-y-auto scrollbar-hidden">
+            <h3 class="hidden mob-filter-title">Filters</h3>
+            <!-- Category --> 
             <div class="filter-group">
               <h3 class="accordion-header">
                 <span>Category</span>
@@ -191,13 +193,13 @@
                   <use xlink:href="./assets/icons/icons.svg#angleup"></use>
                 </svg>
               </h3>
-              <div class="accordion-content">
-                <label><input type="checkbox" value="All" class="categoryFilter" checked /> All</label>
-                <label><input type="checkbox" value="Clothing" class="categoryFilter" /> Clothing & Apparel</label>
-                <label><input type="checkbox" value="Accessories" class="categoryFilter" /> Accessories</label>
-                <label><input type="checkbox" value="Stationery" class="categoryFilter" /> Stationery & Arts</label>
-                <label><input type="checkbox" value="Home" class="categoryFilter" /> Collectibles & Idols</label>
-                <label><input type="checkbox" value="Jewelry" class="categoryFilter" /> Seasonal / Gift Sets</label>
+              <div class="accordion-content overflow-y-auto scrollbar-hidden">
+                <label><input type="checkbox" value="All" class="categoryFilter" checked /> <span>All</span></label>
+                <label><input type="checkbox" value="Clothing" class="categoryFilter" /> <span>Clothing & Apparel</span></label>
+                <label><input type="checkbox" value="Accessories" class="categoryFilter" /> <span>Accessories</span></label>
+                <label><input type="checkbox" value="Stationery" class="categoryFilter" /> <span>Stationery & Arts</span></label>
+                <label><input type="checkbox" value="Home" class="categoryFilter" /> <span>Collectibles & Idols</span></label>
+                <label><input type="checkbox" value="Jewelry" class="categoryFilter" /> <span>Seasonal / Gift Sets</span></label>
               </div>
             </div>
 
@@ -210,8 +212,9 @@
                 </svg>
               </h3>
               
-              <div class="accordion-content">
-                <label><input type="checkbox" id="inStock" /> In Stock Only</label>
+              <div class="accordion-content overflow-y-auto scrollbar-hidden">
+                <label for="inStock"><input type="checkbox" id="inStock" /> <span>In Stock Only</span></label>
+                <label for="outOfStock"><input type="checkbox" id="outOfStock" /> <span>Out of stock</span></label>
               </div>
             </div>
 
@@ -223,7 +226,7 @@
                   <use xlink:href="./assets/icons/icons.svg#angleup"></use>
                 </svg>
               </h3>
-              <div class="accordion-content">
+              <div class="accordion-content overflow-y-auto scrollbar-hidden">
                 <div class="price-range-container">
                   <div class="slider-track"></div>
                   <input type="range" id="minPrice" min="0" max="35000" step="500" value="0" />
@@ -246,7 +249,7 @@
                   <use xlink:href="./assets/icons/icons.svg#angleup"></use>
                 </svg>
               </h3>
-              <div class="accordion-content">
+              <div class="accordion-content overflow-y-auto scrollbar-hidden">
                 <label><input type="checkbox" value="Beige" class="colorFilter product-color1" /> Beige</label>
                 <label><input type="checkbox" value="Black" class="colorFilter product-color2" /> Black</label>
                 <label><input type="checkbox" value="Blue" class="colorFilter product-color3" /> Blue</label>

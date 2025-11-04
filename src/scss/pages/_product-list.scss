@@ -14,22 +14,64 @@
     @media screen and (max-width: 768px) {
       grid-template-columns: repeat(1, 1fr);
     }
+    @media (max-width: 768px) {
+      #productCount {
+        display: none;
+      }
+    }
     h3 {
       font-weight: 500;
       font-size: 30px;
       font-family: var(--neue);
     }
     .filter-area {
-      @include device(mobile-only) {
+      @media (max-width: 768px) {
         position: absolute;
         top: 0px;
         left: 0px;  
+        h3#filterToggle {
+          font-size: 16px;
+          font-weight: 500;
+          border: 1px solid var(--border2);
+          padding: 4px 12px;
+          height: 40px;
+          display: inline-flex;
+          margin-right: auto;
+          align-items: center;
+          gap: 8px;
+          svg {
+            display: flex;
+            transform: rotate(180deg);
+          }
+        }
       }
       .filters {
         position: sticky;
         top: 150px;
         height: fit-content;
         transition: all 0.3s ease;
+        @media (max-width: 768px) {
+          position: fixed;
+          top:0px;
+          width: 270px;
+          left: -270px;
+          transition: 0.3s ease-in-out;
+          height: 100vh;
+          background: var(--white);
+          z-index: 99;
+          padding: 16px;
+          &.open {
+            left: 0px;
+            transition: 0.3s ease-in-out;
+          }
+          .mob-filter-title {
+            display: flex;
+            font-size: 24px;
+            font-weight: 500;
+            color: var(--gray-13);
+            margin-bottom: 20px;
+          }
+        }
         h3 {
           font-size: 1.1rem;
           margin-top: 0;
@@ -40,6 +82,13 @@
           display: flex;
           flex-direction: column;
           gap: 16px;
+          @media (max-width: 768px) {
+            border-bottom: 1px solid var(--border2);
+            margin-bottom: 20px;
+            &[class^="filter-group"]:last-child {
+              border-bottom: 0px;
+            }
+          }
           .accordion-header {
             cursor: pointer;
             position: relative;
@@ -65,9 +114,11 @@
                 transition: 0.3s ease-in-out;
               }
             }
+            @media (max-width: 768px) {
+              padding-bottom: 20px;
+            }
           }
           .accordion-content {
-            overflow: hidden;
             transition: max-height 0.3s ease;
             max-height: 0;
             input[type="checkbox"] {
@@ -81,6 +132,11 @@
                 background-image: url("../../../assets/images/icons/icon_checked.png");
                 background-repeat: no-repeat;
                 background-position: center center;
+                border-color: var(--black);
+                & ~ span {
+                  color: var(--black);
+                  font-weight: 500;
+                }
               }
             }
             .price-range-container {
@@ -168,7 +224,8 @@
     .sort-box {
       position: relative;
       display: inline-flex;
-      padding: 8px 12px;
+      padding: 6px 12px;
+      height: 40px;
       border: 1px solid #ccc;
       cursor: pointer;
       z-index: 2;
@@ -358,6 +415,7 @@
     }
     a.fill-secondary {
       border: 1px solid var(--white);
+      margin-top: 8px;
       &:hover {
         border: 1px solid var(--black);
       }
@@ -436,6 +494,20 @@
 
 
 /* Animations */
+.filter-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: var(--black-50);
+  height: 100vh;
+  z-index: 98;
+}
+body.filters-open {
+  .filter-overlay {
+    display: flex;
+  }
+}
 .fade-in {
   animation: fadeIn 0.5s ease forwards;
 }
