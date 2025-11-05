@@ -34,6 +34,33 @@ document.addEventListener("DOMContentLoaded", function() {
 //end about swiper home//
 
 
+//join team slider//
+document.addEventListener("DOMContentLoaded", function() {
+  const joinTeamSlider = new Swiper(".join-team-slider", {
+    spaceBetween: 0,
+    slidesPerView: 'auto',
+    loop: true,
+    freeMode: true,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction:false,
+    },
+    speed: 3000,
+    // If we need pagination
+    pagination: '.join-team-slider .swiper-pagination',
+    // Navigation arrows
+    nextButton: '.join-team-slider .swiper-button-next',
+    prevButton: '.join-team-slider .swiper-button-prev',
+  });
+  const joinTeamSliderEl = document.querySelector('.join-team-slider');
+  if (joinTeamSliderEl) {
+    joinTeamSliderEl.addEventListener('mouseenter', () => joinTeamSlider.autoplay.stop());
+    joinTeamSliderEl.addEventListener('mouseleave', () => joinTeamSlider.autoplay.start());
+  }
+});
+//end join team slider//
+
+
 //home page circle timeline slider//
 const timelineSwiper = new Swiper(".timeline-slider", {
   loop: true,

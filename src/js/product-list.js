@@ -342,39 +342,50 @@ function initialize() {
     const start = (currentPage - 1) * itemsPerPage;
     const visible = filtered.slice(start, start + itemsPerPage);
 
+    const noProducts = document.getElementById("noProducts");
     productGrid.innerHTML = "";
-    visible.forEach(p => {
-      const div = document.createElement("div");
-      div.className = "product fade-in";
-      div.innerHTML = `
-        ${p.isNew ? '<div class="badge tag-new">New</div>' : ""}
-        <img src="${p.image}" alt="${p.name}" />
-        <div class="product-info">
-          <div class="product-name">${p.name}</div>
-          <div class="flex gp-2 flex-wrap aie jcsb">
-            <div class="flex flex-col gp-2">
-              <div class="product-prices">
-                <span class="new-price">₹${p.newPrice}</span>
-                <span class="old-price">₹${p.oldPrice}</span>
+
+    if (filtered.length === 0) {
+      productGrid.style.display = "none";
+      if (noProducts) noProducts.style.display = "block";
+    } else {
+      productGrid.style.display = "grid";
+      if (noProducts) noProducts.style.display = "none";
+
+      visible.forEach(p => {
+        const div = document.createElement("div");
+        div.className = "product fade-in";
+        div.innerHTML = `
+          ${p.isNew ? '<div class="badge tag-new">New</div>' : ""}
+          <img src="${p.image}" alt="${p.name}" />
+          <div class="product-info">
+            <div class="product-name">${p.name}</div>
+            <div class="flex gp-2 flex-wrap aie jcsb">
+              <div class="flex flex-col gp-2">
+                <div class="product-prices">
+                  <span class="new-price">₹${p.newPrice}</span>
+                  <span class="old-price">₹${p.oldPrice}</span>
+                </div>
+                ${
+                  p.colors.length > 0
+                    ? `<div class="color-dots">
+                        ${p.colors.map(c => `<div class="dot" style="background:${c}"></div>`).join("")}
+                      </div>`
+                    : ""
+                }
               </div>
               ${
-                p.colors.length > 0
-                  ? `<div class="color-dots">
-                      ${p.colors.map(c => `<div class="dot" style="background:${c}"></div>`).join("")}
-                    </div>`
+                p.buyNowLink
+                  ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
                   : ""
               }
             </div>
-            ${
-              p.buyNowLink
-                ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
-                : ""
-            }
           </div>
-        </div>
-      `;
-      productGrid.appendChild(div);
-    });
+        `;
+        productGrid.appendChild(div);
+      });
+    }
+
 
     if (productCount) productCount.textContent = `${filtered.length} items`;
 

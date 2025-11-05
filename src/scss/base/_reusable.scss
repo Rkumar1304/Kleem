@@ -260,6 +260,9 @@
 }
 
 //margin
+.mt-30 {
+  margin-top: 30px;
+}
 .mt-10 {
   margin-block-start: 10px;
 }
@@ -518,6 +521,25 @@
 }
 .btn-submit {
   height: 42px;
+}
+.btn-apply {
+  &.btn-outline {
+    border: 2px solid transparent;
+    background: linear-gradient(black, black) padding-box, var(--bordergradient) border-box;
+    color: var(--applytext);
+    height: 40px;
+    gap: 16px;
+    padding: 4px 18px;
+    @include device(mobile-only) {
+      font-size: 14px;
+    }
+    svg {
+      width: 18px;
+      height: 18px;
+      fill: var(--applytext);
+      transform: rotate(-145deg);
+    }
+  } 
 }
 
 

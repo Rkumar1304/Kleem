@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official Website of Kleem Productions. A boutique studio specializing in Movies, Comics, Pre-Visualization and many more creative arts.">
+  <title>Kleem Productions</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Your compiled SCSS -->
+  <link rel="stylesheet" href="src/css/swiper-bundle.min.css" />
+  <link href="dist/style.min.css" rel="stylesheet" />
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+  <div id="preloader">
+    <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
+  </div>
+  
+  <!-- Header -->
+  <header class="flex aic jcc" id="header">
+    <h1 class="mr-auto">
+      <a href="index.html" class="logo">
+        <img loading="lazy" src="assets/images/logo.png" alt="Logo" width="72" height="85" />
+      </a>
+    </h1>
+    <nav class="page-navigation">
+      <div class="nav-container flex aic jcsb">
+        <!-- Hamburger Button -->
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-bar flex aic jcc" id="navBar">
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div type="button" class="ml-auto">
+      <a href="merchandise.html" class="btn-merchant fill-secondary ">
+        <svg class="fill-white" width="17" height="17">
+          <use xlink:href="./assets/icons/icons.svg#store"></use>
+        </svg>
+        <span>Shop Now</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
+
+  <div class="main-wrapper jobs bg-lightblack">
+    <!--banner-->
+    <section class="join-team bg-black">
+      <div class="our-team flex flex-col">
+        <div class="container-fluid container-max mx-auto flex flex-col">
+          <div class="heading flex flex-col">
+            <h2 class="heading-gradient text-center">Join Our Team</h2>
+            <p class="text-center">Become a part of our mission to bring timeless stories to the world. We're looking for passionate and talented individuals to join our crew.</p>
+          </div>
+        </div>
+        <div class="swiper join-team-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide mt-30">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team1.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team2.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide mt-30">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team3.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team4.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide mt-30">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team5.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team1.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide mt-30">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team2.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team3.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide mt-30">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team5.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img">
+                <img loading="lazy" src="assets/images/team/team4.jpg" class="w-full" alt="team" />
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--work boxes-->
+    <section class="work-boxes w-full">
+      <div class="container-fluid flex flex-col aic">
+        <h2 class="heading-gradient text-center">What We  Offer</h2>
+        <div class="card-list grid">
+          <div class="card flex flex-col gp-8">
+            <div class="icon flex aic jcc">
+              <img loading="lazy" src="assets/images/icons/icon_private_medical.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Private Medical Insurance</div>
+              <p class="text-18 text-white">Comprehensive cover ensuring your health and wellbeing.</p>
+            </div>
+          </div>
+          <div class="card flex flex-col gp-8">
+            <div class="icon">
+              <img loading="lazy" src="assets/images/icons/icon_competitive_salary.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Competitive Salary</div>
+              <p class="text-18 text-white">Attractive pay reflecting your skills, experience, and contributions.</p>
+            </div>
+          </div>
+          <div class="card flex flex-col gp-8">
+            <div class="icon">
+              <img loading="lazy" src="assets/images/icons/icon_career_growth.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Career Growth</div>
+              <p class="text-18 text-white">Opportunities to grow, learn, and advance your career.</p>
+            </div>
+          </div>
+          <div class="card flex flex-col gp-8">
+            <div class="icon">
+              <img loading="lazy" src="assets/images/icons/icon_team_social.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Team Socials</div>
+              <p class="text-18 text-white">Fun events to connect, celebrate, and build strong bonds.</p>
+            </div>
+          </div>
+          <div class="card flex flex-col gp-8">
+            <div class="icon">
+              <img loading="lazy" src="assets/images/icons/icon_flexible_work.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Flexile Work</div>
+              <p class="text-18 text-white">Hybrid options promoting balance, comfort, and productivity.</p>
+            </div>
+          </div>
+          <div class="card flex flex-col gp-8">
+            <div class="icon">
+              <img loading="lazy" src="assets/images/icons/icon_generous_holiday.svg"  alt="icon" />
+            </div>
+            <div class="content flex flex-col gp-2">
+              <div class="font-bold text-24 text2 title">Generous Holiday</div>
+              <p class="text-18 text-white">Paid time off to rest, recharge, and return refreshed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--open positions-->
+    <section class="open-positions w-full bg-black">
+      <div class="container-fluid flex flex-col aic">
+        <h2 class="heading-gradient text-center">Open Positions</h2>
+        <div class="job-box w-full flex flex-col">
+          <h3>Human Resources</h3>
+          <ul class="w-full flex flex-col">
+            <li class="flex aic">
+              <div class="job-info flex flex-col">
+                <div class="title">HR Manager</div>
+                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
+              </div>
+              <a class="btn-apply btn-outline" href="javascript:void()">
+                Apply Now
+                <svg class="fill-primary">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="flex aic">
+              <div class="job-info flex flex-col">
+                <div class="title">Junior HR</div>
+                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
+              </div>
+              <a class="btn-apply btn-outline" href="javascript:void()">
+                Apply Now
+                <svg class="fill-primary">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="flex aic">
+              <div class="job-info flex flex-col">
+                <div class="title">Recuriter</div>
+                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
+              </div>
+              <a class="btn-apply btn-outline" href="javascript:void()">
+                Apply Now
+                <svg class="fill-primary">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="job-box w-full flex flex-col">
+          <h3>Finance</h3>
+          <ul class="w-full flex flex-col">
+            <li class="flex aic">
+              <div class="job-info flex flex-col">
+                <div class="title">Accountant</div>
+                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
+              </div>
+              <a class="btn-apply btn-outline" href="javascript:void()">
+                Apply Now
+                <svg class="fill-primary">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="job-box w-full flex flex-col">
+          <h3>Administration</h3>
+          <ul class="w-full flex flex-col">
+            <li class="flex aic">
+              <div class="job-info flex flex-col">
+                <div class="title">Office Admin</div>
+                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
+              </div>
+              <a class="btn-apply btn-outline" href="javascript:void()">
+                Apply Now
+                <svg class="fill-primary">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <!-- Footer with Globe -->
+  <footer class="relative text-center">
+    <div class="footer-content flex flex-col">
+      <div class="flex gp-4 aic heading">
+        <h3 class="leading1">Let’s Build Something Epic Together</h3>
+        <a href="contactus.html" class="fill-secondary btn-touch ml-auto">Get in touch!</a>
+      </div>
+
+      <div class="devider"></div>
+      
+      <div class="quick-sections w-full flex jcsb gp-4">
+        <div class="footer-logo">
+          <a href="index.html"><img loading="lazy" src="assets/images/logo-white.svg" width="100" height="118" alt="footer-logo" /></a>
+        </div>
+        <div class="flex gp-3 flex-col quick">
+          <div class="w-full text-left h6">Quick Links</div>
+          <ul class="flex quick-links flex-col gp-3 text-left">
+            <li>
+              <a href="movies.html" class="text-16">Movies</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="text-16">About</a>
+            </li>
+            <li>
+              <a href="contactus.html" class="text-16">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex gp-6 flex-col social-lnks">
+          <div class="w-full text-left h6">Follow us</div>
+          <div class="flex gp-4 items-center social">
+            <a href="https://www.facebook.com/kleemproductions" target="_blank" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#fb"></use>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/company/kleemproductions" target="_blank" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+            <a href="https://instagram.com/kleemproductions" target="_blank" aria-label="social link" class="rounded-full icon border border-solid border-white flex jcc items-center">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#insta"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col gp-3 comm-text">
+          <div class="w-full text-left h6">Stay tuned!</div>
+          <p class="text-18">The Community Page is launching soon.</p>
+        </div>
+      </div>
+      
+      <div class="copyright flex jcsb gp-4 text-16 text-white-80">
+        <div class="copy">&copy; 2025 | Alrights reserved by Kleem Productions</div>
+        <ul class="footer-nav flex gp-6">
+          <li>
+            <a href="javascript:void();">Terms of Service</a>
+          </li>
+          <li>
+            <a href="javascript:void();">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="src/js/swiper-bundle.min.js"></script>
+  <script src="src/js/sliders.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+</html>

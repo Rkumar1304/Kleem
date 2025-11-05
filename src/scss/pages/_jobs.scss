@@ -1,0 +1,159 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.jobs {
+  .join-team {
+    padding-top: 110px;
+    @include device(mobile-only) {
+      padding-top: 72px;
+    }
+    .our-team {
+      gap: 64px;
+      padding: 40px 0px 120px;
+      @include device(mobile-only) {
+        padding: 40px 0px;
+        gap: 40px;
+      }
+      .heading {
+        gap: 12px;
+        max-width: 808px;
+        margin: 0 auto;
+        align-items: center;
+        p {
+          font-size: 24px;
+          @include device(mobile-only) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .work-boxes {
+    padding: 80px 0px;
+    @include device(mobile-only) {
+      padding: 56px 0px;
+    }
+    h2 {
+      margin-bottom: 56px;
+      @include device(mobile-only) {
+        margin-bottom: 32px;
+      }
+    }
+    .card-list {
+      gap: 16px;
+      grid-template-columns: repeat(1, 1fr);
+      max-width: 1240px;
+      @include device(md) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+      @include device(xl) {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+      }
+      .card {
+        padding: 32px 16px;
+        .content {
+          max-width: 80%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  .open-positions {
+    padding: 80px 0px;
+    @include device(mobile-only) {
+      padding: 56px 0px;
+    }
+    h2 {
+      margin-bottom: 56px;
+      @include device(mobile-only) {
+        margin-bottom: 32px;
+      }
+    }
+  }
+  .job-box {
+    gap: 16px;
+    border-bottom: 1px dashed var(--dashedborder);
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    @include device(mobile-only) {
+      padding-bottom: 32px;
+      margin-bottom: 32px;
+    }
+    &[class^="job-box"]:last-child {
+      border-bottom: 0px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
+    h3 {
+      font-family: var(--neue);
+      font-weight: 500;
+      font-size: 40px;
+      @include device(mobile-only) {
+        font-size: 24px;
+      }
+    }
+    ul {
+      gap: 40px;
+      @include device(mobile-only) {
+        gap: 32px;
+      }
+      li {
+        gap: 16px;
+        justify-content: space-between;
+        @include device(mobile-only) {
+          flex-direction: column;
+          gap: 8px;
+          align-items: flex-start;
+        }
+        .job-info {
+          gap: 8px;
+          .title {
+            color: var(--text2);
+            font-size: 24px;
+            font-weight: 500;
+            @include device(mobile-only) {
+              font-size: 18px;
+            }
+          }
+          .desc {
+            color: var(--desctext);
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .join-team-slider {
+    .swiper-wrapper {
+      transition-timing-function: linear;
+      .swiper-slide {
+        width: 145px;
+        height: 152px; 
+        @include device(md) {
+          width: 330px;
+          height: 345px; 
+        }
+        .img {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          padding: 0px 6px;
+          @include device(md) {
+           padding: 0px 15px;
+          }
+          img {
+            object-fit: cover;
+            object-position: left center;
+            height: 100%;
+            width: 100%;
+          }
+        }      
+      }
+    }
+  }
+}
