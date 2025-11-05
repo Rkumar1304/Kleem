@@ -1,84 +1,90 @@
 {
   "new": [
     {
-      "name": "Stylish Shoes",
-      "price": 499,
-      "oldPrice": 799,
-      "image": "assets/images/merchandise/product-1.png",
+      "name": "Lord Narasimha Murti Commemorative Launch",
+      "price": 18900.00,
+      "oldPrice": 20900.00,
+      "image": "https://mantra4u.shop/cdn/shop/files/LordNarasimhafrontimage.jpg?v=1712117071",
       "isNew": true,
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-murti-commemorative-launch/?ref=2"
     },
     {
-      "name": "Plated Chakra Narasimha",
-      "price": 99999.5,
-      "oldPrice": 100400,
-      "image": "assets/images/merchandise/product-2.png",
+      "name": "Yoga Narasimha Murti",
+      "price": 77500.00,
+      "oldPrice": 80500.00,
+      "image": "https://artsofdevotion.com/cdn/shop/files/CloseupfrontImage.jpg?v=1754819039&width=360",
       "isNew": true,
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha-murti"
     },
     {
-      "name": "Yoga Narasimha Tee",
-      "price": 2499,
-      "image": "assets/images/merchandise/product-3.png",
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "name": "Laxmi Narasimha 1",
+      "price": 32800.00,
+      "image": "https://artsofdevotion.com/cdn/shop/files/Side2_cde1fa0e-cb94-4cc9-8afe-a9ff668282f0.jpg?v=1754818997&width=360",
+      "buyNowLink": "https://artsofdevotion.com/products/laxmi-narasimha-1"
     },
     {
-      "name": "Stylish Shoes",
-      "price": 499,
-      "oldPrice": 799,
-      "image": "assets/images/merchandise/product-1.png",
+      "name": "Narasimha Kavacha Dice Charms Bracelet",
+      "price": 22500.00,
+      "oldPrice": 25500.00,
+      "image": "https://mantra4u.shop/cdn/shop/files/NarasimhaDice1.jpg?v=1715200376",
       "isNew": true,
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/narasimha-kavacha-dice-charms-bracelet/?ref=2"
     }
   ],
   "best": [
     {
-      "name": "Stylish Shoes",
-      "price": 499,
-      "oldPrice": 799,
-      "image": "assets/images/merchandise/product-1.png",
+      "name": "Lord Narasimha Murti Commemorative Launch",
+      "price": 18900.00,
+      "oldPrice": 20900.00,
+      "image": "https://mantra4u.shop/cdn/shop/files/LordNarasimhafrontimage.jpg?v=1712117071",
       "isNew": true,
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-murti-commemorative-launch/?ref=2"
     },
     {
-      "name": "Plated Chakra Narasimha",
-      "price": 99999.5,
-      "oldPrice": 100400,
-      "image": "assets/images/merchandise/product-2.png",
+      "name": "Yoga Narasimha Murti",
+      "price": 77500.00,
+      "oldPrice": 80500.00,
+      "image": "https://artsofdevotion.com/cdn/shop/files/CloseupfrontImage.jpg?v=1754819039&width=360",
       "isNew": true,
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha-murti"
+    },
+    {
+      "name": "Laxmi Narasimha 1",
+      "price": 32800.00,
+      "image": "https://artsofdevotion.com/cdn/shop/files/Side2_cde1fa0e-cb94-4cc9-8afe-a9ff668282f0.jpg?v=1754818997&width=360",
+      "buyNowLink": "https://artsofdevotion.com/products/laxmi-narasimha-1"
     }
   ],
   "sale": [
     {
-      "name": "Stylish Shoes",
-      "price": 499,
-      "oldPrice": 799,
-      "image": "assets/images/merchandise/product-1.png",
+      "name": "Lord Narasimha Murti Commemorative Launch",
+      "price": 18900.00,
+      "oldPrice": 20900.00,
+      "image": "https://mantra4u.shop/cdn/shop/files/LordNarasimhafrontimage.jpg?v=1712117071",
       "isNew": true,
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-murti-commemorative-launch/?ref=2"
     },
     {
-      "name": "Plated Chakra Narasimha",
-      "price": 99999.5,
-      "oldPrice": 100400,
-      "image": "assets/images/merchandise/product-2.png",
+      "name": "Yoga Narasimha Murti",
+      "price": 77500.00,
+      "oldPrice": 80500.00,
+      "image": "https://artsofdevotion.com/cdn/shop/files/CloseupfrontImage.jpg?v=1754819039&width=360",
       "isNew": true,
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha-murti"
     },
     {
-      "name": "Yoga Narasimha Tee",
-      "price": 2499,
-      "image": "assets/images/merchandise/product-3.png",
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "name": "Laxmi Narasimha 1",
+      "price": 32800.00,
+      "image": "https://artsofdevotion.com/cdn/shop/files/Side2_cde1fa0e-cb94-4cc9-8afe-a9ff668282f0.jpg?v=1754818997&width=360",
+      "buyNowLink": "https://artsofdevotion.com/products/laxmi-narasimha-1"
     },
     {
-      "name": "Stylish Shoes",
-      "price": 499,
-      "oldPrice": 799,
-      "image": "assets/images/merchandise/product-1.png",
+      "name": "Narasimha Kavacha Dice Charms Bracelet",
+      "price": 22500.00,
+      "oldPrice": 25500.00,
+      "image": "https://mantra4u.shop/cdn/shop/files/NarasimhaDice1.jpg?v=1715200376",
       "isNew": true,
-      "buyNowLink": "https://example.com/buy/spiritual-hoodie"
+      "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/narasimha-kavacha-dice-charms-bracelet/?ref=2"
     }
   ]
 }

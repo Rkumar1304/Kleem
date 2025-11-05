@@ -303,6 +303,15 @@
       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       gap: 45px 25px;
       transition: all 0.3s ease;
+      @include device(xxxl) {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      }
+      @include device(xxxxl) {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      }
+      @include device(xxxxxl) {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      }
       @media screen and (max-width: 768px) {
         grid-template-columns: repeat(2, 1fr);
       }
@@ -319,12 +328,38 @@
         }
         img {
           width: 100%;
-          height: 302px;
+          // height: 302px;
           object-fit: cover;
-          object-position: top center;
-          @media (max-width: 768px) {
-            height: 193px;
+          // object-position: top center;
+          
+          height: 172px;
+          @include device(md) {
+            height: 360px;
           }
+          @include device(lg) {
+            height: 315px;
+          }
+          @include device(xl) {
+            height: 270px;
+          }
+          @include device(xll) {
+            height: 315px;
+          }
+          @include device(xxl) {
+            height: 260px;
+          }
+          @include device(xxxl) {
+            height: 300px;
+          }
+          @include device(xxxxl) {
+            height: 390px;
+          }
+          @include device(xxxxxl) {
+            height: 550px;
+          }
+          // @media (max-width: 768px) {
+          //   height: 193px;
+          // }
         }
         .product-info {
           display: flex;

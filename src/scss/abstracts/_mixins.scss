@@ -170,6 +170,7 @@ $md: 768px;
 $lg: 1024px;
 $lgxl: 1181px;
 $xl: 1280px;
+$xll: 1366px;
 $xxl: 1440px;
 $xxxl: 1500px;
 $xxxxl: 1920px;
@@ -199,6 +200,11 @@ $hover: hover;
   }
   @if $media == xl {
     @media only screen and (min-width: #{$xl}) {
+      @content;
+    }
+  }
+  @if $media == xll {
+    @media only screen and (min-width: #{$xll}) {
       @content;
     }
   }
