@@ -378,4 +378,10 @@
       }
     }
   }
+  a.fill-secondary {
+    border: 1px solid var(--white);
+    &:hover {
+      border: 1px solid var(--black);
+    }
+  }
 }
