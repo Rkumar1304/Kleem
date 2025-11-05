@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
       delay: 0,
       disableOnInteraction:false,
     },
-    speed: 3000,
+    speed: 5000,
     // If we need pagination
     pagination: '.join-team-slider .swiper-pagination',
     // Navigation arrows

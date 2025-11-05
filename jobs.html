@@ -38,6 +38,7 @@
           <li><a href="aboutus.html">About</a></li>
           <li><a href="movies.html">Movies</a></li>
           <li><a href="contactus.html">Contact</a></li>
+          <li><a href="jobs.html" class="text-16">Jobs</a></li>
         </ul>
       </div>
     </nav>
@@ -193,81 +194,7 @@
     <section class="open-positions w-full bg-black">
       <div class="container-fluid flex flex-col aic">
         <h2 class="heading-gradient text-center">Open Positions</h2>
-        <div class="job-box w-full flex flex-col">
-          <h3>Human Resources</h3>
-          <ul class="w-full flex flex-col">
-            <li class="flex aic">
-              <div class="job-info flex flex-col">
-                <div class="title">HR Manager</div>
-                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
-              </div>
-              <a class="btn-apply btn-outline" href="javascript:void()">
-                Apply Now
-                <svg class="fill-primary">
-                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="flex aic">
-              <div class="job-info flex flex-col">
-                <div class="title">Junior HR</div>
-                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
-              </div>
-              <a class="btn-apply btn-outline" href="javascript:void()">
-                Apply Now
-                <svg class="fill-primary">
-                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="flex aic">
-              <div class="job-info flex flex-col">
-                <div class="title">Recuriter</div>
-                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
-              </div>
-              <a class="btn-apply btn-outline" href="javascript:void()">
-                Apply Now
-                <svg class="fill-primary">
-                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="job-box w-full flex flex-col">
-          <h3>Finance</h3>
-          <ul class="w-full flex flex-col">
-            <li class="flex aic">
-              <div class="job-info flex flex-col">
-                <div class="title">Accountant</div>
-                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
-              </div>
-              <a class="btn-apply btn-outline" href="javascript:void()">
-                Apply Now
-                <svg class="fill-primary">
-                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="job-box w-full flex flex-col">
-          <h3>Administration</h3>
-          <ul class="w-full flex flex-col">
-            <li class="flex aic">
-              <div class="job-info flex flex-col">
-                <div class="title">Office Admin</div>
-                <div class="desc">Celebrating the milestones of Mahavatar Narsimha</div>
-              </div>
-              <a class="btn-apply btn-outline" href="javascript:void()">
-                Apply Now
-                <svg class="fill-primary">
-                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <div id="jobsContainer" class="w-full flex flex-col"></div>
       </div>
     </section>
   </div>
@@ -298,6 +225,9 @@
             </li>
             <li>
               <a href="contactus.html" class="text-16">Contact</a>
+            </li>
+            <li>
+              <a href="jobs.html" class="text-16">Jobs</a>
             </li>
           </ul>
         </div>
@@ -344,6 +274,7 @@
   <!-- Scripts -->
   <script src="src/js/swiper-bundle.min.js"></script>
   <script src="src/js/sliders.js"></script>
+  <script src="src/js/jobs.js"></script>
   <script src="src/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,44 @@
+{
+  "openPositions": [
+    {
+      "department": "Human Resources",
+      "jobs": [
+        {
+          "title": "HR Manager",
+          "desc": "Celebrating the milestones of Mahavatar Narsimha",
+          "link": "javascript:void()"
+        },
+        {
+          "title": "Junior HR",
+          "desc": "Celebrating the milestones of Mahavatar Narsimha",
+          "link": "javascript:void()"
+        },
+        {
+          "title": "Recruiter",
+          "desc": "Celebrating the milestones of Mahavatar Narsimha",
+          "link": "javascript:void()"
+        }
+      ]
+    },
+    {
+      "department": "Finance",
+      "jobs": [
+        {
+          "title": "Accountant",
+          "desc": "Celebrating the milestones of Mahavatar Narsimha",
+          "link": "javascript:void()"
+        }
+      ]
+    },
+    {
+      "department": "Administration",
+      "jobs": [
+        {
+          "title": "Office Admin",
+          "desc": "Celebrating the milestones of Mahavatar Narsimha",
+          "link": "javascript:void()"
+        }
+      ]
+    }
+  ]
+}
