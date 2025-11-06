@@ -2453,1090 +2453,1090 @@ textarea {
   height: 2px;
 }
 #banner-stars .axis-1 {
-  animation: anim0 21526ms linear infinite, fade3 21526ms linear infinite;
+  animation: anim0 83891ms linear infinite, fade5 83891ms linear infinite;
 }
 #banner-stars .axis-2 {
-  animation: anim0 108052ms linear infinite, fade10 108052ms linear infinite;
+  animation: anim0 72337ms linear infinite, fade1 72337ms linear infinite;
 }
 #banner-stars .axis-3 {
-  animation: anim0 127491ms linear infinite, fade3 127491ms linear infinite;
+  animation: anim0 77978ms linear infinite, fade8 77978ms linear infinite;
 }
 #banner-stars .axis-4 {
-  animation: anim4 51771ms linear infinite, fade6 51771ms linear infinite;
+  animation: anim4 79314ms linear infinite, fade4 79314ms linear infinite;
 }
 #banner-stars .axis-5 {
-  animation: anim4 101146ms linear infinite, fade9 101146ms linear infinite;
+  animation: anim4 51973ms linear infinite, fade5 51973ms linear infinite;
 }
 #banner-stars .axis-6 {
-  animation: anim4 101564ms linear infinite, fade9 101564ms linear infinite;
+  animation: anim4 11118ms linear infinite, fade2 11118ms linear infinite;
 }
 #banner-stars .axis-7 {
-  animation: anim4 33207ms linear infinite, fade9 33207ms linear infinite;
+  animation: anim4 18586ms linear infinite, fade4 18586ms linear infinite;
 }
 #banner-stars .axis-8 {
-  animation: anim8 30717ms linear infinite, fade3 30717ms linear infinite;
+  animation: anim8 74767ms linear infinite, fade1 74767ms linear infinite;
 }
 #banner-stars .axis-9 {
-  animation: anim8 66318ms linear infinite, fade10 66318ms linear infinite;
+  animation: anim8 59330ms linear infinite, fade8 59330ms linear infinite;
 }
 #banner-stars .axis-10 {
-  animation: anim8 120950ms linear infinite, fade3 120950ms linear infinite;
+  animation: anim8 71276ms linear infinite, fade4 71276ms linear infinite;
 }
 #banner-stars .axis-11 {
-  animation: anim8 19120ms linear infinite, fade4 19120ms linear infinite;
+  animation: anim8 37054ms linear infinite, fade8 37054ms linear infinite;
 }
 #banner-stars .axis-12 {
-  animation: anim12 31812ms linear infinite, fade1 31812ms linear infinite;
+  animation: anim12 9168ms linear infinite, fade10 9168ms linear infinite;
 }
 #banner-stars .axis-13 {
-  animation: anim12 63245ms linear infinite, fade6 63245ms linear infinite;
+  animation: anim12 8369ms linear infinite, fade5 8369ms linear infinite;
 }
 #banner-stars .axis-14 {
-  animation: anim12 125749ms linear infinite, fade4 125749ms linear infinite;
+  animation: anim12 110853ms linear infinite, fade1 110853ms linear infinite;
 }
 #banner-stars .axis-15 {
-  animation: anim12 39538ms linear infinite, fade6 39538ms linear infinite;
+  animation: anim12 68870ms linear infinite, fade2 68870ms linear infinite;
 }
 #banner-stars .axis-16 {
-  animation: anim16 40430ms linear infinite, fade3 40430ms linear infinite;
+  animation: anim16 100437ms linear infinite, fade6 100437ms linear infinite;
 }
 #banner-stars .axis-17 {
-  animation: anim16 103846ms linear infinite, fade2 103846ms linear infinite;
+  animation: anim16 37161ms linear infinite, fade2 37161ms linear infinite;
 }
 #banner-stars .axis-18 {
-  animation: anim16 24028ms linear infinite, fade4 24028ms linear infinite;
+  animation: anim16 55444ms linear infinite, fade10 55444ms linear infinite;
 }
 #banner-stars .axis-19 {
-  animation: anim16 41327ms linear infinite, fade8 41327ms linear infinite;
+  animation: anim16 58114ms linear infinite, fade8 58114ms linear infinite;
 }
 #banner-stars .axis-20 {
-  animation: anim20 86332ms linear infinite, fade9 86332ms linear infinite;
+  animation: anim20 56796ms linear infinite, fade6 56796ms linear infinite;
 }
 #banner-stars .axis-21 {
-  animation: anim20 86572ms linear infinite, fade1 86572ms linear infinite;
+  animation: anim20 64854ms linear infinite, fade2 64854ms linear infinite;
 }
 #banner-stars .axis-22 {
-  animation: anim20 83924ms linear infinite, fade6 83924ms linear infinite;
+  animation: anim20 52492ms linear infinite, fade10 52492ms linear infinite;
 }
 #banner-stars .axis-23 {
-  animation: anim20 66849ms linear infinite, fade6 66849ms linear infinite;
+  animation: anim20 98195ms linear infinite, fade10 98195ms linear infinite;
 }
 #banner-stars .axis-24 {
-  animation: anim24 84840ms linear infinite, fade8 84840ms linear infinite;
+  animation: anim24 25481ms linear infinite, fade9 25481ms linear infinite;
 }
 #banner-stars .axis-25 {
-  animation: anim24 118217ms linear infinite, fade6 118217ms linear infinite;
+  animation: anim24 73630ms linear infinite, fade4 73630ms linear infinite;
 }
 #banner-stars .axis-26 {
-  animation: anim24 42439ms linear infinite, fade1 42439ms linear infinite;
+  animation: anim24 28291ms linear infinite, fade10 28291ms linear infinite;
 }
 #banner-stars .axis-27 {
-  animation: anim24 27018ms linear infinite, fade8 27018ms linear infinite;
+  animation: anim24 46837ms linear infinite, fade4 46837ms linear infinite;
 }
 #banner-stars .axis-28 {
-  animation: anim28 77846ms linear infinite, fade6 77846ms linear infinite;
+  animation: anim28 54747ms linear infinite, fade4 54747ms linear infinite;
 }
 #banner-stars .axis-29 {
-  animation: anim28 68974ms linear infinite, fade8 68974ms linear infinite;
+  animation: anim28 38701ms linear infinite, fade3 38701ms linear infinite;
 }
 #banner-stars .axis-30 {
-  animation: anim28 104507ms linear infinite, fade7 104507ms linear infinite;
+  animation: anim28 36026ms linear infinite, fade3 36026ms linear infinite;
 }
 #banner-stars .axis-31 {
-  animation: anim28 82989ms linear infinite, fade8 82989ms linear infinite;
+  animation: anim28 91207ms linear infinite, fade5 91207ms linear infinite;
 }
 #banner-stars .axis-32 {
-  animation: anim32 15652ms linear infinite, fade9 15652ms linear infinite;
+  animation: anim32 88963ms linear infinite, fade10 88963ms linear infinite;
 }
 #banner-stars .axis-33 {
-  animation: anim32 103710ms linear infinite, fade2 103710ms linear infinite;
+  animation: anim32 68105ms linear infinite, fade4 68105ms linear infinite;
 }
 #banner-stars .axis-34 {
-  animation: anim32 121645ms linear infinite, fade6 121645ms linear infinite;
+  animation: anim32 14074ms linear infinite, fade4 14074ms linear infinite;
 }
 #banner-stars .axis-35 {
-  animation: anim32 100475ms linear infinite, fade1 100475ms linear infinite;
+  animation: anim32 86473ms linear infinite, fade4 86473ms linear infinite;
 }
 #banner-stars .axis-36 {
-  animation: anim36 31053ms linear infinite, fade10 31053ms linear infinite;
+  animation: anim36 99461ms linear infinite, fade6 99461ms linear infinite;
 }
 #banner-stars .axis-37 {
-  animation: anim36 14992ms linear infinite, fade9 14992ms linear infinite;
+  animation: anim36 96190ms linear infinite, fade5 96190ms linear infinite;
 }
 #banner-stars .axis-38 {
-  animation: anim36 109858ms linear infinite, fade4 109858ms linear infinite;
+  animation: anim36 76601ms linear infinite, fade3 76601ms linear infinite;
 }
 #banner-stars .axis-39 {
-  animation: anim36 127525ms linear infinite, fade1 127525ms linear infinite;
+  animation: anim36 37649ms linear infinite, fade1 37649ms linear infinite;
 }
 #banner-stars .axis-40 {
-  animation: anim40 56950ms linear infinite, fade8 56950ms linear infinite;
+  animation: anim40 48078ms linear infinite, fade10 48078ms linear infinite;
 }
 #banner-stars .axis-41 {
-  animation: anim40 120644ms linear infinite, fade10 120644ms linear infinite;
+  animation: anim40 126168ms linear infinite, fade8 126168ms linear infinite;
 }
 #banner-stars .axis-42 {
-  animation: anim40 59137ms linear infinite, fade7 59137ms linear infinite;
+  animation: anim40 56550ms linear infinite, fade5 56550ms linear infinite;
 }
 #banner-stars .axis-43 {
-  animation: anim40 85412ms linear infinite, fade3 85412ms linear infinite;
+  animation: anim40 92801ms linear infinite, fade5 92801ms linear infinite;
 }
 #banner-stars .axis-44 {
-  animation: anim44 118458ms linear infinite, fade6 118458ms linear infinite;
+  animation: anim44 86496ms linear infinite, fade4 86496ms linear infinite;
 }
 #banner-stars .axis-45 {
-  animation: anim44 124352ms linear infinite, fade4 124352ms linear infinite;
+  animation: anim44 117726ms linear infinite, fade4 117726ms linear infinite;
 }
 #banner-stars .axis-46 {
-  animation: anim44 10734ms linear infinite, fade4 10734ms linear infinite;
+  animation: anim44 68522ms linear infinite, fade3 68522ms linear infinite;
 }
 #banner-stars .axis-47 {
-  animation: anim44 84451ms linear infinite, fade7 84451ms linear infinite;
+  animation: anim44 85293ms linear infinite, fade10 85293ms linear infinite;
 }
 #banner-stars .axis-48 {
-  animation: anim48 82565ms linear infinite, fade5 82565ms linear infinite;
+  animation: anim48 77825ms linear infinite, fade9 77825ms linear infinite;
 }
 #banner-stars .axis-49 {
-  animation: anim48 57121ms linear infinite, fade10 57121ms linear infinite;
+  animation: anim48 114445ms linear infinite, fade8 114445ms linear infinite;
 }
 #banner-stars .axis-50 {
-  animation: anim48 108630ms linear infinite, fade4 108630ms linear infinite;
+  animation: anim48 15902ms linear infinite, fade10 15902ms linear infinite;
 }
 #banner-stars .axis-51 {
-  animation: anim48 50595ms linear infinite, fade9 50595ms linear infinite;
+  animation: anim48 53091ms linear infinite, fade1 53091ms linear infinite;
 }
 #banner-stars .axis-52 {
-  animation: anim52 74587ms linear infinite, fade2 74587ms linear infinite;
+  animation: anim52 120541ms linear infinite, fade2 120541ms linear infinite;
 }
 #banner-stars .axis-53 {
-  animation: anim52 37829ms linear infinite, fade9 37829ms linear infinite;
+  animation: anim52 124893ms linear infinite, fade5 124893ms linear infinite;
 }
 #banner-stars .axis-54 {
-  animation: anim52 127030ms linear infinite, fade3 127030ms linear infinite;
+  animation: anim52 93288ms linear infinite, fade5 93288ms linear infinite;
 }
 #banner-stars .axis-55 {
-  animation: anim52 44237ms linear infinite, fade2 44237ms linear infinite;
+  animation: anim52 49541ms linear infinite, fade1 49541ms linear infinite;
 }
 #banner-stars .axis-56 {
-  animation: anim56 71609ms linear infinite, fade10 71609ms linear infinite;
+  animation: anim56 61664ms linear infinite, fade3 61664ms linear infinite;
 }
 #banner-stars .axis-57 {
-  animation: anim56 40146ms linear infinite, fade4 40146ms linear infinite;
+  animation: anim56 92151ms linear infinite, fade10 92151ms linear infinite;
 }
 #banner-stars .axis-58 {
-  animation: anim56 33530ms linear infinite, fade6 33530ms linear infinite;
+  animation: anim56 29693ms linear infinite, fade2 29693ms linear infinite;
 }
 #banner-stars .axis-59 {
-  animation: anim56 66686ms linear infinite, fade5 66686ms linear infinite;
+  animation: anim56 9808ms linear infinite, fade7 9808ms linear infinite;
 }
 #banner-stars .axis-60 {
-  animation: anim60 80072ms linear infinite, fade6 80072ms linear infinite;
+  animation: anim60 35995ms linear infinite, fade1 35995ms linear infinite;
 }
 #banner-stars .axis-61 {
-  animation: anim60 90944ms linear infinite, fade4 90944ms linear infinite;
+  animation: anim60 12616ms linear infinite, fade7 12616ms linear infinite;
 }
 #banner-stars .axis-62 {
-  animation: anim60 104989ms linear infinite, fade3 104989ms linear infinite;
+  animation: anim60 79411ms linear infinite, fade3 79411ms linear infinite;
 }
 #banner-stars .axis-63 {
-  animation: anim60 49002ms linear infinite, fade4 49002ms linear infinite;
+  animation: anim60 37664ms linear infinite, fade4 37664ms linear infinite;
 }
 #banner-stars .axis-64 {
-  animation: anim64 100900ms linear infinite, fade10 100900ms linear infinite;
+  animation: anim64 77643ms linear infinite, fade10 77643ms linear infinite;
 }
 #banner-stars .axis-65 {
-  animation: anim64 23062ms linear infinite, fade7 23062ms linear infinite;
+  animation: anim64 104422ms linear infinite, fade6 104422ms linear infinite;
 }
 #banner-stars .axis-66 {
-  animation: anim64 12736ms linear infinite, fade2 12736ms linear infinite;
+  animation: anim64 85917ms linear infinite, fade2 85917ms linear infinite;
 }
 #banner-stars .axis-67 {
-  animation: anim64 121814ms linear infinite, fade10 121814ms linear infinite;
+  animation: anim64 57510ms linear infinite, fade9 57510ms linear infinite;
 }
 #banner-stars .axis-68 {
-  animation: anim68 76319ms linear infinite, fade4 76319ms linear infinite;
+  animation: anim68 94980ms linear infinite, fade10 94980ms linear infinite;
 }
 #banner-stars .axis-69 {
-  animation: anim68 14930ms linear infinite, fade4 14930ms linear infinite;
+  animation: anim68 99965ms linear infinite, fade3 99965ms linear infinite;
 }
 #banner-stars .axis-70 {
-  animation: anim68 53740ms linear infinite, fade6 53740ms linear infinite;
+  animation: anim68 49830ms linear infinite, fade6 49830ms linear infinite;
 }
 #banner-stars .axis-71 {
-  animation: anim68 122983ms linear infinite, fade1 122983ms linear infinite;
+  animation: anim68 13064ms linear infinite, fade3 13064ms linear infinite;
 }
 #banner-stars .axis-72 {
-  animation: anim72 82852ms linear infinite, fade5 82852ms linear infinite;
+  animation: anim72 39888ms linear infinite, fade10 39888ms linear infinite;
 }
 #banner-stars .axis-73 {
-  animation: anim72 114613ms linear infinite, fade9 114613ms linear infinite;
+  animation: anim72 65541ms linear infinite, fade5 65541ms linear infinite;
 }
 #banner-stars .axis-74 {
-  animation: anim72 55765ms linear infinite, fade10 55765ms linear infinite;
+  animation: anim72 84573ms linear infinite, fade10 84573ms linear infinite;
 }
 #banner-stars .axis-75 {
-  animation: anim72 24535ms linear infinite, fade1 24535ms linear infinite;
+  animation: anim72 64496ms linear infinite, fade9 64496ms linear infinite;
 }
 #banner-stars .axis-76 {
-  animation: anim76 41434ms linear infinite, fade8 41434ms linear infinite;
+  animation: anim76 89153ms linear infinite, fade7 89153ms linear infinite;
 }
 #banner-stars .axis-77 {
-  animation: anim76 111852ms linear infinite, fade2 111852ms linear infinite;
+  animation: anim76 82455ms linear infinite, fade10 82455ms linear infinite;
 }
 #banner-stars .axis-78 {
-  animation: anim76 100654ms linear infinite, fade4 100654ms linear infinite;
+  animation: anim76 114706ms linear infinite, fade5 114706ms linear infinite;
 }
 #banner-stars .axis-79 {
-  animation: anim76 96607ms linear infinite, fade3 96607ms linear infinite;
+  animation: anim76 34198ms linear infinite, fade6 34198ms linear infinite;
 }
 #banner-stars .axis-80 {
-  animation: anim80 98063ms linear infinite, fade10 98063ms linear infinite;
+  animation: anim80 27444ms linear infinite, fade10 27444ms linear infinite;
 }
 #banner-stars .axis-81 {
-  animation: anim80 49986ms linear infinite, fade10 49986ms linear infinite;
+  animation: anim80 49282ms linear infinite, fade9 49282ms linear infinite;
 }
 #banner-stars .axis-82 {
-  animation: anim80 31813ms linear infinite, fade8 31813ms linear infinite;
+  animation: anim80 61455ms linear infinite, fade9 61455ms linear infinite;
 }
 #banner-stars .axis-83 {
-  animation: anim80 85504ms linear infinite, fade8 85504ms linear infinite;
+  animation: anim80 50446ms linear infinite, fade8 50446ms linear infinite;
 }
 #banner-stars .axis-84 {
-  animation: anim84 57207ms linear infinite, fade9 57207ms linear infinite;
+  animation: anim84 66557ms linear infinite, fade4 66557ms linear infinite;
 }
 #banner-stars .axis-85 {
-  animation: anim84 126778ms linear infinite, fade4 126778ms linear infinite;
+  animation: anim84 53808ms linear infinite, fade4 53808ms linear infinite;
 }
 #banner-stars .axis-86 {
-  animation: anim84 45884ms linear infinite, fade3 45884ms linear infinite;
+  animation: anim84 118368ms linear infinite, fade6 118368ms linear infinite;
 }
 #banner-stars .axis-87 {
-  animation: anim84 108378ms linear infinite, fade8 108378ms linear infinite;
+  animation: anim84 91180ms linear infinite, fade6 91180ms linear infinite;
 }
 #banner-stars .axis-88 {
-  animation: anim88 74949ms linear infinite, fade2 74949ms linear infinite;
+  animation: anim88 91968ms linear infinite, fade8 91968ms linear infinite;
 }
 #banner-stars .axis-89 {
-  animation: anim88 32082ms linear infinite, fade7 32082ms linear infinite;
+  animation: anim88 35082ms linear infinite, fade1 35082ms linear infinite;
 }
 #banner-stars .axis-90 {
-  animation: anim88 106438ms linear infinite, fade4 106438ms linear infinite;
+  animation: anim88 125322ms linear infinite, fade9 125322ms linear infinite;
 }
 #banner-stars .axis-91 {
-  animation: anim88 47511ms linear infinite, fade2 47511ms linear infinite;
+  animation: anim88 54289ms linear infinite, fade1 54289ms linear infinite;
 }
 #banner-stars .axis-92 {
-  animation: anim92 13553ms linear infinite, fade10 13553ms linear infinite;
+  animation: anim92 56976ms linear infinite, fade1 56976ms linear infinite;
 }
 #banner-stars .axis-93 {
-  animation: anim92 72742ms linear infinite, fade5 72742ms linear infinite;
+  animation: anim92 93873ms linear infinite, fade6 93873ms linear infinite;
 }
 #banner-stars .axis-94 {
-  animation: anim92 98653ms linear infinite, fade9 98653ms linear infinite;
+  animation: anim92 35220ms linear infinite, fade7 35220ms linear infinite;
 }
 #banner-stars .axis-95 {
-  animation: anim92 52055ms linear infinite, fade9 52055ms linear infinite;
+  animation: anim92 14605ms linear infinite, fade5 14605ms linear infinite;
 }
 #banner-stars .axis-96 {
-  animation: anim96 125013ms linear infinite, fade5 125013ms linear infinite;
+  animation: anim96 106898ms linear infinite, fade4 106898ms linear infinite;
 }
 #banner-stars .axis-97 {
-  animation: anim96 103549ms linear infinite, fade9 103549ms linear infinite;
+  animation: anim96 26872ms linear infinite, fade10 26872ms linear infinite;
 }
 #banner-stars .axis-98 {
-  animation: anim96 57743ms linear infinite, fade5 57743ms linear infinite;
+  animation: anim96 68188ms linear infinite, fade2 68188ms linear infinite;
 }
 #banner-stars .axis-99 {
-  animation: anim96 83125ms linear infinite, fade3 83125ms linear infinite;
+  animation: anim96 73723ms linear infinite, fade7 73723ms linear infinite;
 }
 #banner-stars .axis-100 {
-  animation: anim100 57249ms linear infinite, fade9 57249ms linear infinite;
+  animation: anim100 101023ms linear infinite, fade5 101023ms linear infinite;
 }
 #banner-stars .axis-101 {
-  animation: anim100 100486ms linear infinite, fade5 100486ms linear infinite;
+  animation: anim100 14466ms linear infinite, fade8 14466ms linear infinite;
 }
 #banner-stars .axis-102 {
-  animation: anim100 109708ms linear infinite, fade1 109708ms linear infinite;
+  animation: anim100 14252ms linear infinite, fade9 14252ms linear infinite;
 }
 #banner-stars .axis-103 {
-  animation: anim100 71967ms linear infinite, fade3 71967ms linear infinite;
+  animation: anim100 8835ms linear infinite, fade7 8835ms linear infinite;
 }
 #banner-stars .axis-104 {
-  animation: anim104 38381ms linear infinite, fade8 38381ms linear infinite;
+  animation: anim104 113853ms linear infinite, fade1 113853ms linear infinite;
 }
 #banner-stars .axis-105 {
-  animation: anim104 83133ms linear infinite, fade3 83133ms linear infinite;
+  animation: anim104 14872ms linear infinite, fade3 14872ms linear infinite;
 }
 #banner-stars .axis-106 {
-  animation: anim104 114167ms linear infinite, fade4 114167ms linear infinite;
+  animation: anim104 62381ms linear infinite, fade6 62381ms linear infinite;
 }
 #banner-stars .axis-107 {
-  animation: anim104 83198ms linear infinite, fade5 83198ms linear infinite;
+  animation: anim104 62275ms linear infinite, fade10 62275ms linear infinite;
 }
 #banner-stars .axis-108 {
-  animation: anim108 48391ms linear infinite, fade2 48391ms linear infinite;
+  animation: anim108 52143ms linear infinite, fade3 52143ms linear infinite;
 }
 #banner-stars .axis-109 {
-  animation: anim108 8366ms linear infinite, fade2 8366ms linear infinite;
+  animation: anim108 87472ms linear infinite, fade3 87472ms linear infinite;
 }
 #banner-stars .axis-110 {
-  animation: anim108 47686ms linear infinite, fade7 47686ms linear infinite;
+  animation: anim108 111723ms linear infinite, fade3 111723ms linear infinite;
 }
 #banner-stars .axis-111 {
-  animation: anim108 74310ms linear infinite, fade3 74310ms linear infinite;
+  animation: anim108 93612ms linear infinite, fade1 93612ms linear infinite;
 }
 #banner-stars .axis-112 {
-  animation: anim112 84072ms linear infinite, fade4 84072ms linear infinite;
+  animation: anim112 87963ms linear infinite, fade10 87963ms linear infinite;
 }
 #banner-stars .axis-113 {
-  animation: anim112 119052ms linear infinite, fade1 119052ms linear infinite;
+  animation: anim112 62507ms linear infinite, fade6 62507ms linear infinite;
 }
 #banner-stars .axis-114 {
-  animation: anim112 112363ms linear infinite, fade3 112363ms linear infinite;
+  animation: anim112 100489ms linear infinite, fade9 100489ms linear infinite;
 }
 #banner-stars .axis-115 {
-  animation: anim112 119752ms linear infinite, fade9 119752ms linear infinite;
+  animation: anim112 46991ms linear infinite, fade3 46991ms linear infinite;
 }
 #banner-stars .axis-116 {
-  animation: anim116 31393ms linear infinite, fade2 31393ms linear infinite;
+  animation: anim116 15988ms linear infinite, fade9 15988ms linear infinite;
 }
 #banner-stars .axis-117 {
-  animation: anim116 63688ms linear infinite, fade1 63688ms linear infinite;
+  animation: anim116 91661ms linear infinite, fade3 91661ms linear infinite;
 }
 #banner-stars .axis-118 {
-  animation: anim116 59347ms linear infinite, fade2 59347ms linear infinite;
+  animation: anim116 106076ms linear infinite, fade2 106076ms linear infinite;
 }
 #banner-stars .axis-119 {
-  animation: anim116 92817ms linear infinite, fade6 92817ms linear infinite;
+  animation: anim116 100465ms linear infinite, fade2 100465ms linear infinite;
 }
 #banner-stars .axis-120 {
-  animation: anim120 102958ms linear infinite, fade4 102958ms linear infinite;
+  animation: anim120 61516ms linear infinite, fade7 61516ms linear infinite;
 }
 #banner-stars .axis-121 {
-  animation: anim120 97672ms linear infinite, fade2 97672ms linear infinite;
+  animation: anim120 50905ms linear infinite, fade5 50905ms linear infinite;
 }
 #banner-stars .axis-122 {
-  animation: anim120 117810ms linear infinite, fade9 117810ms linear infinite;
+  animation: anim120 71418ms linear infinite, fade2 71418ms linear infinite;
 }
 #banner-stars .axis-123 {
-  animation: anim120 66437ms linear infinite, fade1 66437ms linear infinite;
+  animation: anim120 66297ms linear infinite, fade9 66297ms linear infinite;
 }
 #banner-stars .axis-124 {
-  animation: anim124 49272ms linear infinite, fade3 49272ms linear infinite;
+  animation: anim124 124851ms linear infinite, fade9 124851ms linear infinite;
 }
 #banner-stars .axis-125 {
-  animation: anim124 49992ms linear infinite, fade1 49992ms linear infinite;
+  animation: anim124 81974ms linear infinite, fade3 81974ms linear infinite;
 }
 #banner-stars .axis-126 {
-  animation: anim124 24124ms linear infinite, fade7 24124ms linear infinite;
+  animation: anim124 69972ms linear infinite, fade2 69972ms linear infinite;
 }
 #banner-stars .axis-127 {
-  animation: anim124 109185ms linear infinite, fade1 109185ms linear infinite;
+  animation: anim124 53332ms linear infinite, fade3 53332ms linear infinite;
 }
 #banner-stars .axis-128 {
-  animation: anim128 79521ms linear infinite, fade8 79521ms linear infinite;
+  animation: anim128 93845ms linear infinite, fade7 93845ms linear infinite;
 }
 #banner-stars .axis-129 {
-  animation: anim128 79357ms linear infinite, fade7 79357ms linear infinite;
+  animation: anim128 87584ms linear infinite, fade6 87584ms linear infinite;
 }
 #banner-stars .axis-130 {
-  animation: anim128 83421ms linear infinite, fade4 83421ms linear infinite;
+  animation: anim128 43763ms linear infinite, fade10 43763ms linear infinite;
 }
 #banner-stars .axis-131 {
-  animation: anim128 39971ms linear infinite, fade7 39971ms linear infinite;
+  animation: anim128 113189ms linear infinite, fade5 113189ms linear infinite;
 }
 #banner-stars .axis-132 {
-  animation: anim132 48911ms linear infinite, fade3 48911ms linear infinite;
+  animation: anim132 86797ms linear infinite, fade4 86797ms linear infinite;
 }
 #banner-stars .axis-133 {
-  animation: anim132 14619ms linear infinite, fade9 14619ms linear infinite;
+  animation: anim132 122494ms linear infinite, fade1 122494ms linear infinite;
 }
 #banner-stars .axis-134 {
-  animation: anim132 56942ms linear infinite, fade3 56942ms linear infinite;
+  animation: anim132 105603ms linear infinite, fade9 105603ms linear infinite;
 }
 #banner-stars .axis-135 {
-  animation: anim132 54150ms linear infinite, fade7 54150ms linear infinite;
+  animation: anim132 114934ms linear infinite, fade3 114934ms linear infinite;
 }
 #banner-stars .axis-136 {
-  animation: anim136 83868ms linear infinite, fade10 83868ms linear infinite;
+  animation: anim136 21196ms linear infinite, fade9 21196ms linear infinite;
 }
 #banner-stars .axis-137 {
-  animation: anim136 39953ms linear infinite, fade3 39953ms linear infinite;
+  animation: anim136 75546ms linear infinite, fade6 75546ms linear infinite;
 }
 #banner-stars .axis-138 {
-  animation: anim136 65476ms linear infinite, fade5 65476ms linear infinite;
+  animation: anim136 67683ms linear infinite, fade4 67683ms linear infinite;
 }
 #banner-stars .axis-139 {
-  animation: anim136 34710ms linear infinite, fade5 34710ms linear infinite;
+  animation: anim136 119396ms linear infinite, fade3 119396ms linear infinite;
 }
 #banner-stars .axis-140 {
-  animation: anim140 91884ms linear infinite, fade5 91884ms linear infinite;
+  animation: anim140 34891ms linear infinite, fade1 34891ms linear infinite;
 }
 #banner-stars .axis-141 {
-  animation: anim140 95468ms linear infinite, fade6 95468ms linear infinite;
+  animation: anim140 83872ms linear infinite, fade7 83872ms linear infinite;
 }
 #banner-stars .axis-142 {
-  animation: anim140 110771ms linear infinite, fade1 110771ms linear infinite;
+  animation: anim140 8686ms linear infinite, fade3 8686ms linear infinite;
 }
 #banner-stars .axis-143 {
-  animation: anim140 94031ms linear infinite, fade2 94031ms linear infinite;
+  animation: anim140 29073ms linear infinite, fade7 29073ms linear infinite;
 }
 #banner-stars .axis-144 {
-  animation: anim144 98892ms linear infinite, fade10 98892ms linear infinite;
+  animation: anim144 52020ms linear infinite, fade2 52020ms linear infinite;
 }
 #banner-stars .axis-145 {
-  animation: anim144 103562ms linear infinite, fade4 103562ms linear infinite;
+  animation: anim144 61692ms linear infinite, fade1 61692ms linear infinite;
 }
 #banner-stars .axis-146 {
-  animation: anim144 25817ms linear infinite, fade10 25817ms linear infinite;
+  animation: anim144 48220ms linear infinite, fade9 48220ms linear infinite;
 }
 #banner-stars .axis-147 {
-  animation: anim144 121291ms linear infinite, fade7 121291ms linear infinite;
+  animation: anim144 21292ms linear infinite, fade3 21292ms linear infinite;
 }
 #banner-stars .axis-148 {
-  animation: anim148 95820ms linear infinite, fade8 95820ms linear infinite;
+  animation: anim148 87223ms linear infinite, fade2 87223ms linear infinite;
 }
 #banner-stars .axis-149 {
-  animation: anim148 53082ms linear infinite, fade9 53082ms linear infinite;
+  animation: anim148 12541ms linear infinite, fade2 12541ms linear infinite;
 }
 #banner-stars .axis-150 {
-  animation: anim148 110031ms linear infinite, fade5 110031ms linear infinite;
+  animation: anim148 73645ms linear infinite, fade7 73645ms linear infinite;
 }
 #banner-stars .axis-151 {
-  animation: anim148 100096ms linear infinite, fade10 100096ms linear infinite;
+  animation: anim148 40060ms linear infinite, fade3 40060ms linear infinite;
 }
 #banner-stars .axis-152 {
-  animation: anim152 16124ms linear infinite, fade7 16124ms linear infinite;
+  animation: anim152 9110ms linear infinite, fade3 9110ms linear infinite;
 }
 #banner-stars .axis-153 {
-  animation: anim152 122382ms linear infinite, fade6 122382ms linear infinite;
+  animation: anim152 51484ms linear infinite, fade6 51484ms linear infinite;
 }
 #banner-stars .axis-154 {
-  animation: anim152 76635ms linear infinite, fade2 76635ms linear infinite;
+  animation: anim152 13541ms linear infinite, fade3 13541ms linear infinite;
 }
 #banner-stars .axis-155 {
-  animation: anim152 97052ms linear infinite, fade1 97052ms linear infinite;
+  animation: anim152 70340ms linear infinite, fade4 70340ms linear infinite;
 }
 #banner-stars .axis-156 {
-  animation: anim156 117988ms linear infinite, fade5 117988ms linear infinite;
+  animation: anim156 45812ms linear infinite, fade8 45812ms linear infinite;
 }
 #banner-stars .axis-157 {
-  animation: anim156 10896ms linear infinite, fade6 10896ms linear infinite;
+  animation: anim156 16101ms linear infinite, fade2 16101ms linear infinite;
 }
 #banner-stars .axis-158 {
-  animation: anim156 70266ms linear infinite, fade1 70266ms linear infinite;
+  animation: anim156 24028ms linear infinite, fade7 24028ms linear infinite;
 }
 #banner-stars .axis-159 {
-  animation: anim156 35783ms linear infinite, fade9 35783ms linear infinite;
+  animation: anim156 16680ms linear infinite, fade3 16680ms linear infinite;
 }
 #banner-stars .axis-160 {
-  animation: anim160 76862ms linear infinite, fade6 76862ms linear infinite;
+  animation: anim160 119726ms linear infinite, fade8 119726ms linear infinite;
 }
 #banner-stars .axis-161 {
-  animation: anim160 120257ms linear infinite, fade1 120257ms linear infinite;
+  animation: anim160 102153ms linear infinite, fade10 102153ms linear infinite;
 }
 #banner-stars .axis-162 {
-  animation: anim160 125860ms linear infinite, fade10 125860ms linear infinite;
+  animation: anim160 106663ms linear infinite, fade5 106663ms linear infinite;
 }
 #banner-stars .axis-163 {
-  animation: anim160 70815ms linear infinite, fade6 70815ms linear infinite;
+  animation: anim160 94130ms linear infinite, fade4 94130ms linear infinite;
 }
 #banner-stars .axis-164 {
-  animation: anim164 52241ms linear infinite, fade3 52241ms linear infinite;
+  animation: anim164 94945ms linear infinite, fade4 94945ms linear infinite;
 }
 #banner-stars .axis-165 {
-  animation: anim164 102934ms linear infinite, fade4 102934ms linear infinite;
+  animation: anim164 38892ms linear infinite, fade4 38892ms linear infinite;
 }
 #banner-stars .axis-166 {
-  animation: anim164 70765ms linear infinite, fade3 70765ms linear infinite;
+  animation: anim164 116987ms linear infinite, fade1 116987ms linear infinite;
 }
 #banner-stars .axis-167 {
-  animation: anim164 63543ms linear infinite, fade10 63543ms linear infinite;
+  animation: anim164 120084ms linear infinite, fade10 120084ms linear infinite;
 }
 #banner-stars .axis-168 {
-  animation: anim168 84271ms linear infinite, fade1 84271ms linear infinite;
+  animation: anim168 83796ms linear infinite, fade4 83796ms linear infinite;
 }
 #banner-stars .axis-169 {
-  animation: anim168 62732ms linear infinite, fade7 62732ms linear infinite;
+  animation: anim168 62260ms linear infinite, fade5 62260ms linear infinite;
 }
 #banner-stars .axis-170 {
-  animation: anim168 84217ms linear infinite, fade1 84217ms linear infinite;
+  animation: anim168 96172ms linear infinite, fade3 96172ms linear infinite;
 }
 #banner-stars .axis-171 {
-  animation: anim168 66136ms linear infinite, fade6 66136ms linear infinite;
+  animation: anim168 127014ms linear infinite, fade2 127014ms linear infinite;
 }
 #banner-stars .axis-172 {
-  animation: anim172 62416ms linear infinite, fade1 62416ms linear infinite;
+  animation: anim172 38884ms linear infinite, fade8 38884ms linear infinite;
 }
 #banner-stars .axis-173 {
-  animation: anim172 111482ms linear infinite, fade6 111482ms linear infinite;
+  animation: anim172 57538ms linear infinite, fade2 57538ms linear infinite;
 }
 #banner-stars .axis-174 {
-  animation: anim172 41033ms linear infinite, fade10 41033ms linear infinite;
+  animation: anim172 92606ms linear infinite, fade6 92606ms linear infinite;
 }
 #banner-stars .axis-175 {
-  animation: anim172 70843ms linear infinite, fade8 70843ms linear infinite;
+  animation: anim172 114075ms linear infinite, fade6 114075ms linear infinite;
 }
 #banner-stars .axis-176 {
-  animation: anim176 33607ms linear infinite, fade3 33607ms linear infinite;
+  animation: anim176 14811ms linear infinite, fade10 14811ms linear infinite;
 }
 #banner-stars .axis-177 {
-  animation: anim176 114149ms linear infinite, fade2 114149ms linear infinite;
+  animation: anim176 77917ms linear infinite, fade2 77917ms linear infinite;
 }
 #banner-stars .axis-178 {
-  animation: anim176 11299ms linear infinite, fade5 11299ms linear infinite;
+  animation: anim176 68871ms linear infinite, fade5 68871ms linear infinite;
 }
 #banner-stars .axis-179 {
-  animation: anim176 28296ms linear infinite, fade5 28296ms linear infinite;
+  animation: anim176 120928ms linear infinite, fade4 120928ms linear infinite;
 }
 #banner-stars .axis-180 {
-  animation: anim180 105192ms linear infinite, fade4 105192ms linear infinite;
+  animation: anim180 56315ms linear infinite, fade6 56315ms linear infinite;
 }
 #banner-stars .axis-181 {
-  animation: anim180 75357ms linear infinite, fade2 75357ms linear infinite;
+  animation: anim180 122219ms linear infinite, fade8 122219ms linear infinite;
 }
 #banner-stars .axis-182 {
-  animation: anim180 9664ms linear infinite, fade5 9664ms linear infinite;
+  animation: anim180 16866ms linear infinite, fade4 16866ms linear infinite;
 }
 #banner-stars .axis-183 {
-  animation: anim180 19777ms linear infinite, fade4 19777ms linear infinite;
+  animation: anim180 37097ms linear infinite, fade9 37097ms linear infinite;
 }
 #banner-stars .axis-184 {
-  animation: anim184 10563ms linear infinite, fade7 10563ms linear infinite;
+  animation: anim184 40468ms linear infinite, fade7 40468ms linear infinite;
 }
 #banner-stars .axis-185 {
-  animation: anim184 97585ms linear infinite, fade9 97585ms linear infinite;
+  animation: anim184 13215ms linear infinite, fade9 13215ms linear infinite;
 }
 #banner-stars .axis-186 {
-  animation: anim184 121279ms linear infinite, fade8 121279ms linear infinite;
+  animation: anim184 37849ms linear infinite, fade7 37849ms linear infinite;
 }
 #banner-stars .axis-187 {
-  animation: anim184 113908ms linear infinite, fade5 113908ms linear infinite;
+  animation: anim184 74143ms linear infinite, fade1 74143ms linear infinite;
 }
 #banner-stars .axis-188 {
-  animation: anim188 120850ms linear infinite, fade1 120850ms linear infinite;
+  animation: anim188 33245ms linear infinite, fade6 33245ms linear infinite;
 }
 #banner-stars .axis-189 {
-  animation: anim188 107091ms linear infinite, fade4 107091ms linear infinite;
+  animation: anim188 81751ms linear infinite, fade1 81751ms linear infinite;
 }
 #banner-stars .axis-190 {
-  animation: anim188 103955ms linear infinite, fade8 103955ms linear infinite;
+  animation: anim188 22030ms linear infinite, fade9 22030ms linear infinite;
 }
 #banner-stars .axis-191 {
-  animation: anim188 10314ms linear infinite, fade1 10314ms linear infinite;
+  animation: anim188 42171ms linear infinite, fade7 42171ms linear infinite;
 }
 #banner-stars .axis-192 {
-  animation: anim192 23079ms linear infinite, fade5 23079ms linear infinite;
+  animation: anim192 51051ms linear infinite, fade10 51051ms linear infinite;
 }
 #banner-stars .axis-193 {
-  animation: anim192 68757ms linear infinite, fade1 68757ms linear infinite;
+  animation: anim192 73112ms linear infinite, fade1 73112ms linear infinite;
 }
 #banner-stars .axis-194 {
-  animation: anim192 53222ms linear infinite, fade1 53222ms linear infinite;
+  animation: anim192 56238ms linear infinite, fade6 56238ms linear infinite;
 }
 #banner-stars .axis-195 {
-  animation: anim192 54769ms linear infinite, fade10 54769ms linear infinite;
+  animation: anim192 92898ms linear infinite, fade5 92898ms linear infinite;
 }
 #banner-stars .axis-196 {
-  animation: anim196 26844ms linear infinite, fade1 26844ms linear infinite;
+  animation: anim196 95675ms linear infinite, fade8 95675ms linear infinite;
 }
 #banner-stars .axis-197 {
-  animation: anim196 38300ms linear infinite, fade5 38300ms linear infinite;
+  animation: anim196 96309ms linear infinite, fade5 96309ms linear infinite;
 }
 #banner-stars .axis-198 {
-  animation: anim196 72201ms linear infinite, fade1 72201ms linear infinite;
+  animation: anim196 97028ms linear infinite, fade7 97028ms linear infinite;
 }
 #banner-stars .axis-199 {
-  animation: anim196 109829ms linear infinite, fade5 109829ms linear infinite;
+  animation: anim196 115490ms linear infinite, fade9 115490ms linear infinite;
 }
 #banner-stars .axis-200 {
-  animation: anim200 73918ms linear infinite, fade7 73918ms linear infinite;
+  animation: anim200 39091ms linear infinite, fade9 39091ms linear infinite;
 }
 #banner-stars .axis-201 {
-  animation: anim200 65974ms linear infinite, fade10 65974ms linear infinite;
+  animation: anim200 68428ms linear infinite, fade9 68428ms linear infinite;
 }
 #banner-stars .axis-202 {
-  animation: anim200 65965ms linear infinite, fade8 65965ms linear infinite;
+  animation: anim200 33315ms linear infinite, fade9 33315ms linear infinite;
 }
 #banner-stars .axis-203 {
-  animation: anim200 15841ms linear infinite, fade2 15841ms linear infinite;
+  animation: anim200 84463ms linear infinite, fade2 84463ms linear infinite;
 }
 #banner-stars .axis-204 {
-  animation: anim204 119156ms linear infinite, fade7 119156ms linear infinite;
+  animation: anim204 66659ms linear infinite, fade5 66659ms linear infinite;
 }
 #banner-stars .axis-205 {
-  animation: anim204 48575ms linear infinite, fade1 48575ms linear infinite;
+  animation: anim204 29865ms linear infinite, fade6 29865ms linear infinite;
 }
 #banner-stars .axis-206 {
-  animation: anim204 70695ms linear infinite, fade8 70695ms linear infinite;
+  animation: anim204 51684ms linear infinite, fade7 51684ms linear infinite;
 }
 #banner-stars .axis-207 {
-  animation: anim204 13001ms linear infinite, fade7 13001ms linear infinite;
+  animation: anim204 112302ms linear infinite, fade7 112302ms linear infinite;
 }
 #banner-stars .axis-208 {
-  animation: anim208 34993ms linear infinite, fade5 34993ms linear infinite;
+  animation: anim208 9244ms linear infinite, fade9 9244ms linear infinite;
 }
 #banner-stars .axis-209 {
-  animation: anim208 101713ms linear infinite, fade5 101713ms linear infinite;
+  animation: anim208 56939ms linear infinite, fade7 56939ms linear infinite;
 }
 #banner-stars .axis-210 {
-  animation: anim208 112087ms linear infinite, fade5 112087ms linear infinite;
+  animation: anim208 18031ms linear infinite, fade10 18031ms linear infinite;
 }
 #banner-stars .axis-211 {
-  animation: anim208 127998ms linear infinite, fade9 127998ms linear infinite;
+  animation: anim208 123982ms linear infinite, fade3 123982ms linear infinite;
 }
 #banner-stars .axis-212 {
-  animation: anim212 20922ms linear infinite, fade7 20922ms linear infinite;
+  animation: anim212 31074ms linear infinite, fade3 31074ms linear infinite;
 }
 #banner-stars .axis-213 {
-  animation: anim212 46344ms linear infinite, fade10 46344ms linear infinite;
+  animation: anim212 82778ms linear infinite, fade2 82778ms linear infinite;
 }
 #banner-stars .axis-214 {
-  animation: anim212 78823ms linear infinite, fade5 78823ms linear infinite;
+  animation: anim212 66089ms linear infinite, fade1 66089ms linear infinite;
 }
 #banner-stars .axis-215 {
-  animation: anim212 44406ms linear infinite, fade6 44406ms linear infinite;
+  animation: anim212 61657ms linear infinite, fade4 61657ms linear infinite;
 }
 #banner-stars .axis-216 {
-  animation: anim216 91044ms linear infinite, fade8 91044ms linear infinite;
+  animation: anim216 70126ms linear infinite, fade1 70126ms linear infinite;
 }
 #banner-stars .axis-217 {
-  animation: anim216 121390ms linear infinite, fade10 121390ms linear infinite;
+  animation: anim216 77367ms linear infinite, fade4 77367ms linear infinite;
 }
 #banner-stars .axis-218 {
-  animation: anim216 18575ms linear infinite, fade1 18575ms linear infinite;
+  animation: anim216 12772ms linear infinite, fade7 12772ms linear infinite;
 }
 #banner-stars .axis-219 {
-  animation: anim216 19976ms linear infinite, fade9 19976ms linear infinite;
+  animation: anim216 41685ms linear infinite, fade6 41685ms linear infinite;
 }
 #banner-stars .axis-220 {
-  animation: anim220 54657ms linear infinite, fade2 54657ms linear infinite;
+  animation: anim220 88794ms linear infinite, fade2 88794ms linear infinite;
 }
 #banner-stars .axis-221 {
-  animation: anim220 81815ms linear infinite, fade5 81815ms linear infinite;
+  animation: anim220 61599ms linear infinite, fade5 61599ms linear infinite;
 }
 #banner-stars .axis-222 {
-  animation: anim220 75105ms linear infinite, fade10 75105ms linear infinite;
+  animation: anim220 71796ms linear infinite, fade1 71796ms linear infinite;
 }
 #banner-stars .axis-223 {
-  animation: anim220 122618ms linear infinite, fade6 122618ms linear infinite;
+  animation: anim220 85571ms linear infinite, fade9 85571ms linear infinite;
 }
 #banner-stars .axis-224 {
-  animation: anim224 90198ms linear infinite, fade5 90198ms linear infinite;
+  animation: anim224 31419ms linear infinite, fade9 31419ms linear infinite;
 }
 #banner-stars .axis-225 {
-  animation: anim224 96772ms linear infinite, fade4 96772ms linear infinite;
+  animation: anim224 31731ms linear infinite, fade7 31731ms linear infinite;
 }
 #banner-stars .axis-226 {
-  animation: anim224 115309ms linear infinite, fade2 115309ms linear infinite;
+  animation: anim224 32559ms linear infinite, fade5 32559ms linear infinite;
 }
 #banner-stars .axis-227 {
-  animation: anim224 17559ms linear infinite, fade6 17559ms linear infinite;
+  animation: anim224 38795ms linear infinite, fade9 38795ms linear infinite;
 }
 #banner-stars .axis-228 {
-  animation: anim228 57784ms linear infinite, fade10 57784ms linear infinite;
+  animation: anim228 117531ms linear infinite, fade2 117531ms linear infinite;
 }
 #banner-stars .axis-229 {
-  animation: anim228 75015ms linear infinite, fade7 75015ms linear infinite;
+  animation: anim228 87107ms linear infinite, fade2 87107ms linear infinite;
 }
 #banner-stars .axis-230 {
-  animation: anim228 88342ms linear infinite, fade1 88342ms linear infinite;
+  animation: anim228 106991ms linear infinite, fade4 106991ms linear infinite;
 }
 #banner-stars .axis-231 {
-  animation: anim228 26068ms linear infinite, fade9 26068ms linear infinite;
+  animation: anim228 38699ms linear infinite, fade5 38699ms linear infinite;
 }
 #banner-stars .axis-232 {
-  animation: anim232 25380ms linear infinite, fade7 25380ms linear infinite;
+  animation: anim232 112674ms linear infinite, fade4 112674ms linear infinite;
 }
 #banner-stars .axis-233 {
-  animation: anim232 104866ms linear infinite, fade3 104866ms linear infinite;
+  animation: anim232 98305ms linear infinite, fade2 98305ms linear infinite;
 }
 #banner-stars .axis-234 {
-  animation: anim232 104023ms linear infinite, fade6 104023ms linear infinite;
+  animation: anim232 33657ms linear infinite, fade2 33657ms linear infinite;
 }
 #banner-stars .axis-235 {
-  animation: anim232 114583ms linear infinite, fade4 114583ms linear infinite;
+  animation: anim232 98913ms linear infinite, fade2 98913ms linear infinite;
 }
 #banner-stars .axis-236 {
-  animation: anim236 97557ms linear infinite, fade1 97557ms linear infinite;
+  animation: anim236 73474ms linear infinite, fade10 73474ms linear infinite;
 }
 #banner-stars .axis-237 {
-  animation: anim236 79631ms linear infinite, fade8 79631ms linear infinite;
+  animation: anim236 59934ms linear infinite, fade2 59934ms linear infinite;
 }
 #banner-stars .axis-238 {
-  animation: anim236 109951ms linear infinite, fade3 109951ms linear infinite;
+  animation: anim236 82214ms linear infinite, fade2 82214ms linear infinite;
 }
 #banner-stars .axis-239 {
-  animation: anim236 69424ms linear infinite, fade1 69424ms linear infinite;
+  animation: anim236 84550ms linear infinite, fade4 84550ms linear infinite;
 }
 #banner-stars .axis-240 {
-  animation: anim240 57315ms linear infinite, fade5 57315ms linear infinite;
+  animation: anim240 63020ms linear infinite, fade2 63020ms linear infinite;
 }
 #banner-stars .axis-241 {
-  animation: anim240 79721ms linear infinite, fade8 79721ms linear infinite;
+  animation: anim240 85467ms linear infinite, fade7 85467ms linear infinite;
 }
 #banner-stars .axis-242 {
-  animation: anim240 44056ms linear infinite, fade6 44056ms linear infinite;
+  animation: anim240 119873ms linear infinite, fade10 119873ms linear infinite;
 }
 #banner-stars .axis-243 {
-  animation: anim240 46962ms linear infinite, fade2 46962ms linear infinite;
+  animation: anim240 124308ms linear infinite, fade10 124308ms linear infinite;
 }
 #banner-stars .axis-244 {
-  animation: anim244 15294ms linear infinite, fade6 15294ms linear infinite;
+  animation: anim244 67445ms linear infinite, fade5 67445ms linear infinite;
 }
 #banner-stars .axis-245 {
-  animation: anim244 61650ms linear infinite, fade7 61650ms linear infinite;
+  animation: anim244 58999ms linear infinite, fade3 58999ms linear infinite;
 }
 #banner-stars .axis-246 {
-  animation: anim244 110833ms linear infinite, fade1 110833ms linear infinite;
+  animation: anim244 29989ms linear infinite, fade4 29989ms linear infinite;
 }
 #banner-stars .axis-247 {
-  animation: anim244 54012ms linear infinite, fade2 54012ms linear infinite;
+  animation: anim244 67803ms linear infinite, fade3 67803ms linear infinite;
 }
 #banner-stars .axis-248 {
-  animation: anim248 103918ms linear infinite, fade10 103918ms linear infinite;
+  animation: anim248 54756ms linear infinite, fade3 54756ms linear infinite;
 }
 #banner-stars .axis-249 {
-  animation: anim248 11535ms linear infinite, fade10 11535ms linear infinite;
+  animation: anim248 90466ms linear infinite, fade1 90466ms linear infinite;
 }
 #banner-stars .axis-250 {
-  animation: anim248 62339ms linear infinite, fade4 62339ms linear infinite;
+  animation: anim248 19348ms linear infinite, fade8 19348ms linear infinite;
 }
 #banner-stars .axis-251 {
-  animation: anim248 10177ms linear infinite, fade5 10177ms linear infinite;
+  animation: anim248 65697ms linear infinite, fade2 65697ms linear infinite;
 }
 #banner-stars .axis-252 {
-  animation: anim252 13748ms linear infinite, fade1 13748ms linear infinite;
+  animation: anim252 78654ms linear infinite, fade4 78654ms linear infinite;
 }
 #banner-stars .axis-253 {
-  animation: anim252 124612ms linear infinite, fade9 124612ms linear infinite;
+  animation: anim252 54040ms linear infinite, fade10 54040ms linear infinite;
 }
 #banner-stars .axis-254 {
-  animation: anim252 117911ms linear infinite, fade9 117911ms linear infinite;
+  animation: anim252 70034ms linear infinite, fade1 70034ms linear infinite;
 }
 #banner-stars .axis-255 {
-  animation: anim252 43325ms linear infinite, fade5 43325ms linear infinite;
+  animation: anim252 65207ms linear infinite, fade10 65207ms linear infinite;
 }
 #banner-stars .axis-256 {
-  animation: anim256 30434ms linear infinite, fade10 30434ms linear infinite;
+  animation: anim256 79803ms linear infinite, fade8 79803ms linear infinite;
 }
 #banner-stars .axis-257 {
-  animation: anim256 11721ms linear infinite, fade7 11721ms linear infinite;
+  animation: anim256 120070ms linear infinite, fade7 120070ms linear infinite;
 }
 #banner-stars .axis-258 {
-  animation: anim256 116225ms linear infinite, fade10 116225ms linear infinite;
+  animation: anim256 53752ms linear infinite, fade10 53752ms linear infinite;
 }
 #banner-stars .axis-259 {
-  animation: anim256 78680ms linear infinite, fade6 78680ms linear infinite;
+  animation: anim256 70059ms linear infinite, fade9 70059ms linear infinite;
 }
 #banner-stars .axis-260 {
-  animation: anim260 56885ms linear infinite, fade7 56885ms linear infinite;
+  animation: anim260 38023ms linear infinite, fade8 38023ms linear infinite;
 }
 #banner-stars .axis-261 {
-  animation: anim260 101289ms linear infinite, fade5 101289ms linear infinite;
+  animation: anim260 10417ms linear infinite, fade2 10417ms linear infinite;
 }
 #banner-stars .axis-262 {
-  animation: anim260 13609ms linear infinite, fade2 13609ms linear infinite;
+  animation: anim260 81672ms linear infinite, fade6 81672ms linear infinite;
 }
 #banner-stars .axis-263 {
-  animation: anim260 45381ms linear infinite, fade7 45381ms linear infinite;
+  animation: anim260 18934ms linear infinite, fade3 18934ms linear infinite;
 }
 #banner-stars .axis-264 {
-  animation: anim264 60187ms linear infinite, fade8 60187ms linear infinite;
+  animation: anim264 14245ms linear infinite, fade6 14245ms linear infinite;
 }
 #banner-stars .axis-265 {
-  animation: anim264 40141ms linear infinite, fade7 40141ms linear infinite;
+  animation: anim264 46546ms linear infinite, fade4 46546ms linear infinite;
 }
 #banner-stars .axis-266 {
-  animation: anim264 25803ms linear infinite, fade8 25803ms linear infinite;
+  animation: anim264 41123ms linear infinite, fade6 41123ms linear infinite;
 }
 #banner-stars .axis-267 {
-  animation: anim264 64059ms linear infinite, fade4 64059ms linear infinite;
+  animation: anim264 93564ms linear infinite, fade8 93564ms linear infinite;
 }
 #banner-stars .axis-268 {
-  animation: anim268 27244ms linear infinite, fade1 27244ms linear infinite;
+  animation: anim268 120532ms linear infinite, fade4 120532ms linear infinite;
 }
 #banner-stars .axis-269 {
-  animation: anim268 23969ms linear infinite, fade6 23969ms linear infinite;
+  animation: anim268 25128ms linear infinite, fade9 25128ms linear infinite;
 }
 #banner-stars .axis-270 {
-  animation: anim268 60366ms linear infinite, fade4 60366ms linear infinite;
+  animation: anim268 103512ms linear infinite, fade3 103512ms linear infinite;
 }
 #banner-stars .axis-271 {
-  animation: anim268 101663ms linear infinite, fade10 101663ms linear infinite;
+  animation: anim268 94326ms linear infinite, fade4 94326ms linear infinite;
 }
 #banner-stars .axis-272 {
-  animation: anim272 72282ms linear infinite, fade8 72282ms linear infinite;
+  animation: anim272 12258ms linear infinite, fade3 12258ms linear infinite;
 }
 #banner-stars .axis-273 {
-  animation: anim272 17460ms linear infinite, fade10 17460ms linear infinite;
+  animation: anim272 82370ms linear infinite, fade4 82370ms linear infinite;
 }
 #banner-stars .axis-274 {
-  animation: anim272 88131ms linear infinite, fade6 88131ms linear infinite;
+  animation: anim272 23440ms linear infinite, fade7 23440ms linear infinite;
 }
 #banner-stars .axis-275 {
-  animation: anim272 16880ms linear infinite, fade4 16880ms linear infinite;
+  animation: anim272 122853ms linear infinite, fade5 122853ms linear infinite;
 }
 #banner-stars .axis-276 {
-  animation: anim276 127218ms linear infinite, fade9 127218ms linear infinite;
+  animation: anim276 108894ms linear infinite, fade1 108894ms linear infinite;
 }
 #banner-stars .axis-277 {
-  animation: anim276 81966ms linear infinite, fade8 81966ms linear infinite;
+  animation: anim276 55796ms linear infinite, fade6 55796ms linear infinite;
 }
 #banner-stars .axis-278 {
-  animation: anim276 103874ms linear infinite, fade4 103874ms linear infinite;
+  animation: anim276 82469ms linear infinite, fade6 82469ms linear infinite;
 }
 #banner-stars .axis-279 {
-  animation: anim276 115226ms linear infinite, fade10 115226ms linear infinite;
+  animation: anim276 106638ms linear infinite, fade10 106638ms linear infinite;
 }
 #banner-stars .axis-280 {
-  animation: anim280 121270ms linear infinite, fade1 121270ms linear infinite;
+  animation: anim280 41816ms linear infinite, fade9 41816ms linear infinite;
 }
 #banner-stars .axis-281 {
-  animation: anim280 65808ms linear infinite, fade7 65808ms linear infinite;
+  animation: anim280 34612ms linear infinite, fade2 34612ms linear infinite;
 }
 #banner-stars .axis-282 {
-  animation: anim280 86006ms linear infinite, fade9 86006ms linear infinite;
+  animation: anim280 53332ms linear infinite, fade10 53332ms linear infinite;
 }
 #banner-stars .axis-283 {
-  animation: anim280 37148ms linear infinite, fade3 37148ms linear infinite;
+  animation: anim280 69357ms linear infinite, fade2 69357ms linear infinite;
 }
 #banner-stars .axis-284 {
-  animation: anim284 77806ms linear infinite, fade5 77806ms linear infinite;
+  animation: anim284 74999ms linear infinite, fade4 74999ms linear infinite;
 }
 #banner-stars .axis-285 {
-  animation: anim284 117841ms linear infinite, fade3 117841ms linear infinite;
+  animation: anim284 18787ms linear infinite, fade4 18787ms linear infinite;
 }
 #banner-stars .axis-286 {
-  animation: anim284 38788ms linear infinite, fade6 38788ms linear infinite;
+  animation: anim284 55587ms linear infinite, fade5 55587ms linear infinite;
 }
 #banner-stars .axis-287 {
-  animation: anim284 67709ms linear infinite, fade3 67709ms linear infinite;
+  animation: anim284 9347ms linear infinite, fade5 9347ms linear infinite;
 }
 #banner-stars .axis-288 {
-  animation: anim288 48214ms linear infinite, fade6 48214ms linear infinite;
+  animation: anim288 82641ms linear infinite, fade9 82641ms linear infinite;
 }
 #banner-stars .axis-289 {
-  animation: anim288 97589ms linear infinite, fade10 97589ms linear infinite;
+  animation: anim288 82745ms linear infinite, fade6 82745ms linear infinite;
 }
 #banner-stars .axis-290 {
-  animation: anim288 80157ms linear infinite, fade8 80157ms linear infinite;
+  animation: anim288 79423ms linear infinite, fade4 79423ms linear infinite;
 }
 #banner-stars .axis-291 {
-  animation: anim288 27923ms linear infinite, fade7 27923ms linear infinite;
+  animation: anim288 73297ms linear infinite, fade3 73297ms linear infinite;
 }
 #banner-stars .axis-292 {
-  animation: anim292 100794ms linear infinite, fade2 100794ms linear infinite;
+  animation: anim292 43231ms linear infinite, fade2 43231ms linear infinite;
 }
 #banner-stars .axis-293 {
-  animation: anim292 89364ms linear infinite, fade8 89364ms linear infinite;
+  animation: anim292 40147ms linear infinite, fade1 40147ms linear infinite;
 }
 #banner-stars .axis-294 {
-  animation: anim292 15853ms linear infinite, fade2 15853ms linear infinite;
+  animation: anim292 57574ms linear infinite, fade7 57574ms linear infinite;
 }
 #banner-stars .axis-295 {
-  animation: anim292 79509ms linear infinite, fade3 79509ms linear infinite;
+  animation: anim292 16716ms linear infinite, fade10 16716ms linear infinite;
 }
 #banner-stars .axis-296 {
-  animation: anim296 96804ms linear infinite, fade4 96804ms linear infinite;
+  animation: anim296 42673ms linear infinite, fade6 42673ms linear infinite;
 }
 #banner-stars .axis-297 {
-  animation: anim296 51443ms linear infinite, fade5 51443ms linear infinite;
+  animation: anim296 99923ms linear infinite, fade9 99923ms linear infinite;
 }
 #banner-stars .axis-298 {
-  animation: anim296 19383ms linear infinite, fade7 19383ms linear infinite;
+  animation: anim296 109873ms linear infinite, fade5 109873ms linear infinite;
 }
 #banner-stars .axis-299 {
-  animation: anim296 27810ms linear infinite, fade8 27810ms linear infinite;
+  animation: anim296 17327ms linear infinite, fade6 17327ms linear infinite;
 }
 #banner-stars .axis-300 {
-  animation: anim300 99135ms linear infinite, fade3 99135ms linear infinite;
+  animation: anim300 112266ms linear infinite, fade2 112266ms linear infinite;
 }
 #banner-stars .axis-301 {
-  animation: anim300 46003ms linear infinite, fade6 46003ms linear infinite;
+  animation: anim300 55404ms linear infinite, fade5 55404ms linear infinite;
 }
 #banner-stars .axis-302 {
-  animation: anim300 13750ms linear infinite, fade5 13750ms linear infinite;
+  animation: anim300 42632ms linear infinite, fade9 42632ms linear infinite;
 }
 #banner-stars .axis-303 {
-  animation: anim300 111279ms linear infinite, fade7 111279ms linear infinite;
+  animation: anim300 106090ms linear infinite, fade5 106090ms linear infinite;
 }
 #banner-stars .axis-304 {
-  animation: anim304 94983ms linear infinite, fade10 94983ms linear infinite;
+  animation: anim304 38827ms linear infinite, fade3 38827ms linear infinite;
 }
 #banner-stars .axis-305 {
-  animation: anim304 26082ms linear infinite, fade9 26082ms linear infinite;
+  animation: anim304 125828ms linear infinite, fade5 125828ms linear infinite;
 }
 #banner-stars .axis-306 {
-  animation: anim304 24411ms linear infinite, fade1 24411ms linear infinite;
+  animation: anim304 76539ms linear infinite, fade10 76539ms linear infinite;
 }
 #banner-stars .axis-307 {
-  animation: anim304 87575ms linear infinite, fade4 87575ms linear infinite;
+  animation: anim304 17560ms linear infinite, fade5 17560ms linear infinite;
 }
 #banner-stars .axis-308 {
-  animation: anim308 55585ms linear infinite, fade5 55585ms linear infinite;
+  animation: anim308 101209ms linear infinite, fade2 101209ms linear infinite;
 }
 #banner-stars .axis-309 {
-  animation: anim308 119581ms linear infinite, fade4 119581ms linear infinite;
+  animation: anim308 11065ms linear infinite, fade6 11065ms linear infinite;
 }
 #banner-stars .axis-310 {
-  animation: anim308 49585ms linear infinite, fade9 49585ms linear infinite;
+  animation: anim308 52710ms linear infinite, fade2 52710ms linear infinite;
 }
 #banner-stars .axis-311 {
-  animation: anim308 37741ms linear infinite, fade1 37741ms linear infinite;
+  animation: anim308 40246ms linear infinite, fade7 40246ms linear infinite;
 }
 #banner-stars .axis-312 {
-  animation: anim312 18568ms linear infinite, fade5 18568ms linear infinite;
+  animation: anim312 16571ms linear infinite, fade9 16571ms linear infinite;
 }
 #banner-stars .axis-313 {
-  animation: anim312 12188ms linear infinite, fade6 12188ms linear infinite;
+  animation: anim312 119944ms linear infinite, fade1 119944ms linear infinite;
 }
 #banner-stars .axis-314 {
-  animation: anim312 31849ms linear infinite, fade8 31849ms linear infinite;
+  animation: anim312 58774ms linear infinite, fade4 58774ms linear infinite;
 }
 #banner-stars .axis-315 {
-  animation: anim312 84363ms linear infinite, fade6 84363ms linear infinite;
+  animation: anim312 30001ms linear infinite, fade6 30001ms linear infinite;
 }
 #banner-stars .axis-316 {
-  animation: anim316 113694ms linear infinite, fade8 113694ms linear infinite;
+  animation: anim316 84672ms linear infinite, fade1 84672ms linear infinite;
 }
 #banner-stars .axis-317 {
-  animation: anim316 30984ms linear infinite, fade5 30984ms linear infinite;
+  animation: anim316 101672ms linear infinite, fade9 101672ms linear infinite;
 }
 #banner-stars .axis-318 {
-  animation: anim316 116827ms linear infinite, fade3 116827ms linear infinite;
+  animation: anim316 90787ms linear infinite, fade1 90787ms linear infinite;
 }
 #banner-stars .axis-319 {
-  animation: anim316 123700ms linear infinite, fade10 123700ms linear infinite;
+  animation: anim316 84290ms linear infinite, fade5 84290ms linear infinite;
 }
 #banner-stars .axis-320 {
-  animation: anim320 120501ms linear infinite, fade4 120501ms linear infinite;
+  animation: anim320 57747ms linear infinite, fade2 57747ms linear infinite;
 }
 #banner-stars .axis-321 {
-  animation: anim320 47282ms linear infinite, fade6 47282ms linear infinite;
+  animation: anim320 98356ms linear infinite, fade8 98356ms linear infinite;
 }
 #banner-stars .axis-322 {
-  animation: anim320 110710ms linear infinite, fade9 110710ms linear infinite;
+  animation: anim320 102503ms linear infinite, fade1 102503ms linear infinite;
 }
 #banner-stars .axis-323 {
-  animation: anim320 42279ms linear infinite, fade3 42279ms linear infinite;
+  animation: anim320 105908ms linear infinite, fade1 105908ms linear infinite;
 }
 #banner-stars .axis-324 {
-  animation: anim324 27400ms linear infinite, fade2 27400ms linear infinite;
+  animation: anim324 104381ms linear infinite, fade4 104381ms linear infinite;
 }
 #banner-stars .axis-325 {
-  animation: anim324 88762ms linear infinite, fade7 88762ms linear infinite;
+  animation: anim324 17246ms linear infinite, fade3 17246ms linear infinite;
 }
 #banner-stars .axis-326 {
-  animation: anim324 86406ms linear infinite, fade9 86406ms linear infinite;
+  animation: anim324 104579ms linear infinite, fade4 104579ms linear infinite;
 }
 #banner-stars .axis-327 {
-  animation: anim324 93730ms linear infinite, fade7 93730ms linear infinite;
+  animation: anim324 45543ms linear infinite, fade3 45543ms linear infinite;
 }
 #banner-stars .axis-328 {
-  animation: anim328 69323ms linear infinite, fade4 69323ms linear infinite;
+  animation: anim328 97974ms linear infinite, fade3 97974ms linear infinite;
 }
 #banner-stars .axis-329 {
-  animation: anim328 103811ms linear infinite, fade7 103811ms linear infinite;
+  animation: anim328 47026ms linear infinite, fade7 47026ms linear infinite;
 }
 #banner-stars .axis-330 {
-  animation: anim328 34469ms linear infinite, fade4 34469ms linear infinite;
+  animation: anim328 39753ms linear infinite, fade3 39753ms linear infinite;
 }
 #banner-stars .axis-331 {
-  animation: anim328 121225ms linear infinite, fade5 121225ms linear infinite;
+  animation: anim328 73076ms linear infinite, fade8 73076ms linear infinite;
 }
 #banner-stars .axis-332 {
-  animation: anim332 12902ms linear infinite, fade6 12902ms linear infinite;
+  animation: anim332 39887ms linear infinite, fade1 39887ms linear infinite;
 }
 #banner-stars .axis-333 {
-  animation: anim332 30402ms linear infinite, fade4 30402ms linear infinite;
+  animation: anim332 94332ms linear infinite, fade9 94332ms linear infinite;
 }
 #banner-stars .axis-334 {
-  animation: anim332 111269ms linear infinite, fade2 111269ms linear infinite;
+  animation: anim332 77963ms linear infinite, fade9 77963ms linear infinite;
 }
 #banner-stars .axis-335 {
-  animation: anim332 96378ms linear infinite, fade9 96378ms linear infinite;
+  animation: anim332 13389ms linear infinite, fade8 13389ms linear infinite;
 }
 #banner-stars .axis-336 {
-  animation: anim336 39347ms linear infinite, fade10 39347ms linear infinite;
+  animation: anim336 13156ms linear infinite, fade7 13156ms linear infinite;
 }
 #banner-stars .axis-337 {
-  animation: anim336 115768ms linear infinite, fade8 115768ms linear infinite;
+  animation: anim336 11954ms linear infinite, fade3 11954ms linear infinite;
 }
 #banner-stars .axis-338 {
-  animation: anim336 41583ms linear infinite, fade6 41583ms linear infinite;
+  animation: anim336 21822ms linear infinite, fade10 21822ms linear infinite;
 }
 #banner-stars .axis-339 {
-  animation: anim336 42252ms linear infinite, fade1 42252ms linear infinite;
+  animation: anim336 96254ms linear infinite, fade8 96254ms linear infinite;
 }
 #banner-stars .axis-340 {
-  animation: anim340 67025ms linear infinite, fade7 67025ms linear infinite;
+  animation: anim340 32085ms linear infinite, fade5 32085ms linear infinite;
 }
 #banner-stars .axis-341 {
-  animation: anim340 125744ms linear infinite, fade2 125744ms linear infinite;
+  animation: anim340 15441ms linear infinite, fade6 15441ms linear infinite;
 }
 #banner-stars .axis-342 {
-  animation: anim340 60306ms linear infinite, fade4 60306ms linear infinite;
+  animation: anim340 87649ms linear infinite, fade10 87649ms linear infinite;
 }
 #banner-stars .axis-343 {
-  animation: anim340 12849ms linear infinite, fade4 12849ms linear infinite;
+  animation: anim340 66121ms linear infinite, fade8 66121ms linear infinite;
 }
 #banner-stars .axis-344 {
-  animation: anim344 108159ms linear infinite, fade7 108159ms linear infinite;
+  animation: anim344 124065ms linear infinite, fade2 124065ms linear infinite;
 }
 #banner-stars .axis-345 {
-  animation: anim344 86825ms linear infinite, fade2 86825ms linear infinite;
+  animation: anim344 85730ms linear infinite, fade7 85730ms linear infinite;
 }
 #banner-stars .axis-346 {
-  animation: anim344 42295ms linear infinite, fade3 42295ms linear infinite;
+  animation: anim344 96078ms linear infinite, fade8 96078ms linear infinite;
 }
 #banner-stars .axis-347 {
-  animation: anim344 8603ms linear infinite, fade8 8603ms linear infinite;
+  animation: anim344 85016ms linear infinite, fade1 85016ms linear infinite;
 }
 #banner-stars .axis-348 {
-  animation: anim348 44019ms linear infinite, fade5 44019ms linear infinite;
+  animation: anim348 93630ms linear infinite, fade3 93630ms linear infinite;
 }
 #banner-stars .axis-349 {
-  animation: anim348 75870ms linear infinite, fade9 75870ms linear infinite;
+  animation: anim348 69036ms linear infinite, fade8 69036ms linear infinite;
 }
 #banner-stars .axis-350 {
-  animation: anim348 95905ms linear infinite, fade6 95905ms linear infinite;
+  animation: anim348 30334ms linear infinite, fade3 30334ms linear infinite;
 }
 #banner-stars .axis-351 {
-  animation: anim348 16064ms linear infinite, fade9 16064ms linear infinite;
+  animation: anim348 59750ms linear infinite, fade10 59750ms linear infinite;
 }
 #banner-stars .axis-352 {
-  animation: anim352 59944ms linear infinite, fade2 59944ms linear infinite;
+  animation: anim352 99164ms linear infinite, fade2 99164ms linear infinite;
 }
 #banner-stars .axis-353 {
-  animation: anim352 40331ms linear infinite, fade2 40331ms linear infinite;
+  animation: anim352 120122ms linear infinite, fade2 120122ms linear infinite;
 }
 #banner-stars .axis-354 {
-  animation: anim352 74559ms linear infinite, fade6 74559ms linear infinite;
+  animation: anim352 98128ms linear infinite, fade6 98128ms linear infinite;
 }
 #banner-stars .axis-355 {
-  animation: anim352 17640ms linear infinite, fade8 17640ms linear infinite;
+  animation: anim352 116767ms linear infinite, fade8 116767ms linear infinite;
 }
 #banner-stars .axis-356 {
-  animation: anim356 46371ms linear infinite, fade5 46371ms linear infinite;
+  animation: anim356 119719ms linear infinite, fade10 119719ms linear infinite;
 }
 #banner-stars .axis-357 {
-  animation: anim356 118114ms linear infinite, fade9 118114ms linear infinite;
+  animation: anim356 68352ms linear infinite, fade8 68352ms linear infinite;
 }
 #banner-stars .axis-358 {
-  animation: anim356 75318ms linear infinite, fade10 75318ms linear infinite;
+  animation: anim356 42278ms linear infinite, fade3 42278ms linear infinite;
 }
 #banner-stars .axis-359 {
-  animation: anim356 39359ms linear infinite, fade7 39359ms linear infinite;
+  animation: anim356 73982ms linear infinite, fade10 73982ms linear infinite;
 }
 #banner-stars .axis-360 {
-  animation: anim360 34114ms linear infinite, fade6 34114ms linear infinite;
+  animation: anim360 18209ms linear infinite, fade3 18209ms linear infinite;
 }
 @keyframes fade1 {
-  9719% {
+  3995% {
     opacity: 0;
   }
-  9729% {
+  4005% {
     opacity: 1;
   }
   100% {
@@ -3544,10 +3544,10 @@ textarea {
   }
 }
 @keyframes fade2 {
-  1312% {
+  373% {
     opacity: 0;
   }
-  1322% {
+  383% {
     opacity: 1;
   }
   100% {
@@ -3555,10 +3555,10 @@ textarea {
   }
 }
 @keyframes fade3 {
-  9159% {
+  6119% {
     opacity: 0;
   }
-  9169% {
+  6129% {
     opacity: 1;
   }
   100% {
@@ -3566,10 +3566,10 @@ textarea {
   }
 }
 @keyframes fade4 {
-  3448% {
+  118% {
     opacity: 0;
   }
-  3458% {
+  128% {
     opacity: 1;
   }
   100% {
@@ -3577,10 +3577,10 @@ textarea {
   }
 }
 @keyframes fade5 {
-  5573% {
+  3686% {
     opacity: 0;
   }
-  5583% {
+  3696% {
     opacity: 1;
   }
   100% {
@@ -3588,10 +3588,10 @@ textarea {
   }
 }
 @keyframes fade6 {
-  3292% {
+  8643% {
     opacity: 0;
   }
-  3302% {
+  8653% {
     opacity: 1;
   }
   100% {
@@ -3599,10 +3599,10 @@ textarea {
   }
 }
 @keyframes fade7 {
-  6814% {
+  2615% {
     opacity: 0;
   }
-  6824% {
+  2625% {
     opacity: 1;
   }
   100% {
@@ -3610,10 +3610,10 @@ textarea {
   }
 }
 @keyframes fade8 {
-  5891% {
+  9489% {
     opacity: 0;
   }
-  5901% {
+  9499% {
     opacity: 1;
   }
   100% {
@@ -3621,10 +3621,10 @@ textarea {
   }
 }
 @keyframes fade9 {
-  45% {
+  8620% {
     opacity: 0;
   }
-  55% {
+  8630% {
     opacity: 1;
   }
   100% {
@@ -3632,10 +3632,10 @@ textarea {
   }
 }
 @keyframes fade10 {
-  8014% {
+  5674% {
     opacity: 0;
   }
-  8024% {
+  5684% {
     opacity: 1;
   }
   100% {
@@ -4118,1090 +4118,1090 @@ textarea {
   box-shadow: 0px 0px 8px 4px rgb(13, 96, 152);
 }
 #landing-timelinestars .axis-1 {
-  animation: anim0 26445ms linear infinite, fade6 26445ms linear infinite;
+  animation: anim0 46577ms linear infinite, fade7 46577ms linear infinite;
 }
 #landing-timelinestars .axis-2 {
-  animation: anim0 57933ms linear infinite, fade5 57933ms linear infinite;
+  animation: anim0 64280ms linear infinite, fade3 64280ms linear infinite;
 }
 #landing-timelinestars .axis-3 {
-  animation: anim0 39335ms linear infinite, fade8 39335ms linear infinite;
+  animation: anim0 54080ms linear infinite, fade2 54080ms linear infinite;
 }
 #landing-timelinestars .axis-4 {
-  animation: anim4 48188ms linear infinite, fade3 48188ms linear infinite;
+  animation: anim4 70981ms linear infinite, fade7 70981ms linear infinite;
 }
 #landing-timelinestars .axis-5 {
-  animation: anim4 75050ms linear infinite, fade2 75050ms linear infinite;
+  animation: anim4 57563ms linear infinite, fade2 57563ms linear infinite;
 }
 #landing-timelinestars .axis-6 {
-  animation: anim4 68724ms linear infinite, fade1 68724ms linear infinite;
+  animation: anim4 63023ms linear infinite, fade10 63023ms linear infinite;
 }
 #landing-timelinestars .axis-7 {
-  animation: anim4 34432ms linear infinite, fade7 34432ms linear infinite;
+  animation: anim4 24131ms linear infinite, fade5 24131ms linear infinite;
 }
 #landing-timelinestars .axis-8 {
-  animation: anim8 32732ms linear infinite, fade9 32732ms linear infinite;
+  animation: anim8 29588ms linear infinite, fade6 29588ms linear infinite;
 }
 #landing-timelinestars .axis-9 {
-  animation: anim8 12879ms linear infinite, fade6 12879ms linear infinite;
+  animation: anim8 53178ms linear infinite, fade7 53178ms linear infinite;
 }
 #landing-timelinestars .axis-10 {
-  animation: anim8 35211ms linear infinite, fade6 35211ms linear infinite;
+  animation: anim8 48862ms linear infinite, fade7 48862ms linear infinite;
 }
 #landing-timelinestars .axis-11 {
-  animation: anim8 30837ms linear infinite, fade4 30837ms linear infinite;
+  animation: anim8 13229ms linear infinite, fade10 13229ms linear infinite;
 }
 #landing-timelinestars .axis-12 {
-  animation: anim12 20493ms linear infinite, fade10 20493ms linear infinite;
+  animation: anim12 64639ms linear infinite, fade5 64639ms linear infinite;
 }
 #landing-timelinestars .axis-13 {
-  animation: anim12 60434ms linear infinite, fade2 60434ms linear infinite;
+  animation: anim12 69015ms linear infinite, fade10 69015ms linear infinite;
 }
 #landing-timelinestars .axis-14 {
-  animation: anim12 62561ms linear infinite, fade6 62561ms linear infinite;
+  animation: anim12 64600ms linear infinite, fade6 64600ms linear infinite;
 }
 #landing-timelinestars .axis-15 {
-  animation: anim12 56704ms linear infinite, fade8 56704ms linear infinite;
+  animation: anim12 41432ms linear infinite, fade5 41432ms linear infinite;
 }
 #landing-timelinestars .axis-16 {
-  animation: anim16 51160ms linear infinite, fade2 51160ms linear infinite;
+  animation: anim16 42094ms linear infinite, fade8 42094ms linear infinite;
 }
 #landing-timelinestars .axis-17 {
-  animation: anim16 29211ms linear infinite, fade2 29211ms linear infinite;
+  animation: anim16 9043ms linear infinite, fade7 9043ms linear infinite;
 }
 #landing-timelinestars .axis-18 {
-  animation: anim16 39163ms linear infinite, fade3 39163ms linear infinite;
+  animation: anim16 57280ms linear infinite, fade5 57280ms linear infinite;
 }
 #landing-timelinestars .axis-19 {
-  animation: anim16 19939ms linear infinite, fade9 19939ms linear infinite;
+  animation: anim16 44008ms linear infinite, fade2 44008ms linear infinite;
 }
 #landing-timelinestars .axis-20 {
-  animation: anim20 14046ms linear infinite, fade7 14046ms linear infinite;
+  animation: anim20 12206ms linear infinite, fade9 12206ms linear infinite;
 }
 #landing-timelinestars .axis-21 {
-  animation: anim20 42349ms linear infinite, fade9 42349ms linear infinite;
+  animation: anim20 43128ms linear infinite, fade7 43128ms linear infinite;
 }
 #landing-timelinestars .axis-22 {
-  animation: anim20 56967ms linear infinite, fade2 56967ms linear infinite;
+  animation: anim20 14433ms linear infinite, fade10 14433ms linear infinite;
 }
 #landing-timelinestars .axis-23 {
-  animation: anim20 73839ms linear infinite, fade10 73839ms linear infinite;
+  animation: anim20 56790ms linear infinite, fade8 56790ms linear infinite;
 }
 #landing-timelinestars .axis-24 {
-  animation: anim24 37521ms linear infinite, fade3 37521ms linear infinite;
+  animation: anim24 59067ms linear infinite, fade7 59067ms linear infinite;
 }
 #landing-timelinestars .axis-25 {
-  animation: anim24 55577ms linear infinite, fade7 55577ms linear infinite;
+  animation: anim24 41636ms linear infinite, fade8 41636ms linear infinite;
 }
 #landing-timelinestars .axis-26 {
-  animation: anim24 51173ms linear infinite, fade6 51173ms linear infinite;
+  animation: anim24 28371ms linear infinite, fade9 28371ms linear infinite;
 }
 #landing-timelinestars .axis-27 {
-  animation: anim24 15784ms linear infinite, fade5 15784ms linear infinite;
+  animation: anim24 15431ms linear infinite, fade2 15431ms linear infinite;
 }
 #landing-timelinestars .axis-28 {
-  animation: anim28 37968ms linear infinite, fade10 37968ms linear infinite;
+  animation: anim28 29563ms linear infinite, fade8 29563ms linear infinite;
 }
 #landing-timelinestars .axis-29 {
-  animation: anim28 32878ms linear infinite, fade9 32878ms linear infinite;
+  animation: anim28 47928ms linear infinite, fade3 47928ms linear infinite;
 }
 #landing-timelinestars .axis-30 {
-  animation: anim28 73745ms linear infinite, fade8 73745ms linear infinite;
+  animation: anim28 50525ms linear infinite, fade4 50525ms linear infinite;
 }
 #landing-timelinestars .axis-31 {
-  animation: anim28 39001ms linear infinite, fade1 39001ms linear infinite;
+  animation: anim28 35579ms linear infinite, fade4 35579ms linear infinite;
 }
 #landing-timelinestars .axis-32 {
-  animation: anim32 20056ms linear infinite, fade5 20056ms linear infinite;
+  animation: anim32 25087ms linear infinite, fade2 25087ms linear infinite;
 }
 #landing-timelinestars .axis-33 {
-  animation: anim32 10451ms linear infinite, fade5 10451ms linear infinite;
+  animation: anim32 56556ms linear infinite, fade5 56556ms linear infinite;
 }
 #landing-timelinestars .axis-34 {
-  animation: anim32 20913ms linear infinite, fade4 20913ms linear infinite;
+  animation: anim32 43723ms linear infinite, fade4 43723ms linear infinite;
 }
 #landing-timelinestars .axis-35 {
-  animation: anim32 39902ms linear infinite, fade4 39902ms linear infinite;
+  animation: anim32 44311ms linear infinite, fade8 44311ms linear infinite;
 }
 #landing-timelinestars .axis-36 {
-  animation: anim36 53454ms linear infinite, fade10 53454ms linear infinite;
+  animation: anim36 15024ms linear infinite, fade6 15024ms linear infinite;
 }
 #landing-timelinestars .axis-37 {
-  animation: anim36 60036ms linear infinite, fade10 60036ms linear infinite;
+  animation: anim36 53610ms linear infinite, fade2 53610ms linear infinite;
 }
 #landing-timelinestars .axis-38 {
-  animation: anim36 26855ms linear infinite, fade3 26855ms linear infinite;
+  animation: anim36 42941ms linear infinite, fade3 42941ms linear infinite;
 }
 #landing-timelinestars .axis-39 {
-  animation: anim36 20431ms linear infinite, fade3 20431ms linear infinite;
+  animation: anim36 74717ms linear infinite, fade3 74717ms linear infinite;
 }
 #landing-timelinestars .axis-40 {
-  animation: anim40 49605ms linear infinite, fade7 49605ms linear infinite;
+  animation: anim40 74073ms linear infinite, fade6 74073ms linear infinite;
 }
 #landing-timelinestars .axis-41 {
-  animation: anim40 19981ms linear infinite, fade6 19981ms linear infinite;
+  animation: anim40 22439ms linear infinite, fade9 22439ms linear infinite;
 }
 #landing-timelinestars .axis-42 {
-  animation: anim40 29869ms linear infinite, fade7 29869ms linear infinite;
+  animation: anim40 64297ms linear infinite, fade10 64297ms linear infinite;
 }
 #landing-timelinestars .axis-43 {
-  animation: anim40 35190ms linear infinite, fade7 35190ms linear infinite;
+  animation: anim40 70433ms linear infinite, fade4 70433ms linear infinite;
 }
 #landing-timelinestars .axis-44 {
-  animation: anim44 19147ms linear infinite, fade8 19147ms linear infinite;
+  animation: anim44 70334ms linear infinite, fade6 70334ms linear infinite;
 }
 #landing-timelinestars .axis-45 {
-  animation: anim44 64082ms linear infinite, fade10 64082ms linear infinite;
+  animation: anim44 17575ms linear infinite, fade2 17575ms linear infinite;
 }
 #landing-timelinestars .axis-46 {
-  animation: anim44 14618ms linear infinite, fade1 14618ms linear infinite;
+  animation: anim44 13956ms linear infinite, fade3 13956ms linear infinite;
 }
 #landing-timelinestars .axis-47 {
-  animation: anim44 31595ms linear infinite, fade6 31595ms linear infinite;
+  animation: anim44 54142ms linear infinite, fade1 54142ms linear infinite;
 }
 #landing-timelinestars .axis-48 {
-  animation: anim48 70038ms linear infinite, fade7 70038ms linear infinite;
+  animation: anim48 69782ms linear infinite, fade8 69782ms linear infinite;
 }
 #landing-timelinestars .axis-49 {
-  animation: anim48 54785ms linear infinite, fade2 54785ms linear infinite;
+  animation: anim48 9801ms linear infinite, fade5 9801ms linear infinite;
 }
 #landing-timelinestars .axis-50 {
-  animation: anim48 27328ms linear infinite, fade9 27328ms linear infinite;
+  animation: anim48 20563ms linear infinite, fade8 20563ms linear infinite;
 }
 #landing-timelinestars .axis-51 {
-  animation: anim48 20295ms linear infinite, fade10 20295ms linear infinite;
+  animation: anim48 12144ms linear infinite, fade4 12144ms linear infinite;
 }
 #landing-timelinestars .axis-52 {
-  animation: anim52 22909ms linear infinite, fade1 22909ms linear infinite;
+  animation: anim52 33411ms linear infinite, fade5 33411ms linear infinite;
 }
 #landing-timelinestars .axis-53 {
-  animation: anim52 32597ms linear infinite, fade8 32597ms linear infinite;
+  animation: anim52 28790ms linear infinite, fade9 28790ms linear infinite;
 }
 #landing-timelinestars .axis-54 {
-  animation: anim52 16421ms linear infinite, fade6 16421ms linear infinite;
+  animation: anim52 11188ms linear infinite, fade4 11188ms linear infinite;
 }
 #landing-timelinestars .axis-55 {
-  animation: anim52 30692ms linear infinite, fade3 30692ms linear infinite;
+  animation: anim52 61099ms linear infinite, fade2 61099ms linear infinite;
 }
 #landing-timelinestars .axis-56 {
-  animation: anim56 37308ms linear infinite, fade7 37308ms linear infinite;
+  animation: anim56 9512ms linear infinite, fade5 9512ms linear infinite;
 }
 #landing-timelinestars .axis-57 {
-  animation: anim56 34320ms linear infinite, fade3 34320ms linear infinite;
+  animation: anim56 14924ms linear infinite, fade4 14924ms linear infinite;
 }
 #landing-timelinestars .axis-58 {
-  animation: anim56 6172ms linear infinite, fade8 6172ms linear infinite;
+  animation: anim56 63773ms linear infinite, fade9 63773ms linear infinite;
 }
 #landing-timelinestars .axis-59 {
-  animation: anim56 65029ms linear infinite, fade1 65029ms linear infinite;
+  animation: anim56 47341ms linear infinite, fade5 47341ms linear infinite;
 }
 #landing-timelinestars .axis-60 {
-  animation: anim60 33417ms linear infinite, fade3 33417ms linear infinite;
+  animation: anim60 64061ms linear infinite, fade5 64061ms linear infinite;
 }
 #landing-timelinestars .axis-61 {
-  animation: anim60 15085ms linear infinite, fade9 15085ms linear infinite;
+  animation: anim60 22243ms linear infinite, fade3 22243ms linear infinite;
 }
 #landing-timelinestars .axis-62 {
-  animation: anim60 41188ms linear infinite, fade5 41188ms linear infinite;
+  animation: anim60 61629ms linear infinite, fade1 61629ms linear infinite;
 }
 #landing-timelinestars .axis-63 {
-  animation: anim60 55005ms linear infinite, fade6 55005ms linear infinite;
+  animation: anim60 16538ms linear infinite, fade5 16538ms linear infinite;
 }
 #landing-timelinestars .axis-64 {
-  animation: anim64 24973ms linear infinite, fade10 24973ms linear infinite;
+  animation: anim64 68883ms linear infinite, fade2 68883ms linear infinite;
 }
 #landing-timelinestars .axis-65 {
-  animation: anim64 47123ms linear infinite, fade7 47123ms linear infinite;
+  animation: anim64 12775ms linear infinite, fade4 12775ms linear infinite;
 }
 #landing-timelinestars .axis-66 {
-  animation: anim64 59672ms linear infinite, fade4 59672ms linear infinite;
+  animation: anim64 62769ms linear infinite, fade10 62769ms linear infinite;
 }
 #landing-timelinestars .axis-67 {
-  animation: anim64 48198ms linear infinite, fade7 48198ms linear infinite;
+  animation: anim64 72224ms linear infinite, fade7 72224ms linear infinite;
 }
 #landing-timelinestars .axis-68 {
-  animation: anim68 54018ms linear infinite, fade3 54018ms linear infinite;
+  animation: anim68 66332ms linear infinite, fade6 66332ms linear infinite;
 }
 #landing-timelinestars .axis-69 {
-  animation: anim68 45487ms linear infinite, fade6 45487ms linear infinite;
+  animation: anim68 51336ms linear infinite, fade6 51336ms linear infinite;
 }
 #landing-timelinestars .axis-70 {
-  animation: anim68 41933ms linear infinite, fade9 41933ms linear infinite;
+  animation: anim68 52529ms linear infinite, fade3 52529ms linear infinite;
 }
 #landing-timelinestars .axis-71 {
-  animation: anim68 20445ms linear infinite, fade2 20445ms linear infinite;
+  animation: anim68 75935ms linear infinite, fade2 75935ms linear infinite;
 }
 #landing-timelinestars .axis-72 {
-  animation: anim72 20586ms linear infinite, fade10 20586ms linear infinite;
+  animation: anim72 65891ms linear infinite, fade8 65891ms linear infinite;
 }
 #landing-timelinestars .axis-73 {
-  animation: anim72 15339ms linear infinite, fade6 15339ms linear infinite;
+  animation: anim72 49981ms linear infinite, fade7 49981ms linear infinite;
 }
 #landing-timelinestars .axis-74 {
-  animation: anim72 73925ms linear infinite, fade6 73925ms linear infinite;
+  animation: anim72 19898ms linear infinite, fade1 19898ms linear infinite;
 }
 #landing-timelinestars .axis-75 {
-  animation: anim72 44403ms linear infinite, fade7 44403ms linear infinite;
+  animation: anim72 21080ms linear infinite, fade2 21080ms linear infinite;
 }
 #landing-timelinestars .axis-76 {
-  animation: anim76 70146ms linear infinite, fade7 70146ms linear infinite;
+  animation: anim76 45274ms linear infinite, fade1 45274ms linear infinite;
 }
 #landing-timelinestars .axis-77 {
-  animation: anim76 71182ms linear infinite, fade7 71182ms linear infinite;
+  animation: anim76 71055ms linear infinite, fade6 71055ms linear infinite;
 }
 #landing-timelinestars .axis-78 {
-  animation: anim76 72026ms linear infinite, fade8 72026ms linear infinite;
+  animation: anim76 8691ms linear infinite, fade8 8691ms linear infinite;
 }
 #landing-timelinestars .axis-79 {
-  animation: anim76 63241ms linear infinite, fade9 63241ms linear infinite;
+  animation: anim76 17482ms linear infinite, fade9 17482ms linear infinite;
 }
 #landing-timelinestars .axis-80 {
-  animation: anim80 66993ms linear infinite, fade1 66993ms linear infinite;
+  animation: anim80 45300ms linear infinite, fade1 45300ms linear infinite;
 }
 #landing-timelinestars .axis-81 {
-  animation: anim80 57068ms linear infinite, fade8 57068ms linear infinite;
+  animation: anim80 14914ms linear infinite, fade2 14914ms linear infinite;
 }
 #landing-timelinestars .axis-82 {
-  animation: anim80 8210ms linear infinite, fade6 8210ms linear infinite;
+  animation: anim80 62126ms linear infinite, fade9 62126ms linear infinite;
 }
 #landing-timelinestars .axis-83 {
-  animation: anim80 13370ms linear infinite, fade8 13370ms linear infinite;
+  animation: anim80 42646ms linear infinite, fade6 42646ms linear infinite;
 }
 #landing-timelinestars .axis-84 {
-  animation: anim84 65807ms linear infinite, fade10 65807ms linear infinite;
+  animation: anim84 31509ms linear infinite, fade2 31509ms linear infinite;
 }
 #landing-timelinestars .axis-85 {
-  animation: anim84 55656ms linear infinite, fade6 55656ms linear infinite;
+  animation: anim84 52426ms linear infinite, fade3 52426ms linear infinite;
 }
 #landing-timelinestars .axis-86 {
-  animation: anim84 47320ms linear infinite, fade9 47320ms linear infinite;
+  animation: anim84 20476ms linear infinite, fade1 20476ms linear infinite;
 }
 #landing-timelinestars .axis-87 {
-  animation: anim84 54407ms linear infinite, fade1 54407ms linear infinite;
+  animation: anim84 42957ms linear infinite, fade4 42957ms linear infinite;
 }
 #landing-timelinestars .axis-88 {
-  animation: anim88 23735ms linear infinite, fade9 23735ms linear infinite;
+  animation: anim88 27604ms linear infinite, fade4 27604ms linear infinite;
 }
 #landing-timelinestars .axis-89 {
-  animation: anim88 67066ms linear infinite, fade8 67066ms linear infinite;
+  animation: anim88 25977ms linear infinite, fade7 25977ms linear infinite;
 }
 #landing-timelinestars .axis-90 {
-  animation: anim88 74581ms linear infinite, fade8 74581ms linear infinite;
+  animation: anim88 22735ms linear infinite, fade6 22735ms linear infinite;
 }
 #landing-timelinestars .axis-91 {
-  animation: anim88 65718ms linear infinite, fade5 65718ms linear infinite;
+  animation: anim88 36795ms linear infinite, fade4 36795ms linear infinite;
 }
 #landing-timelinestars .axis-92 {
-  animation: anim92 45038ms linear infinite, fade4 45038ms linear infinite;
+  animation: anim92 61429ms linear infinite, fade3 61429ms linear infinite;
 }
 #landing-timelinestars .axis-93 {
-  animation: anim92 36494ms linear infinite, fade4 36494ms linear infinite;
+  animation: anim92 25454ms linear infinite, fade9 25454ms linear infinite;
 }
 #landing-timelinestars .axis-94 {
-  animation: anim92 50616ms linear infinite, fade2 50616ms linear infinite;
+  animation: anim92 44442ms linear infinite, fade6 44442ms linear infinite;
 }
 #landing-timelinestars .axis-95 {
-  animation: anim92 60399ms linear infinite, fade2 60399ms linear infinite;
+  animation: anim92 14962ms linear infinite, fade6 14962ms linear infinite;
 }
 #landing-timelinestars .axis-96 {
-  animation: anim96 66318ms linear infinite, fade4 66318ms linear infinite;
+  animation: anim96 23563ms linear infinite, fade4 23563ms linear infinite;
 }
 #landing-timelinestars .axis-97 {
-  animation: anim96 62594ms linear infinite, fade1 62594ms linear infinite;
+  animation: anim96 65090ms linear infinite, fade6 65090ms linear infinite;
 }
 #landing-timelinestars .axis-98 {
-  animation: anim96 66317ms linear infinite, fade6 66317ms linear infinite;
+  animation: anim96 73153ms linear infinite, fade7 73153ms linear infinite;
 }
 #landing-timelinestars .axis-99 {
-  animation: anim96 54918ms linear infinite, fade5 54918ms linear infinite;
+  animation: anim96 29970ms linear infinite, fade6 29970ms linear infinite;
 }
 #landing-timelinestars .axis-100 {
-  animation: anim100 25876ms linear infinite, fade8 25876ms linear infinite;
+  animation: anim100 52872ms linear infinite, fade9 52872ms linear infinite;
 }
 #landing-timelinestars .axis-101 {
-  animation: anim100 24650ms linear infinite, fade7 24650ms linear infinite;
+  animation: anim100 23019ms linear infinite, fade5 23019ms linear infinite;
 }
 #landing-timelinestars .axis-102 {
-  animation: anim100 43748ms linear infinite, fade6 43748ms linear infinite;
+  animation: anim100 62197ms linear infinite, fade10 62197ms linear infinite;
 }
 #landing-timelinestars .axis-103 {
-  animation: anim100 12049ms linear infinite, fade5 12049ms linear infinite;
+  animation: anim100 12697ms linear infinite, fade2 12697ms linear infinite;
 }
 #landing-timelinestars .axis-104 {
-  animation: anim104 40639ms linear infinite, fade10 40639ms linear infinite;
+  animation: anim104 61353ms linear infinite, fade8 61353ms linear infinite;
 }
 #landing-timelinestars .axis-105 {
-  animation: anim104 7437ms linear infinite, fade7 7437ms linear infinite;
+  animation: anim104 43212ms linear infinite, fade10 43212ms linear infinite;
 }
 #landing-timelinestars .axis-106 {
-  animation: anim104 17374ms linear infinite, fade4 17374ms linear infinite;
+  animation: anim104 67917ms linear infinite, fade3 67917ms linear infinite;
 }
 #landing-timelinestars .axis-107 {
-  animation: anim104 52404ms linear infinite, fade2 52404ms linear infinite;
+  animation: anim104 55552ms linear infinite, fade6 55552ms linear infinite;
 }
 #landing-timelinestars .axis-108 {
-  animation: anim108 23791ms linear infinite, fade1 23791ms linear infinite;
+  animation: anim108 13000ms linear infinite, fade7 13000ms linear infinite;
 }
 #landing-timelinestars .axis-109 {
-  animation: anim108 6834ms linear infinite, fade5 6834ms linear infinite;
+  animation: anim108 35836ms linear infinite, fade6 35836ms linear infinite;
 }
 #landing-timelinestars .axis-110 {
-  animation: anim108 61106ms linear infinite, fade8 61106ms linear infinite;
+  animation: anim108 33344ms linear infinite, fade10 33344ms linear infinite;
 }
 #landing-timelinestars .axis-111 {
-  animation: anim108 22564ms linear infinite, fade8 22564ms linear infinite;
+  animation: anim108 60100ms linear infinite, fade4 60100ms linear infinite;
 }
 #landing-timelinestars .axis-112 {
-  animation: anim112 17046ms linear infinite, fade5 17046ms linear infinite;
+  animation: anim112 39014ms linear infinite, fade8 39014ms linear infinite;
 }
 #landing-timelinestars .axis-113 {
-  animation: anim112 39633ms linear infinite, fade5 39633ms linear infinite;
+  animation: anim112 68516ms linear infinite, fade3 68516ms linear infinite;
 }
 #landing-timelinestars .axis-114 {
-  animation: anim112 75348ms linear infinite, fade4 75348ms linear infinite;
+  animation: anim112 66554ms linear infinite, fade1 66554ms linear infinite;
 }
 #landing-timelinestars .axis-115 {
-  animation: anim112 65125ms linear infinite, fade4 65125ms linear infinite;
+  animation: anim112 68306ms linear infinite, fade2 68306ms linear infinite;
 }
 #landing-timelinestars .axis-116 {
-  animation: anim116 46630ms linear infinite, fade1 46630ms linear infinite;
+  animation: anim116 18303ms linear infinite, fade9 18303ms linear infinite;
 }
 #landing-timelinestars .axis-117 {
-  animation: anim116 17735ms linear infinite, fade3 17735ms linear infinite;
+  animation: anim116 66690ms linear infinite, fade6 66690ms linear infinite;
 }
 #landing-timelinestars .axis-118 {
-  animation: anim116 72582ms linear infinite, fade3 72582ms linear infinite;
+  animation: anim116 13978ms linear infinite, fade2 13978ms linear infinite;
 }
 #landing-timelinestars .axis-119 {
-  animation: anim116 27216ms linear infinite, fade6 27216ms linear infinite;
+  animation: anim116 35192ms linear infinite, fade5 35192ms linear infinite;
 }
 #landing-timelinestars .axis-120 {
-  animation: anim120 66965ms linear infinite, fade5 66965ms linear infinite;
+  animation: anim120 18923ms linear infinite, fade1 18923ms linear infinite;
 }
 #landing-timelinestars .axis-121 {
-  animation: anim120 37456ms linear infinite, fade1 37456ms linear infinite;
+  animation: anim120 11581ms linear infinite, fade3 11581ms linear infinite;
 }
 #landing-timelinestars .axis-122 {
-  animation: anim120 18379ms linear infinite, fade7 18379ms linear infinite;
+  animation: anim120 34436ms linear infinite, fade9 34436ms linear infinite;
 }
 #landing-timelinestars .axis-123 {
-  animation: anim120 10682ms linear infinite, fade8 10682ms linear infinite;
+  animation: anim120 39069ms linear infinite, fade1 39069ms linear infinite;
 }
 #landing-timelinestars .axis-124 {
-  animation: anim124 28613ms linear infinite, fade9 28613ms linear infinite;
+  animation: anim124 62571ms linear infinite, fade5 62571ms linear infinite;
 }
 #landing-timelinestars .axis-125 {
-  animation: anim124 22927ms linear infinite, fade6 22927ms linear infinite;
+  animation: anim124 14774ms linear infinite, fade9 14774ms linear infinite;
 }
 #landing-timelinestars .axis-126 {
-  animation: anim124 17782ms linear infinite, fade2 17782ms linear infinite;
+  animation: anim124 40376ms linear infinite, fade3 40376ms linear infinite;
 }
 #landing-timelinestars .axis-127 {
-  animation: anim124 70102ms linear infinite, fade8 70102ms linear infinite;
+  animation: anim124 69150ms linear infinite, fade5 69150ms linear infinite;
 }
 #landing-timelinestars .axis-128 {
-  animation: anim128 16936ms linear infinite, fade6 16936ms linear infinite;
+  animation: anim128 60205ms linear infinite, fade7 60205ms linear infinite;
 }
 #landing-timelinestars .axis-129 {
-  animation: anim128 74166ms linear infinite, fade10 74166ms linear infinite;
+  animation: anim128 9529ms linear infinite, fade1 9529ms linear infinite;
 }
 #landing-timelinestars .axis-130 {
-  animation: anim128 17190ms linear infinite, fade5 17190ms linear infinite;
+  animation: anim128 7741ms linear infinite, fade1 7741ms linear infinite;
 }
 #landing-timelinestars .axis-131 {
-  animation: anim128 18809ms linear infinite, fade1 18809ms linear infinite;
+  animation: anim128 12261ms linear infinite, fade4 12261ms linear infinite;
 }
 #landing-timelinestars .axis-132 {
-  animation: anim132 29550ms linear infinite, fade1 29550ms linear infinite;
+  animation: anim132 58301ms linear infinite, fade7 58301ms linear infinite;
 }
 #landing-timelinestars .axis-133 {
-  animation: anim132 68575ms linear infinite, fade3 68575ms linear infinite;
+  animation: anim132 24362ms linear infinite, fade5 24362ms linear infinite;
 }
 #landing-timelinestars .axis-134 {
-  animation: anim132 40995ms linear infinite, fade8 40995ms linear infinite;
+  animation: anim132 58197ms linear infinite, fade5 58197ms linear infinite;
 }
 #landing-timelinestars .axis-135 {
-  animation: anim132 31305ms linear infinite, fade9 31305ms linear infinite;
+  animation: anim132 39154ms linear infinite, fade7 39154ms linear infinite;
 }
 #landing-timelinestars .axis-136 {
-  animation: anim136 61950ms linear infinite, fade3 61950ms linear infinite;
+  animation: anim136 44420ms linear infinite, fade5 44420ms linear infinite;
 }
 #landing-timelinestars .axis-137 {
-  animation: anim136 18764ms linear infinite, fade6 18764ms linear infinite;
+  animation: anim136 72967ms linear infinite, fade1 72967ms linear infinite;
 }
 #landing-timelinestars .axis-138 {
-  animation: anim136 8277ms linear infinite, fade1 8277ms linear infinite;
+  animation: anim136 13726ms linear infinite, fade6 13726ms linear infinite;
 }
 #landing-timelinestars .axis-139 {
-  animation: anim136 36145ms linear infinite, fade4 36145ms linear infinite;
+  animation: anim136 57894ms linear infinite, fade3 57894ms linear infinite;
 }
 #landing-timelinestars .axis-140 {
-  animation: anim140 56675ms linear infinite, fade9 56675ms linear infinite;
+  animation: anim140 56375ms linear infinite, fade1 56375ms linear infinite;
 }
 #landing-timelinestars .axis-141 {
-  animation: anim140 72861ms linear infinite, fade1 72861ms linear infinite;
+  animation: anim140 67374ms linear infinite, fade8 67374ms linear infinite;
 }
 #landing-timelinestars .axis-142 {
-  animation: anim140 60263ms linear infinite, fade9 60263ms linear infinite;
+  animation: anim140 19152ms linear infinite, fade1 19152ms linear infinite;
 }
 #landing-timelinestars .axis-143 {
-  animation: anim140 29342ms linear infinite, fade6 29342ms linear infinite;
+  animation: anim140 51141ms linear infinite, fade7 51141ms linear infinite;
 }
 #landing-timelinestars .axis-144 {
-  animation: anim144 7269ms linear infinite, fade5 7269ms linear infinite;
+  animation: anim144 18637ms linear infinite, fade7 18637ms linear infinite;
 }
 #landing-timelinestars .axis-145 {
-  animation: anim144 38098ms linear infinite, fade5 38098ms linear infinite;
+  animation: anim144 65114ms linear infinite, fade9 65114ms linear infinite;
 }
 #landing-timelinestars .axis-146 {
-  animation: anim144 73437ms linear infinite, fade8 73437ms linear infinite;
+  animation: anim144 47873ms linear infinite, fade3 47873ms linear infinite;
 }
 #landing-timelinestars .axis-147 {
-  animation: anim144 29202ms linear infinite, fade7 29202ms linear infinite;
+  animation: anim144 59274ms linear infinite, fade8 59274ms linear infinite;
 }
 #landing-timelinestars .axis-148 {
-  animation: anim148 55126ms linear infinite, fade10 55126ms linear infinite;
+  animation: anim148 45883ms linear infinite, fade8 45883ms linear infinite;
 }
 #landing-timelinestars .axis-149 {
-  animation: anim148 33178ms linear infinite, fade9 33178ms linear infinite;
+  animation: anim148 75228ms linear infinite, fade7 75228ms linear infinite;
 }
 #landing-timelinestars .axis-150 {
-  animation: anim148 10872ms linear infinite, fade5 10872ms linear infinite;
+  animation: anim148 27218ms linear infinite, fade2 27218ms linear infinite;
 }
 #landing-timelinestars .axis-151 {
-  animation: anim148 70705ms linear infinite, fade5 70705ms linear infinite;
+  animation: anim148 53703ms linear infinite, fade9 53703ms linear infinite;
 }
 #landing-timelinestars .axis-152 {
-  animation: anim152 13873ms linear infinite, fade7 13873ms linear infinite;
+  animation: anim152 45123ms linear infinite, fade3 45123ms linear infinite;
 }
 #landing-timelinestars .axis-153 {
-  animation: anim152 51636ms linear infinite, fade2 51636ms linear infinite;
+  animation: anim152 49054ms linear infinite, fade10 49054ms linear infinite;
 }
 #landing-timelinestars .axis-154 {
-  animation: anim152 57554ms linear infinite, fade4 57554ms linear infinite;
+  animation: anim152 30384ms linear infinite, fade7 30384ms linear infinite;
 }
 #landing-timelinestars .axis-155 {
-  animation: anim152 23514ms linear infinite, fade8 23514ms linear infinite;
+  animation: anim152 52046ms linear infinite, fade8 52046ms linear infinite;
 }
 #landing-timelinestars .axis-156 {
-  animation: anim156 52778ms linear infinite, fade6 52778ms linear infinite;
+  animation: anim156 74325ms linear infinite, fade3 74325ms linear infinite;
 }
 #landing-timelinestars .axis-157 {
-  animation: anim156 18435ms linear infinite, fade9 18435ms linear infinite;
+  animation: anim156 45615ms linear infinite, fade1 45615ms linear infinite;
 }
 #landing-timelinestars .axis-158 {
-  animation: anim156 67580ms linear infinite, fade1 67580ms linear infinite;
+  animation: anim156 59853ms linear infinite, fade2 59853ms linear infinite;
 }
 #landing-timelinestars .axis-159 {
-  animation: anim156 9213ms linear infinite, fade7 9213ms linear infinite;
+  animation: anim156 62375ms linear infinite, fade1 62375ms linear infinite;
 }
 #landing-timelinestars .axis-160 {
-  animation: anim160 50398ms linear infinite, fade7 50398ms linear infinite;
+  animation: anim160 13897ms linear infinite, fade1 13897ms linear infinite;
 }
 #landing-timelinestars .axis-161 {
-  animation: anim160 75790ms linear infinite, fade9 75790ms linear infinite;
+  animation: anim160 73193ms linear infinite, fade7 73193ms linear infinite;
 }
 #landing-timelinestars .axis-162 {
-  animation: anim160 42458ms linear infinite, fade4 42458ms linear infinite;
+  animation: anim160 55023ms linear infinite, fade8 55023ms linear infinite;
 }
 #landing-timelinestars .axis-163 {
-  animation: anim160 34186ms linear infinite, fade10 34186ms linear infinite;
+  animation: anim160 51285ms linear infinite, fade9 51285ms linear infinite;
 }
 #landing-timelinestars .axis-164 {
-  animation: anim164 66892ms linear infinite, fade1 66892ms linear infinite;
+  animation: anim164 39865ms linear infinite, fade1 39865ms linear infinite;
 }
 #landing-timelinestars .axis-165 {
-  animation: anim164 67458ms linear infinite, fade5 67458ms linear infinite;
+  animation: anim164 51046ms linear infinite, fade10 51046ms linear infinite;
 }
 #landing-timelinestars .axis-166 {
-  animation: anim164 57446ms linear infinite, fade2 57446ms linear infinite;
+  animation: anim164 16003ms linear infinite, fade3 16003ms linear infinite;
 }
 #landing-timelinestars .axis-167 {
-  animation: anim164 18327ms linear infinite, fade4 18327ms linear infinite;
+  animation: anim164 9753ms linear infinite, fade8 9753ms linear infinite;
 }
 #landing-timelinestars .axis-168 {
-  animation: anim168 10180ms linear infinite, fade9 10180ms linear infinite;
+  animation: anim168 74520ms linear infinite, fade3 74520ms linear infinite;
 }
 #landing-timelinestars .axis-169 {
-  animation: anim168 23193ms linear infinite, fade9 23193ms linear infinite;
+  animation: anim168 49708ms linear infinite, fade10 49708ms linear infinite;
 }
 #landing-timelinestars .axis-170 {
-  animation: anim168 35199ms linear infinite, fade7 35199ms linear infinite;
+  animation: anim168 72678ms linear infinite, fade9 72678ms linear infinite;
 }
 #landing-timelinestars .axis-171 {
-  animation: anim168 16905ms linear infinite, fade8 16905ms linear infinite;
+  animation: anim168 75100ms linear infinite, fade9 75100ms linear infinite;
 }
 #landing-timelinestars .axis-172 {
-  animation: anim172 51466ms linear infinite, fade9 51466ms linear infinite;
+  animation: anim172 52574ms linear infinite, fade1 52574ms linear infinite;
 }
 #landing-timelinestars .axis-173 {
-  animation: anim172 63952ms linear infinite, fade10 63952ms linear infinite;
+  animation: anim172 25714ms linear infinite, fade6 25714ms linear infinite;
 }
 #landing-timelinestars .axis-174 {
-  animation: anim172 18041ms linear infinite, fade2 18041ms linear infinite;
+  animation: anim172 20378ms linear infinite, fade8 20378ms linear infinite;
 }
 #landing-timelinestars .axis-175 {
-  animation: anim172 45672ms linear infinite, fade1 45672ms linear infinite;
+  animation: anim172 74518ms linear infinite, fade7 74518ms linear infinite;
 }
 #landing-timelinestars .axis-176 {
-  animation: anim176 17414ms linear infinite, fade6 17414ms linear infinite;
+  animation: anim176 10026ms linear infinite, fade4 10026ms linear infinite;
 }
 #landing-timelinestars .axis-177 {
-  animation: anim176 13467ms linear infinite, fade2 13467ms linear infinite;
+  animation: anim176 41649ms linear infinite, fade10 41649ms linear infinite;
 }
 #landing-timelinestars .axis-178 {
-  animation: anim176 58738ms linear infinite, fade6 58738ms linear infinite;
+  animation: anim176 74728ms linear infinite, fade6 74728ms linear infinite;
 }
 #landing-timelinestars .axis-179 {
-  animation: anim176 73836ms linear infinite, fade7 73836ms linear infinite;
+  animation: anim176 30034ms linear infinite, fade8 30034ms linear infinite;
 }
 #landing-timelinestars .axis-180 {
-  animation: anim180 25015ms linear infinite, fade6 25015ms linear infinite;
+  animation: anim180 34687ms linear infinite, fade9 34687ms linear infinite;
 }
 #landing-timelinestars .axis-181 {
-  animation: anim180 10858ms linear infinite, fade9 10858ms linear infinite;
+  animation: anim180 46858ms linear infinite, fade10 46858ms linear infinite;
 }
 #landing-timelinestars .axis-182 {
-  animation: anim180 41376ms linear infinite, fade3 41376ms linear infinite;
+  animation: anim180 25242ms linear infinite, fade2 25242ms linear infinite;
 }
 #landing-timelinestars .axis-183 {
-  animation: anim180 28380ms linear infinite, fade2 28380ms linear infinite;
+  animation: anim180 50820ms linear infinite, fade7 50820ms linear infinite;
 }
 #landing-timelinestars .axis-184 {
-  animation: anim184 62594ms linear infinite, fade4 62594ms linear infinite;
+  animation: anim184 64140ms linear infinite, fade8 64140ms linear infinite;
 }
 #landing-timelinestars .axis-185 {
-  animation: anim184 37297ms linear infinite, fade10 37297ms linear infinite;
+  animation: anim184 72563ms linear infinite, fade6 72563ms linear infinite;
 }
 #landing-timelinestars .axis-186 {
-  animation: anim184 21186ms linear infinite, fade8 21186ms linear infinite;
+  animation: anim184 35818ms linear infinite, fade1 35818ms linear infinite;
 }
 #landing-timelinestars .axis-187 {
-  animation: anim184 51069ms linear infinite, fade5 51069ms linear infinite;
+  animation: anim184 65686ms linear infinite, fade6 65686ms linear infinite;
 }
 #landing-timelinestars .axis-188 {
-  animation: anim188 50798ms linear infinite, fade8 50798ms linear infinite;
+  animation: anim188 52863ms linear infinite, fade5 52863ms linear infinite;
 }
 #landing-timelinestars .axis-189 {
-  animation: anim188 48177ms linear infinite, fade5 48177ms linear infinite;
+  animation: anim188 6224ms linear infinite, fade4 6224ms linear infinite;
 }
 #landing-timelinestars .axis-190 {
-  animation: anim188 6148ms linear infinite, fade5 6148ms linear infinite;
+  animation: anim188 30353ms linear infinite, fade8 30353ms linear infinite;
 }
 #landing-timelinestars .axis-191 {
-  animation: anim188 14742ms linear infinite, fade1 14742ms linear infinite;
+  animation: anim188 22602ms linear infinite, fade5 22602ms linear infinite;
 }
 #landing-timelinestars .axis-192 {
-  animation: anim192 74199ms linear infinite, fade6 74199ms linear infinite;
+  animation: anim192 75002ms linear infinite, fade5 75002ms linear infinite;
 }
 #landing-timelinestars .axis-193 {
-  animation: anim192 65423ms linear infinite, fade4 65423ms linear infinite;
+  animation: anim192 50654ms linear infinite, fade4 50654ms linear infinite;
 }
 #landing-timelinestars .axis-194 {
-  animation: anim192 6828ms linear infinite, fade7 6828ms linear infinite;
+  animation: anim192 33804ms linear infinite, fade5 33804ms linear infinite;
 }
 #landing-timelinestars .axis-195 {
-  animation: anim192 68093ms linear infinite, fade6 68093ms linear infinite;
+  animation: anim192 66506ms linear infinite, fade1 66506ms linear infinite;
 }
 #landing-timelinestars .axis-196 {
-  animation: anim196 36465ms linear infinite, fade7 36465ms linear infinite;
+  animation: anim196 70227ms linear infinite, fade6 70227ms linear infinite;
 }
 #landing-timelinestars .axis-197 {
-  animation: anim196 13939ms linear infinite, fade6 13939ms linear infinite;
+  animation: anim196 61393ms linear infinite, fade9 61393ms linear infinite;
 }
 #landing-timelinestars .axis-198 {
-  animation: anim196 22703ms linear infinite, fade8 22703ms linear infinite;
+  animation: anim196 72106ms linear infinite, fade1 72106ms linear infinite;
 }
 #landing-timelinestars .axis-199 {
-  animation: anim196 61101ms linear infinite, fade2 61101ms linear infinite;
+  animation: anim196 71974ms linear infinite, fade5 71974ms linear infinite;
 }
 #landing-timelinestars .axis-200 {
-  animation: anim200 14618ms linear infinite, fade8 14618ms linear infinite;
+  animation: anim200 61857ms linear infinite, fade1 61857ms linear infinite;
 }
 #landing-timelinestars .axis-201 {
-  animation: anim200 50417ms linear infinite, fade4 50417ms linear infinite;
+  animation: anim200 75267ms linear infinite, fade1 75267ms linear infinite;
 }
 #landing-timelinestars .axis-202 {
-  animation: anim200 74008ms linear infinite, fade6 74008ms linear infinite;
+  animation: anim200 38488ms linear infinite, fade9 38488ms linear infinite;
 }
 #landing-timelinestars .axis-203 {
-  animation: anim200 31452ms linear infinite, fade10 31452ms linear infinite;
+  animation: anim200 12104ms linear infinite, fade4 12104ms linear infinite;
 }
 #landing-timelinestars .axis-204 {
-  animation: anim204 52340ms linear infinite, fade5 52340ms linear infinite;
+  animation: anim204 33953ms linear infinite, fade8 33953ms linear infinite;
 }
 #landing-timelinestars .axis-205 {
-  animation: anim204 12644ms linear infinite, fade5 12644ms linear infinite;
+  animation: anim204 50163ms linear infinite, fade8 50163ms linear infinite;
 }
 #landing-timelinestars .axis-206 {
-  animation: anim204 20414ms linear infinite, fade9 20414ms linear infinite;
+  animation: anim204 40264ms linear infinite, fade5 40264ms linear infinite;
 }
 #landing-timelinestars .axis-207 {
-  animation: anim204 7044ms linear infinite, fade9 7044ms linear infinite;
+  animation: anim204 33634ms linear infinite, fade5 33634ms linear infinite;
 }
 #landing-timelinestars .axis-208 {
-  animation: anim208 29284ms linear infinite, fade1 29284ms linear infinite;
+  animation: anim208 10445ms linear infinite, fade10 10445ms linear infinite;
 }
 #landing-timelinestars .axis-209 {
-  animation: anim208 72939ms linear infinite, fade7 72939ms linear infinite;
+  animation: anim208 63093ms linear infinite, fade6 63093ms linear infinite;
 }
 #landing-timelinestars .axis-210 {
-  animation: anim208 43782ms linear infinite, fade10 43782ms linear infinite;
+  animation: anim208 18903ms linear infinite, fade1 18903ms linear infinite;
 }
 #landing-timelinestars .axis-211 {
-  animation: anim208 62434ms linear infinite, fade5 62434ms linear infinite;
+  animation: anim208 23808ms linear infinite, fade9 23808ms linear infinite;
 }
 #landing-timelinestars .axis-212 {
-  animation: anim212 73755ms linear infinite, fade1 73755ms linear infinite;
+  animation: anim212 36424ms linear infinite, fade9 36424ms linear infinite;
 }
 #landing-timelinestars .axis-213 {
-  animation: anim212 18850ms linear infinite, fade7 18850ms linear infinite;
+  animation: anim212 48790ms linear infinite, fade10 48790ms linear infinite;
 }
 #landing-timelinestars .axis-214 {
-  animation: anim212 21895ms linear infinite, fade1 21895ms linear infinite;
+  animation: anim212 32366ms linear infinite, fade7 32366ms linear infinite;
 }
 #landing-timelinestars .axis-215 {
-  animation: anim212 62581ms linear infinite, fade3 62581ms linear infinite;
+  animation: anim212 16663ms linear infinite, fade9 16663ms linear infinite;
 }
 #landing-timelinestars .axis-216 {
-  animation: anim216 32858ms linear infinite, fade9 32858ms linear infinite;
+  animation: anim216 39586ms linear infinite, fade5 39586ms linear infinite;
 }
 #landing-timelinestars .axis-217 {
-  animation: anim216 46145ms linear infinite, fade6 46145ms linear infinite;
+  animation: anim216 7658ms linear infinite, fade8 7658ms linear infinite;
 }
 #landing-timelinestars .axis-218 {
-  animation: anim216 64595ms linear infinite, fade5 64595ms linear infinite;
+  animation: anim216 13314ms linear infinite, fade1 13314ms linear infinite;
 }
 #landing-timelinestars .axis-219 {
-  animation: anim216 58174ms linear infinite, fade10 58174ms linear infinite;
+  animation: anim216 60257ms linear infinite, fade3 60257ms linear infinite;
 }
 #landing-timelinestars .axis-220 {
-  animation: anim220 72350ms linear infinite, fade8 72350ms linear infinite;
+  animation: anim220 33810ms linear infinite, fade1 33810ms linear infinite;
 }
 #landing-timelinestars .axis-221 {
-  animation: anim220 75829ms linear infinite, fade6 75829ms linear infinite;
+  animation: anim220 35724ms linear infinite, fade4 35724ms linear infinite;
 }
 #landing-timelinestars .axis-222 {
-  animation: anim220 27464ms linear infinite, fade10 27464ms linear infinite;
+  animation: anim220 46244ms linear infinite, fade8 46244ms linear infinite;
 }
 #landing-timelinestars .axis-223 {
-  animation: anim220 13108ms linear infinite, fade1 13108ms linear infinite;
+  animation: anim220 8764ms linear infinite, fade5 8764ms linear infinite;
 }
 #landing-timelinestars .axis-224 {
-  animation: anim224 8434ms linear infinite, fade3 8434ms linear infinite;
+  animation: anim224 64475ms linear infinite, fade6 64475ms linear infinite;
 }
 #landing-timelinestars .axis-225 {
-  animation: anim224 51949ms linear infinite, fade9 51949ms linear infinite;
+  animation: anim224 48207ms linear infinite, fade1 48207ms linear infinite;
 }
 #landing-timelinestars .axis-226 {
-  animation: anim224 30363ms linear infinite, fade10 30363ms linear infinite;
+  animation: anim224 26645ms linear infinite, fade9 26645ms linear infinite;
 }
 #landing-timelinestars .axis-227 {
-  animation: anim224 45102ms linear infinite, fade9 45102ms linear infinite;
+  animation: anim224 19355ms linear infinite, fade10 19355ms linear infinite;
 }
 #landing-timelinestars .axis-228 {
-  animation: anim228 6574ms linear infinite, fade8 6574ms linear infinite;
+  animation: anim228 6105ms linear infinite, fade7 6105ms linear infinite;
 }
 #landing-timelinestars .axis-229 {
-  animation: anim228 29106ms linear infinite, fade9 29106ms linear infinite;
+  animation: anim228 43567ms linear infinite, fade3 43567ms linear infinite;
 }
 #landing-timelinestars .axis-230 {
-  animation: anim228 23738ms linear infinite, fade10 23738ms linear infinite;
+  animation: anim228 66080ms linear infinite, fade2 66080ms linear infinite;
 }
 #landing-timelinestars .axis-231 {
-  animation: anim228 70093ms linear infinite, fade3 70093ms linear infinite;
+  animation: anim228 74077ms linear infinite, fade5 74077ms linear infinite;
 }
 #landing-timelinestars .axis-232 {
-  animation: anim232 43304ms linear infinite, fade10 43304ms linear infinite;
+  animation: anim232 75732ms linear infinite, fade2 75732ms linear infinite;
 }
 #landing-timelinestars .axis-233 {
-  animation: anim232 56374ms linear infinite, fade8 56374ms linear infinite;
+  animation: anim232 44895ms linear infinite, fade5 44895ms linear infinite;
 }
 #landing-timelinestars .axis-234 {
-  animation: anim232 67219ms linear infinite, fade8 67219ms linear infinite;
+  animation: anim232 53339ms linear infinite, fade10 53339ms linear infinite;
 }
 #landing-timelinestars .axis-235 {
-  animation: anim232 72884ms linear infinite, fade6 72884ms linear infinite;
+  animation: anim232 61408ms linear infinite, fade5 61408ms linear infinite;
 }
 #landing-timelinestars .axis-236 {
-  animation: anim236 34346ms linear infinite, fade3 34346ms linear infinite;
+  animation: anim236 70238ms linear infinite, fade10 70238ms linear infinite;
 }
 #landing-timelinestars .axis-237 {
-  animation: anim236 38210ms linear infinite, fade9 38210ms linear infinite;
+  animation: anim236 41138ms linear infinite, fade9 41138ms linear infinite;
 }
 #landing-timelinestars .axis-238 {
-  animation: anim236 47978ms linear infinite, fade2 47978ms linear infinite;
+  animation: anim236 20154ms linear infinite, fade4 20154ms linear infinite;
 }
 #landing-timelinestars .axis-239 {
-  animation: anim236 13051ms linear infinite, fade4 13051ms linear infinite;
+  animation: anim236 55884ms linear infinite, fade6 55884ms linear infinite;
 }
 #landing-timelinestars .axis-240 {
-  animation: anim240 8702ms linear infinite, fade2 8702ms linear infinite;
+  animation: anim240 45225ms linear infinite, fade2 45225ms linear infinite;
 }
 #landing-timelinestars .axis-241 {
-  animation: anim240 53269ms linear infinite, fade2 53269ms linear infinite;
+  animation: anim240 63725ms linear infinite, fade9 63725ms linear infinite;
 }
 #landing-timelinestars .axis-242 {
-  animation: anim240 27400ms linear infinite, fade7 27400ms linear infinite;
+  animation: anim240 64926ms linear infinite, fade1 64926ms linear infinite;
 }
 #landing-timelinestars .axis-243 {
-  animation: anim240 51956ms linear infinite, fade9 51956ms linear infinite;
+  animation: anim240 56693ms linear infinite, fade6 56693ms linear infinite;
 }
 #landing-timelinestars .axis-244 {
-  animation: anim244 46013ms linear infinite, fade8 46013ms linear infinite;
+  animation: anim244 16217ms linear infinite, fade9 16217ms linear infinite;
 }
 #landing-timelinestars .axis-245 {
-  animation: anim244 43383ms linear infinite, fade5 43383ms linear infinite;
+  animation: anim244 33586ms linear infinite, fade10 33586ms linear infinite;
 }
 #landing-timelinestars .axis-246 {
-  animation: anim244 6057ms linear infinite, fade4 6057ms linear infinite;
+  animation: anim244 44431ms linear infinite, fade6 44431ms linear infinite;
 }
 #landing-timelinestars .axis-247 {
-  animation: anim244 30893ms linear infinite, fade4 30893ms linear infinite;
+  animation: anim244 30906ms linear infinite, fade4 30906ms linear infinite;
 }
 #landing-timelinestars .axis-248 {
-  animation: anim248 20164ms linear infinite, fade6 20164ms linear infinite;
+  animation: anim248 64761ms linear infinite, fade10 64761ms linear infinite;
 }
 #landing-timelinestars .axis-249 {
-  animation: anim248 50041ms linear infinite, fade5 50041ms linear infinite;
+  animation: anim248 65185ms linear infinite, fade4 65185ms linear infinite;
 }
 #landing-timelinestars .axis-250 {
-  animation: anim248 38211ms linear infinite, fade8 38211ms linear infinite;
+  animation: anim248 73270ms linear infinite, fade8 73270ms linear infinite;
 }
 #landing-timelinestars .axis-251 {
-  animation: anim248 17333ms linear infinite, fade1 17333ms linear infinite;
+  animation: anim248 41907ms linear infinite, fade7 41907ms linear infinite;
 }
 #landing-timelinestars .axis-252 {
-  animation: anim252 49103ms linear infinite, fade2 49103ms linear infinite;
+  animation: anim252 64152ms linear infinite, fade10 64152ms linear infinite;
 }
 #landing-timelinestars .axis-253 {
-  animation: anim252 71197ms linear infinite, fade3 71197ms linear infinite;
+  animation: anim252 59020ms linear infinite, fade4 59020ms linear infinite;
 }
 #landing-timelinestars .axis-254 {
-  animation: anim252 25990ms linear infinite, fade3 25990ms linear infinite;
+  animation: anim252 47775ms linear infinite, fade1 47775ms linear infinite;
 }
 #landing-timelinestars .axis-255 {
-  animation: anim252 12786ms linear infinite, fade7 12786ms linear infinite;
+  animation: anim252 63207ms linear infinite, fade6 63207ms linear infinite;
 }
 #landing-timelinestars .axis-256 {
-  animation: anim256 59526ms linear infinite, fade9 59526ms linear infinite;
+  animation: anim256 13442ms linear infinite, fade7 13442ms linear infinite;
 }
 #landing-timelinestars .axis-257 {
-  animation: anim256 30390ms linear infinite, fade8 30390ms linear infinite;
+  animation: anim256 24771ms linear infinite, fade10 24771ms linear infinite;
 }
 #landing-timelinestars .axis-258 {
-  animation: anim256 38363ms linear infinite, fade2 38363ms linear infinite;
+  animation: anim256 16149ms linear infinite, fade9 16149ms linear infinite;
 }
 #landing-timelinestars .axis-259 {
-  animation: anim256 65135ms linear infinite, fade7 65135ms linear infinite;
+  animation: anim256 71191ms linear infinite, fade4 71191ms linear infinite;
 }
 #landing-timelinestars .axis-260 {
-  animation: anim260 23651ms linear infinite, fade7 23651ms linear infinite;
+  animation: anim260 69552ms linear infinite, fade8 69552ms linear infinite;
 }
 #landing-timelinestars .axis-261 {
-  animation: anim260 47859ms linear infinite, fade3 47859ms linear infinite;
+  animation: anim260 48579ms linear infinite, fade7 48579ms linear infinite;
 }
 #landing-timelinestars .axis-262 {
-  animation: anim260 74688ms linear infinite, fade6 74688ms linear infinite;
+  animation: anim260 18494ms linear infinite, fade1 18494ms linear infinite;
 }
 #landing-timelinestars .axis-263 {
-  animation: anim260 48491ms linear infinite, fade8 48491ms linear infinite;
+  animation: anim260 61732ms linear infinite, fade4 61732ms linear infinite;
 }
 #landing-timelinestars .axis-264 {
-  animation: anim264 30880ms linear infinite, fade5 30880ms linear infinite;
+  animation: anim264 52606ms linear infinite, fade5 52606ms linear infinite;
 }
 #landing-timelinestars .axis-265 {
-  animation: anim264 51373ms linear infinite, fade7 51373ms linear infinite;
+  animation: anim264 50992ms linear infinite, fade3 50992ms linear infinite;
 }
 #landing-timelinestars .axis-266 {
-  animation: anim264 31580ms linear infinite, fade9 31580ms linear infinite;
+  animation: anim264 74297ms linear infinite, fade5 74297ms linear infinite;
 }
 #landing-timelinestars .axis-267 {
-  animation: anim264 13063ms linear infinite, fade6 13063ms linear infinite;
+  animation: anim264 11522ms linear infinite, fade10 11522ms linear infinite;
 }
 #landing-timelinestars .axis-268 {
-  animation: anim268 18707ms linear infinite, fade10 18707ms linear infinite;
+  animation: anim268 59049ms linear infinite, fade6 59049ms linear infinite;
 }
 #landing-timelinestars .axis-269 {
-  animation: anim268 59769ms linear infinite, fade7 59769ms linear infinite;
+  animation: anim268 51809ms linear infinite, fade1 51809ms linear infinite;
 }
 #landing-timelinestars .axis-270 {
-  animation: anim268 32765ms linear infinite, fade10 32765ms linear infinite;
+  animation: anim268 13383ms linear infinite, fade5 13383ms linear infinite;
 }
 #landing-timelinestars .axis-271 {
-  animation: anim268 37667ms linear infinite, fade7 37667ms linear infinite;
+  animation: anim268 54173ms linear infinite, fade3 54173ms linear infinite;
 }
 #landing-timelinestars .axis-272 {
-  animation: anim272 38119ms linear infinite, fade2 38119ms linear infinite;
+  animation: anim272 31796ms linear infinite, fade2 31796ms linear infinite;
 }
 #landing-timelinestars .axis-273 {
-  animation: anim272 33412ms linear infinite, fade1 33412ms linear infinite;
+  animation: anim272 14984ms linear infinite, fade10 14984ms linear infinite;
 }
 #landing-timelinestars .axis-274 {
-  animation: anim272 37151ms linear infinite, fade7 37151ms linear infinite;
+  animation: anim272 34598ms linear infinite, fade6 34598ms linear infinite;
 }
 #landing-timelinestars .axis-275 {
-  animation: anim272 33547ms linear infinite, fade10 33547ms linear infinite;
+  animation: anim272 39282ms linear infinite, fade10 39282ms linear infinite;
 }
 #landing-timelinestars .axis-276 {
-  animation: anim276 21708ms linear infinite, fade3 21708ms linear infinite;
+  animation: anim276 18776ms linear infinite, fade9 18776ms linear infinite;
 }
 #landing-timelinestars .axis-277 {
-  animation: anim276 67089ms linear infinite, fade9 67089ms linear infinite;
+  animation: anim276 13546ms linear infinite, fade6 13546ms linear infinite;
 }
 #landing-timelinestars .axis-278 {
-  animation: anim276 59359ms linear infinite, fade9 59359ms linear infinite;
+  animation: anim276 18050ms linear infinite, fade6 18050ms linear infinite;
 }
 #landing-timelinestars .axis-279 {
-  animation: anim276 63908ms linear infinite, fade1 63908ms linear infinite;
+  animation: anim276 38837ms linear infinite, fade5 38837ms linear infinite;
 }
 #landing-timelinestars .axis-280 {
-  animation: anim280 63482ms linear infinite, fade4 63482ms linear infinite;
+  animation: anim280 16838ms linear infinite, fade3 16838ms linear infinite;
 }
 #landing-timelinestars .axis-281 {
-  animation: anim280 48165ms linear infinite, fade8 48165ms linear infinite;
+  animation: anim280 28935ms linear infinite, fade1 28935ms linear infinite;
 }
 #landing-timelinestars .axis-282 {
-  animation: anim280 15754ms linear infinite, fade9 15754ms linear infinite;
+  animation: anim280 21219ms linear infinite, fade1 21219ms linear infinite;
 }
 #landing-timelinestars .axis-283 {
-  animation: anim280 54978ms linear infinite, fade1 54978ms linear infinite;
+  animation: anim280 75767ms linear infinite, fade4 75767ms linear infinite;
 }
 #landing-timelinestars .axis-284 {
-  animation: anim284 49841ms linear infinite, fade9 49841ms linear infinite;
+  animation: anim284 14010ms linear infinite, fade4 14010ms linear infinite;
 }
 #landing-timelinestars .axis-285 {
-  animation: anim284 68297ms linear infinite, fade5 68297ms linear infinite;
+  animation: anim284 25672ms linear infinite, fade6 25672ms linear infinite;
 }
 #landing-timelinestars .axis-286 {
-  animation: anim284 25833ms linear infinite, fade6 25833ms linear infinite;
+  animation: anim284 51798ms linear infinite, fade9 51798ms linear infinite;
 }
 #landing-timelinestars .axis-287 {
-  animation: anim284 38306ms linear infinite, fade1 38306ms linear infinite;
+  animation: anim284 35623ms linear infinite, fade9 35623ms linear infinite;
 }
 #landing-timelinestars .axis-288 {
-  animation: anim288 28490ms linear infinite, fade10 28490ms linear infinite;
+  animation: anim288 50180ms linear infinite, fade7 50180ms linear infinite;
 }
 #landing-timelinestars .axis-289 {
-  animation: anim288 44746ms linear infinite, fade5 44746ms linear infinite;
+  animation: anim288 43641ms linear infinite, fade7 43641ms linear infinite;
 }
 #landing-timelinestars .axis-290 {
-  animation: anim288 50548ms linear infinite, fade10 50548ms linear infinite;
+  animation: anim288 69156ms linear infinite, fade5 69156ms linear infinite;
 }
 #landing-timelinestars .axis-291 {
-  animation: anim288 43394ms linear infinite, fade3 43394ms linear infinite;
+  animation: anim288 13477ms linear infinite, fade6 13477ms linear infinite;
 }
 #landing-timelinestars .axis-292 {
-  animation: anim292 48145ms linear infinite, fade1 48145ms linear infinite;
+  animation: anim292 65129ms linear infinite, fade5 65129ms linear infinite;
 }
 #landing-timelinestars .axis-293 {
-  animation: anim292 44440ms linear infinite, fade10 44440ms linear infinite;
+  animation: anim292 74012ms linear infinite, fade3 74012ms linear infinite;
 }
 #landing-timelinestars .axis-294 {
-  animation: anim292 12832ms linear infinite, fade4 12832ms linear infinite;
+  animation: anim292 24244ms linear infinite, fade7 24244ms linear infinite;
 }
 #landing-timelinestars .axis-295 {
-  animation: anim292 22789ms linear infinite, fade6 22789ms linear infinite;
+  animation: anim292 36498ms linear infinite, fade7 36498ms linear infinite;
 }
 #landing-timelinestars .axis-296 {
-  animation: anim296 27703ms linear infinite, fade6 27703ms linear infinite;
+  animation: anim296 59998ms linear infinite, fade10 59998ms linear infinite;
 }
 #landing-timelinestars .axis-297 {
-  animation: anim296 18160ms linear infinite, fade1 18160ms linear infinite;
+  animation: anim296 33593ms linear infinite, fade3 33593ms linear infinite;
 }
 #landing-timelinestars .axis-298 {
-  animation: anim296 13347ms linear infinite, fade8 13347ms linear infinite;
+  animation: anim296 68946ms linear infinite, fade5 68946ms linear infinite;
 }
 #landing-timelinestars .axis-299 {
-  animation: anim296 51760ms linear infinite, fade3 51760ms linear infinite;
+  animation: anim296 55701ms linear infinite, fade10 55701ms linear infinite;
 }
 #landing-timelinestars .axis-300 {
-  animation: anim300 71887ms linear infinite, fade2 71887ms linear infinite;
+  animation: anim300 73601ms linear infinite, fade2 73601ms linear infinite;
 }
 #landing-timelinestars .axis-301 {
-  animation: anim300 66665ms linear infinite, fade8 66665ms linear infinite;
+  animation: anim300 28466ms linear infinite, fade10 28466ms linear infinite;
 }
 #landing-timelinestars .axis-302 {
-  animation: anim300 67989ms linear infinite, fade5 67989ms linear infinite;
+  animation: anim300 46654ms linear infinite, fade10 46654ms linear infinite;
 }
 #landing-timelinestars .axis-303 {
-  animation: anim300 42264ms linear infinite, fade8 42264ms linear infinite;
+  animation: anim300 7262ms linear infinite, fade8 7262ms linear infinite;
 }
 #landing-timelinestars .axis-304 {
-  animation: anim304 32389ms linear infinite, fade6 32389ms linear infinite;
+  animation: anim304 71657ms linear infinite, fade6 71657ms linear infinite;
 }
 #landing-timelinestars .axis-305 {
-  animation: anim304 61395ms linear infinite, fade10 61395ms linear infinite;
+  animation: anim304 59890ms linear infinite, fade4 59890ms linear infinite;
 }
 #landing-timelinestars .axis-306 {
-  animation: anim304 6114ms linear infinite, fade1 6114ms linear infinite;
+  animation: anim304 63552ms linear infinite, fade1 63552ms linear infinite;
 }
 #landing-timelinestars .axis-307 {
-  animation: anim304 57537ms linear infinite, fade7 57537ms linear infinite;
+  animation: anim304 30167ms linear infinite, fade10 30167ms linear infinite;
 }
 #landing-timelinestars .axis-308 {
-  animation: anim308 31668ms linear infinite, fade2 31668ms linear infinite;
+  animation: anim308 61155ms linear infinite, fade10 61155ms linear infinite;
 }
 #landing-timelinestars .axis-309 {
-  animation: anim308 7496ms linear infinite, fade1 7496ms linear infinite;
+  animation: anim308 49396ms linear infinite, fade7 49396ms linear infinite;
 }
 #landing-timelinestars .axis-310 {
-  animation: anim308 28550ms linear infinite, fade6 28550ms linear infinite;
+  animation: anim308 58066ms linear infinite, fade10 58066ms linear infinite;
 }
 #landing-timelinestars .axis-311 {
-  animation: anim308 68232ms linear infinite, fade8 68232ms linear infinite;
+  animation: anim308 47887ms linear infinite, fade6 47887ms linear infinite;
 }
 #landing-timelinestars .axis-312 {
-  animation: anim312 32656ms linear infinite, fade3 32656ms linear infinite;
+  animation: anim312 72810ms linear infinite, fade5 72810ms linear infinite;
 }
 #landing-timelinestars .axis-313 {
-  animation: anim312 41834ms linear infinite, fade5 41834ms linear infinite;
+  animation: anim312 54876ms linear infinite, fade4 54876ms linear infinite;
 }
 #landing-timelinestars .axis-314 {
-  animation: anim312 56058ms linear infinite, fade2 56058ms linear infinite;
+  animation: anim312 43614ms linear infinite, fade5 43614ms linear infinite;
 }
 #landing-timelinestars .axis-315 {
-  animation: anim312 54729ms linear infinite, fade9 54729ms linear infinite;
+  animation: anim312 22528ms linear infinite, fade1 22528ms linear infinite;
 }
 #landing-timelinestars .axis-316 {
-  animation: anim316 19050ms linear infinite, fade5 19050ms linear infinite;
+  animation: anim316 34915ms linear infinite, fade10 34915ms linear infinite;
 }
 #landing-timelinestars .axis-317 {
-  animation: anim316 16260ms linear infinite, fade7 16260ms linear infinite;
+  animation: anim316 36449ms linear infinite, fade2 36449ms linear infinite;
 }
 #landing-timelinestars .axis-318 {
-  animation: anim316 10740ms linear infinite, fade4 10740ms linear infinite;
+  animation: anim316 71116ms linear infinite, fade4 71116ms linear infinite;
 }
 #landing-timelinestars .axis-319 {
-  animation: anim316 6259ms linear infinite, fade1 6259ms linear infinite;
+  animation: anim316 15627ms linear infinite, fade2 15627ms linear infinite;
 }
 #landing-timelinestars .axis-320 {
-  animation: anim320 19357ms linear infinite, fade7 19357ms linear infinite;
+  animation: anim320 63204ms linear infinite, fade7 63204ms linear infinite;
 }
 #landing-timelinestars .axis-321 {
-  animation: anim320 51141ms linear infinite, fade6 51141ms linear infinite;
+  animation: anim320 45019ms linear infinite, fade6 45019ms linear infinite;
 }
 #landing-timelinestars .axis-322 {
-  animation: anim320 31840ms linear infinite, fade6 31840ms linear infinite;
+  animation: anim320 48667ms linear infinite, fade6 48667ms linear infinite;
 }
 #landing-timelinestars .axis-323 {
-  animation: anim320 39974ms linear infinite, fade3 39974ms linear infinite;
+  animation: anim320 31607ms linear infinite, fade10 31607ms linear infinite;
 }
 #landing-timelinestars .axis-324 {
-  animation: anim324 6016ms linear infinite, fade1 6016ms linear infinite;
+  animation: anim324 15765ms linear infinite, fade6 15765ms linear infinite;
 }
 #landing-timelinestars .axis-325 {
-  animation: anim324 71382ms linear infinite, fade8 71382ms linear infinite;
+  animation: anim324 42070ms linear infinite, fade8 42070ms linear infinite;
 }
 #landing-timelinestars .axis-326 {
-  animation: anim324 57297ms linear infinite, fade3 57297ms linear infinite;
+  animation: anim324 75284ms linear infinite, fade5 75284ms linear infinite;
 }
 #landing-timelinestars .axis-327 {
-  animation: anim324 71353ms linear infinite, fade4 71353ms linear infinite;
+  animation: anim324 41619ms linear infinite, fade6 41619ms linear infinite;
 }
 #landing-timelinestars .axis-328 {
-  animation: anim328 73786ms linear infinite, fade5 73786ms linear infinite;
+  animation: anim328 72136ms linear infinite, fade8 72136ms linear infinite;
 }
 #landing-timelinestars .axis-329 {
-  animation: anim328 27875ms linear infinite, fade10 27875ms linear infinite;
+  animation: anim328 23951ms linear infinite, fade5 23951ms linear infinite;
 }
 #landing-timelinestars .axis-330 {
-  animation: anim328 61110ms linear infinite, fade7 61110ms linear infinite;
+  animation: anim328 71444ms linear infinite, fade3 71444ms linear infinite;
 }
 #landing-timelinestars .axis-331 {
-  animation: anim328 64626ms linear infinite, fade3 64626ms linear infinite;
+  animation: anim328 28252ms linear infinite, fade3 28252ms linear infinite;
 }
 #landing-timelinestars .axis-332 {
-  animation: anim332 50759ms linear infinite, fade8 50759ms linear infinite;
+  animation: anim332 22547ms linear infinite, fade10 22547ms linear infinite;
 }
 #landing-timelinestars .axis-333 {
-  animation: anim332 72856ms linear infinite, fade2 72856ms linear infinite;
+  animation: anim332 59555ms linear infinite, fade2 59555ms linear infinite;
 }
 #landing-timelinestars .axis-334 {
-  animation: anim332 14917ms linear infinite, fade10 14917ms linear infinite;
+  animation: anim332 21051ms linear infinite, fade5 21051ms linear infinite;
 }
 #landing-timelinestars .axis-335 {
-  animation: anim332 74653ms linear infinite, fade7 74653ms linear infinite;
+  animation: anim332 43175ms linear infinite, fade6 43175ms linear infinite;
 }
 #landing-timelinestars .axis-336 {
-  animation: anim336 11652ms linear infinite, fade6 11652ms linear infinite;
+  animation: anim336 24392ms linear infinite, fade10 24392ms linear infinite;
 }
 #landing-timelinestars .axis-337 {
-  animation: anim336 50639ms linear infinite, fade5 50639ms linear infinite;
+  animation: anim336 26161ms linear infinite, fade6 26161ms linear infinite;
 }
 #landing-timelinestars .axis-338 {
-  animation: anim336 53046ms linear infinite, fade2 53046ms linear infinite;
+  animation: anim336 75054ms linear infinite, fade2 75054ms linear infinite;
 }
 #landing-timelinestars .axis-339 {
-  animation: anim336 73590ms linear infinite, fade1 73590ms linear infinite;
+  animation: anim336 53784ms linear infinite, fade1 53784ms linear infinite;
 }
 #landing-timelinestars .axis-340 {
-  animation: anim340 52942ms linear infinite, fade4 52942ms linear infinite;
+  animation: anim340 16030ms linear infinite, fade7 16030ms linear infinite;
 }
 #landing-timelinestars .axis-341 {
-  animation: anim340 41106ms linear infinite, fade6 41106ms linear infinite;
+  animation: anim340 58368ms linear infinite, fade4 58368ms linear infinite;
 }
 #landing-timelinestars .axis-342 {
-  animation: anim340 26259ms linear infinite, fade7 26259ms linear infinite;
+  animation: anim340 26002ms linear infinite, fade5 26002ms linear infinite;
 }
 #landing-timelinestars .axis-343 {
-  animation: anim340 10354ms linear infinite, fade1 10354ms linear infinite;
+  animation: anim340 64888ms linear infinite, fade3 64888ms linear infinite;
 }
 #landing-timelinestars .axis-344 {
-  animation: anim344 48550ms linear infinite, fade4 48550ms linear infinite;
+  animation: anim344 55706ms linear infinite, fade2 55706ms linear infinite;
 }
 #landing-timelinestars .axis-345 {
-  animation: anim344 65443ms linear infinite, fade1 65443ms linear infinite;
+  animation: anim344 48136ms linear infinite, fade7 48136ms linear infinite;
 }
 #landing-timelinestars .axis-346 {
-  animation: anim344 58835ms linear infinite, fade5 58835ms linear infinite;
+  animation: anim344 57764ms linear infinite, fade10 57764ms linear infinite;
 }
 #landing-timelinestars .axis-347 {
-  animation: anim344 17044ms linear infinite, fade8 17044ms linear infinite;
+  animation: anim344 18301ms linear infinite, fade6 18301ms linear infinite;
 }
 #landing-timelinestars .axis-348 {
-  animation: anim348 16896ms linear infinite, fade3 16896ms linear infinite;
+  animation: anim348 55268ms linear infinite, fade3 55268ms linear infinite;
 }
 #landing-timelinestars .axis-349 {
-  animation: anim348 6568ms linear infinite, fade5 6568ms linear infinite;
+  animation: anim348 18404ms linear infinite, fade5 18404ms linear infinite;
 }
 #landing-timelinestars .axis-350 {
-  animation: anim348 17514ms linear infinite, fade9 17514ms linear infinite;
+  animation: anim348 22362ms linear infinite, fade1 22362ms linear infinite;
 }
 #landing-timelinestars .axis-351 {
-  animation: anim348 52367ms linear infinite, fade3 52367ms linear infinite;
+  animation: anim348 65064ms linear infinite, fade4 65064ms linear infinite;
 }
 #landing-timelinestars .axis-352 {
-  animation: anim352 23221ms linear infinite, fade9 23221ms linear infinite;
+  animation: anim352 50077ms linear infinite, fade10 50077ms linear infinite;
 }
 #landing-timelinestars .axis-353 {
-  animation: anim352 29538ms linear infinite, fade10 29538ms linear infinite;
+  animation: anim352 66576ms linear infinite, fade3 66576ms linear infinite;
 }
 #landing-timelinestars .axis-354 {
-  animation: anim352 15669ms linear infinite, fade6 15669ms linear infinite;
+  animation: anim352 18244ms linear infinite, fade6 18244ms linear infinite;
 }
 #landing-timelinestars .axis-355 {
-  animation: anim352 14444ms linear infinite, fade1 14444ms linear infinite;
+  animation: anim352 70199ms linear infinite, fade10 70199ms linear infinite;
 }
 #landing-timelinestars .axis-356 {
-  animation: anim356 53938ms linear infinite, fade7 53938ms linear infinite;
+  animation: anim356 6789ms linear infinite, fade5 6789ms linear infinite;
 }
 #landing-timelinestars .axis-357 {
-  animation: anim356 18057ms linear infinite, fade5 18057ms linear infinite;
+  animation: anim356 15816ms linear infinite, fade10 15816ms linear infinite;
 }
 #landing-timelinestars .axis-358 {
-  animation: anim356 66246ms linear infinite, fade2 66246ms linear infinite;
+  animation: anim356 52198ms linear infinite, fade5 52198ms linear infinite;
 }
 #landing-timelinestars .axis-359 {
-  animation: anim356 7203ms linear infinite, fade1 7203ms linear infinite;
+  animation: anim356 33938ms linear infinite, fade6 33938ms linear infinite;
 }
 #landing-timelinestars .axis-360 {
-  animation: anim360 8705ms linear infinite, fade4 8705ms linear infinite;
+  animation: anim360 53666ms linear infinite, fade2 53666ms linear infinite;
 }
 @keyframes fade1 {
-  1429% {
+  4676% {
     opacity: 0;
   }
-  1439% {
+  4686% {
     opacity: 1;
   }
   100% {
@@ -5209,10 +5209,10 @@ textarea {
   }
 }
 @keyframes fade2 {
-  1328% {
+  4598% {
     opacity: 0;
   }
-  1338% {
+  4608% {
     opacity: 1;
   }
   100% {
@@ -5220,10 +5220,10 @@ textarea {
   }
 }
 @keyframes fade3 {
-  721% {
+  1195% {
     opacity: 0;
   }
-  731% {
+  1205% {
     opacity: 1;
   }
   100% {
@@ -5231,10 +5231,10 @@ textarea {
   }
 }
 @keyframes fade4 {
-  3546% {
+  2976% {
     opacity: 0;
   }
-  3556% {
+  2986% {
     opacity: 1;
   }
   100% {
@@ -5242,10 +5242,10 @@ textarea {
   }
 }
 @keyframes fade5 {
-  3174% {
+  2648% {
     opacity: 0;
   }
-  3184% {
+  2658% {
     opacity: 1;
   }
   100% {
@@ -5253,10 +5253,10 @@ textarea {
   }
 }
 @keyframes fade6 {
-  3399% {
+  1375% {
     opacity: 0;
   }
-  3409% {
+  1385% {
     opacity: 1;
   }
   100% {
@@ -5264,10 +5264,10 @@ textarea {
   }
 }
 @keyframes fade7 {
-  1926% {
+  3211% {
     opacity: 0;
   }
-  1936% {
+  3221% {
     opacity: 1;
   }
   100% {
@@ -5275,10 +5275,10 @@ textarea {
   }
 }
 @keyframes fade8 {
-  4003% {
+  4923% {
     opacity: 0;
   }
-  4013% {
+  4933% {
     opacity: 1;
   }
   100% {
@@ -5286,10 +5286,10 @@ textarea {
   }
 }
 @keyframes fade9 {
-  3655% {
+  2726% {
     opacity: 0;
   }
-  3665% {
+  2736% {
     opacity: 1;
   }
   100% {
@@ -5297,10 +5297,10 @@ textarea {
   }
 }
 @keyframes fade10 {
-  863% {
+  529% {
     opacity: 0;
   }
-  873% {
+  539% {
     opacity: 1;
   }
   100% {
@@ -5791,136 +5791,241 @@ textarea {
   box-shadow: 0 0 10px rgba(255, 255, 200, 0.8);
 }
 #char-sparkles .star:nth-child(1) {
-  animation: sparkleRise1 3982ms linear infinite;
-  animation-delay: 3109ms;
+  animation: sparkleRise1 6049ms linear infinite;
+  animation-delay: 788ms;
 }
 @keyframes sparkleRise1 {
   0% {
     opacity: 0;
-    transform: translate(0, 100px) scale(0.5);
+    transform: translate(0, 72px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(40px, -147px) rotate(3deg) scale(1.2);
+    transform: translate(-68px, -161px) rotate(38deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(40px, -210px) rotate(4.5deg) scale(0.8);
+    transform: translate(-68px, -230px) rotate(57deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(2) {
-  animation: sparkleRise2 5626ms linear infinite;
-  animation-delay: 2555ms;
+  animation: sparkleRise2 9685ms linear infinite;
+  animation-delay: 2972ms;
 }
 @keyframes sparkleRise2 {
   0% {
     opacity: 0;
-    transform: translate(0, 82px) scale(0.5);
+    transform: translate(0, 97px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-22px, -136.5px) rotate(23deg) scale(1.2);
+    transform: translate(44px, -165.2px) rotate(-9deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-22px, -195px) rotate(34.5deg) scale(0.8);
+    transform: translate(44px, -236px) rotate(-13.5deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(3) {
-  animation: sparkleRise3 8440ms linear infinite;
-  animation-delay: 1112ms;
+  animation: sparkleRise3 8955ms linear infinite;
+  animation-delay: 202ms;
 }
 @keyframes sparkleRise3 {
   0% {
     opacity: 0;
-    transform: translate(0, 91px) scale(0.5);
+    transform: translate(0, 51px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(127px, -189px) rotate(-4deg) scale(1.2);
+    transform: translate(72px, -142.8px) rotate(-51deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(127px, -270px) rotate(-6deg) scale(0.8);
+    transform: translate(72px, -204px) rotate(-76.5deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(4) {
-  animation: sparkleRise4 3206ms linear infinite;
-  animation-delay: 1526ms;
+  animation: sparkleRise4 4995ms linear infinite;
+  animation-delay: 3156ms;
 }
 @keyframes sparkleRise4 {
   0% {
     opacity: 0;
-    transform: translate(0, 8px) scale(0.5);
+    transform: translate(0, 19px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(115px, -175px) rotate(82deg) scale(1.2);
+    transform: translate(138px, -285.6px) rotate(40deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(115px, -250px) rotate(123deg) scale(0.8);
+    transform: translate(138px, -408px) rotate(60deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(5) {
-  animation: sparkleRise5 5120ms linear infinite;
-  animation-delay: 143ms;
+  animation: sparkleRise5 6764ms linear infinite;
+  animation-delay: 1966ms;
 }
 @keyframes sparkleRise5 {
   0% {
     opacity: 0;
-    transform: translate(0, 78px) scale(0.5);
+    transform: translate(0, 62px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(74px, -227.5px) rotate(42deg) scale(1.2);
+    transform: translate(111px, -130.9px) rotate(-31deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(74px, -325px) rotate(63deg) scale(0.8);
+    transform: translate(111px, -187px) rotate(-46.5deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(6) {
-  animation: sparkleRise6 7922ms linear infinite;
-  animation-delay: 4331ms;
+  animation: sparkleRise6 5593ms linear infinite;
+  animation-delay: 3439ms;
 }
 @keyframes sparkleRise6 {
   0% {
     opacity: 0;
-    transform: translate(0, 115px) scale(0.5);
+    transform: translate(0, 75px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-16px, -292.6px) rotate(12deg) scale(1.2);
+    transform: translate(20px, -265.3px) rotate(30deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-16px, -418px) rotate(18deg) scale(0.8);
+    transform: translate(20px, -379px) rotate(45deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(7) {
-  animation: sparkleRise7 4395ms linear infinite;
-  animation-delay: 3964ms;
+  animation: sparkleRise7 6437ms linear infinite;
+  animation-delay: 2774ms;
 }
 @keyframes sparkleRise7 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 18px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(181px, -217.7px) rotate(57deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(181px, -311px) rotate(85.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(8) {
+  animation: sparkleRise8 9057ms linear infinite;
+  animation-delay: 2667ms;
+}
+@keyframes sparkleRise8 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 70px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(96px, -175px) rotate(-72deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(96px, -250px) rotate(-108deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(9) {
+  animation: sparkleRise9 4109ms linear infinite;
+  animation-delay: 2614ms;
+}
+@keyframes sparkleRise9 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 56px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(129px, -79.8px) rotate(-80deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(129px, -114px) rotate(-120deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(10) {
+  animation: sparkleRise10 5294ms linear infinite;
+  animation-delay: 2386ms;
+}
+@keyframes sparkleRise10 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 56px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(49px, -204.4px) rotate(20deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(49px, -292px) rotate(30deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(11) {
+  animation: sparkleRise11 9164ms linear infinite;
+  animation-delay: 4397ms;
+}
+@keyframes sparkleRise11 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 75px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-140px, -305.9px) rotate(-5deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-140px, -437px) rotate(-7.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(12) {
+  animation: sparkleRise12 5953ms linear infinite;
+  animation-delay: 2593ms;
+}
+@keyframes sparkleRise12 {
   0% {
     opacity: 0;
     transform: translate(0, 63px) scale(0.5);
@@ -5929,248 +6034,143 @@ textarea {
     opacity: 1;
   }
   70% {
-    transform: translate(-40px, -88.2px) rotate(37deg) scale(1.2);
+    transform: translate(65px, -151.9px) rotate(29deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-40px, -126px) rotate(55.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(8) {
-  animation: sparkleRise8 4257ms linear infinite;
-  animation-delay: 182ms;
-}
-@keyframes sparkleRise8 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 11px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(108px, -211.4px) rotate(3deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(108px, -302px) rotate(4.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(9) {
-  animation: sparkleRise9 4889ms linear infinite;
-  animation-delay: 3199ms;
-}
-@keyframes sparkleRise9 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 74px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(4px, -71.4px) rotate(-39deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(4px, -102px) rotate(-58.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(10) {
-  animation: sparkleRise10 9163ms linear infinite;
-  animation-delay: 4714ms;
-}
-@keyframes sparkleRise10 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 40px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-117px, -263.9px) rotate(53deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-117px, -377px) rotate(79.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(11) {
-  animation: sparkleRise11 8632ms linear infinite;
-  animation-delay: 3616ms;
-}
-@keyframes sparkleRise11 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 40px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(47px, -109.2px) rotate(31deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(47px, -156px) rotate(46.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(12) {
-  animation: sparkleRise12 6738ms linear infinite;
-  animation-delay: 2644ms;
-}
-@keyframes sparkleRise12 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 49px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-143px, -155.4px) rotate(30deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-143px, -222px) rotate(45deg) scale(0.8);
+    transform: translate(65px, -217px) rotate(43.5deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(13) {
-  animation: sparkleRise13 5983ms linear infinite;
-  animation-delay: 394ms;
+  animation: sparkleRise13 7536ms linear infinite;
+  animation-delay: 69ms;
 }
 @keyframes sparkleRise13 {
   0% {
     opacity: 0;
-    transform: translate(0, 7px) scale(0.5);
+    transform: translate(0, 107px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-22px, -300.3px) rotate(71deg) scale(1.2);
+    transform: translate(-14px, -99.4px) rotate(34deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-22px, -429px) rotate(106.5deg) scale(0.8);
+    transform: translate(-14px, -142px) rotate(51deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(14) {
-  animation: sparkleRise14 4122ms linear infinite;
-  animation-delay: 2874ms;
+  animation: sparkleRise14 3747ms linear infinite;
+  animation-delay: 312ms;
 }
 @keyframes sparkleRise14 {
   0% {
     opacity: 0;
-    transform: translate(0, 82px) scale(0.5);
+    transform: translate(0, 9px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-172px, -191.1px) rotate(-63deg) scale(1.2);
+    transform: translate(-5px, -191.1px) rotate(-86deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-172px, -273px) rotate(-94.5deg) scale(0.8);
+    transform: translate(-5px, -273px) rotate(-129deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(15) {
-  animation: sparkleRise15 6373ms linear infinite;
-  animation-delay: 2569ms;
+  animation: sparkleRise15 5245ms linear infinite;
+  animation-delay: 1193ms;
 }
 @keyframes sparkleRise15 {
   0% {
     opacity: 0;
-    transform: translate(0, 113px) scale(0.5);
+    transform: translate(0, 91px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(190px, -203px) rotate(22deg) scale(1.2);
+    transform: translate(-129px, -181.3px) rotate(-78deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(190px, -290px) rotate(33deg) scale(0.8);
+    transform: translate(-129px, -259px) rotate(-117deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(16) {
-  animation: sparkleRise16 6451ms linear infinite;
-  animation-delay: 1652ms;
+  animation: sparkleRise16 5859ms linear infinite;
+  animation-delay: 497ms;
 }
 @keyframes sparkleRise16 {
   0% {
     opacity: 0;
-    transform: translate(0, 90px) scale(0.5);
+    transform: translate(0, 57px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-149px, -96.6px) rotate(16deg) scale(1.2);
+    transform: translate(-147px, -245px) rotate(50deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-149px, -138px) rotate(24deg) scale(0.8);
+    transform: translate(-147px, -350px) rotate(75deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(17) {
-  animation: sparkleRise17 9859ms linear infinite;
-  animation-delay: 1727ms;
+  animation: sparkleRise17 5414ms linear infinite;
+  animation-delay: 548ms;
 }
 @keyframes sparkleRise17 {
   0% {
     opacity: 0;
-    transform: translate(0, 59px) scale(0.5);
+    transform: translate(0, 84px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-199px, -84.7px) rotate(-84deg) scale(1.2);
+    transform: translate(140px, -298.9px) rotate(73deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-199px, -121px) rotate(-126deg) scale(0.8);
+    transform: translate(140px, -427px) rotate(109.5deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(18) {
-  animation: sparkleRise18 5977ms linear infinite;
-  animation-delay: 2673ms;
+  animation: sparkleRise18 6437ms linear infinite;
+  animation-delay: 150ms;
 }
 @keyframes sparkleRise18 {
   0% {
     opacity: 0;
-    transform: translate(0, 94px) scale(0.5);
+    transform: translate(0, 58px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(135px, -296.8px) rotate(89deg) scale(1.2);
+    transform: translate(-55px, -207.9px) rotate(-41deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(135px, -424px) rotate(133.5deg) scale(0.8);
+    transform: translate(-55px, -297px) rotate(-61.5deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(19) {
-  animation: sparkleRise19 5222ms linear infinite;
-  animation-delay: 1181ms;
+  animation: sparkleRise19 9835ms linear infinite;
+  animation-delay: 3092ms;
 }
 @keyframes sparkleRise19 {
   0% {
@@ -6181,460 +6181,61 @@ textarea {
     opacity: 1;
   }
   70% {
-    transform: translate(-94px, -309.4px) rotate(-8deg) scale(1.2);
+    transform: translate(-41px, -129.5px) rotate(-40deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-94px, -442px) rotate(-12deg) scale(0.8);
+    transform: translate(-41px, -185px) rotate(-60deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(20) {
-  animation: sparkleRise20 5442ms linear infinite;
-  animation-delay: 1015ms;
+  animation: sparkleRise20 4297ms linear infinite;
+  animation-delay: 4157ms;
 }
 @keyframes sparkleRise20 {
   0% {
     opacity: 0;
-    transform: translate(0, 105px) scale(0.5);
+    transform: translate(0, 40px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-15px, -110.6px) rotate(72deg) scale(1.2);
+    transform: translate(67px, -151.9px) rotate(88deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-15px, -158px) rotate(108deg) scale(0.8);
+    transform: translate(67px, -217px) rotate(132deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(21) {
-  animation: sparkleRise21 3681ms linear infinite;
-  animation-delay: 3996ms;
+  animation: sparkleRise21 7859ms linear infinite;
+  animation-delay: 1371ms;
 }
 @keyframes sparkleRise21 {
   0% {
     opacity: 0;
-    transform: translate(0, 115px) scale(0.5);
+    transform: translate(0, 102px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(102px, -205.8px) rotate(12deg) scale(1.2);
+    transform: translate(163px, -251.3px) rotate(13deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(102px, -294px) rotate(18deg) scale(0.8);
+    transform: translate(163px, -359px) rotate(19.5deg) scale(0.8);
     opacity: 0;
   }
 }
 #char-sparkles .star:nth-child(22) {
-  animation: sparkleRise22 9929ms linear infinite;
-  animation-delay: 3525ms;
+  animation: sparkleRise22 4078ms linear infinite;
+  animation-delay: 1543ms;
 }
 @keyframes sparkleRise22 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 74px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(26px, -312.9px) rotate(-3deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(26px, -447px) rotate(-4.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(23) {
-  animation: sparkleRise23 8422ms linear infinite;
-  animation-delay: 232ms;
-}
-@keyframes sparkleRise23 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 115px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-142px, -136.5px) rotate(-2deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-142px, -195px) rotate(-3deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(24) {
-  animation: sparkleRise24 9993ms linear infinite;
-  animation-delay: 3932ms;
-}
-@keyframes sparkleRise24 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 67px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-118px, -161px) rotate(-61deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-118px, -230px) rotate(-91.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(25) {
-  animation: sparkleRise25 8794ms linear infinite;
-  animation-delay: 1711ms;
-}
-@keyframes sparkleRise25 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 33px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-5px, -213.5px) rotate(54deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-5px, -305px) rotate(81deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(26) {
-  animation: sparkleRise26 9966ms linear infinite;
-  animation-delay: 1859ms;
-}
-@keyframes sparkleRise26 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 27px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-129px, -280px) rotate(-45deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-129px, -400px) rotate(-67.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(27) {
-  animation: sparkleRise27 9603ms linear infinite;
-  animation-delay: 367ms;
-}
-@keyframes sparkleRise27 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 85px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-185px, -160.3px) rotate(18deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-185px, -229px) rotate(27deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(28) {
-  animation: sparkleRise28 4216ms linear infinite;
-  animation-delay: 1156ms;
-}
-@keyframes sparkleRise28 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 36px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-182px, -95.2px) rotate(-85deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-182px, -136px) rotate(-127.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(29) {
-  animation: sparkleRise29 8060ms linear infinite;
-  animation-delay: 4976ms;
-}
-@keyframes sparkleRise29 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 22px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(185px, -186.2px) rotate(69deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(185px, -266px) rotate(103.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(30) {
-  animation: sparkleRise30 3677ms linear infinite;
-  animation-delay: 4324ms;
-}
-@keyframes sparkleRise30 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 98px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-126px, -80.5px) rotate(26deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-126px, -115px) rotate(39deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(31) {
-  animation: sparkleRise31 3910ms linear infinite;
-  animation-delay: 3065ms;
-}
-@keyframes sparkleRise31 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 117px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-162px, -214.2px) rotate(69deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-162px, -306px) rotate(103.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(32) {
-  animation: sparkleRise32 6253ms linear infinite;
-  animation-delay: 1599ms;
-}
-@keyframes sparkleRise32 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 18px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-105px, -252px) rotate(-63deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-105px, -360px) rotate(-94.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(33) {
-  animation: sparkleRise33 9663ms linear infinite;
-  animation-delay: 3263ms;
-}
-@keyframes sparkleRise33 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 45px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(65px, -82.6px) rotate(-42deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(65px, -118px) rotate(-63deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(34) {
-  animation: sparkleRise34 8839ms linear infinite;
-  animation-delay: 3733ms;
-}
-@keyframes sparkleRise34 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 33px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-12px, -209.3px) rotate(21deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-12px, -299px) rotate(31.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(35) {
-  animation: sparkleRise35 6646ms linear infinite;
-  animation-delay: 2903ms;
-}
-@keyframes sparkleRise35 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 95px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-9px, -240.1px) rotate(30deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-9px, -343px) rotate(45deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(36) {
-  animation: sparkleRise36 3415ms linear infinite;
-  animation-delay: 736ms;
-}
-@keyframes sparkleRise36 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 106px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-49px, -269.5px) rotate(75deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-49px, -385px) rotate(112.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(37) {
-  animation: sparkleRise37 6999ms linear infinite;
-  animation-delay: 4372ms;
-}
-@keyframes sparkleRise37 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 1px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-128px, -238.7px) rotate(-50deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-128px, -341px) rotate(-75deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(38) {
-  animation: sparkleRise38 7858ms linear infinite;
-  animation-delay: 745ms;
-}
-@keyframes sparkleRise38 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 93px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-108px, -91px) rotate(62deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-108px, -130px) rotate(93deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(39) {
-  animation: sparkleRise39 6887ms linear infinite;
-  animation-delay: 4577ms;
-}
-@keyframes sparkleRise39 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 94px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(81px, -156.8px) rotate(-73deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(81px, -224px) rotate(-109.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(40) {
-  animation: sparkleRise40 9674ms linear infinite;
-  animation-delay: 3970ms;
-}
-@keyframes sparkleRise40 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 112px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-6px, -156.8px) rotate(46deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-6px, -224px) rotate(69deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(41) {
-  animation: sparkleRise41 3888ms linear infinite;
-  animation-delay: 589ms;
-}
-@keyframes sparkleRise41 {
   0% {
     opacity: 0;
     transform: translate(0, 97px) scale(0.5);
@@ -6643,145 +6244,40 @@ textarea {
     opacity: 1;
   }
   70% {
-    transform: translate(166px, -241.5px) rotate(61deg) scale(1.2);
+    transform: translate(88px, -92.4px) rotate(-25deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(166px, -345px) rotate(91.5deg) scale(0.8);
+    transform: translate(88px, -132px) rotate(-37.5deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(42) {
-  animation: sparkleRise42 8733ms linear infinite;
-  animation-delay: 2690ms;
+#char-sparkles .star:nth-child(23) {
+  animation: sparkleRise23 3960ms linear infinite;
+  animation-delay: 2572ms;
 }
-@keyframes sparkleRise42 {
+@keyframes sparkleRise23 {
   0% {
     opacity: 0;
-    transform: translate(0, 79px) scale(0.5);
+    transform: translate(0, 109px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(66px, -98.7px) rotate(72deg) scale(1.2);
+    transform: translate(55px, -229.6px) rotate(-22deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(66px, -141px) rotate(108deg) scale(0.8);
+    transform: translate(55px, -328px) rotate(-33deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(43) {
-  animation: sparkleRise43 7338ms linear infinite;
-  animation-delay: 1536ms;
+#char-sparkles .star:nth-child(24) {
+  animation: sparkleRise24 7864ms linear infinite;
+  animation-delay: 4392ms;
 }
-@keyframes sparkleRise43 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 58px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(188px, -173.6px) rotate(-61deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(188px, -248px) rotate(-91.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(44) {
-  animation: sparkleRise44 4177ms linear infinite;
-  animation-delay: 2203ms;
-}
-@keyframes sparkleRise44 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 92px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-134px, -100.8px) rotate(-74deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-134px, -144px) rotate(-111deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(45) {
-  animation: sparkleRise45 7932ms linear infinite;
-  animation-delay: 3106ms;
-}
-@keyframes sparkleRise45 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 80px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-122px, -227.5px) rotate(-59deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-122px, -325px) rotate(-88.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(46) {
-  animation: sparkleRise46 3210ms linear infinite;
-  animation-delay: 1295ms;
-}
-@keyframes sparkleRise46 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 15px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-28px, -112.7px) rotate(-11deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-28px, -161px) rotate(-16.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(47) {
-  animation: sparkleRise47 8588ms linear infinite;
-  animation-delay: 1702ms;
-}
-@keyframes sparkleRise47 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 7px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-119px, -282.8px) rotate(-51deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-119px, -404px) rotate(-76.5deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(48) {
-  animation: sparkleRise48 9912ms linear infinite;
-  animation-delay: 1533ms;
-}
-@keyframes sparkleRise48 {
+@keyframes sparkleRise24 {
   0% {
     opacity: 0;
     transform: translate(0, 117px) scale(0.5);
@@ -6790,40 +6286,334 @@ textarea {
     opacity: 1;
   }
   70% {
-    transform: translate(-77px, -214.9px) rotate(21deg) scale(1.2);
+    transform: translate(-57px, -235.9px) rotate(-11deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-77px, -307px) rotate(31.5deg) scale(0.8);
+    transform: translate(-57px, -337px) rotate(-16.5deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(49) {
-  animation: sparkleRise49 8038ms linear infinite;
-  animation-delay: 541ms;
+#char-sparkles .star:nth-child(25) {
+  animation: sparkleRise25 9782ms linear infinite;
+  animation-delay: 3362ms;
 }
-@keyframes sparkleRise49 {
+@keyframes sparkleRise25 {
   0% {
     opacity: 0;
-    transform: translate(0, 106px) scale(0.5);
+    transform: translate(0, 61px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(13px, -79.8px) rotate(-76deg) scale(1.2);
+    transform: translate(-150px, -100.8px) rotate(20deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(13px, -114px) rotate(-114deg) scale(0.8);
+    transform: translate(-150px, -144px) rotate(30deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(50) {
-  animation: sparkleRise50 7795ms linear infinite;
-  animation-delay: 4786ms;
+#char-sparkles .star:nth-child(26) {
+  animation: sparkleRise26 8470ms linear infinite;
+  animation-delay: 3054ms;
 }
-@keyframes sparkleRise50 {
+@keyframes sparkleRise26 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 61px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(164px, -161.7px) rotate(-4deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(164px, -231px) rotate(-6deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(27) {
+  animation: sparkleRise27 6553ms linear infinite;
+  animation-delay: 3286ms;
+}
+@keyframes sparkleRise27 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 113px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-52px, -292.6px) rotate(62deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-52px, -418px) rotate(93deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(28) {
+  animation: sparkleRise28 6246ms linear infinite;
+  animation-delay: 1954ms;
+}
+@keyframes sparkleRise28 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 73px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-171px, -298.2px) rotate(47deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-171px, -426px) rotate(70.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(29) {
+  animation: sparkleRise29 8009ms linear infinite;
+  animation-delay: 4917ms;
+}
+@keyframes sparkleRise29 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 114px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(200px, -267.4px) rotate(68deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(200px, -382px) rotate(102deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(30) {
+  animation: sparkleRise30 9760ms linear infinite;
+  animation-delay: 4803ms;
+}
+@keyframes sparkleRise30 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 57px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-1px, -130.9px) rotate(-19deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-1px, -187px) rotate(-28.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(31) {
+  animation: sparkleRise31 4319ms linear infinite;
+  animation-delay: 790ms;
+}
+@keyframes sparkleRise31 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 87px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-118px, -198.1px) rotate(66deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-118px, -283px) rotate(99deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(32) {
+  animation: sparkleRise32 9054ms linear infinite;
+  animation-delay: 1ms;
+}
+@keyframes sparkleRise32 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 75px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(58px, -254.8px) rotate(78deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(58px, -364px) rotate(117deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(33) {
+  animation: sparkleRise33 3992ms linear infinite;
+  animation-delay: 4459ms;
+}
+@keyframes sparkleRise33 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 32px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(9px, -123.2px) rotate(53deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(9px, -176px) rotate(79.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(34) {
+  animation: sparkleRise34 6059ms linear infinite;
+  animation-delay: 4585ms;
+}
+@keyframes sparkleRise34 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 49px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(89px, -106.4px) rotate(52deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(89px, -152px) rotate(78deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(35) {
+  animation: sparkleRise35 9350ms linear infinite;
+  animation-delay: 2143ms;
+}
+@keyframes sparkleRise35 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 99px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(16px, -136.5px) rotate(52deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(16px, -195px) rotate(78deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(36) {
+  animation: sparkleRise36 7347ms linear infinite;
+  animation-delay: 1969ms;
+}
+@keyframes sparkleRise36 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 76px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-182px, -161.7px) rotate(-33deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-182px, -231px) rotate(-49.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(37) {
+  animation: sparkleRise37 3272ms linear infinite;
+  animation-delay: 4857ms;
+}
+@keyframes sparkleRise37 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 117px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(61px, -284.9px) rotate(-67deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(61px, -407px) rotate(-100.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(38) {
+  animation: sparkleRise38 6308ms linear infinite;
+  animation-delay: 4031ms;
+}
+@keyframes sparkleRise38 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 46px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(136px, -140px) rotate(36deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(136px, -200px) rotate(54deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(39) {
+  animation: sparkleRise39 7642ms linear infinite;
+  animation-delay: 2902ms;
+}
+@keyframes sparkleRise39 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 105px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-36px, -214.2px) rotate(24deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-36px, -306px) rotate(36deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(40) {
+  animation: sparkleRise40 3066ms linear infinite;
+  animation-delay: 3883ms;
+}
+@keyframes sparkleRise40 {
   0% {
     opacity: 0;
     transform: translate(0, 18px) scale(0.5);
@@ -6832,208 +6622,187 @@ textarea {
     opacity: 1;
   }
   70% {
-    transform: translate(3px, -286.3px) rotate(-36deg) scale(1.2);
+    transform: translate(28px, -200.9px) rotate(48deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(3px, -409px) rotate(-54deg) scale(0.8);
+    transform: translate(28px, -287px) rotate(72deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(51) {
-  animation: sparkleRise51 10000ms linear infinite;
-  animation-delay: 1336ms;
+#char-sparkles .star:nth-child(41) {
+  animation: sparkleRise41 9159ms linear infinite;
+  animation-delay: 4411ms;
 }
-@keyframes sparkleRise51 {
+@keyframes sparkleRise41 {
   0% {
     opacity: 0;
-    transform: translate(0, 115px) scale(0.5);
+    transform: translate(0, 66px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(183px, -144.2px) rotate(-83deg) scale(1.2);
+    transform: translate(155px, -128.8px) rotate(75deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(183px, -206px) rotate(-124.5deg) scale(0.8);
+    transform: translate(155px, -184px) rotate(112.5deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(52) {
-  animation: sparkleRise52 6048ms linear infinite;
-  animation-delay: 2089ms;
+#char-sparkles .star:nth-child(42) {
+  animation: sparkleRise42 9663ms linear infinite;
+  animation-delay: 1774ms;
 }
-@keyframes sparkleRise52 {
+@keyframes sparkleRise42 {
   0% {
     opacity: 0;
-    transform: translate(0, 26px) scale(0.5);
+    transform: translate(0, 91px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-112px, -311.5px) rotate(44deg) scale(1.2);
+    transform: translate(-2px, -175.7px) rotate(74deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-112px, -445px) rotate(66deg) scale(0.8);
+    transform: translate(-2px, -251px) rotate(111deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(53) {
-  animation: sparkleRise53 5364ms linear infinite;
-  animation-delay: 1833ms;
+#char-sparkles .star:nth-child(43) {
+  animation: sparkleRise43 4957ms linear infinite;
+  animation-delay: 2584ms;
 }
-@keyframes sparkleRise53 {
+@keyframes sparkleRise43 {
   0% {
     opacity: 0;
-    transform: translate(0, 21px) scale(0.5);
+    transform: translate(0, 23px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-151px, -132.3px) rotate(54deg) scale(1.2);
+    transform: translate(184px, -120.4px) rotate(46deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-151px, -189px) rotate(81deg) scale(0.8);
+    transform: translate(184px, -172px) rotate(69deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(54) {
-  animation: sparkleRise54 4189ms linear infinite;
-  animation-delay: 1690ms;
+#char-sparkles .star:nth-child(44) {
+  animation: sparkleRise44 6952ms linear infinite;
+  animation-delay: 3837ms;
 }
-@keyframes sparkleRise54 {
+@keyframes sparkleRise44 {
   0% {
     opacity: 0;
-    transform: translate(0, 14px) scale(0.5);
+    transform: translate(0, 44px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(43px, -116.9px) rotate(-60deg) scale(1.2);
+    transform: translate(-143px, -277.9px) rotate(-77deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(43px, -167px) rotate(-90deg) scale(0.8);
+    transform: translate(-143px, -397px) rotate(-115.5deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(55) {
-  animation: sparkleRise55 7960ms linear infinite;
-  animation-delay: 1469ms;
+#char-sparkles .star:nth-child(45) {
+  animation: sparkleRise45 7788ms linear infinite;
+  animation-delay: 2761ms;
 }
-@keyframes sparkleRise55 {
+@keyframes sparkleRise45 {
   0% {
     opacity: 0;
-    transform: translate(0, 83px) scale(0.5);
+    transform: translate(0, 36px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(167px, -176.4px) rotate(-17deg) scale(1.2);
+    transform: translate(-73px, -151.2px) rotate(-64deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(167px, -252px) rotate(-25.5deg) scale(0.8);
+    transform: translate(-73px, -216px) rotate(-96deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(56) {
-  animation: sparkleRise56 7312ms linear infinite;
-  animation-delay: 4755ms;
+#char-sparkles .star:nth-child(46) {
+  animation: sparkleRise46 7075ms linear infinite;
+  animation-delay: 679ms;
 }
-@keyframes sparkleRise56 {
+@keyframes sparkleRise46 {
   0% {
     opacity: 0;
-    transform: translate(0, 1px) scale(0.5);
+    transform: translate(0, 104px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(165px, -213.5px) rotate(40deg) scale(1.2);
+    transform: translate(-108px, -104.3px) rotate(-29deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(165px, -305px) rotate(60deg) scale(0.8);
+    transform: translate(-108px, -149px) rotate(-43.5deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(57) {
-  animation: sparkleRise57 4700ms linear infinite;
-  animation-delay: 4419ms;
+#char-sparkles .star:nth-child(47) {
+  animation: sparkleRise47 7175ms linear infinite;
+  animation-delay: 351ms;
 }
-@keyframes sparkleRise57 {
+@keyframes sparkleRise47 {
   0% {
     opacity: 0;
-    transform: translate(0, 120px) scale(0.5);
+    transform: translate(0, 60px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-27px, -242.9px) rotate(-61deg) scale(1.2);
+    transform: translate(102px, -144.9px) rotate(83deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-27px, -347px) rotate(-91.5deg) scale(0.8);
+    transform: translate(102px, -207px) rotate(124.5deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(58) {
-  animation: sparkleRise58 8713ms linear infinite;
-  animation-delay: 395ms;
+#char-sparkles .star:nth-child(48) {
+  animation: sparkleRise48 6399ms linear infinite;
+  animation-delay: 2296ms;
 }
-@keyframes sparkleRise58 {
+@keyframes sparkleRise48 {
   0% {
     opacity: 0;
-    transform: translate(0, 11px) scale(0.5);
+    transform: translate(0, 102px) scale(0.5);
   }
   10% {
     opacity: 1;
   }
   70% {
-    transform: translate(-166px, -263.2px) rotate(61deg) scale(1.2);
+    transform: translate(146px, -113.4px) rotate(18deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-166px, -376px) rotate(91.5deg) scale(0.8);
+    transform: translate(146px, -162px) rotate(27deg) scale(0.8);
     opacity: 0;
   }
 }
-#char-sparkles .star:nth-child(59) {
-  animation: sparkleRise59 3637ms linear infinite;
-  animation-delay: 1004ms;
+#char-sparkles .star:nth-child(49) {
+  animation: sparkleRise49 4013ms linear infinite;
+  animation-delay: 4723ms;
 }
-@keyframes sparkleRise59 {
-  0% {
-    opacity: 0;
-    transform: translate(0, 42px) scale(0.5);
-  }
-  10% {
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-107px, -298.9px) rotate(30deg) scale(1.2);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translate(-107px, -427px) rotate(45deg) scale(0.8);
-    opacity: 0;
-  }
-}
-#char-sparkles .star:nth-child(60) {
-  animation: sparkleRise60 6681ms linear infinite;
-  animation-delay: 4153ms;
-}
-@keyframes sparkleRise60 {
+@keyframes sparkleRise49 {
   0% {
     opacity: 0;
     transform: translate(0, 110px) scale(0.5);
@@ -7042,11 +6811,242 @@ textarea {
     opacity: 1;
   }
   70% {
-    transform: translate(-14px, -179.2px) rotate(32deg) scale(1.2);
+    transform: translate(170px, -234.5px) rotate(68deg) scale(1.2);
     opacity: 0.8;
   }
   100% {
-    transform: translate(-14px, -256px) rotate(48deg) scale(0.8);
+    transform: translate(170px, -335px) rotate(102deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(50) {
+  animation: sparkleRise50 9454ms linear infinite;
+  animation-delay: 1250ms;
+}
+@keyframes sparkleRise50 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 28px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(163px, -258.3px) rotate(-37deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(163px, -369px) rotate(-55.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(51) {
+  animation: sparkleRise51 7835ms linear infinite;
+  animation-delay: 2419ms;
+}
+@keyframes sparkleRise51 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 34px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-17px, -135.1px) rotate(67deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-17px, -193px) rotate(100.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(52) {
+  animation: sparkleRise52 3560ms linear infinite;
+  animation-delay: 2976ms;
+}
+@keyframes sparkleRise52 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 39px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(171px, -78.4px) rotate(90deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(171px, -112px) rotate(135deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(53) {
+  animation: sparkleRise53 9795ms linear infinite;
+  animation-delay: 2825ms;
+}
+@keyframes sparkleRise53 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 84px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-128px, -207.9px) rotate(-51deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-128px, -297px) rotate(-76.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(54) {
+  animation: sparkleRise54 3401ms linear infinite;
+  animation-delay: 3771ms;
+}
+@keyframes sparkleRise54 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 83px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(64px, -314.3px) rotate(-34deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(64px, -449px) rotate(-51deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(55) {
+  animation: sparkleRise55 4079ms linear infinite;
+  animation-delay: 3707ms;
+}
+@keyframes sparkleRise55 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 66px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(46px, -203px) rotate(-33deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(46px, -290px) rotate(-49.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(56) {
+  animation: sparkleRise56 3408ms linear infinite;
+  animation-delay: 3410ms;
+}
+@keyframes sparkleRise56 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 46px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(150px, -186.9px) rotate(-49deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(150px, -267px) rotate(-73.5deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(57) {
+  animation: sparkleRise57 8249ms linear infinite;
+  animation-delay: 3680ms;
+}
+@keyframes sparkleRise57 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 14px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(147px, -105px) rotate(16deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(147px, -150px) rotate(24deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(58) {
+  animation: sparkleRise58 5835ms linear infinite;
+  animation-delay: 2429ms;
+}
+@keyframes sparkleRise58 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 2px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-87px, -200.9px) rotate(-56deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-87px, -287px) rotate(-84deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(59) {
+  animation: sparkleRise59 8289ms linear infinite;
+  animation-delay: 1651ms;
+}
+@keyframes sparkleRise59 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 92px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-163px, -97.3px) rotate(-78deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-163px, -139px) rotate(-117deg) scale(0.8);
+    opacity: 0;
+  }
+}
+#char-sparkles .star:nth-child(60) {
+  animation: sparkleRise60 5056ms linear infinite;
+  animation-delay: 4714ms;
+}
+@keyframes sparkleRise60 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 1px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-141px, -129.5px) rotate(-4deg) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-141px, -185px) rotate(-6deg) scale(0.8);
     opacity: 0;
   }
 }
@@ -10244,7 +10244,6 @@ footer .footer-content .quick-sections .h6 {
 }
 .product-list-wrapper .product-area a.fill-secondary {
   border: 1px solid var(--white);
-  margin-top: 8px;
   height: 32px;
 }
 .product-list-wrapper .product-area a.fill-secondary:hover {
