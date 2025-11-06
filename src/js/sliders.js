@@ -175,32 +175,36 @@ if (featureWorkSliderEl) {
     const activeSlide = featureWorkSliderEl.querySelector('.swiper-slide-active');
     if (!activeSlide) return;
 
-    const slideRect = activeSlide.getBoundingClientRect();
-    const containerRect = featureWorkFrame.parentElement.getBoundingClientRect();
+    // Wait for Swiper’s transform to settle
+    requestAnimationFrame(() => {
+      const slideRect = activeSlide.getBoundingClientRect();
+      const containerRect = featureWorkFrame.parentElement.getBoundingClientRect();
 
-    const top = slideRect.top - containerRect.top;
-    const left = slideRect.left - containerRect.left;
-    const width = slideRect.width;
-    const height = slideRect.height;
+      const top = slideRect.top - containerRect.top;
+      const left = slideRect.left - containerRect.left;
+      const width = slideRect.width;
+      const height = slideRect.height;
 
-    featureWorkFrame.style.transition = 'all 0.8s ease-in-out';
-    featureWorkFrame.style.top = `${top}px`;
-    featureWorkFrame.style.left = `${left}px`;
-    featureWorkFrame.style.width = `${width}px`;
-    featureWorkFrame.style.height = `${height}px`;
+      featureWorkFrame.style.transition = 'all 0.8s ease-in-out';
+      featureWorkFrame.style.top = `${top}px`;
+      featureWorkFrame.style.left = `${left}px`;
+      featureWorkFrame.style.width = `${width}px`;
+      featureWorkFrame.style.height = `${height}px`;
 
-    const video = featureWorkSlideVideos.get(activeSlide);
-    if (video) {
-      video.style.width = '100%';
-      video.style.height = '100%';
-      video.style.display = 'block';
-      video.style.position = 'absolute';
-      video.style.top = '0';
-      video.style.left = '0';
-      video.style.objectFit = 'cover';
-      video.style.zIndex = '5';
-    }
+      const video = featureWorkSlideVideos.get(activeSlide);
+      if (video) {
+        video.style.width = '100%';
+        video.style.height = '100%';
+        video.style.display = 'block';
+        video.style.position = 'absolute';
+        video.style.top = '0';
+        video.style.left = '0';
+        video.style.objectFit = 'cover';
+        video.style.zIndex = '5';
+      }
+    });
   }
+
 
   // --- Pause non-active videos ---
   function featureWorkPauseNonActiveVideos() {
@@ -235,9 +239,18 @@ if (featureWorkSliderEl) {
   // Update frame & pause videos on slide change
   featureWorkSlider.on('slideChangeTransitionEnd', () => {
     featureWorkPauseNonActiveVideos();
-    updateFeatureWorkFrame();
+
+    // Wait a tiny bit for the animation to fully settle
+    setTimeout(() => {
+      requestAnimationFrame(updateFeatureWorkFrame);
+    }, 100);
   });
-  window.addEventListener('resize', updateFeatureWorkFrame);
+
+  // Keep frame correct on resize
+  window.addEventListener('resize', () => {
+    requestAnimationFrame(updateFeatureWorkFrame);
+  });
+
 
   // --- Wait for images to load ---
   const featureWorkSlideImages = featureWorkSliderEl.querySelectorAll('img');
@@ -261,7 +274,7 @@ if (featureWorkSliderEl) {
 
       const slide = this.closest('.swiper-slide');
       const videoUrl = slide.dataset.video;
-      const imageContainer = slide.querySelector('.image');
+      const imageContainer = slide.querySelector('.video-area');
       const thumbnail = imageContainer.querySelector('img');
 
       let existingVideo = featureWorkSlideVideos.get(slide);

@@ -138,6 +138,23 @@ videos.forEach((video) => {
   });
 });
 
+// ---------------- Mute audio when any video play icon is clicked ----------------
+document.querySelectorAll(".icon img[src*='icon_play_video']").forEach((playIcon) => {
+  playIcon.addEventListener("click", () => {
+    // 🔹 Pause & mute background audio
+    audio.pause();
+    audio.muted = true;
+
+    // 🔹 Update toggle icon
+    audioToggle.innerHTML = `<img src='assets/images/icons/icon_audio_stop.png' alt='icon' width='20' height='20' />`;
+
+    // 🔹 Save and broadcast state
+    localStorage.setItem("audioState", JSON.stringify({ muted: true, time: audio.currentTime }));
+    channel.postMessage({ type: "audio_state_update", muted: true });
+  });
+});
+
+
 
 
 

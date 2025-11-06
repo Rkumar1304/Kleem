@@ -26,7 +26,7 @@ fetch("assets/json/jobs.json")
             <div class="title">${job.title}</div>
             <div class="desc">${job.desc}</div>
           </div>
-          <a class="btn-apply btn-outline" href="${job.link}">
+          <a class="btn-apply btn-outline" target="_blank" href="${job.link}">
             Apply Now
             <svg class="fill-primary">
               <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
