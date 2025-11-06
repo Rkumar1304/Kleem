@@ -559,7 +559,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //merchant slider
   const productWrapper = document.getElementById("productWrapper");
   if (productWrapper) {
-    fetch("assets/json/products.json")
+    fetch("assets/json/product-list.json")
       .then((res) => res.json())
       .then((products) => {
         productWrapper.innerHTML = "";
@@ -569,13 +569,16 @@ document.addEventListener("DOMContentLoaded", () => {
           slide.className = "swiper-slide flex flex-col bg-sky-blue";
           slide.innerHTML = `
             <div class="product flex jcc aic w-full">
-              <img loading="lazy" src="${product.img}" class="mx-auto" alt="${product.name}" />
+              <img loading="lazy" src="${product.image}" class="mx-auto" alt="${product.name}" />
             </div>
             <div class="info flex flex-col gp-3 p-4 w-full bg-white">
               <p class="text-black text-left h5">${product.name}</p>
               <div class="flex gp-2 jcsb aic prices">
-                <p class="text-black price">${product.price}</p>
-                <a href="${product.link}" target="_blank" class="fill-secondary">Buy Now</a>
+                <p class="text-black price">
+                  <span class="new-price">₹${product.newPrice}</span>
+                  ${product.oldPrice ? `<span class="old-price">₹${product.oldPrice}</span>` : ''}
+                </p>
+                <a href="${product.buyNowLink}" target="_blank" class="fill-secondary">Buy Now</a>
               </div>
             </div>
           `;

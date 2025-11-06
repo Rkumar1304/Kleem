@@ -25,21 +25,9 @@
     "outOfStock": false,
     "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/narasimha-kavacha-dice-charms-bracelet/?ref=2"
   },
+  
   {
     "id": 3,
-    "name": "Lord Narasimha Pendant With Precious Stone",
-    "category": "Accessories",
-    "image": "https://mantra4u.shop/cdn/shop/products/20201015_234949.jpg?v=1713288951",
-    "newPrice": 5665.00,
-    "oldPrice": 0.00,
-    "colors": [],
-    "isNew": false,
-    "inStock": true,
-    "outOfStock": false,
-    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-pendant-with-precious-stone/?ref=2"
-  },
-  {
-    "id": 4,
     "name": "Lord Narasimha Murti Commemorative Launch",
     "category": "Seasonal / Gift Sets",
     "image": "https://mantra4u.shop/cdn/shop/files/LordNarasimhafrontimage.jpg?v=1712117071",
@@ -52,7 +40,7 @@
     "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-murti-commemorative-launch/?ref=2"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Laxmi Narasimha 1",
     "category": "Seasonal / Gift Sets",
     "image": "https://artsofdevotion.com/cdn/shop/files/Side2_cde1fa0e-cb94-4cc9-8afe-a9ff668282f0.jpg?v=1754818997&width=360",
@@ -63,6 +51,19 @@
     "inStock": true,
     "outOfStock": false,
     "buyNowLink": "https://artsofdevotion.com/products/laxmi-narasimha-1"
+  },
+  {
+    "id": 5,
+    "name": "Lord Narasimha Pendant With Precious Stone",
+    "category": "Accessories",
+    "image": "https://mantra4u.shop/cdn/shop/products/20201015_234949.jpg?v=1713288951",
+    "newPrice": 5665.00,
+    "oldPrice": 0.00,
+    "colors": [],
+    "isNew": false,
+    "inStock": true,
+    "outOfStock": false,
+    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-pendant-with-precious-stone/?ref=2"
   },
   {
     "id": 6,
