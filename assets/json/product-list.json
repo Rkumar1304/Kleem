@@ -10,7 +10,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha-murti"
+    "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha-murti",
+    "isTrending": true
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
     "isNew": false,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/narasimha-kavacha-dice-charms-bracelet/?ref=2"
+    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/narasimha-kavacha-dice-charms-bracelet/?ref=2",
+    "isTrending": true
   },
   
   {
@@ -37,7 +39,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-murti-commemorative-launch/?ref=2"
+    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-murti-commemorative-launch/?ref=2",
+    "isTrending": true
   },
   {
     "id": 4,
@@ -50,7 +53,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/laxmi-narasimha-1"
+    "buyNowLink": "https://artsofdevotion.com/products/laxmi-narasimha-1",
+    "isTrending": true
   },
   {
     "id": 5,
@@ -63,7 +67,8 @@
     "isNew": false,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-pendant-with-precious-stone/?ref=2"
+    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-pendant-with-precious-stone/?ref=2",
+    "isTrending": false
   },
   {
     "id": 6,
@@ -76,7 +81,8 @@
     "isNew": false,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-engraved-mantra-pendant/?ref=2"
+    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-engraved-mantra-pendant/?ref=2",
+    "isTrending": false
   },
   {
     "id": 7,
@@ -89,7 +95,8 @@
     "isNew": false,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/narasimha-kavacha-charms-bracelet/?ref=2"
+    "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/narasimha-kavacha-charms-bracelet/?ref=2",
+    "isTrending": false
   },
   {
     "id": 8,
@@ -102,7 +109,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha",
+    "isTrending": false
   },
   {
     "id": 9,
@@ -115,7 +123,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/shanta-mukha-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/shanta-mukha-narasimha",
+    "isTrending": false
   },
   {
     "id": 10,
@@ -128,7 +137,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/chakra-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/chakra-narasimha",
+    "isTrending": false
   },
   {
     "id": 11,
@@ -141,7 +151,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/mayapur-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/mayapur-narasimha",
+    "isTrending": false
   },
   {
     "id": 12,
@@ -154,7 +165,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/shanta-ananta-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/shanta-ananta-narasimha",
+    "isTrending": false
   },
   {
     "id": 13,
@@ -167,7 +179,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-chakra-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-chakra-narasimha",
+    "isTrending": false
   },
   {
     "id": 14,
@@ -180,7 +193,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/yogananda"
+    "buyNowLink": "https://artsofdevotion.com/products/yogananda",
+    "isTrending": false
   },
   {
     "id": 15,
@@ -193,7 +207,8 @@
     "isNew": false,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/narasimha-pendant-1"
+    "buyNowLink": "https://artsofdevotion.com/products/narasimha-pendant-1",
+    "isTrending": false
   },
   {
     "id": 16,
@@ -206,7 +221,8 @@
     "isNew": false,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/chola-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/chola-narasimha",
+    "isTrending": false
   },
   {
     "id": 17,
@@ -219,7 +235,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/classic-laxmi-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/classic-laxmi-narasimha",
+    "isTrending": false
   },
   {
     "id": 18,
@@ -232,7 +249,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/plated-shanta-mukha-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/plated-shanta-mukha-narasimha",
+    "isTrending": false
   },
   {
     "id": 19,
@@ -245,7 +263,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/prana-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/prana-narasimha",
+    "isTrending": false
   },
   {
     "id": 20,
@@ -258,7 +277,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha-style-2"
+    "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha-style-2",
+    "isTrending": false
   },
   {
     "id": 21,
@@ -271,7 +291,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-laxmi-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-laxmi-narasimha",
+    "isTrending": false
   },
   {
     "id": 22,
@@ -284,7 +305,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/prahlad-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/prahlad-narasimha",
+    "isTrending": false
   },
   {
     "id": 23,
@@ -297,7 +319,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-shanta-mukha"
+    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-shanta-mukha",
+    "isTrending": false
   },
   {
     "id": 24,
@@ -310,7 +333,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/enameled-ananta-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/enameled-ananta-narasimha",
+    "isTrending": false
   },
   {
     "id": 25,
@@ -323,7 +347,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/plated-yogananda-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/plated-yogananda-narasimha",
+    "isTrending": false
   },
   {
     "id": 26,
@@ -336,7 +361,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-yogananda-mukha-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-yogananda-mukha-narasimha",
+    "isTrending": false
   },
   {
     "id": 27,
@@ -349,7 +375,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/plated-chakra-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/plated-chakra-narasimha",
+    "isTrending": false
   },
   {
     "id": 28,
@@ -362,7 +389,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/radiant-ananta-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/radiant-ananta-narasimha",
+    "isTrending": false
   },
   {
     "id": 29,
@@ -375,7 +403,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-classic-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/gold-plated-classic-narasimha",
+    "isTrending": false
   },
   {
     "id": 30,
@@ -388,7 +417,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/radiant-plated-yogananda-mukha-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/radiant-plated-yogananda-mukha-narasimha",
+    "isTrending": false
   },
   {
     "id": 31,
@@ -401,7 +431,8 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/ananta-veera-narasimha"
+    "buyNowLink": "https://artsofdevotion.com/products/ananta-veera-narasimha",
+    "isTrending": false
   },
   {
     "id": 32,
@@ -414,6 +445,7 @@
     "isNew": true,
     "inStock": true,
     "outOfStock": false,
-    "buyNowLink": "https://artsofdevotion.com/products/narasimha-ring"
+    "buyNowLink": "https://artsofdevotion.com/products/narasimha-ring",
+    "isTrending": false
   }
 ]

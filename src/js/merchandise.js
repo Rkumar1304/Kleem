@@ -76,7 +76,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   `).join('');
 
   // --- Trending Products ---
-  const trending = await loadJSON("assets/json/merchandise/trending-products.json");
+  const products = await loadJSON("assets/json/product-list.json");
+  const trending = products.filter(p => p.isTrending);
+
   const trendingWrapper = document.getElementById("trendingWrapper");
   trendingWrapper.innerHTML = trending.map(p => `
     <div class="swiper-slide">
@@ -88,7 +90,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         <div class="product-title text-16 text-gray-13 font-medium">${p.name}</div>
         <div class="flex gp-2 aic flex-wrap jcsb">
           <div class="flex gp-2 aic">
-            <span class="product-price text-16">&#8377;${p.price.toFixed(2)}</span>
+            <span class="product-price text-16">&#8377;${p.newPrice.toFixed(2)}</span>
             ${p.oldPrice ? `<span class="product-old-price text-gray-40">&#8377;${p.oldPrice.toFixed(2)}</span>` : ''}
           </div>
           ${
@@ -99,53 +101,54 @@ document.addEventListener("DOMContentLoaded", async () => {
         </div>
       </div>
     </div>
-  `).join('');
+  `).join('');  
+
 
   // --- Category Tabs ---
-  const tabs = await loadJSON("assets/json/merchandise/category-tabs.json");
-  Object.keys(tabs).forEach(tabKey => {
-    const tabContent = document.getElementById(`tab-${tabKey}`);
-    tabContent.innerHTML = `
-      <div class="swiper category-slider common-cat-slider">
-        <div class="flex jcc aic gp-2 arrows">
-          <div class="swiper-button-prev common-cat-prev">
-            <svg class="fill-none">
-              <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-            </svg>
-          </div>
-          <div class="swiper-button-next common-cat-next">
-            <svg class="fill-none">
-              <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-            </svg>
-          </div>
-        </div>
-        <div class="swiper-wrapper">
-          ${tabs[tabKey].map(p => `
-            <div class="swiper-slide">
-              <div class="w-full relative prod-img bg-white">
-                <img src="${p.image}" alt="${p.name}" class="object-cover w-full h-full" />
-                ${p.isNew ? '<div class="tag-new absolute">New</div>' : ''}
-              </div>
-              <div class="product-info flex flex-col w-full">
-                <div class="product-title text-16 text-gray-13 font-medium">${p.name}</div>
-                <div class="flex gp-2 aic flex-wrap jcsb">
-                  <div class="flex gp-2 aic">
-                    <span class="product-price text-16">&#8377;${p.price.toFixed(2)}</span>
-                    ${p.oldPrice ? `<span class="product-old-price text-gray-40">&#8377;${p.oldPrice.toFixed(2)}</span>` : ''}
-                  </div>
-                  ${
-                    p.buyNowLink
-                      ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
-                      : ""
-                  }
-                </div>
-              </div>
-            </div>
-          `).join('')}
-        </div>
-      </div>
-    `;
-  });
+  // const tabs = await loadJSON("assets/json/merchandise/category-tabs.json");
+  // Object.keys(tabs).forEach(tabKey => {
+  //   const tabContent = document.getElementById(`tab-${tabKey}`);
+  //   tabContent.innerHTML = `
+  //     <div class="swiper category-slider common-cat-slider">
+  //       <div class="flex jcc aic gp-2 arrows">
+  //         <div class="swiper-button-prev common-cat-prev">
+  //           <svg class="fill-none">
+  //             <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+  //           </svg>
+  //         </div>
+  //         <div class="swiper-button-next common-cat-next">
+  //           <svg class="fill-none">
+  //             <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+  //           </svg>
+  //         </div>
+  //       </div>
+  //       <div class="swiper-wrapper">
+  //         ${tabs[tabKey].map(p => `
+  //           <div class="swiper-slide">
+  //             <div class="w-full relative prod-img bg-white">
+  //               <img src="${p.image}" alt="${p.name}" class="object-cover w-full h-full" />
+  //               ${p.isNew ? '<div class="tag-new absolute">New</div>' : ''}
+  //             </div>
+  //             <div class="product-info flex flex-col w-full">
+  //               <div class="product-title text-16 text-gray-13 font-medium">${p.name}</div>
+  //               <div class="flex gp-2 aic flex-wrap jcsb">
+  //                 <div class="flex gp-2 aic">
+  //                   <span class="product-price text-16">&#8377;${p.price.toFixed(2)}</span>
+  //                   ${p.oldPrice ? `<span class="product-old-price text-gray-40">&#8377;${p.oldPrice.toFixed(2)}</span>` : ''}
+  //                 </div>
+  //                 ${
+  //                   p.buyNowLink
+  //                     ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
+  //                     : ""
+  //                 }
+  //               </div>
+  //             </div>
+  //           </div>
+  //         `).join('')}
+  //       </div>
+  //     </div>
+  //   `;
+  // });
 
   // ✅ Initialize Swipers after content loaded
   setTimeout(() => {
@@ -213,48 +216,200 @@ document.addEventListener("DOMContentLoaded", async () => {
       },
     });
 
-    document.querySelectorAll('.category-slider').forEach(categorySliderEl => {
-      new Swiper(categorySliderEl, {
-        slidesPerView: 3,
-        spaceBetween: 40,
-        mousewheel: {
-          forceToAxis: true,
-          sensitivity: 3
-        },
-        navigation: {
-          nextEl: categorySliderEl.querySelector('.common-cat-next'),
-          prevEl: categorySliderEl.querySelector('.common-cat-prev'),
-        },
-        loop: false,
-        speed: 2000,
-        breakpoints: {
-          1025: { slidesPerView: 3, spaceBetween: 40, },
-          768: { slidesPerView: 2, spaceBetween: 40, },
-          0: { slidesPerView: 2, spaceBetween: 12, },
-        },
-      });
-    });
+    // document.querySelectorAll('.category-slider').forEach(categorySliderEl => {
+    //   new Swiper(categorySliderEl, {
+    //     slidesPerView: 3,
+    //     spaceBetween: 40,
+    //     mousewheel: {
+    //       forceToAxis: true,
+    //       sensitivity: 3
+    //     },
+    //     navigation: {
+    //       nextEl: categorySliderEl.querySelector('.common-cat-next'),
+    //       prevEl: categorySliderEl.querySelector('.common-cat-prev'),
+    //     },
+    //     loop: false,
+    //     speed: 2000,
+    //     breakpoints: {
+    //       1025: { slidesPerView: 3, spaceBetween: 40, },
+    //       768: { slidesPerView: 2, spaceBetween: 40, },
+    //       0: { slidesPerView: 2, spaceBetween: 12, },
+    //     },
+    //   });
+    // });
   }, 100);
 
-});
+  async function loadJSON(url) {
+    const res = await fetch(url);
+    return await res.json();
+  }
 
-const tabButtons = document.querySelectorAll('.tab-button');
-const tabContents = document.querySelectorAll('.tab-content');
-tabButtons.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    const target = btn.getAttribute('data-tab');
+  (async function () {
+    const products = await loadJSON("assets/json/product-list.json");
 
-    // Toggle active state
-    tabButtons.forEach((b) => b.classList.remove('active'));
-    tabContents.forEach((c) => c.classList.remove('active'));
+    // 🔹 Group products by type
+    const tabs = {
+      new: products.filter(p => p.isNew),
+      best: products.filter(p => p.isTrending),
+      sale: products.filter(p => p.oldPrice && p.oldPrice > 0),
+    };
 
-    btn.classList.add('active');
-    const activeTab = document.getElementById(`tab-${target}`);
-    activeTab.classList.add('active');
-    setTimeout(() => {
-      activeTab.querySelectorAll('.category-slider').forEach((categorySliderEl) => {
-        if (categorySliderEl.swiper) categorySliderEl.swiper.update();
+    // 🔹 Render tab contents
+    Object.keys(tabs).forEach(tabKey => {
+      const tabContent = document.getElementById(`tab-${tabKey}`);
+      if (!tabContent) return;
+
+      const tabProducts = tabs[tabKey];
+      if (tabProducts.length === 0) {
+        tabContent.innerHTML = `<p class="text-center text-gray-40">No products available.</p>`;
+        return;
+      }
+
+      tabContent.innerHTML = `
+        <div class="swiper category-slider common-cat-slider">
+          <div class="flex jcc aic gp-2 arrows">
+            <div class="swiper-button-prev common-cat-prev">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next common-cat-next">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="swiper-wrapper">
+            ${tabProducts
+              .map(
+                p => `
+                <div class="swiper-slide">
+                  <div class="w-full relative prod-img bg-white">
+                    <img src="${p.image}" alt="${p.name}" class="object-cover w-full h-full" />
+                    ${p.isNew ? '<div class="tag-new absolute">New</div>' : ""}
+                  </div>
+                  <div class="product-info flex flex-col w-full">
+                    <div class="product-title text-16 text-gray-13 font-medium">${p.name}</div>
+                    <div class="flex gp-2 aic flex-wrap jcsb">
+                      <div class="flex gp-2 aic">
+                        <span class="product-price text-16">&#8377;${p.newPrice.toFixed(2)}</span>
+                        ${
+                          p.oldPrice > 0
+                            ? `<span class="product-old-price text-gray-40">&#8377;${p.oldPrice.toFixed(2)}</span>`
+                            : ""
+                        }
+                      </div>
+                      ${
+                        p.buyNowLink
+                          ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
+                          : ""
+                      }
+                    </div>
+                  </div>
+                </div>`
+              )
+              .join("")}
+          </div>
+        </div>
+      `;
+    });
+
+    // 🔹 Initialize all Swipers
+    function initSwipers() {
+      document.querySelectorAll(".category-slider").forEach(slider => {
+        const swiperContainer = slider;
+        const nextEl = swiperContainer.querySelector(".common-cat-next");
+        const prevEl = swiperContainer.querySelector(".common-cat-prev");
+
+        new Swiper(swiperContainer, {
+          slidesPerView: 3,
+          spaceBetween: 40,
+          mousewheel: {
+            forceToAxis: true,
+            sensitivity: 3,
+          },
+          navigation: {
+            nextEl,
+            prevEl,
+          },
+          loop: false,
+          speed: 1000,
+          breakpoints: {
+            1025: { slidesPerView: 3, spaceBetween: 40 },
+            768: { slidesPerView: 2, spaceBetween: 40 },
+            0: { slidesPerView: 2, spaceBetween: 12 },
+          },
+        });
       });
-    }, 50);
-  });
+    }
+
+    // 🔹 Initialize on load
+    setTimeout(initSwipers, 300);
+
+    // 🔹 Tab switching logic + auto-refresh Swiper
+    const tabButtons = document.querySelectorAll(".tab-button");
+    const tabContents = document.querySelectorAll(".tab-content");
+
+    tabButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const tabName = btn.getAttribute("data-tab");
+
+        // switch tab
+        tabButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        tabContents.forEach(c => c.classList.remove("active"));
+        const activeTab = document.getElementById(`tab-${tabName}`);
+        activeTab.classList.add("active");
+
+        // 🔹 reinitialize Swiper for this tab
+        setTimeout(() => {
+          activeTab.querySelectorAll(".category-slider").forEach(slider => {
+            const nextEl = slider.querySelector(".common-cat-next");
+            const prevEl = slider.querySelector(".common-cat-prev");
+
+            new Swiper(slider, {
+              slidesPerView: 3,
+              spaceBetween: 40,
+              mousewheel: {
+                forceToAxis: true,
+                sensitivity: 3,
+              },
+              navigation: { nextEl, prevEl },
+              loop: false,
+              speed: 1000,
+              breakpoints: {
+                1025: { slidesPerView: 3, spaceBetween: 40 },
+                768: { slidesPerView: 2, spaceBetween: 40 },
+                0: { slidesPerView: 2, spaceBetween: 12 },
+              },
+            });
+          });
+        }, 200); // small delay for visibility change
+      });
+    });
+  })();
+
+
 });
+
+// const tabButtons = document.querySelectorAll('.tab-button');
+// const tabContents = document.querySelectorAll('.tab-content');
+// tabButtons.forEach((btn) => {
+//   btn.addEventListener('click', () => {
+//     const target = btn.getAttribute('data-tab');
+
+//     // Toggle active state
+//     tabButtons.forEach((b) => b.classList.remove('active'));
+//     tabContents.forEach((c) => c.classList.remove('active'));
+
+//     btn.classList.add('active');
+//     const activeTab = document.getElementById(`tab-${target}`);
+//     activeTab.classList.add('active');
+//     setTimeout(() => {
+//       activeTab.querySelectorAll('.category-slider').forEach((categorySliderEl) => {
+//         if (categorySliderEl.swiper) categorySliderEl.swiper.update();
+//       });
+//     }, 50);
+//   });
+// });

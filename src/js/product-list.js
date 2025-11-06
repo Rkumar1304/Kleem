@@ -327,16 +327,24 @@ function initialize() {
       case "priceLow":
         filtered.sort((a, b) => a.newPrice - b.newPrice);
         break;
+
       case "priceHigh":
         filtered.sort((a, b) => b.newPrice - a.newPrice);
         break;
+
       case "new":
-        filtered.sort((a, b) => b.isNew - a.isNew);
+        // 🟢 Show only new arrivals
+        filtered = filtered.filter(p => p.isNew);
+        // Optional: sort new ones by price low→high (you can change)
+        filtered.sort((a, b) => a.newPrice - b.newPrice);
         break;
+
       case "popularity":
+      default:
         filtered.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
         break;
     }
+
 
     const totalPages = Math.ceil(filtered.length / itemsPerPage);
     const start = (currentPage - 1) * itemsPerPage;
