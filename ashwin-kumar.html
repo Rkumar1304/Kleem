@@ -16,6 +16,12 @@
   <div id="preloader">
     <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
   </div>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
   
   <!-- Header -->
   <header class="flex aic jcc blackbg" id="header">
@@ -53,13 +59,8 @@
     </div>
   </header>
 
-  <!-- Background Audio -->
-  <audio id="bg-audio" autoplay loop muted>
-    <source src="assets/audio/song.mp3" type="audio/mpeg">
-  </audio>
-  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
-
-  <div class="main-wrapper bg-lightblack">
+  <!--main content-->
+  <main id="main" class="bg-lightblack">
     <!--banner-->
     <section class="member-banner">
       <div class="banner-area container-fluid container-max mx-auto flex">
@@ -300,10 +301,9 @@
         </div>
       </div>
     </section>
-  </div>
+  </main>
   
-
-  <!-- Footer with Globe -->
+  <!-- Footer -->
   <footer class="relative text-center">
     <div class="footer-content flex flex-col">
       <div class="flex gp-4 aic heading">

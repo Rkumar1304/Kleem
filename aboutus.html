@@ -16,6 +16,12 @@
   <div id="preloader">
     <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
   </div>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
   
   <!-- Header -->
   <header class="flex aic jcc blackbg" id="header">
@@ -53,257 +59,252 @@
     </div>
   </header>
 
-  <!-- Background Audio -->
-  <audio id="bg-audio" autoplay loop muted>
-    <source src="assets/audio/song.mp3" type="audio/mpeg">
-  </audio>
-  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
-
-
-  <!--about banner-->
-  <section class="about-banner">
-    <div class="banner-area flex flex-col">
-      <div class="heading">
-        <p>About Us</p>
-        <h2 class="heading-gradient">Crafting stories that <br>inspire and endure</h2>
-      </div>
-      <div class="full-banner-slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="img w-full h-full">
-              <img loading="lazy" src="assets/images/about-banner/about-banner-slide1.jpg" class="object-cover w-full h-full" alt="banner" />
+  <!--main content-->
+  <main id="main">
+    <!--about banner-->
+    <section class="about-banner">
+      <div class="banner-area flex flex-col">
+        <div class="heading">
+          <p>About Us</p>
+          <h2 class="heading-gradient">Crafting stories that <br>inspire and endure</h2>
+        </div>
+        <div class="full-banner-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="img w-full h-full">
+                <img loading="lazy" src="assets/images/about-banner/about-banner-slide1.jpg" class="object-cover w-full h-full" alt="banner" />
+              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="img w-full h-full">
-              <img loading="lazy" src="assets/images/about-banner/about-banner-slide1.jpg" class="object-cover w-full h-full" alt="banner" />
+            <div class="swiper-slide">
+              <div class="img w-full h-full">
+                <img loading="lazy" src="assets/images/about-banner/about-banner-slide1.jpg" class="object-cover w-full h-full" alt="banner" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--information-->
-  <section class="short_info">
-    <div class="flex aic container-fluid">
-      <div class="production-image">
-        <img loading="lazy" src="assets/images/logo-big.png" width="369" height="394" class="h-auto" alt="production image" />
+    <!--information-->
+    <section class="short_info">
+      <div class="flex aic container-fluid">
+        <div class="production-image">
+          <img loading="lazy" src="assets/images/logo-big.png" width="369" height="394" class="h-auto" alt="production image" />
+        </div>
+        <div class="info-text">
+          At Kleem Productions, technology becomes a medium of devotion — transforming eternal spiritual tales into breathtaking visual journeys that touch hearts across the world.
+        </div>
       </div>
-      <div class="info-text">
-        At Kleem Productions, technology becomes a medium of devotion — transforming eternal spiritual tales into breathtaking visual journeys that touch hearts across the world.
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!--timeline byyear-->
-  <section class="w-full journey">
-    <div class="container-fluid container-max mx-auto">
-      <div class="heading flex gp-4">
-        <h2 class="heading-gradient">Our Journey</h2>
-        <div class="flex gp-4 desk-timeline-arrow">
+    <!--timeline byyear-->
+    <section class="w-full journey">
+      <div class="container-fluid container-max mx-auto">
+        <div class="heading flex gp-4">
+          <h2 class="heading-gradient">Our Journey</h2>
+          <div class="flex gp-4 desk-timeline-arrow">
+            <div class="swiper-btn outline flex aic jcc swiper-button-prev timeline-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+            <div class="swiper-btn outline flex aic jcc swiper-button-next timeline-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+          </div>
+        </div>
+        <div class="swiper-container-wrapper timeline-swiper-wrapper swiper-container-wrapper--timeline">
+          <!-- Timeline -->
+          <ul class="swiper-pagination-custom">
+            <li class='swiper-pagination-switch first active'><span class='switch-title'>2018</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>2019</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>2020</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>2021</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>2022</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>2023</span></li>
+            <li class='swiper-pagination-switch last'><span class='switch-title'>Today</span></li>
+          </ul>
+          <!-- Progressbar -->
+          <!-- <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div> -->
+          <div class="timeline-progressbar">
+            <div class="timeline-progressbar-fill"></div>
+          </div>
+          <!-- Swiper -->
+          <div class="swiper swiper-container timeline-swiper swiper-container--timeline">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slide-box">
+                  <div class="playback"></div>
+                  <div class="desc">
+                    <h3 class="text-black h3">The Beginning</h3>
+                    <p class="text-black">Kleem Productions was born from a simple yet profound vision — to unite authentic storytelling with the artistry of world-class filmmaking.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-box">
+                  <div class="playback"></div>
+                  <div class="desc">
+                    <h3 class="text-black h3">First Big Step</h3>
+                    <p class="text-black">Our debut short film premiered at a regional film festival, receiving acclaim for its originality and striking visuals.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-box">
+                  <div class="playback"></div>
+                  <div class="desc">
+                    <h3 class="text-black h3">Building the Team</h3>
+                    <p class="text-black">We grew into a full-scale production house, welcoming skilled directors, animators, and VFX artists to bring our vision to life.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-box">
+                  <div class="playback"></div>
+                  <div class="desc">
+                    <h3 class="text-black h3">Recognition Arrives</h3>
+                    <p class="text-black">Partnered with international collaborators on acclaimed projects that solidified our place as rising voices in contemporary cinema.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-box">
+                  <div class="playback"></div>
+                  <div class="desc">
+                    <h3 class="text-black h3">Expanding Horizons</h3>
+                    <p class="text-black">Stepped into large-scale productions, seamlessly integrating live-action with cutting-edge VFX and animation.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-box">
+                  <div class="playback"></div>
+                  <div class="desc">
+                    <h3 class="text-black h3">Reaching Global Audiences</h3>
+                    <p class="text-black">Our films started captivating international festivals, streaming platforms, and viewers worldwide, marking our debut on the global stage.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-box">
+                  <div class="playback"></div>
+                  <div class="desc">
+                    <h3 class="text-black h3">The Journey Continues</h3>
+                    <p class="text-black">With every project, we strive to push creative and technological boundaries, crafting stories that inspire and endure across generations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev timeline-prev">
+            <svg class="fill-none">
+              <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-next timeline-next">
+            <svg class="fill-none">
+              <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="flex gp-4 hidden mob-timeline-arrow">
           <div class="swiper-btn outline flex aic jcc swiper-button-prev timeline-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
           <div class="swiper-btn outline flex aic jcc swiper-button-next timeline-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
         </div>
       </div>
-      <div class="swiper-container-wrapper timeline-swiper-wrapper swiper-container-wrapper--timeline">
-        <!-- Timeline -->
-        <ul class="swiper-pagination-custom">
-          <li class='swiper-pagination-switch first active'><span class='switch-title'>2018</span></li>
-          <li class='swiper-pagination-switch'><span class='switch-title'>2019</span></li>
-          <li class='swiper-pagination-switch'><span class='switch-title'>2020</span></li>
-          <li class='swiper-pagination-switch'><span class='switch-title'>2021</span></li>
-          <li class='swiper-pagination-switch'><span class='switch-title'>2022</span></li>
-          <li class='swiper-pagination-switch'><span class='switch-title'>2023</span></li>
-          <li class='swiper-pagination-switch last'><span class='switch-title'>Today</span></li>
-        </ul>
-        <!-- Progressbar -->
-        <!-- <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div> -->
-        <div class="timeline-progressbar">
-          <div class="timeline-progressbar-fill"></div>
+    </section>
+
+    <!--vision and mission-->
+    <section class="about-vision-mission w-full">
+      <div class="container-fluid container-max mx-auto flex flex-col aic">
+        <div class="vm-header">
+          <img loading="lazy" src="./assets/images/vm-header.png" width="994" height="95" class="w-auto h-auto" alt="vision mission" />
         </div>
-        <!-- Swiper -->
-        <div class="swiper swiper-container timeline-swiper swiper-container--timeline">
+        <div class="company-vision-mission">
+          <div class="panel bg-white vision">
+            <div class="content flex flex-col jcc gp-6">
+              <h3 class="heading1 h3">Our Vision</h3>
+              <p>To create a global cinematic universe inspired by the timeless wisdom of Sanatana Dharma, delivering visually stunning and emotionally resonant films that evoke awe, reflection, and a deeper connection to our heritage.</p>
+            </div>
+            <div class="picture rounded-xxl overflow-hidden">
+              <video autoplay controls muted loop playsinline class="bg-video">
+                <source src="assets/video/our-vision.mp4" type="video/mp4" />
+              </video>
+
+            </div>
+          </div>
+          <div class="panel mission">
+            <div class="content flex flex-col jcc gp-6">
+              <h3 class="heading2 h3">Our Mission</h3>
+              <p>To combine masterful storytelling with cutting-edge animation and VFX, producing authentic, high-quality epics that captivate audiences worldwide and stand as a cultural beacon for generations.</p>
+            </div>
+            <div class="picture rounded-xxl overflow-hidden">
+              <video controls autoplay muted loop playsinline class="bg-video">
+                <source src="assets/video/our-mission.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="vm-footer">
+          <img loading="lazy" src="./assets/images/vm-footer.png" width="994" height="95" class="w-auto h-auto" alt="vision mission" />
+        </div>
+      </div>
+    </section>
+
+    <!--leadership team-->
+    <section class="leadership-team">
+      <div class="container-fluid container-max mx-auto">
+        <div class="heading flex gp-4">
+          <h2 class="heading-gradient">Meet Our Leaders</h2>
+          <div class="flex gp-4 desk-team-arrow">
+            <div class="swiper-btn outline flex aic jcc swiper-button-prev team-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+            <div class="swiper-btn outline flex aic jcc swiper-button-next team-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+          </div>
+        </div>
+        
+        <div class="swiper team-slider">
           <div class="swiper-wrapper">
-            <!-- Slides -->
             <div class="swiper-slide">
-              <div class="slide-box">
-                <div class="playback"></div>
-                <div class="desc">
-                  <h3 class="text-black h3">The Beginning</h3>
-                  <p class="text-black">Kleem Productions was born from a simple yet profound vision — to unite authentic storytelling with the artistry of world-class filmmaking.</p>
+              <div class="flex flex-col slide-area">
+                <a href="ashwin-kumar.html" class="picture">
+                  <img loading="lazy" src="assets/images/team-member/team_member1.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
+                </a>
+                <div class="info w-full flex flex-col gp-2">
+                  <h4 class="h4">Ashwin Kumar</h4>
+                  <p>Creative Director</p>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="slide-box">
-                <div class="playback"></div>
-                <div class="desc">
-                  <h3 class="text-black h3">First Big Step</h3>
-                  <p class="text-black">Our debut short film premiered at a regional film festival, receiving acclaim for its originality and striking visuals.</p>
+              <div class="flex flex-col slide-area">
+                <a href="javascript:void()" class="picture">
+                  <img loading="lazy" src="assets/images/team-member/team_member2.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
+                </a>
+                <div class="info w-full flex flex-col gp-2">
+                  <h4 class="h4">Shilpaa Dhawan</h4>
+                  <p>Producer</p>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="slide-box">
-                <div class="playback"></div>
-                <div class="desc">
-                  <h3 class="text-black h3">Building the Team</h3>
-                  <p class="text-black">We grew into a full-scale production house, welcoming skilled directors, animators, and VFX artists to bring our vision to life.</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slide-box">
-                <div class="playback"></div>
-                <div class="desc">
-                  <h3 class="text-black h3">Recognition Arrives</h3>
-                  <p class="text-black">Partnered with international collaborators on acclaimed projects that solidified our place as rising voices in contemporary cinema.</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slide-box">
-                <div class="playback"></div>
-                <div class="desc">
-                  <h3 class="text-black h3">Expanding Horizons</h3>
-                  <p class="text-black">Stepped into large-scale productions, seamlessly integrating live-action with cutting-edge VFX and animation.</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slide-box">
-                <div class="playback"></div>
-                <div class="desc">
-                  <h3 class="text-black h3">Reaching Global Audiences</h3>
-                  <p class="text-black">Our films started captivating international festivals, streaming platforms, and viewers worldwide, marking our debut on the global stage.</p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="slide-box">
-                <div class="playback"></div>
-                <div class="desc">
-                  <h3 class="text-black h3">The Journey Continues</h3>
-                  <p class="text-black">With every project, we strive to push creative and technological boundaries, crafting stories that inspire and endure across generations.</p>
+              <div class="flex flex-col slide-area">
+                <a href="javascript:void()" class="picture">
+                  <img loading="lazy" src="assets/images/team-member/team_member3.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
+                </a>
+                <div class="info">
+                  <h4 class="h4">Samay Mahajan</h4>
+                  <p>Executive Producer</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="swiper-button-prev timeline-prev">
-          <svg class="fill-none">
-            <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-          </svg>
-        </div>
-        <div class="swiper-button-next timeline-next">
-          <svg class="fill-none">
-            <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-          </svg>
-        </div>
-      </div>
-      <div class="flex gp-4 hidden mob-timeline-arrow">
-        <div class="swiper-btn outline flex aic jcc swiper-button-prev timeline-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
-        <div class="swiper-btn outline flex aic jcc swiper-button-next timeline-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
-      </div>
-    </div>
-  </section>
 
-  <!--vision and mission-->
-  <section class="about-vision-mission w-full">
-    <div class="container-fluid container-max mx-auto flex flex-col aic">
-      <div class="vm-header">
-        <img loading="lazy" src="./assets/images/vm-header.png" width="994" height="95" class="w-auto h-auto" alt="vision mission" />
-      </div>
-      <div class="company-vision-mission">
-        <div class="panel bg-white vision">
-          <div class="content flex flex-col jcc gp-6">
-            <h3 class="heading1 h3">Our Vision</h3>
-            <p>To create a global cinematic universe inspired by the timeless wisdom of Sanatana Dharma, delivering visually stunning and emotionally resonant films that evoke awe, reflection, and a deeper connection to our heritage.</p>
-          </div>
-          <div class="picture rounded-xxl overflow-hidden">
-            <video autoplay controls muted loop playsinline class="bg-video">
-              <source src="assets/video/our-vision.mp4" type="video/mp4" />
-            </video>
-
-          </div>
-        </div>
-        <div class="panel mission">
-          <div class="content flex flex-col jcc gp-6">
-            <h3 class="heading2 h3">Our Mission</h3>
-            <p>To combine masterful storytelling with cutting-edge animation and VFX, producing authentic, high-quality epics that captivate audiences worldwide and stand as a cultural beacon for generations.</p>
-          </div>
-          <div class="picture rounded-xxl overflow-hidden">
-            <video controls autoplay muted loop playsinline class="bg-video">
-              <source src="assets/video/our-mission.mp4" type="video/mp4" />
-            </video>
-          </div>
-        </div>
-      </div>
-      <div class="vm-footer">
-        <img loading="lazy" src="./assets/images/vm-footer.png" width="994" height="95" class="w-auto h-auto" alt="vision mission" />
-      </div>
-    </div>
-  </section>
-
-  <!--leadership team-->
-  <section class="leadership-team">
-    <div class="container-fluid container-max mx-auto">
-      <div class="heading flex gp-4">
-        <h2 class="heading-gradient">Meet Our Leaders</h2>
-        <div class="flex gp-4 desk-team-arrow">
+        <div class="flex gp-4 hidden mob-team-arrow">
           <div class="swiper-btn outline flex aic jcc swiper-button-prev team-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
           <div class="swiper-btn outline flex aic jcc swiper-button-next team-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
         </div>
       </div>
-      
-      <div class="swiper team-slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="flex flex-col slide-area">
-              <a href="ashwin-kumar.html" class="picture">
-                <img loading="lazy" src="assets/images/team-member/team_member1.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
-              </a>
-              <div class="info w-full flex flex-col gp-2">
-                <h4 class="h4">Ashwin Kumar</h4>
-                <p>Creative Director</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="flex flex-col slide-area">
-              <a href="javascript:void()" class="picture">
-                <img loading="lazy" src="assets/images/team-member/team_member2.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
-              </a>
-              <div class="info w-full flex flex-col gp-2">
-                <h4 class="h4">Shilpaa Dhawan</h4>
-                <p>Producer</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="flex flex-col slide-area">
-              <a href="javascript:void()" class="picture">
-                <img loading="lazy" src="assets/images/team-member/team_member3.png" width="351" height="351" class="w-auto h-auto" alt="team member" />
-              </a>
-              <div class="info">
-                <h4 class="h4">Samay Mahajan</h4>
-                <p>Executive Producer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    </section>
+  </main>
 
-      <div class="flex gp-4 hidden mob-team-arrow">
-        <div class="swiper-btn outline flex aic jcc swiper-button-prev team-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
-        <div class="swiper-btn outline flex aic jcc swiper-button-next team-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Footer with Globe -->
+  <!-- Footer -->
   <footer class="relative text-center">
     <div class="footer-content flex flex-col">
       <div class="flex gp-4 aic heading">

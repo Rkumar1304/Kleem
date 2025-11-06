@@ -17,6 +17,12 @@
     <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
   </div>
 
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
+
   <!-- Header -->
   <header class="flex aic jcc" id="header">
     <h1 class="mr-auto">
@@ -53,419 +59,416 @@
     </div>
   </header>
 
-  <!-- Background Audio -->
-  <audio id="bg-audio" autoplay loop muted>
-    <source src="assets/audio/song.mp3" type="audio/mpeg">
-  </audio>
-  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
-
-  <section class="horizontal-sections hero-banner flex w-full h-dvh">
-    <div id="banner-stars"></div>
-    <div class="shadow-area h-full w-full absolute flex aic overflow-hidden">
-      <img loading="lazy" src="assets/images/banner-shadow-left.png" alt="shadow" />
-      <img loading="lazy" src="assets/images/banner-shadow-middle.png" alt="shadow" />
-      <img loading="lazy" src="assets/images/banner-shadow-right.png" alt="shadw" />
-    </div>
-    
-    <div id="character-pattern" class="char-pattern absolute">
-      <img loading="lazy" src="assets/images/pattern-circle.png" alt="patter" />
-    </div>
-
-    <!-- Banner -->
-    <div class="panel z-10 absolute w-full h-dvh flex jcc">
-      <div class="relative z-10 text-center flex flex-col jcc aic h-full w-full">
-        <!-- Typewriter Text -->
-        <div id="typewriter" class="absolute typewrite-text text-gradient top-10 text-white font-bold z-50" style="opacity:0; display:inline-block;"></div>
-
-        <!-- Full character -->
-        <div class="absolute character-image flex jcc aic">
-          <div id="char-sparkles" class="character-sparkles absolute z-1"></div>
-          <img
-            id="character"
-            src="assets/images/prahlad_image.svg"
-            width="1000"
-            height="1000"
-            class="max-w-full w-full h-auto opacity-0 relative z-2"
-            alt="Character Full"
-          />
-        </div>
-
-        <!-- Petals container -->
-        <div id="petals-container" class="petals-container"></div>
-      </div>
-    </div>
-  </section>
-
-  <!--short about section-->
-  <section class="about-section relative">
-    <!-- Intro Section -->
-    <div class="about-content container-fluid text-center flex flex-col gp-8 aic">
-      <h2 class="heading-gradient">Building epics that <br>echo beyond time</h2>
-      <p class="max-w-3xl mx-auto text-18 text-center">Kleem Productions is a visionary animation studio that brings ancient devotional stories to life through the lens of modern technology. We blend spiritual depth with cutting-edge innovation to create immersive cinematic experiences that bridge tradition and the future, honoring our sacred cultural heritage while inspiring a global audience.</p>
-      <a href="aboutus.html" class="fill-secondary btn-readmore" aria-label="Read more about our company">
-        Read More
-      </a>
-
-    </div>
-
-    <div class="swiper mySwiper">
-      <div class="relative curve1 w-full flex">
-        <img loading="lazy" src="assets/images/panaroma-svg1.png" class="w-full" alt="panaroma" />
-      </div>
-      <div class="swiper-wrapper">
-        <div class="swiper-slide group relative">
-          <div class="book w-full overflow-hidden">
-            <img loading="lazy" src="assets/images/slider/slide1.png" class="w-full" alt="book" />
-            <a
-              href="assets/images/slider/slide1.png"
-              download
-              class="btn-download"
-              aria-label="Download image"
-            >
-              <svg class="fill-white">
-                <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide group relative">
-          <div class="book w-full overflow-hidden">
-            <img loading="lazy" src="assets/images/slider/slide2.png" class="w-full" alt="book" />
-            <a
-              href="assets/images/slider/slide2.png"
-              download
-              class="btn-download"
-              aria-label="Download image"
-            >
-              <svg class="fill-white">
-                <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide group relative">
-          <div class="book w-full overflow-hidden">
-            <img loading="lazy" src="assets/images/slider/slide3.png" class="w-full" alt="book" />
-            <a
-              href="assets/images/slider/slide3.png"
-              download
-              class="btn-download"
-              aria-label="Download image"
-            >
-              <svg class="fill-white">
-                <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide group relative">
-          <div class="book w-full overflow-hidden">
-            <img loading="lazy" src="assets/images/slider/slide4.png" class="w-full" alt="book" />
-            <a
-              href="assets/images/slider/slide4.png"
-              download
-              class="btn-download"
-              aria-label="Download image"
-            >
-              <svg class="fill-white">
-                <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide group relative">
-          <div class="book w-full overflow-hidden">
-            <img loading="lazy" src="assets/images/slider/slide5.png" class="w-full" alt="book" />
-            <a
-              href="assets/images/slider/slide5.png"
-              download
-              class="btn-download"
-              aria-label="Download image"
-            >
-              <svg class="fill-white">
-                <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide group relative">
-          <div class="book w-full overflow-hidden">
-            <img loading="lazy" src="assets/images/slider/slide6.png" class="w-full" alt="book" />
-            <a
-              href="assets/images/slider/slide6.png"
-              download
-              class="btn-download"
-              aria-label="Download image"
-            >
-              <svg class="fill-white">
-                <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide group relative">
-          <div class="book w-full overflow-hidden">
-            <img loading="lazy" src="assets/images/slider/slide7.png" class="w-full" alt="book" />
-            <a
-              href="assets/images/slider/slide7.png"
-              download
-              class="btn-download"
-              aria-label="Download image"
-            >
-              <svg class="fill-white">
-                <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="relative curve2 w-full flex">
-        <img loading="lazy" src="assets/images/panaroma-svg2.png" class="w-full" alt="panaroma" />
-      </div>
-    </div>
-  </section>
-
-
-  <!--timeline Slider-->
-  <section class="timeline-wrapper flex flex-col aic w-full">
-    <div class="heading flex jcc aic">
-      <img loading="lazy" src="./assets/images/mahavatar-logo.png" width="442" height="293" alt="mahavatar-logo" />
-    </div>
-    
-    <div id="landing-timeline" class="landing-timeline">
-      <div id="landing-timelinestars" class="timeline-video-bg"></div>
-      <div class="big-ellipse w-full">
-        <img loading="lazy" src="./assets/images/timeline-ellipse2.png" class="w-full" alt="big-ellipse" />
-      </div>
-      <div class="small-ellipse w-full">
-        <img loading="lazy" src="./assets/images/timeline-ellipse1.png" class="w-full" alt="small-ellipse" />
-      </div>
-      <div class="swiper timeline-slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="swiper-card">
-              <div class="comic-list flex absolute">
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2025</span>
-                </div>
-                <div class="comic flex flex-col jcc aic center-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2025</span>
-                </div>
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2025</span>
-                </div>
-              </div>
-              <div class="movie-image">
-                <img loading="lazy" src="./assets/images/timeline/timeline1.png" alt="poster" />
-              </div>
-              <div class="movie-info">
-                <h3 class="year">2025</h3>
-                <p class="title text-gradient">MAHAVATAR NARSIMHA</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-card">
-              <div class="comic-list flex absolute">
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic2.png" download><img loading="lazy" src="./assets/images/comics/comic2.png" alt="comic" /></a>
-                  <span>2027</span>
-                </div>
-                <div class="comic flex flex-col jcc aic center-comic">
-                  <a class="img" href="assets/images/comics/comic2.png" download><img loading="lazy" src="./assets/images/comics/comic2.png" alt="comic" /></a>
-                  <span>2027</span>
-                </div>
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic2.png" download><img loading="lazy" src="./assets/images/comics/comic2.png" alt="comic" /></a>
-                  <span>2027</span>
-                </div>
-              </div>
-              <div class="movie-image">
-                <img loading="lazy" src="./assets/images/timeline/timeline2.png" alt="poster" />
-              </div>
-              <div class="movie-info">
-                <h3 class="year">2027</h3>
-                <p class="title text-gradient">Mahavatar Parshuram</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-card">
-              <div class="comic-list flex absolute">
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2029</span>
-                </div>
-                <div class="comic flex flex-col jcc aic center-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2029</span>
-                </div>
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2029</span>
-                </div>
-              </div>
-              <div class="movie-image">
-                <img loading="lazy" src="./assets/images/timeline/timeline3.png" alt="poster" />
-              </div>
-              <div class="movie-info">
-                <h3 class="year">2029</h3>
-                <p class="title text-gradient">Mahavatar Raghunandan</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-card">
-              <div class="comic-list flex absolute">
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2031</span>
-                </div>
-                <div class="comic flex flex-col jcc aic center-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2031</span>
-                </div>
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2031</span>
-                </div>
-              </div>
-              <div class="movie-image">
-                <img loading="lazy" src="./assets/images/timeline/timeline4.png" alt="poster" />
-              </div>
-              <div class="movie-info">
-                <h3 class="year">2031</h3>
-                <p class="title text-gradient">Mahavatar Dwarkadhish</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-card">
-              <div class="comic-list flex absolute">
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2033</span>
-                </div>
-                <div class="comic flex flex-col jcc aic center-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2033</span>
-                </div>
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
-                  <span>2033</span>
-                </div>
-              </div>
-              <div class="movie-image">
-                <img loading="lazy" src="./assets/images/timeline/timeline5.png" alt="poster" />
-              </div>
-              <div class="movie-info">
-                <h3 class="year">2033</h3>
-                <p class="title text-gradient">MAHAVATAR GOKULANANDA</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-card">
-              <div class="comic-list flex absolute">
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
-                  <span>2035</span>
-                </div>
-                <div class="comic flex flex-col jcc aic center-comic">
-                  <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
-                  <span>2035</span>
-                </div>
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
-                  <span>2035</span>
-                </div>
-              </div>
-              <div class="movie-image">
-                <img loading="lazy" src="./assets/images/timeline/timeline6.png" alt="poster" />
-              </div>
-              <div class="movie-info">
-                <h3 class="year">2035</h3>
-                <p class="title text-gradient">Mahavatar Kalki Part 1</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="swiper-card">
-              <div class="comic-list flex absolute">
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
-                  <span>2037</span>
-                </div>
-                <div class="comic flex flex-col jcc aic center-comic">
-                  <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
-                  <span>2037</span>
-                </div>
-                <div class="comic flex flex-col jcc aic other-comic">
-                  <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
-                  <span>2037</span>
-                </div>
-              </div>
-              <div class="movie-image">
-                <img loading="lazy" src="./assets/images/timeline/timeline7.png" alt="poster" />
-              </div>
-              <div class="movie-info">
-                <h3 class="year">2037</h3>
-                <p class="title text-gradient">Mahavatar Kalki Part 2</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="timeline-slider-actions">
-          <button class="btn btn--subtle rounded-full timeline-prev">
-            <svg class="fill-black">
-              <use xlink:href="./assets/icons/icons.svg#angleleft"></use>
-            </svg>
-          </button>
-          <button class="btn btn--subtle rounded-full timeline-next">
-            <svg class="fill-white">
-              <use xlink:href="./assets/icons/icons.svg#angleright"></use>
-            </svg>
-          </button>
-        </div>
+  <!--main content-->
+  <main id="main">
+    <section class="horizontal-sections hero-banner flex w-full h-dvh">
+      <div id="banner-stars"></div>
+      <div class="shadow-area h-full w-full absolute flex aic overflow-hidden">
+        <img loading="lazy" src="assets/images/banner-shadow-left.png" alt="shadow" />
+        <img loading="lazy" src="assets/images/banner-shadow-middle.png" alt="shadow" />
+        <img loading="lazy" src="assets/images/banner-shadow-right.png" alt="shadw" />
       </div>
       
-      <div class="planet">
-        <img loading="lazy" src="assets/images/planet.gif" alt="planet" />
+      <div id="character-pattern" class="char-pattern absolute">
+        <img loading="lazy" src="assets/images/pattern-circle.png" alt="patter" />
       </div>
-    </div>
-  </section>
 
-  <!-- Official Merchandise Section -->
-  <section class="bg-black w-full merchant-slider">
-    <div class="container-fluid container-max text-center mx-auto flex flex-col gp-14">
-      <div class="heading flex jcsb aic gp-4">
-        <h2 class="heading-gradient">Official Merchandise</h2>
-        
-        <div class="flex aic gp-4 view-all-section">
-          <!-- Swiper Navigation Buttons -->
-          <div class="btns flex">
-            <div class="swiper-btn outline swiper-button-prev merchant-prev flex aic jcc"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
-            <div class="swiper-btn outline swiper-button-next merchant-next flex aic jcc"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+      <!-- Banner -->
+      <div class="panel z-10 absolute w-full h-dvh flex jcc">
+        <div class="relative z-10 text-center flex flex-col jcc aic h-full w-full">
+          <!-- Typewriter Text -->
+          <div id="typewriter" class="absolute typewrite-text text-gradient top-10 text-white font-bold z-50" style="opacity:0; display:inline-block;"></div>
+
+          <!-- Full character -->
+          <div class="absolute character-image flex jcc aic">
+            <div id="char-sparkles" class="character-sparkles absolute z-1"></div>
+            <img
+              id="character"
+              src="assets/images/prahlad_image.svg"
+              width="1000"
+              height="1000"
+              class="max-w-full w-full h-auto opacity-0 relative z-2"
+              alt="Character Full"
+            />
           </div>
-          <a href="product-list.html" class="fill-secondary btn-view-all">View All Products</a>
+
+          <!-- Petals container -->
+          <div id="petals-container" class="petals-container"></div>
         </div>
       </div>
+    </section>
 
-      <!-- Swiper Slider -->
-      <div class="swiper merch-swiper">
-        <div class="swiper-wrapper" id="productWrapper"></div>
-      </div>
-      <div class="btns flex mob-btns hidden">
-        <div class="swiper-btn outline swiper-button-prev merchant-prev flex aic jcc"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
-        <div class="swiper-btn outline swiper-button-next merchant-next flex aic jcc"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
-      </div>
-    </div>
-  </section>
+    <!--short about section-->
+    <section class="about-section relative">
+      <!-- Intro Section -->
+      <div class="about-content container-fluid text-center flex flex-col gp-8 aic">
+        <h2 class="heading-gradient">Building epics that <br>echo beyond time</h2>
+        <p class="max-w-3xl mx-auto text-18 text-center">Kleem Productions is a visionary animation studio that brings ancient devotional stories to life through the lens of modern technology. We blend spiritual depth with cutting-edge innovation to create immersive cinematic experiences that bridge tradition and the future, honoring our sacred cultural heritage while inspiring a global audience.</p>
+        <a href="aboutus.html" class="fill-secondary btn-readmore" aria-label="Read more about our company">
+          Read More
+        </a>
 
-  <!-- Footer with Globe -->
+      </div>
+
+      <div class="swiper mySwiper">
+        <div class="relative curve1 w-full flex">
+          <img loading="lazy" src="assets/images/panaroma-svg1.png" class="w-full" alt="panaroma" />
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide group relative">
+            <div class="book w-full overflow-hidden">
+              <img loading="lazy" src="assets/images/slider/slide1.png" class="w-full" alt="book" />
+              <a
+                href="assets/images/slider/slide1.png"
+                download
+                class="btn-download"
+                aria-label="Download image"
+              >
+                <svg class="fill-white">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide group relative">
+            <div class="book w-full overflow-hidden">
+              <img loading="lazy" src="assets/images/slider/slide2.png" class="w-full" alt="book" />
+              <a
+                href="assets/images/slider/slide2.png"
+                download
+                class="btn-download"
+                aria-label="Download image"
+              >
+                <svg class="fill-white">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide group relative">
+            <div class="book w-full overflow-hidden">
+              <img loading="lazy" src="assets/images/slider/slide3.png" class="w-full" alt="book" />
+              <a
+                href="assets/images/slider/slide3.png"
+                download
+                class="btn-download"
+                aria-label="Download image"
+              >
+                <svg class="fill-white">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide group relative">
+            <div class="book w-full overflow-hidden">
+              <img loading="lazy" src="assets/images/slider/slide4.png" class="w-full" alt="book" />
+              <a
+                href="assets/images/slider/slide4.png"
+                download
+                class="btn-download"
+                aria-label="Download image"
+              >
+                <svg class="fill-white">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide group relative">
+            <div class="book w-full overflow-hidden">
+              <img loading="lazy" src="assets/images/slider/slide5.png" class="w-full" alt="book" />
+              <a
+                href="assets/images/slider/slide5.png"
+                download
+                class="btn-download"
+                aria-label="Download image"
+              >
+                <svg class="fill-white">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide group relative">
+            <div class="book w-full overflow-hidden">
+              <img loading="lazy" src="assets/images/slider/slide6.png" class="w-full" alt="book" />
+              <a
+                href="assets/images/slider/slide6.png"
+                download
+                class="btn-download"
+                aria-label="Download image"
+              >
+                <svg class="fill-white">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide group relative">
+            <div class="book w-full overflow-hidden">
+              <img loading="lazy" src="assets/images/slider/slide7.png" class="w-full" alt="book" />
+              <a
+                href="assets/images/slider/slide7.png"
+                download
+                class="btn-download"
+                aria-label="Download image"
+              >
+                <svg class="fill-white">
+                  <use xlink:href="./assets/icons/icons.svg#arrowdown"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="relative curve2 w-full flex">
+          <img loading="lazy" src="assets/images/panaroma-svg2.png" class="w-full" alt="panaroma" />
+        </div>
+      </div>
+    </section>
+
+
+    <!--timeline Slider-->
+    <section class="timeline-wrapper flex flex-col aic w-full">
+      <div class="heading flex jcc aic">
+        <img loading="lazy" src="./assets/images/mahavatar-logo.png" width="442" height="293" alt="mahavatar-logo" />
+      </div>
+      
+      <div id="landing-timeline" class="landing-timeline">
+        <div id="landing-timelinestars" class="timeline-video-bg"></div>
+        <div class="big-ellipse w-full">
+          <img loading="lazy" src="./assets/images/timeline-ellipse2.png" class="w-full" alt="big-ellipse" />
+        </div>
+        <div class="small-ellipse w-full">
+          <img loading="lazy" src="./assets/images/timeline-ellipse1.png" class="w-full" alt="small-ellipse" />
+        </div>
+        <div class="swiper timeline-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <div class="comic-list flex absolute">
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2025</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic center-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2025</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2025</span>
+                  </div>
+                </div>
+                <div class="movie-image">
+                  <img loading="lazy" src="./assets/images/timeline/timeline1.png" alt="poster" />
+                </div>
+                <div class="movie-info">
+                  <h3 class="year">2025</h3>
+                  <p class="title text-gradient">MAHAVATAR NARSIMHA</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <div class="comic-list flex absolute">
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic2.png" download><img loading="lazy" src="./assets/images/comics/comic2.png" alt="comic" /></a>
+                    <span>2027</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic center-comic">
+                    <a class="img" href="assets/images/comics/comic2.png" download><img loading="lazy" src="./assets/images/comics/comic2.png" alt="comic" /></a>
+                    <span>2027</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic2.png" download><img loading="lazy" src="./assets/images/comics/comic2.png" alt="comic" /></a>
+                    <span>2027</span>
+                  </div>
+                </div>
+                <div class="movie-image">
+                  <img loading="lazy" src="./assets/images/timeline/timeline2.png" alt="poster" />
+                </div>
+                <div class="movie-info">
+                  <h3 class="year">2027</h3>
+                  <p class="title text-gradient">Mahavatar Parshuram</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <div class="comic-list flex absolute">
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2029</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic center-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2029</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2029</span>
+                  </div>
+                </div>
+                <div class="movie-image">
+                  <img loading="lazy" src="./assets/images/timeline/timeline3.png" alt="poster" />
+                </div>
+                <div class="movie-info">
+                  <h3 class="year">2029</h3>
+                  <p class="title text-gradient">Mahavatar Raghunandan</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <div class="comic-list flex absolute">
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2031</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic center-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2031</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2031</span>
+                  </div>
+                </div>
+                <div class="movie-image">
+                  <img loading="lazy" src="./assets/images/timeline/timeline4.png" alt="poster" />
+                </div>
+                <div class="movie-info">
+                  <h3 class="year">2031</h3>
+                  <p class="title text-gradient">Mahavatar Dwarkadhish</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <div class="comic-list flex absolute">
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2033</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic center-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2033</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic1.png" download><img loading="lazy" src="./assets/images/comics/comic1.png" alt="comic" /></a>
+                    <span>2033</span>
+                  </div>
+                </div>
+                <div class="movie-image">
+                  <img loading="lazy" src="./assets/images/timeline/timeline5.png" alt="poster" />
+                </div>
+                <div class="movie-info">
+                  <h3 class="year">2033</h3>
+                  <p class="title text-gradient">MAHAVATAR GOKULANANDA</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <div class="comic-list flex absolute">
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
+                    <span>2035</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic center-comic">
+                    <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
+                    <span>2035</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
+                    <span>2035</span>
+                  </div>
+                </div>
+                <div class="movie-image">
+                  <img loading="lazy" src="./assets/images/timeline/timeline6.png" alt="poster" />
+                </div>
+                <div class="movie-info">
+                  <h3 class="year">2035</h3>
+                  <p class="title text-gradient">Mahavatar Kalki Part 1</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-card">
+                <div class="comic-list flex absolute">
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
+                    <span>2037</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic center-comic">
+                    <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
+                    <span>2037</span>
+                  </div>
+                  <div class="comic flex flex-col jcc aic other-comic">
+                    <a class="img" href="assets/images/comics/comic3.png" download><img loading="lazy" src="./assets/images/comics/comic3.png" alt="comic" /></a>
+                    <span>2037</span>
+                  </div>
+                </div>
+                <div class="movie-image">
+                  <img loading="lazy" src="./assets/images/timeline/timeline7.png" alt="poster" />
+                </div>
+                <div class="movie-info">
+                  <h3 class="year">2037</h3>
+                  <p class="title text-gradient">Mahavatar Kalki Part 2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-slider-actions">
+            <button class="btn btn--subtle rounded-full timeline-prev">
+              <svg class="fill-black">
+                <use xlink:href="./assets/icons/icons.svg#angleleft"></use>
+              </svg>
+            </button>
+            <button class="btn btn--subtle rounded-full timeline-next">
+              <svg class="fill-white">
+                <use xlink:href="./assets/icons/icons.svg#angleright"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        
+        <div class="planet">
+          <img loading="lazy" src="assets/images/planet.gif" alt="planet" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Official Merchandise Section -->
+    <section class="bg-black w-full merchant-slider">
+      <div class="container-fluid container-max text-center mx-auto flex flex-col gp-14">
+        <div class="heading flex jcsb aic gp-4">
+          <h2 class="heading-gradient">Official Merchandise</h2>
+          
+          <div class="flex aic gp-4 view-all-section">
+            <!-- Swiper Navigation Buttons -->
+            <div class="btns flex">
+              <div class="swiper-btn outline swiper-button-prev merchant-prev flex aic jcc"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+              <div class="swiper-btn outline swiper-button-next merchant-next flex aic jcc"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+            </div>
+            <a href="product-list.html" class="fill-secondary btn-view-all">View All Products</a>
+          </div>
+        </div>
+
+        <!-- Swiper Slider -->
+        <div class="swiper merch-swiper">
+          <div class="swiper-wrapper" id="productWrapper"></div>
+        </div>
+        <div class="btns flex mob-btns hidden">
+          <div class="swiper-btn outline swiper-button-prev merchant-prev flex aic jcc"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+          <div class="swiper-btn outline swiper-button-next merchant-next flex aic jcc"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
   <footer class="relative text-center">
     <div class="footer-content flex flex-col">
       <div class="flex gp-4 aic heading">

@@ -16,6 +16,12 @@
   <div id="preloader">
     <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
   </div>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
   
   <!-- Header -->
   <header class="flex aic jcc" id="header">
@@ -53,299 +59,292 @@
     </div>
   </header>
 
-  <!-- Background Audio -->
-  <audio id="bg-audio" autoplay loop muted>
-    <source src="assets/audio/song.mp3" type="audio/mpeg">
-  </audio>
-  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
-
-
-  <!--movies banner-->
-  <section class="movie-banner w-full">
-    <div class="movie-banner-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="img w-full h-full">
-            <img loading="lazy" src="assets/images/movies/movie-banner-slide-1.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img w-full h-full">
-            <img loading="lazy" src="assets/images/movies/movie-banner-slide-2.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img w-full h-full">
-            <img loading="lazy" src="assets/images/movies/movie-banner-slide-3.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img w-full h-full">
-            <img loading="lazy" src="assets/images/movies/movie-banner-slide-4.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img w-full h-full">
-            <img loading="lazy" src="assets/images/movies/movie-banner-slide-5.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
-          </div>
-        </div>
-      </div>
-      <div class="flex jcsb aic gp-8 w-full absolute banner-nav">
-        <div class="swiper-button-prev team-prev">
-          <svg class="fill-none">
-            <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-          </svg>
-        </div>
-        <div class="swiper-button-next team-next">
-          <svg class="fill-none">
-            <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-          </svg>
-        </div>
-      </div>
-      <div class="swiper-pagination banner-pagination"></div>
-    </div>
-    <div class="banner-info w-full flex flex-col jcc gp-4">
-      <div class="title"> Mahavatar Narsimha</div>
-      <div class="flex gp-3 jcc w-full">
-        <a href="https://youtu.be/p7eE_dn9u4k?si=SNRL1TPdHQyyHhEd" target="_blank" class="btn-outline">Watch trailer</a>
-        <a href="javascript:void();" class="fill-secondary btn-watch">Watch on Netflix</a>
-      </div>
-    </div>
-  </section>
-
-  <!--movie origin-->
-  <div class="movie-origin container-fluid">
-    <div class="container flex flex-col aic jcc gp-6 mx-auto">
-      <h2 class="text-uppercase heading-gradient">Origin</h2>
-      <div class="content flex flex-col gp-8 text-24">
-        <p>The tale of Narasimha shows that whenever evil threatens, God intervenes to protect His devotees. Rooted in ancient times, it illustrates the Lord’s appearance to restore dharma and destroy injustice. This story affirms that truth and devotion are eternal, and God always stands by those who surrender to Him.</p>
-      </div>
-    </div>
-  </div>
-
-  <!--accolades-->
-  <div class="accolades container-fluid">
-    <div class="container-max flex flex-col aic jcc mx-auto">
-      <h2 class="text-uppercase heading-gradient">ACCOLADES</h2>
-      <div class="accolades-list">
-        <div class="award">
-          <div class="image">
-            <img loading="lazy" src="assets/images/movies/accolades1.png" alt="accolades" />
-          </div>
-          <p>Selected at the 55th International Film Festival of India (IFFI 2024)</p>
-        </div>
-        <div class="award">
-          <div class="image">
-            <img loading="lazy" src="assets/images/movies/accolades2.png" alt="accolades" />
-          </div>
-          <p>IMDB rating of 9.1 out of 10, based on reviews</p>
-        </div>
-        <div class="award">
-          <div class="image">
-            <img loading="lazy" src="assets/images/movies/accolades3.png" alt="accolades" />
-          </div>
-          <p>India’s Highest-Grossing Animated Film (₹280+ Cr)</p>
-        </div>
-        <div class="award">
-          <div class="image">
-            <img loading="lazy" src="assets/images/movies/accolades4.png" alt="accolades" />
-          </div>
-          <p>9.6/10 star rating <br>Book My Show</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--movie updates-->
-  <div class="movie-updates container-fluid">
-    <div class="container-max mx-auto flex flex-col">
-      <h2 class="text-uppercase heading-gradient mx-auto">Videos</h2>
-      <div class="swiper movie-updates-slider">
-        <!-- Additional required wrapper -->
+  <!--main content-->
+  <main id="main">
+    <!--movies banner-->
+    <section class="movie-banner w-full">
+      <div class="movie-banner-slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <a class="swiper-image" href="https://youtu.be/xHrk9qfOz-A?si=2dQFjXjwjgbHuEj3" target="_blank">
-              <div class="w-full h-full relative img-area">
-                <div class="image">
-                  <img loading="lazy" src="assets/images/movies/movie-updates-1.jpg" alt="updates slider" />
-                </div>
-                <div class="icon">
-                  <img loading="lazy" src="assets/images/icons/icon_yt_play.png" alt="play video" />
-                </div>
-              </div>
-              <div class="info"><p>Om Namo Bhagavate Vasudevaya Video Song -Telugu | Mahavatar Narsimha | Hombale Films | Sam CS</p></div>
-            </a>
+            <div class="img w-full h-full">
+              <img loading="lazy" src="assets/images/movies/movie-banner-slide-1.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
+            </div>
           </div>
           <div class="swiper-slide">
-            <a class="swiper-image" href="https://youtu.be/w3NeT1bimY0?si=73ZDqFoqlFniyW6i" target="_blank">
-              <div class="w-full h-full relative img-area">
-                <div class="image">
-                  <img loading="lazy" src="assets/images/movies/movie-updates-2.jpg" alt="updates slider" />
-                </div>
-                <div class="icon">
-                  <img loading="lazy" src="assets/images/icons/icon_yt_play.png" alt="play video" />
-                </div>
-              </div>
-              <div class="info"><p>Lord Vishnu Meets Prahlad | "तुमने बुलाया, और मैं चला आया " 💫 | Mahavatar Narsimha | Netflix India</p></div>
-            </a>
+            <div class="img w-full h-full">
+              <img loading="lazy" src="assets/images/movies/movie-banner-slide-2.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
+            </div>
           </div>
           <div class="swiper-slide">
-            <a class="swiper-image" href="https://youtu.be/pbA8WLM1n7c?si=1J4o2oDjiGjDcWTL" target="_blank">
-              <div class="w-full h-full relative img-area">
-                <div class="image">
-                  <img loading="lazy" src="assets/images/movies/movie-updates-3.jpg" alt="updates slider" />
-                </div>
-                <div class="icon">
-                  <img loading="lazy" src="assets/images/icons/icon_yt_play.png" alt="play video" />
-                </div>
-              </div>
-              <div class="info"><p>Lord Vishnu’s GLORIOUS Entry in His Varaha Avatar | Mahavatar Narsimha | Netflix India</p></div>
-            </a>
+            <div class="img w-full h-full">
+              <img loading="lazy" src="assets/images/movies/movie-banner-slide-3.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
+            </div>
           </div>
           <div class="swiper-slide">
-            <a class="swiper-image" href="https://youtu.be/5L2ondR6DF8?si=w7EEKTn8CfkpSsR4" target="_blank">
-              <div class="w-full h-full relative img-area">
-                <div class="image">
-                  <img loading="lazy" src="assets/images/movies/movie-updates-4.jpg" alt="updates slider" />
-                </div>
-                <div class="icon">
-                  <img loading="lazy" src="assets/images/icons/icon_yt_play.png" alt="play video" />
-                </div>
-              </div>
-              <div class="info"><p>Lord Vishnu’s MAJESTIC Entry in His Narsimha Avatar | Mahavatar Narsimha | Netflix India</p></div>
-            </a>
+            <div class="img w-full h-full">
+              <img loading="lazy" src="assets/images/movies/movie-banner-slide-4.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img w-full h-full">
+              <img loading="lazy" src="assets/images/movies/movie-banner-slide-5.jpg" class="object-cover w-full h-full object-tc" alt="movie banner" />
+            </div>
+          </div>
+        </div>
+        <div class="flex jcsb aic gp-8 w-full absolute banner-nav">
+          <div class="swiper-button-prev team-prev">
+            <svg class="fill-none">
+              <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-next team-next">
+            <svg class="fill-none">
+              <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="swiper-pagination banner-pagination"></div>
+      </div>
+      <div class="banner-info w-full flex flex-col jcc gp-4">
+        <div class="title"> Mahavatar Narsimha</div>
+        <div class="flex gp-3 jcc w-full">
+          <a href="https://youtu.be/p7eE_dn9u4k?si=SNRL1TPdHQyyHhEd" target="_blank" class="btn-outline">Watch trailer</a>
+          <a href="javascript:void();" class="fill-secondary btn-watch">Watch on Netflix</a>
+        </div>
+      </div>
+    </section>
+
+    <!--movie origin-->
+    <div class="movie-origin container-fluid">
+      <div class="container flex flex-col aic jcc gp-6 mx-auto">
+        <h2 class="text-uppercase heading-gradient">Origin</h2>
+        <div class="content flex flex-col gp-8 text-24">
+          <p>The tale of Narasimha shows that whenever evil threatens, God intervenes to protect His devotees. Rooted in ancient times, it illustrates the Lord’s appearance to restore dharma and destroy injustice. This story affirms that truth and devotion are eternal, and God always stands by those who surrender to Him.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--accolades-->
+    <div class="accolades container-fluid">
+      <div class="container-max flex flex-col aic jcc mx-auto">
+        <h2 class="text-uppercase heading-gradient">ACCOLADES</h2>
+        <div class="accolades-list">
+          <div class="award">
+            <div class="image">
+              <img loading="lazy" src="assets/images/movies/accolades1.png" alt="accolades" />
+            </div>
+            <p>Selected at the 55th International Film Festival of India (IFFI 2024)</p>
+          </div>
+          <div class="award">
+            <div class="image">
+              <img loading="lazy" src="assets/images/movies/accolades2.png" alt="accolades" />
+            </div>
+            <p>IMDB rating of 9.1 out of 10, based on reviews</p>
+          </div>
+          <div class="award">
+            <div class="image">
+              <img loading="lazy" src="assets/images/movies/accolades3.png" alt="accolades" />
+            </div>
+            <p>India’s Highest-Grossing Animated Film (₹280+ Cr)</p>
+          </div>
+          <div class="award">
+            <div class="image">
+              <img loading="lazy" src="assets/images/movies/accolades4.png" alt="accolades" />
+            </div>
+            <p>9.6/10 star rating <br>Book My Show</p>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!--cast and crew-->
-  <div class="cast-crew flex flex-col">
-    <div class="w-full flex flex-col gp-14 mx-auto">
-      <h2 class="mx-auto heading-gradient">Cast &amp; Crew</h2> 
-      <div class="crew-list flex flex-col gp-10">
-        <div class="flex flex-col gp-10 crew-box">
-          <div class="crew">
-            <div class="container-fluid container-max mx-auto flex jcsb aic">
-              <div class="image">
-                <img loading="lazy" src="assets/images/movies/crew-1.jpg" alt="crew" />
-              </div>
-              <div class="name">Ashwin Kumar</div>
-              <div class="post">/ Director, Writer, Screenplay, Editor /</div>
+    <!--movie updates-->
+    <div class="movie-updates container-fluid">
+      <div class="container-max mx-auto flex flex-col">
+        <h2 class="text-uppercase heading-gradient mx-auto">Videos</h2>
+        <div class="swiper movie-updates-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a class="swiper-image" href="https://youtu.be/xHrk9qfOz-A?si=2dQFjXjwjgbHuEj3" target="_blank">
+                <div class="w-full h-full relative img-area">
+                  <div class="image">
+                    <img loading="lazy" src="assets/images/movies/movie-updates-1.jpg" alt="updates slider" />
+                  </div>
+                  <div class="icon">
+                    <img loading="lazy" src="assets/images/icons/icon_yt_play.png" alt="play video" />
+                  </div>
+                </div>
+                <div class="info"><p>Om Namo Bhagavate Vasudevaya Video Song -Telugu | Mahavatar Narsimha | Hombale Films | Sam CS</p></div>
+              </a>
             </div>
-          </div>
-          <div class="crew">
-            <div class="container-fluid container-max mx-auto flex jcsb aic">
-              <div class="image">
-                <img loading="lazy" src="assets/images/movies/crew-2.jpg" alt="crew" />
-              </div>
-              <div class="name">Shilpaa Dhawan</div>
-              <div class="post">/ Producer /</div>
+            <div class="swiper-slide">
+              <a class="swiper-image" href="https://youtu.be/w3NeT1bimY0?si=73ZDqFoqlFniyW6i" target="_blank">
+                <div class="w-full h-full relative img-area">
+                  <div class="image">
+                    <img loading="lazy" src="assets/images/movies/movie-updates-2.jpg" alt="updates slider" />
+                  </div>
+                  <div class="icon">
+                    <img loading="lazy" src="assets/images/icons/icon_yt_play.png" alt="play video" />
+                  </div>
+                </div>
+                <div class="info"><p>Lord Vishnu Meets Prahlad | "तुमने बुलाया, और मैं चला आया " 💫 | Mahavatar Narsimha | Netflix India</p></div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-image" href="https://youtu.be/pbA8WLM1n7c?si=1J4o2oDjiGjDcWTL" target="_blank">
+                <div class="w-full h-full relative img-area">
+                  <div class="image">
+                    <img loading="lazy" src="assets/images/movies/movie-updates-3.jpg" alt="updates slider" />
+                  </div>
+                  <div class="icon">
+                    <img loading="lazy" src="assets/images/icons/icon_yt_play.png" alt="play video" />
+                  </div>
+                </div>
+                <div class="info"><p>Lord Vishnu’s GLORIOUS Entry in His Varaha Avatar | Mahavatar Narsimha | Netflix India</p></div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="swiper-image" href="https://youtu.be/5L2ondR6DF8?si=w7EEKTn8CfkpSsR4" target="_blank">
+                <div class="w-full h-full relative img-area">
+                  <div class="image">
+                    <img loading="lazy" src="assets/images/movies/movie-updates-4.jpg" alt="updates slider" />
+                  </div>
+                  <div class="icon">
+                    <img loading="lazy" src="assets/images/icons/icon_yt_play.png" alt="play video" />
+                  </div>
+                </div>
+                <div class="info"><p>Lord Vishnu’s MAJESTIC Entry in His Narsimha Avatar | Mahavatar Narsimha | Netflix India</p></div>
+              </a>
             </div>
           </div>
         </div>
-        <div class="flex flex-col gp-10 crew-box">
-          <div class="crew">
-            <div class="container-fluid container-max mx-auto flex jcsb aic">
-              <div class="image">
-                <img loading="lazy" src="assets/images/movies/crew-3.jpg" alt="crew" />
+      </div>
+    </div>
+
+    <!--cast and crew-->
+    <div class="cast-crew flex flex-col">
+      <div class="w-full flex flex-col gp-14 mx-auto">
+        <h2 class="mx-auto heading-gradient">Cast &amp; Crew</h2> 
+        <div class="crew-list flex flex-col gp-10">
+          <div class="flex flex-col gp-10 crew-box">
+            <div class="crew">
+              <div class="container-fluid container-max mx-auto flex jcsb aic">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/movies/crew-1.jpg" alt="crew" />
+                </div>
+                <div class="name">Ashwin Kumar</div>
+                <div class="post">/ Director, Writer, Screenplay, Editor /</div>
               </div>
-              <div class="name">Jayapurna Das</div>
-              <div class="post">/ Writer /</div>
+            </div>
+            <div class="crew">
+              <div class="container-fluid container-max mx-auto flex jcsb aic">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/movies/crew-2.jpg" alt="crew" />
+                </div>
+                <div class="name">Shilpaa Dhawan</div>
+                <div class="post">/ Producer /</div>
+              </div>
             </div>
           </div>
-          <div class="crew">
-            <div class="container-fluid container-max mx-auto flex jcsb aic">
-              <div class="image">
-                <img loading="lazy" src="assets/images/movies/crew-4.jpg" alt="crew" />
+          <div class="flex flex-col gp-10 crew-box">
+            <div class="crew">
+              <div class="container-fluid container-max mx-auto flex jcsb aic">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/movies/crew-3.jpg" alt="crew" />
+                </div>
+                <div class="name">Jayapurna Das</div>
+                <div class="post">/ Writer /</div>
               </div>
-              <div class="name">SAM C.S.</div>
-              <div class="post">/ Musician, Background Score /</div>
+            </div>
+            <div class="crew">
+              <div class="container-fluid container-max mx-auto flex jcsb aic">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/movies/crew-4.jpg" alt="crew" />
+                </div>
+                <div class="name">SAM C.S.</div>
+                <div class="post">/ Musician, Background Score /</div>
+              </div>
             </div>
           </div>
+          <div class="flex flex-col gp-10 crew-box">
+            <div class="crew">
+              <div class="container-fluid container-max mx-auto flex jcsb aic">
+                <div class="image">
+                  <img loading="lazy" src="assets/images/movies/crew-5.jpg" alt="crew" />
+                </div>
+                <div class="name">Samay Mahajan</div>
+                <div class="post">/ Executive Producer /</div>
+              </div>
+            </div>
+          </div>
+          
         </div>
-        <div class="flex flex-col gp-10 crew-box">
-          <div class="crew">
-            <div class="container-fluid container-max mx-auto flex jcsb aic">
-              <div class="image">
-                <img loading="lazy" src="assets/images/movies/crew-5.jpg" alt="crew" />
-              </div>
-              <div class="name">Samay Mahajan</div>
-              <div class="post">/ Executive Producer /</div>
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
+
+    <!--news & events-->
+    <section class="flex flex-col news-events container-fluid container-max mx-auto">
+      <div class="heading flex jcsb aic gp-4">
+        <h2 class="text-uppercase heading-gradient">Press &amp; Podcasts</h2>
         
-      </div>
-    </div>
-  </div>
-
-  
-
-  <!--news & events-->
-  <section class="flex flex-col news-events container-fluid container-max mx-auto">
-    <div class="heading flex jcsb aic gp-4">
-      <h2 class="text-uppercase heading-gradient">Press &amp; Podcasts</h2>
-      
-      <div class="flex aic gp-4">
-        <!-- Swiper Navigation Buttons -->
-        <div class="btns flex desk-merch-arrow">
-          <div class="swiper-btn  outline flex aic jcc swiper-button-prev merchant-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
-          <div class="swiper-btn outline flex aic jcc swiper-button-next merchant-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Swiper Slider -->
-    <div class="swiper event-swiper">
-      <div class="swiper-wrapper" id="eventWrapper">
-        <!-- Slide 1 -->
-        <!-- <div class="swiper-slide events">
-          <div class="flex flex-col gp-10 event-card">
-            <div class="img flex aic jcc">
-              <img loading="lazy" src="assets/images/movies/movie-event-1.jpg" class="w-full h-full" alt="event" />
-            </div>
-            <div class="info flex flex-col gp-4">
-              <p>Mahavatar Narsimha Box Office Day 43: 386% Higher Than War 2 In Hindi, Maintains Rock-Steady Hold Despite New Rivals!</p>
-              <a href="https://www.koimoi.com/box-office/mahavatar-narsimha-box-office-day-43-386-higher-than-war-2-in-hindi-maintains-rock-steady-hold-despite-new-rivals/" target="_blank" class="fill-secondary btn-readmore">Read more</a>
-            </div>
+        <div class="flex aic gp-4">
+          <!-- Swiper Navigation Buttons -->
+          <div class="btns flex desk-merch-arrow">
+            <div class="swiper-btn  outline flex aic jcc swiper-button-prev merchant-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+            <div class="swiper-btn outline flex aic jcc swiper-button-next merchant-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
           </div>
         </div>
-
-        <div class="swiper-slide events">
-          <div class="flex flex-col gp-10 event-card">
-            <div class="img flex aic jcc">
-              <img loading="lazy" src="assets/images/movies/movie-event-2.jpg" class="w-full h-full" alt="event" />
-            </div>
-            <div class="info flex flex-col gp-4">
-              <p>Mahavatar Narsimha Worldwide Box Office Day 32: Creates History, Becomes First Indian Animated Film To Enter The 300 Crore Club!</p>
-              <a href="https://www.koimoi.com/box-office/mahavatar-narsimha-worldwide-box-office-day-32-creates-history-becomes-first-indian-animated-film-to-enter-the-300-crore-club/" target="_blank" class="fill-secondary btn-readmore">Read more</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-slide events">
-          <div class="flex flex-col gp-10 event-card">
-            <div class="img flex aic jcc">
-              <img loading="lazy" src="assets/images/movies/movie-event-3.jpg" class="w-full h-full" alt="event" />
-            </div>
-            <div class="info flex flex-col gp-4">
-              <p>Mahavatar Narsimha Box Office Collection Day 32: Mythological animated film earns Rs 302 crore worldwide</p>
-              <a href="https://www.zeebiz.com/trending/entertainment/news-mahavatar-narsimha-runtime-ashwin-kumar-movie-earns-rs-233-crore-in-india-joins-rs-300-crore-mark-as-hrithik-roshans-war-2-chhaava-saiyaara-coolie-war-2-377316" target="_blank" class="fill-secondary btn-readmore">Read more</a>
-            </div>
-          </div>
-        </div> -->
       </div>
-    </div>
-    <div class="btns flex hidden mob-merch-arrow">
-      <div class="swiper-btn outline flex aic jcc swiper-button-prev merchant-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
-      <div class="swiper-btn outline flex aic jcc swiper-button-next merchant-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
-    </div>
-  </section>
 
+      <!-- Swiper Slider -->
+      <div class="swiper event-swiper">
+        <div class="swiper-wrapper" id="eventWrapper">
+          <!-- Slide 1 -->
+          <!-- <div class="swiper-slide events">
+            <div class="flex flex-col gp-10 event-card">
+              <div class="img flex aic jcc">
+                <img loading="lazy" src="assets/images/movies/movie-event-1.jpg" class="w-full h-full" alt="event" />
+              </div>
+              <div class="info flex flex-col gp-4">
+                <p>Mahavatar Narsimha Box Office Day 43: 386% Higher Than War 2 In Hindi, Maintains Rock-Steady Hold Despite New Rivals!</p>
+                <a href="https://www.koimoi.com/box-office/mahavatar-narsimha-box-office-day-43-386-higher-than-war-2-in-hindi-maintains-rock-steady-hold-despite-new-rivals/" target="_blank" class="fill-secondary btn-readmore">Read more</a>
+              </div>
+            </div>
+          </div>
 
-  <!-- Footer with Globe -->
+          <div class="swiper-slide events">
+            <div class="flex flex-col gp-10 event-card">
+              <div class="img flex aic jcc">
+                <img loading="lazy" src="assets/images/movies/movie-event-2.jpg" class="w-full h-full" alt="event" />
+              </div>
+              <div class="info flex flex-col gp-4">
+                <p>Mahavatar Narsimha Worldwide Box Office Day 32: Creates History, Becomes First Indian Animated Film To Enter The 300 Crore Club!</p>
+                <a href="https://www.koimoi.com/box-office/mahavatar-narsimha-worldwide-box-office-day-32-creates-history-becomes-first-indian-animated-film-to-enter-the-300-crore-club/" target="_blank" class="fill-secondary btn-readmore">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide events">
+            <div class="flex flex-col gp-10 event-card">
+              <div class="img flex aic jcc">
+                <img loading="lazy" src="assets/images/movies/movie-event-3.jpg" class="w-full h-full" alt="event" />
+              </div>
+              <div class="info flex flex-col gp-4">
+                <p>Mahavatar Narsimha Box Office Collection Day 32: Mythological animated film earns Rs 302 crore worldwide</p>
+                <a href="https://www.zeebiz.com/trending/entertainment/news-mahavatar-narsimha-runtime-ashwin-kumar-movie-earns-rs-233-crore-in-india-joins-rs-300-crore-mark-as-hrithik-roshans-war-2-chhaava-saiyaara-coolie-war-2-377316" target="_blank" class="fill-secondary btn-readmore">Read more</a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="btns flex hidden mob-merch-arrow">
+        <div class="swiper-btn outline flex aic jcc swiper-button-prev merchant-prev"><img loading="lazy" src="assets/images/icons/angle-left.png" alt="icon" width="9" height="17" /></div>
+        <div class="swiper-btn outline flex aic jcc swiper-button-next merchant-next"><img loading="lazy" src="assets/images/icons/angle-right.png" alt="icon" width="9" height="17" /></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
   <footer class="relative text-center">
     <div class="footer-content flex flex-col">
       <div class="flex gp-4 aic heading">

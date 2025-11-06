@@ -16,6 +16,12 @@
   <div id="preloader">
     <img src="assets/images/logo.png" alt="Logo" class="preloader-logo" />
   </div>
+
+  <!-- Background Audio -->
+  <audio id="bg-audio" autoplay loop muted>
+    <source src="assets/audio/song.mp3" type="audio/mpeg">
+  </audio>
+  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
   
   <!-- Header -->
   <header class="flex aic jcc blackbg" id="header">
@@ -78,68 +84,79 @@
     </div>
   </header>
 
-  <!-- Background Audio -->
-  <audio id="bg-audio" autoplay loop muted>
-    <source src="assets/audio/song.mp3" type="audio/mpeg">
-  </audio>
-  <button id="audio-toggle" class="btn-audio"><img loading="lazy" src="assets/images/icons/icon_audio_play.png" alt="icon" width="50" height="50" /> </button>
+  <!--main content-->
+  <main id="main">
+    <!--merchant banner-->
+    <section class="merchant-banner w-full">
+      <div class="banner-area w-full flex gp-2">
+        <div class="swiper merchant-banner-slider">
+          <div class="swiper-wrapper" id="merchantBannerWrapper"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
 
+    <!--feature category-->
+    <section class="feature-category container-fluid bg-white">
+      <div class="category w-full flex flex-col aic gp-10">
+        <div class="heading text-black text-center">
+          <h2 class="text-gray-13 font-medium">Featured Categories</h2>
+          <p class="text-gray-40 text-16">Carry the devotion of Lord Narasimha in every step.</p>
+        </div>
+        <div class="cat-list flex jcc">
+          <ul class="flex scrollbar-hidden" id="featureCategoryList"></ul>
+        </div>
+      </div>
+    </section>
 
-  <!--merchant banner-->
-  <section class="merchant-banner w-full">
-    <div class="banner-area w-full flex gp-2">
-      <div class="swiper merchant-banner-slider">
-        <div class="swiper-wrapper" id="merchantBannerWrapper"></div>
+    <!--category tabs-->
+    <section class="category-tabs-wrapper container-fluid">
+      <div class="tabs flex flex-col">
+        <div class="tab-buttons flex aic jcs">
+          <button class="tab-button active" data-tab="new">New Arrivals</button>
+          <button class="tab-button" data-tab="best">Best Sellers</button>
+          <button class="tab-button" data-tab="sale">On Sale</button>
+        </div>
+
+        <div class="tab-content active" id="tab-new"></div>
+        <div class="tab-content" id="tab-best"></div>
+        <div class="tab-content" id="tab-sale"></div>
+      </div>
+    </section>
+
+    <!--explore slider-->
+    <section class="explore-area w-full">
+      <div class="swiper explore-slider">
+        <div class="swiper-wrapper" id="exploreWrapper"></div>
         <div class="swiper-pagination"></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--feature category-->
-  <section class="feature-category container-fluid bg-white">
-    <div class="category w-full flex flex-col aic gp-10">
-      <div class="heading text-black text-center">
-        <h2 class="text-gray-13 font-medium">Featured Categories</h2>
-        <p class="text-gray-40 text-16">Carry the devotion of Lord Narasimha in every step.</p>
-      </div>
-      <div class="cat-list flex jcc">
-        <ul class="flex scrollbar-hidden" id="featureCategoryList"></ul>
-      </div>
-    </div>
-  </section>
-
-  <!--category tabs-->
-  <section class="category-tabs-wrapper container-fluid">
-    <div class="tabs flex flex-col">
-      <div class="tab-buttons flex aic jcs">
-        <button class="tab-button active" data-tab="new">New Arrivals</button>
-        <button class="tab-button" data-tab="best">Best Sellers</button>
-        <button class="tab-button" data-tab="sale">On Sale</button>
-      </div>
-
-      <div class="tab-content active" id="tab-new"></div>
-      <div class="tab-content" id="tab-best"></div>
-      <div class="tab-content" id="tab-sale"></div>
-    </div>
-  </section>
-
-  <!--explore slider-->
-  <section class="explore-area w-full">
-    <div class="swiper explore-slider">
-      <div class="swiper-wrapper" id="exploreWrapper"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </section>
-
-  <!--trending slider-->
-  <section class="trending-product container-fluid bg-white">
-    <div class="trending w-full flex flex-col">
-      <div class="flex gp-4 jcsb aic">
-        <div class="heading text-black text-left">
-          <h2 class="text-gray-13 font-medium">Top Trending</h2>
-          <p class="text-gray-40 text-16">Browse our Top Trending: the hottest picks loved by all.</p>
+    <!--trending slider-->
+    <section class="trending-product container-fluid bg-white">
+      <div class="trending w-full flex flex-col">
+        <div class="flex gp-4 jcsb aic">
+          <div class="heading text-black text-left">
+            <h2 class="text-gray-13 font-medium">Top Trending</h2>
+            <p class="text-gray-40 text-16">Browse our Top Trending: the hottest picks loved by all.</p>
+          </div>
+          <div class="flex jcc aic gp-2 arrows desk">
+            <div class="swiper-button-prev trending-prev">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next trending-next">
+              <svg class="fill-none">
+                <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
+              </svg>
+            </div>
+          </div>
         </div>
-        <div class="flex jcc aic gp-2 arrows desk">
+        <div class="swiper trending-slider common-cat-slider">
+          <div class="swiper-wrapper" id="trendingWrapper"></div>
+        </div>
+        <div class="flex jcc aic gp-2 arrows hidden mob">
           <div class="swiper-button-prev trending-prev">
             <svg class="fill-none">
               <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
@@ -152,26 +169,11 @@
           </div>
         </div>
       </div>
-      <div class="swiper trending-slider common-cat-slider">
-        <div class="swiper-wrapper" id="trendingWrapper"></div>
-      </div>
-      <div class="flex jcc aic gp-2 arrows hidden mob">
-        <div class="swiper-button-prev trending-prev">
-          <svg class="fill-none">
-            <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-          </svg>
-        </div>
-        <div class="swiper-button-next trending-next">
-          <svg class="fill-none">
-            <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-          </svg>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
 
-  <!-- Footer with Globe -->
+  <!-- Footer -->
   <footer class="relative text-center">
     <div class="footer-content flex flex-col">
       <div class="flex gp-4 aic heading">
