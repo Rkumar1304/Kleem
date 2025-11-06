@@ -364,7 +364,7 @@ function initialize() {
               <div class="flex flex-col gp-2">
                 <div class="product-prices">
                   <span class="new-price">₹${p.newPrice}</span>
-                  <span class="old-price">₹${p.oldPrice}</span>
+                  ${p.oldPrice ? `<span class="old-price">₹${p.oldPrice}</span>` : ''}
                 </div>
                 ${
                   p.colors.length > 0

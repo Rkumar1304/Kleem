@@ -1,8 +1,8 @@
 [
   {
     "name": "Yoga Narasimha Murti",
-    "price": 77500.00,
-    "oldPrice": 80500.00,
+    "price": 90600.00,
+    "oldPrice": 0.00,
     "image": "https://artsofdevotion.com/cdn/shop/files/CloseupfrontImage.jpg?v=1754819039&width=360",
     "isNew": true,
     "buyNowLink": "https://artsofdevotion.com/products/yoga-narasimha-murti"
@@ -10,13 +10,14 @@
   {
     "name": "Laxmi Narasimha 1",
     "price": 32800.00,
+    "oldPrice": 0.00,
     "image": "https://artsofdevotion.com/cdn/shop/files/Side2_cde1fa0e-cb94-4cc9-8afe-a9ff668282f0.jpg?v=1754818997&width=360",
     "buyNowLink": "https://artsofdevotion.com/products/laxmi-narasimha-1"
   },
   {
     "name": "Lord Narasimha Pendant With Precious Stone",
     "price": 5665.00,
-    "oldPrice": 7665.00,
+    "oldPrice": 0.00,
     "image": "https://mantra4u.shop/cdn/shop/products/20201015_234949.jpg?v=1713288951",
     "isNew": true,
     "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/lord-narasimha-pendant-with-precious-stone/?ref=2"
@@ -24,7 +25,7 @@
   {
     "name": "Narasimha Kavacha Dice Charms Bracelet",
     "price": 22500.00,
-    "oldPrice": 25500.00,
+    "oldPrice": 0.00,
     "image": "https://mantra4u.shop/cdn/shop/files/NarasimhaDice1.jpg?v=1715200376",
     "isNew": true,
     "buyNowLink": "https://mantra4u.shop/collections/narasimha-collection/products/narasimha-kavacha-dice-charms-bracelet/?ref=2"

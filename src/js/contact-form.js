@@ -28,12 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     if (!isValid) {
-      showStatus("⚠️ Please fix the errors above.", "red");
+      showStatus("⚠️ Please fix the errors above.", "white");
       return;
     }
 
     // ✅ If valid, send form data
-    showStatus("⏳ Submitting...", "black");
+    showStatus("Submitting...", "white");
 
     try {
       await fetch("https://script.google.com/macros/s/AKfycbykpWYL27lmWNYLqnfLZnS0vADStxvaCR0yyGAz1sCYUTpZeNhcyhHg0M4_7mkBU75G/exec", {
