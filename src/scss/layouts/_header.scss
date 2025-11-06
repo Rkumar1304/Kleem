@@ -15,6 +15,7 @@ header {
     left: 0px;
     top: 0px;
     border-radius: 0px;
+    height: 72px;
   }
   .btn-merchant {
     height: 38px;
@@ -54,7 +55,7 @@ header {
       left: 0px;
       top: 0px;
       border-radius: 0px;
-      // height: 72px;
+      height: 72px;
       .page-navigation {
         right: 20px;
       }
@@ -100,4 +101,8 @@ header {
       right: 20px;
     }
   }
+}
+body.menu-open {
+  overflow: hidden;
+  height: 100vh;
 }

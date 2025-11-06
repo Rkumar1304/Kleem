@@ -174,11 +174,14 @@ window.addEventListener("scroll", () => {
 //header nav for mobile
 const menuToggle = document.getElementById("menuToggle");
 const navBar = document.getElementById("navBar");
+const menuOverlay = document.getElementById("menu-overlay");
 
 menuToggle.addEventListener("click", (e) => {
   e.stopPropagation(); // prevent triggering document click
-  menuToggle.classList.toggle("active");
-  navBar.classList.toggle("active");
+  const isActive = menuToggle.classList.toggle("active");
+  navBar.classList.toggle("active", isActive);
+  menuOverlay.classList.toggle("active", isActive);
+  document.body.classList.toggle("menu-open", isActive); // 👈 Add/remove class
 });
 
 // Close menu when clicking outside
@@ -187,6 +190,8 @@ document.addEventListener("click", (e) => {
   if (!isClickInsideMenu) {
     menuToggle.classList.remove("active");
     navBar.classList.remove("active");
+    menuOverlay.classList.remove("active");
+    document.body.classList.remove("menu-open"); // 👈 Remove when closed
   }
 });
 
