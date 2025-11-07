@@ -534,6 +534,7 @@ document.querySelectorAll(".accordion-header").forEach(header => {
     const content = group.querySelector(".accordion-content");
     const active = group.classList.contains("active");
 
+    // Close all other accordions
     document.querySelectorAll(".filter-group.active").forEach(g => {
       if (g !== group) {
         g.classList.remove("active");
@@ -543,6 +544,7 @@ document.querySelectorAll(".accordion-header").forEach(header => {
       }
     });
 
+    // Toggle current accordion
     if (active) {
       group.classList.remove("active");
       content.style.maxHeight = content.scrollHeight + "px";
@@ -553,6 +555,15 @@ document.querySelectorAll(".accordion-header").forEach(header => {
     }
   });
 });
+
+// 🟣 Open the first accordion by default
+const firstAccordion = document.querySelector(".filter-group");
+if (firstAccordion) {
+  firstAccordion.classList.add("active");
+  const firstContent = firstAccordion.querySelector(".accordion-content");
+  if (firstContent) firstContent.style.maxHeight = firstContent.scrollHeight + "px";
+}
+
 
 // 🟢 Sort Dropdown UI Logic
 // document.addEventListener("DOMContentLoaded", () => {
