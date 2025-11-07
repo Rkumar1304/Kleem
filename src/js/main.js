@@ -17,6 +17,45 @@ audioToggle.innerHTML = audio.muted
   ? `<img src='assets/images/icons/icon_audio_stop.png' alt='icon' width='20' height='20' />`
   : `<img src='assets/images/icons/icon_audio_play.png' alt='icon' width='20' height='20' />`;
 
+// --- Handle browser back/forward navigation ---
+window.addEventListener("pageshow", (event) => {
+  const state = JSON.parse(localStorage.getItem("audioState")) || { muted: true, time: 0 };
+
+  // Check if page was restored from cache (user pressed Back/Forward)
+  if (event.persisted || performance.getEntriesByType("navigation")[0]?.type === "back_forward") {
+    console.log("🔹 Page restored from history → stopping background audio");
+
+    // Force audio to stop and mute
+    audio.pause();
+    audio.muted = true;
+
+    // Update the toggle button icon
+    audioToggle.innerHTML = `<img src='assets/images/icons/icon_audio_stop.png' alt='icon' width='20' height='20' />`;
+
+    // Update saved state
+    localStorage.setItem(
+      "audioState",
+      JSON.stringify({ muted: true, time: audio.currentTime })
+    );
+
+    // Inform other tabs
+    channel.postMessage({ type: "audio_state_update", muted: true });
+  } else {
+    // Normal page load → restore state as usual
+    audio.muted = state.muted;
+    audio.currentTime = state.time || 0;
+
+    // Update icon correctly
+    audioToggle.innerHTML = audio.muted
+      ? `<img src='assets/images/icons/icon_audio_stop.png' alt='icon' width='20' height='20' />`
+      : `<img src='assets/images/icons/icon_audio_play.png' alt='icon' width='20' height='20' />`;
+  }
+});
+
+
+
+
+
 // --- Apply audio-to-video sync on load ---
 videos.forEach((v) => {
   v.muted = true; // default
@@ -26,7 +65,28 @@ if (!audio.muted) {
 }
 
 // --- Try to play (safe autoplay) ---
-audio.play().catch((err) => console.log("Autoplay muted:", err));
+audio.play().then(() => {
+  console.log("✅ Audio playing successfully");
+}).catch((err) => {
+  console.log("🔇 Autoplay blocked, muting audio:", err);
+
+  // Force mute if autoplay was blocked
+  audio.muted = true;
+  audio.pause();
+
+  // Update icon to muted
+  audioToggle.innerHTML = `<img src='assets/images/icons/icon_audio_stop.png' alt='icon' width='20' height='20' />`;
+
+  // Save corrected state
+  localStorage.setItem(
+    "audioState",
+    JSON.stringify({ muted: true, time: audio.currentTime })
+  );
+
+  // Broadcast updated mute state to other tabs
+  channel.postMessage({ type: "audio_state_update", muted: true });
+});
+
 
 // --- Cross-tab sync ---
 channel.postMessage({ type: "ping" }); // ask if another tab is active
