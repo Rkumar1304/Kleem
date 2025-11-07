@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     </div>
   `).join('');
 
+  
   // --- Feature Categories ---
-  const categories = await loadJSON("assets/json/merchandise/feature-categories.json");
+  const categories = await loadJSON("assets/json/feature-categories.json");
   const catList = document.getElementById("featureCategoryList");
-
   // 🟢 Add data-category attribute using c.name
   catList.innerHTML = categories
     .map(
@@ -75,10 +75,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     </div>
   `).join('');
 
+  
   // --- Trending Products ---
   const products = await loadJSON("assets/json/product-list.json");
   const trending = products.filter(p => p.isTrending);
-
   const trendingWrapper = document.getElementById("trendingWrapper");
   trendingWrapper.innerHTML = trending.map(p => `
     <div class="swiper-slide">
@@ -103,52 +103,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     </div>
   `).join('');  
 
-
-  // --- Category Tabs ---
-  // const tabs = await loadJSON("assets/json/merchandise/category-tabs.json");
-  // Object.keys(tabs).forEach(tabKey => {
-  //   const tabContent = document.getElementById(`tab-${tabKey}`);
-  //   tabContent.innerHTML = `
-  //     <div class="swiper category-slider common-cat-slider">
-  //       <div class="flex jcc aic gp-2 arrows">
-  //         <div class="swiper-button-prev common-cat-prev">
-  //           <svg class="fill-none">
-  //             <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-  //           </svg>
-  //         </div>
-  //         <div class="swiper-button-next common-cat-next">
-  //           <svg class="fill-none">
-  //             <use xlink:href="./assets/icons/icons.svg#angleRight"></use>
-  //           </svg>
-  //         </div>
-  //       </div>
-  //       <div class="swiper-wrapper">
-  //         ${tabs[tabKey].map(p => `
-  //           <div class="swiper-slide">
-  //             <div class="w-full relative prod-img bg-white">
-  //               <img src="${p.image}" alt="${p.name}" class="object-cover w-full h-full" />
-  //               ${p.isNew ? '<div class="tag-new absolute">New</div>' : ''}
-  //             </div>
-  //             <div class="product-info flex flex-col w-full">
-  //               <div class="product-title text-16 text-gray-13 font-medium">${p.name}</div>
-  //               <div class="flex gp-2 aic flex-wrap jcsb">
-  //                 <div class="flex gp-2 aic">
-  //                   <span class="product-price text-16">&#8377;${p.price.toFixed(2)}</span>
-  //                   ${p.oldPrice ? `<span class="product-old-price text-gray-40">&#8377;${p.oldPrice.toFixed(2)}</span>` : ''}
-  //                 </div>
-  //                 ${
-  //                   p.buyNowLink
-  //                     ? `<a href="${p.buyNowLink}" class="fill-secondary buy-now-btn" target="_blank">Buy Now</a>`
-  //                     : ""
-  //                 }
-  //               </div>
-  //             </div>
-  //           </div>
-  //         `).join('')}
-  //       </div>
-  //     </div>
-  //   `;
-  // });
 
   // ✅ Initialize Swipers after content loaded
   setTimeout(() => {
@@ -215,35 +169,14 @@ document.addEventListener("DOMContentLoaded", async () => {
         0: { slidesPerView: 2, spaceBetween: 12, },
       },
     });
-
-    // document.querySelectorAll('.category-slider').forEach(categorySliderEl => {
-    //   new Swiper(categorySliderEl, {
-    //     slidesPerView: 3,
-    //     spaceBetween: 40,
-    //     mousewheel: {
-    //       forceToAxis: true,
-    //       sensitivity: 3
-    //     },
-    //     navigation: {
-    //       nextEl: categorySliderEl.querySelector('.common-cat-next'),
-    //       prevEl: categorySliderEl.querySelector('.common-cat-prev'),
-    //     },
-    //     loop: false,
-    //     speed: 2000,
-    //     breakpoints: {
-    //       1025: { slidesPerView: 3, spaceBetween: 40, },
-    //       768: { slidesPerView: 2, spaceBetween: 40, },
-    //       0: { slidesPerView: 2, spaceBetween: 12, },
-    //     },
-    //   });
-    // });
   }, 100);
 
+
+  //category tabs js part
   async function loadJSON(url) {
     const res = await fetch(url);
     return await res.json();
   }
-
   (async function () {
     const products = await loadJSON("assets/json/product-list.json");
 

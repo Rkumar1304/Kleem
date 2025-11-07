@@ -1,6 +1,77 @@
 let productsData = [];
 let currentSort = "popularity";
 
+// 🟢 Load Categories from feature-categories.json
+fetch("assets/json/feature-categories.json")
+  .then(res => res.json())
+  .then(categories => renderCategoryList(categories))
+  .catch(err => console.error("Error loading categories:", err));
+
+// 🟢 Dynamically Render Category List
+function renderCategoryList(categories) {
+  const catList = document.querySelector(".cat-list ul");
+  if (!catList) return;
+
+  catList.innerHTML = ""; // Clear existing hardcoded HTML
+
+  categories.forEach((cat, index) => {
+    const li = document.createElement("li");
+    li.className = `flex aic gp-2 ${index === 0 ? "active" : ""}`;
+    li.dataset.category = cat.name;
+
+    li.innerHTML = `
+      <a href="javascript:void(0)" class="cat-img rounded-full overflow-hidden">
+        <img loading="lazy" src="${cat.image}" class="object-cover w-full h-full" alt="${cat.name}" />
+      </a>
+      <span class="text-black text-center">${cat.name}</span>
+    `;
+
+    catList.appendChild(li);
+  });
+
+  // Re-bind click listeners after rendering
+  setupCategoryClickHandlers();
+}
+
+// 🟢 Setup click handlers for dynamically created categories
+function setupCategoryClickHandlers() {
+  const topCategories = document.querySelectorAll(".cat-list li");
+
+  topCategories.forEach(li => {
+    li.addEventListener("click", () => {
+      topCategories.forEach(item => item.classList.remove("active"));
+      li.classList.add("active");
+
+      const selectedCat = li.dataset.category;
+      const categoryFilters = document.querySelectorAll(".categoryFilter");
+
+      categoryFilters.forEach(c => {
+        if (c.value === selectedCat) {
+          c.checked = true;
+        } else if (selectedCat === "All") {
+          if (c.value === "All") c.checked = true;
+          else c.checked = false;
+        } else {
+          if (c.value !== selectedCat) c.checked = false;
+        }
+      });
+
+      // Update selection
+      selectedCategories = [selectedCat];
+      if (selectedCat === "All") selectedCategories = ["All"];
+
+      // Update URL
+      const newUrl = new URL(window.location);
+      newUrl.searchParams.set("category", selectedCat);
+      window.history.replaceState({}, "", newUrl);
+
+      // Re-render products
+      if (typeof renderProducts === "function") renderProducts();
+    });
+  });
+}
+
+
 fetch("assets/json/product-list.json")
   .then(res => res.json())
   .then(data => {
